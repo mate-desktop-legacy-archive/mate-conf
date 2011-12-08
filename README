@@ -9,9 +9,6 @@ that require openldap and libxml respectively.
 For information, see:
  http://projects.gnome.org/mateconf/
 
-There's a mailing list mateconf-list@gnome.org, see
-http://mail.gnome.org/mailman/listinfo/mateconf-list.
-
 The MateConf maintainer is Havoc Pennington <hp@redhat.com>. Bugs and
 patches should be filed in Bugzilla, http://bugzilla.gnome.org,
 against the MateConf product. Send questions and comments to Havoc or to
