@@ -1,6 +1,6 @@
 pkgname=mate-conf
-pkgver=2011.12.01
-pkgrel=3
+pkgver=1.1.0
+pkgrel=1
 pkgdesc="A configuration database system"
 arch=(i686 x86_64)
 license=('LGPL')

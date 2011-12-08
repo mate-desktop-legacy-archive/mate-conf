@@ -1,5 +1,5 @@
 AC_PREREQ(2.60)
-AC_INIT([MateConf], [2011.12.01], [https://github.com/perberos/mate-desktop-environment], [MateConf])
+AC_INIT([MateConf], [1.1.0], [https://github.com/perberos/mate-desktop-environment], [MateConf])
 
 AC_CONFIG_SRCDIR([mateconf/mateconf.h])
 AC_CONFIG_HEADERS([config.h])
@@ -172,7 +172,7 @@ esac
 
 
 
-PKGCONFIG_MODULES='glib-2.0 > 2.14.0 gio-2.0 >= 2.25.9 gthread-2.0 gmodule-2.0 >= 2.7.0 gobject-2.0 >= 2.7.0 MateCORBA-2.0 >= 2.4.0'
+PKGCONFIG_MODULES='glib-2.0 > 2.14.0 gio-2.0 >= 2.25.9 gthread-2.0 gmodule-2.0 >= 2.7.0 gobject-2.0 >= 2.7.0 MateCORBA-2.0'
 PKGCONFIG_MODULES_WITH_XML="$PKGCONFIG_MODULES libxml-2.0"
 PKGCONFIG_MODULES_WITH_GTK=" $PKGCONFIG_MODULES gtk+-$GTK_API_VERSION >= $GTK_REQUIRED"
 PKGCONFIG_MODULES_WITH_XML_AND_GTK=" $PKGCONFIG_MODULES gtk+-$GTK_API_VERSION libxml-2.0"
