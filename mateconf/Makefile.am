@@ -2,7 +2,7 @@ NULL=
 
 MATECONFD_BINARY_NAME=mateconfd-2
 
-INCLUDES=								\
+AM_CPPFLAGS =								\
 	-I$(top_srcdir)							\
 	-I$(top_builddir)						\
 	$(DEPENDENT_WITH_XML_AND_GTK_CFLAGS) 				\

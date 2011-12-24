@@ -1,4 +1,4 @@
-INCLUDES= -I$(top_srcdir) -I$(top_builddir) -I$(top_builddir)/mateconf \
+AM_CPPFLAGS = -I$(top_srcdir) -I$(top_builddir) -I$(top_builddir)/mateconf \
 	$(DEPENDENT_WITH_XML_CFLAGS) \
 	-DMATECONF_ENABLE_INTERNALS=1 -DG_LOG_DOMAIN=\"MateConf-Backends\"
 
