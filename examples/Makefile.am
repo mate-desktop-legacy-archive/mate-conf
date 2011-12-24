@@ -1,4 +1,4 @@
-AM_CPPFLAGS=-I$(top_srcdir) -I$(top_builddir) \
+INCLUDES=-I$(top_srcdir) -I$(top_builddir) \
 	$(DEPENDENT_WITH_GTK_CFLAGS) \
         -DMATECONF_SRCDIR=\""$(absolute_top_srcdir)"\" -DMATECONF_SYSCONFDIR=\""$(sysmateconfdir)"\"
 

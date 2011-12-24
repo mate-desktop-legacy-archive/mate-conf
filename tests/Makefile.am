@@ -1,7 +1,7 @@
 
 EFENCE=
 
-AM_CPPFLAGS  = -I$(top_srcdir) -I$(top_builddir) \
+INCLUDES = -I$(top_srcdir) -I$(top_builddir) \
 	 $(DEPENDENT_CFLAGS) \
 	 -DG_LOG_DOMAIN=\"MateConf-Tests\" -DMATECONF_ENABLE_INTERNALS=1
 
