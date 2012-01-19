@@ -2,7 +2,7 @@ NULL=
 
 MATECONFD_BINARY_NAME=mateconfd-2
 
-INCLUDES =								\
+AM_CPPFLAGS =								\
 	-I$(top_srcdir)							\
 	-I$(top_builddir)						\
 	$(DEPENDENT_WITH_XML_AND_GTK_CFLAGS) 				\
@@ -78,7 +78,7 @@ if OS_WIN32
 mateconfd_2_LDFLAGS = -mwindows
 endif
 
-mateconfd_2_CFLAGS = $(INCLUDES) $(DEPENDENT_DBUS_CFLAGS)
+mateconfd_2_CFLAGS = $(AM_CPPFLAGS) $(DEPENDENT_DBUS_CFLAGS)
 
 mateconfd_2_LDADD = libmateconf-$(MAJOR_VERSION).la $(EFENCE) $(INTLLIBS) $(DEPENDENT_LIBS) $(DEPENDENT_DBUS_LIBS)
 
@@ -132,9 +132,9 @@ introspection_files =				\
 	$(mateconfinclude_HEADERS)			\
 	$(filter %.c,$(libmateconf_2_la_SOURCES))
 MateConf-2.0.gir: libmateconf-2.la Makefile
-MateConf_2_0_gir_INCLUDES = GObject-2.0
+MateConf_2_0_gir_AM_CPPFLAGS = GObject-2.0
 MateConf_2_0_gir_CFLAGS = \
-	$(INCLUDES)
+	$(AM_CPPFLAGS)
 MateConf_2_0_gir_LIBS = libmateconf-2.la
 MateConf_2_0_gir_FILES = $(addprefix $(srcdir)/, $(introspection_files))
 MateConf_2_0_gir_SCANNERFLAGS = --identifier-prefix=MateConf --symbol-prefix=mateconf

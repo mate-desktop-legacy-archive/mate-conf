@@ -12,7 +12,7 @@ mateconf_defaults_mechanism_SOURCES = \
 	mateconf-defaults-glue.h \
 	mateconf-defaults-main.c
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I$(top_srcdir) \
 	-I$(top_builddir) \
 	-DSYSMATECONFDIR=\"$(sysmateconfdir)\" \
