@@ -1,33 +1,34 @@
-# translation of eu.po to Basque
-# Copyright (C) 2001, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
-#
-# Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>, 2005.
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006, 2008, 2009, 2010.
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007, 2008.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-07 09:59+0200\n"
-"PO-Revision-Date: 2010-09-07 10:00+0200\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
-"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/Perberos/Mate-Desktop-Environment/issues\n"
+"POT-Creation-Date: 2012-01-04 10:18+0100\n"
+"PO-Revision-Date: 2012-01-07 16:57+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.net/projects/p/MATE/team/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
 msgid "Failed to get configuration file path from '%s'"
-msgstr "Huts egin du '%s'(e)tik konfigurazio-fitxategiaren bide-izena lortzean"
+msgstr ""
+"Huts egin du '%s'(e)tik konfigurazio-fitxategiaren bide-izena lortzean"
 
 #: ../backends/evoldap-backend.c:173
 #, c-format
 msgid "Created Evolution/LDAP source using configuration file '%s'"
-msgstr "Evolution/LDAP iturburua sortuta, '%s' konfigurazio-fitxategia erabiliz"
+msgstr ""
+"Evolution/LDAP iturburua sortuta, '%s' konfigurazio-fitxategia erabiliz"
 
 #: ../backends/evoldap-backend.c:447
 #, c-format
@@ -62,7 +63,8 @@ msgstr "Ez da LDAP zerbitzaria edo DN oinarria zehaztu '%s'(e)n"
 #: ../backends/evoldap-backend.c:580
 #, c-format
 msgid "Contacting LDAP server: host '%s', port '%d', base DN '%s'"
-msgstr "LDAP zerbitzarira konektatzen: '%s' ostalaria, '%d' ataka, '%s' DN oinarria"
+msgstr ""
+"LDAP zerbitzarira konektatzen: '%s' ostalaria, '%d' ataka, '%s' DN oinarria"
 
 #: ../backends/evoldap-backend.c:587
 #, c-format
@@ -141,8 +143,8 @@ msgstr "Ezin da \"%s\" helbideko XML erro-direktorioan idatzi edo irakurri"
 #, c-format
 msgid "Directory/file permissions for XML source at root %s are: %o/%o"
 msgstr ""
-"%s erroko XML iturburuaren direktorioko/fitxategiko baimenak hauek dira:  %o/"
-"%o"
+"%s erroko XML iturburuaren direktorioko/fitxategiko baimenak hauek dira:  "
+"%o/%o"
 
 #: ../backends/markup-backend.c:740 ../backends/xml-backend.c:683
 #, c-format
@@ -172,183 +174,183 @@ msgstr "Markatzeko atzealdeko modulua abiarazten"
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "Ezin izan da \"%s\" XML direktorioaren blokeoari jaregin: %s"
 
-#: ../backends/markup-tree.c:437
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "Ezin izan dira konfigurazio-datu batzuk idatzi diskoan\n"
 
-#: ../backends/markup-tree.c:960 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "Ezin izan da \"%s\" direktorioa egin:  %s"
 
-#: ../backends/markup-tree.c:1000 ../backends/markup-tree.c:1007
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "Ezin izan da \"%s\" kendu: %s\n"
 
-#: ../backends/markup-tree.c:1208
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "Ezin izan da \"%s\" idatzi: %s\n"
 
-#: ../backends/markup-tree.c:1416
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "Huts egin du \"%s\" fitxategia kargatzean: %s"
 
-#: ../backends/markup-tree.c:2006
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "%d lerroa %d karakterea: %s"
 
-#: ../backends/markup-tree.c:2234 ../backends/markup-tree.c:2255
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "\"%s\" atributua baliogabea da testuinguru honetako <%s> elementuan"
 
-#: ../backends/markup-tree.c:2280 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "Ez da '%s' ulertu (osokoa espero zen)"
 
-#: ../backends/markup-tree.c:2287 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "'%s' osoko zenbakia handiegia edo txikiegia da"
 
-#: ../backends/markup-tree.c:2319 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "Ez da '%s' ulertu (egiazkoa edo faltsua espero zen)"
 
-#: ../backends/markup-tree.c:2343 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "Ez da '%s' ulertu (zenbaki erreala espero zen)"
 
-#: ../backends/markup-tree.c:2423
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "\"%2$s\" atributuaren \"%1$s\" balio ezezaguna  <%3$s> elementuan"
 
-#: ../backends/markup-tree.c:2443 ../backends/markup-tree.c:2483
-#: ../backends/markup-tree.c:2507 ../backends/markup-tree.c:2515
-#: ../backends/markup-tree.c:2570 ../backends/markup-tree.c:2635
-#: ../backends/markup-tree.c:2747 ../backends/markup-tree.c:2815
-#: ../backends/markup-tree.c:2873 ../backends/markup-tree.c:3023
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "Ez dago \"%s\" atributurik <%s> elementuan"
 
-#: ../backends/markup-tree.c:2457
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "\"%s\" mota baliogabea <%s>(e)n"
 
-#: ../backends/markup-tree.c:2537
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "\"%s\" lehen elementu mota baliogabea <%s>(e)n"
 
-#: ../backends/markup-tree.c:2551
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "\"%s\" cdr_type baliogabea <%s>(e)n"
 
-#: ../backends/markup-tree.c:2587
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "\"%s\" list_type baliogabea <%s>(e)n"
 
-#: ../backends/markup-tree.c:2954
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "Bi elementu <default> <local_schema> azpian"
 
-#: ../backends/markup-tree.c:2969
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "Bi <longdesc> elementu <local_schema> azpian"
 
-#: ../backends/markup-tree.c:2976
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "<%s> elementua ez da <%s> azpitik onartzen"
 
-#: ../backends/markup-tree.c:3001 ../backends/markup-tree.c:3106
-#: ../backends/markup-tree.c:3160 ../backends/markup-tree.c:3211
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s> eman da, baina uneko elementuak ez du %s mota"
 
-#: ../backends/markup-tree.c:3084
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "Bi <car> elementu eman dira bikote berarentzat"
 
-#: ../backends/markup-tree.c:3098
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "Bi <cdr> elementu eman dira bikote berarentzat"
 
-#: ../backends/markup-tree.c:3152
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li>(e)k %s mota okerra du"
 
-#: ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s> eman da, baina <entry> gurasoak ez du baliorik"
 
-#: ../backends/markup-tree.c:3224 ../backends/markup-tree.c:3247
-#: ../backends/markup-tree.c:3269 ../backends/markup-tree.c:3286
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "<%s> elementua ez da uneko elementuaren barruan onartzen"
 
-#: ../backends/markup-tree.c:3318
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr ""
-"Menu-fitxategiko kanpoko elementu gehienek <mateconf> izan behar dute eta ez <%"
-"s>"
+"Menu-fitxategiko kanpoko elementu gehienek <mateconf> izan behar dute eta ez"
+" <%s>"
 
-#: ../backends/markup-tree.c:3338 ../backends/markup-tree.c:3360
-#: ../backends/markup-tree.c:3365
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "<%s> elementua ez da <%s> elementuaren barruan onartzen"
 
-#: ../backends/markup-tree.c:3509
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "Testurik ez da onartzen <%s> elementuaren barruan"
 
-#: ../backends/markup-tree.c:3625 ../backends/markup-tree.c:4391
-#: ../backends/markup-tree.c:4410
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "Huts egin du \"%s\" irekitzean: %s\n"
 
-#: ../backends/markup-tree.c:3655
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "Errorea \"%s\" irakurtzean: %s\n"
 
-#: ../backends/markup-tree.c:4485
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "Ezin izan da %s fitxategia diskoan idatzi: %s"
 
-#: ../backends/markup-tree.c:4504
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "Errorea \"%s\" fitxategian idaztean: %s"
 
-#: ../backends/markup-tree.c:4533
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr ""
-"Ezin izan da aldi baterako \"%s\" fitxategia azken \"%s\" kokalekura eraman: "
-"%s"
+"Ezin izan da aldi baterako \"%s\" fitxategia azken \"%s\" kokalekura eraman:"
+" %s"
 
 #: ../backends/xml-backend.c:239
 msgid "Unloading XML backend module."
@@ -445,7 +447,8 @@ msgstr "Izenik gabeko sarrera '%s' XML fitxategian; jaramonik ez"
 #: ../backends/xml-dir.c:1195
 #, c-format
 msgid "A toplevel node in XML file `%s' is <%s> rather than <entry>, ignoring"
-msgstr "Goi-mailako nodoa '%s' XML fitxategian <%s> da eta ez <entry>; jaramonik ez"
+msgstr ""
+"Goi-mailako nodoa '%s' XML fitxategian <%s> da eta ez <entry>; jaramonik ez"
 
 #: ../backends/xml-dir.c:1283
 #, c-format
@@ -618,17 +621,17 @@ msgstr "Ezin izan du '%s'(r)en euskarri-modulua lokalizatu"
 msgid "Failed to shut down backend"
 msgstr "Ezin izan da euskarria itxi"
 
-#: ../mateconf/mateconf-client.c:346 ../mateconf/mateconf-client.c:364
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "MateConf-en errorea: %s\n"
 
-#: ../mateconf/mateconf-client.c:940
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
 msgstr "MateConf abisua: Huts egin du '%s'(e)n bikoteak zerrendatzean: %s"
 
-#: ../mateconf/mateconf-client.c:1244
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr "'%s' espero zen, baina '%s' eskuratu da %s gakoarentzat"
@@ -639,8 +642,10 @@ msgstr "Eskaera egiterakoan balio okerra jaso da"
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
-msgstr "Ezin da ulertu '%s' gakoaren eskaera egiterakoan jasotako CORBA balioa"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
+msgstr ""
+"Ezin da ulertu '%s' gakoaren eskaera egiterakoan jasotako CORBA balioa"
 
 #: ../mateconf/mateconf-database.c:503
 msgid "Received request to drop all cached data"
@@ -652,7 +657,9 @@ msgstr "Modu sinkronoan sinkronizatzeko eskaera jaso da"
 
 #: ../mateconf/mateconf-database.c:808
 msgid "Fatal error: failed to get object reference for ConfigDatabase"
-msgstr "Errore larria: huts egin du ConfigDatabase-ren objektu-erreferentzia lortzean"
+msgstr ""
+"Errore larria: huts egin du ConfigDatabase-ren objektu-erreferentzia "
+"lortzean"
 
 #: ../mateconf/mateconf-database.c:974
 #, c-format
@@ -662,8 +669,8 @@ msgstr "Ezin izan dira iturburu bat edo gehiago sinkronizatu: %s"
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
 msgstr ""
 "Errorea gertatu da '%s'(r)entzat balio berria lortzean atzealdeko '%s' "
 "aldaketa-jakinarazpena jasotakoan: %s"
@@ -671,8 +678,8 @@ msgstr ""
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
 msgstr ""
 "Huts egin du %s (%s) entzungailuaren egunkaria gehitzean; ezingo du "
@@ -839,192 +846,197 @@ msgstr "Gconfd-etik jasotako zerrendak okerreko zerrenda-mota bat du"
 msgid "Failed to convert object to IOR"
 msgstr "Huts egin du objektua IOR bihurtzean"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "UTF-8 baliogabea eskemaren locale-an"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "UTF-8 baliogabea eskemaren azalpen laburrean"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "UTF-8 baliogabea eskemaren azalpen luzean"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "UTF-8 baliogabea eskemaren jabean"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr "Eskemarentzako gettext domeinuan baliogabeko UTF-8"
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "Ezin izan da '%s' fitxategiaren bide-izena ireki: %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "'%s' iturburua gehitzen\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "Irakurketa-errorea '%s' fitxategian: %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1692
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "Testuak baliogabeko UTF-8 du"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "Zerrenda espero zen, baina %s eskuratu da"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "%s(r)en zerrenda espero zen, baina %s(r)ena eskuratu da"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "Bikotea espero zen, baina %s eskuratu da"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
-msgstr "(%s,%s) bikotea espero zen, eskuratutakoak balio bat edo biak falta ditu"
+msgstr ""
+"(%s,%s) bikotea espero zen, eskuratutakoak balio bat edo biak falta ditu"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "(%s,%s) bikote-mota espero zen, baina (%s,%s) motakoa eskuratu da"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "Komatxo arteko esaldia ez da komatxoekin hasten"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "Komatxo arteko esaldia ez da komatxoekin bukatzen"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "Kodetutako balioa ez da baliozko UTF-8"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "Ezin izan da aldi baterako %s fitxategia blokeatu: %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "Ezin izan da '%s' fitxategia sortu, seguru asko lehendik egongo da"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "Ezin izan da %s sortu edo ireki"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
 msgstr ""
 "Ezin izan da '%s' blokeatu: agian beste prozesu batek blokeatuko zuen, edo "
-"sistema eragileak fitxategiak blokeatzeko NFS gaizki konfiguratuta izango du "
-"(%s)"
+"sistema eragileak fitxategiak blokeatzeko NFS gaizki konfiguratuta izango du"
+" (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "Huts egin du '%s' kentzean: %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "Ez da saio aktiboaren barnean exekutatzen ari"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "Huts egin du saioarekin konexioa lortzean: %s"
 
-#: ../mateconf/mateconf-internals.c:2472
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
 msgid "GetIOR failed: %s"
 msgstr "GetIOR-ek huts egin du: %s"
 
-#: ../mateconf/mateconf-internals.c:2509
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
 msgstr ""
 "ezin izan da ORBrekin kontaktatu lehendik dagoen mateconfd objektuaren "
 "erreferentzia konpontzeko"
 
-#: ../mateconf/mateconf-internals.c:2521
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "Huts egin du '%s' IOR objektu-erreferentzia bihurtzean"
 
-#: ../mateconf/mateconf-internals.c:2548
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "ezin izan da '%s' direktorioa sortu: %s"
 
-#: ../mateconf/mateconf-internals.c:2605
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "Ezin da '%s' fitxategian idatzi: %s"
 
-#: ../mateconf/mateconf-internals.c:2646
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "Ez da '%s' fitxategiaren blokeoa lortu, baina lortu beharko litzateke"
 
-#: ../mateconf/mateconf-internals.c:2669
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "Huts egin du '%s' '%s'(e)ra estekatzea: %s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "Ezin izan da '%s' blokeo-fitxategia kendu: %s"
 
-#: ../mateconf/mateconf-internals.c:2704
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "Ezin izan da '%s' fitxategia garbitu: %s"
 
-#: ../mateconf/mateconf-internals.c:2720
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "Ezin izan da '%s' blokeo-fitxategia kendu: %s"
 
-#: ../mateconf/mateconf-internals.c:2858
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "Zerbitzariaren ping errorea: %s"
 
-#: ../mateconf/mateconf-internals.c:2877
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://projects.gnome.org/mateconf/ for "
+"information. (Details - %s)"
 msgstr ""
-"Ezin izan da konfigurazio-zerbitzariarekin kontaktatu; baliteke TCP/IP sarea "
-"MateCORBAerako gaitu behar izatea edo NFS blokeoak zaharkituta egotea sistemak "
-"huts egitearen ondorioz. Ikusi http://projects.gnome.org/mateconf/ helbidea "
-"informazioa eskuratzeko. (Xehetasunak- %s)"
+"Ezin izan da konfigurazio-zerbitzariarekin kontaktatu; baliteke TCP/IP sarea"
+" MateCORBAerako gaitu behar izatea edo NFS blokeoak zaharkituta egotea "
+"sistemak huts egitearen ondorioz. Ikusi http://projects.gnome.org/mateconf/ "
+"helbidea informazioa eskuratzeko. (Xehetasunak- %s)"
 
-#: ../mateconf/mateconf-internals.c:2878
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "bat ere ez"
 
@@ -1039,41 +1051,26 @@ msgid ""
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 "Errorea aukerak analizatzean: %s.\n"
-"Exekutatu '%s --help' komando-lerroko aukera erabilgarrien zerrenda "
-"ikusteko.\n"
+"Exekutatu '%s --help' komando-lerroko aukera erabilgarrien zerrenda ikusteko.\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
 msgstr ""
 "Jarri harremanetan sistemako administratzailearekin ondoko arazo hau \n"
-"konpontzeko: ezin izan da \"%s\" fitxategia ireki edo sortu; horrek esan "
-"nahi du agian konfigurazioarekin arazoa egongo dela, programa askok "
-"fitxategiak zure etxeko direktorioan sortu beharko baitituzte. Errorea \"%s"
-"\" zen (errno = %d)."
+"konpontzeko: ezin izan da \"%s\" fitxategia ireki edo sortu; horrek esan nahi du agian konfigurazioarekin arazoa egongo dela, programa askok fitxategiak zure etxeko direktorioan sortu beharko baitituzte. Errorea \"%s\" zen (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
 msgstr ""
 "Jarri harremanetan sistemako administratzailearekin ondoko arazo hau \n"
-"konpontzeko: ezin izan da \"%s\" fitxategia blokeatu; horrek esan nahi du "
-"zure sistema eragilearen konfigurazioarekin arazoren bat egon daitekeela. "
-"NFSen muntatutako etxeko direktorioa baduzu, bezeroa edo zerbitzaria gaizki "
-"konfiguratuta egon daitezke. Ikus rpc.statd-en eta rpc.lockd-en "
-"dokumentazioa. Errore horren ohiko arrazoia da\"nfslock\" zerbitzaria "
-"desgaitua izan dela. Errorea \"%s\" zen (errno = %d)."
+"konpontzeko: ezin izan da \"%s\" fitxategia blokeatu; horrek esan nahi du zure sistema eragilearen konfigurazioarekin arazoren bat egon daitekeela. NFSen muntatutako etxeko direktorioa baduzu, bezeroa edo zerbitzaria gaizki konfiguratuta egon daitezke. Ikus rpc.statd-en eta rpc.lockd-en dokumentazioa. Errore horren ohiko arrazoia da\"nfslock\" zerbitzaria desgaitua izan dela. Errorea \"%s\" zen (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1084,15 +1081,11 @@ msgstr "Ezin da %s fitxategia kendu: %s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
 msgstr ""
 "Jarri harremanetan sistemako administratzailearekin ondoko arazo hau \n"
-"konpontzeko: ez dago konfigurazio-iturbururik \"%s\" konfigurazio-"
-"fitxategian;horrek esan nahi du hobespenak eta bestelako ezarpenak ezin "
-"direla gorde. %s%s"
+"konpontzeko: ez dago konfigurazio-iturbururik \"%s\" konfigurazio-fitxategian;horrek esan nahi du hobespenak eta bestelako ezarpenak ezin direla gorde. %s%s"
 
-#
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
 msgstr "Errorea fitxategia irakurtzean: "
@@ -1104,29 +1097,23 @@ msgid ""
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
 msgstr ""
 "Jarri harremanetan sistemako administratzailearekin ondoko arazo hau \n"
-"konpontzeko: ezin izan da \"%s\" helbidea ebatzi \"%s\" konfigurazio-"
-"fitxategian: %s"
+"konpontzeko: ezin izan da \"%s\" helbidea ebatzi \"%s\" konfigurazio-fitxategian: %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
 msgstr ""
-"Zure ezarpen hobetsiak dituzten fitxategiak erabiltzen ari dira une "
-"honetan.\n"
+"Zure ezarpen hobetsiak dituzten fitxategiak erabiltzen ari dira une honetan.\n"
 "\n"
-"Baliteke zu beste ordenagailu bateko saio batean ere egotea, eta beste saioa "
-"zure ezarpen hobetsien fitxategiak erabiltzen ari izatea.\n"
+"Baliteke zu beste ordenagailu bateko saio batean ere egotea, eta beste saioa zure ezarpen hobetsien fitxategiak erabiltzen ari izatea.\n"
 "\n"
-"Saio hau erabiltzen jarrai dezakezu, baina horrek aldi baterako arazoak sor "
-"ditzake ezarpen hobetsiei dagokienez beste saioan.\n"
+"Saio hau erabiltzen jarrai dezakezu, baina horrek aldi baterako arazoak sor ditzake ezarpen hobetsiei dagokienez beste saioan.\n"
 "\n"
 "Aurrera jarraitu nahi duzu?"
 
@@ -1143,21 +1130,22 @@ msgstr "_Jarraitu"
 msgid "%s Continue (y/n)?"
 msgstr "%s jarraitu (b/e)?"
 
-#
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "Eskemak UTF-8 baliogabea du"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
-msgid "Schema specifies type list but doesn't specify the type of the list elements"
+msgid ""
+"Schema specifies type list but doesn't specify the type of the list elements"
 msgstr ""
 "Eskemak mota-zerrenda zehazten du, baina ez du zerrendako elementuen mota "
 "zehazten"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
@@ -1182,8 +1170,8 @@ msgstr ""
 #, c-format
 msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
 msgstr ""
-"\"%s\" helbidea irakurtzeko soilik den konfigurazio-iturburuan ebatzi da, %d "
-"kokalekuan"
+"\"%s\" helbidea irakurtzeko soilik den konfigurazio-iturburuan ebatzi da, %d"
+" kokalekuan"
 
 #: ../mateconf/mateconf-sources.c:427
 #, c-format
@@ -1205,7 +1193,8 @@ msgstr ""
 #: ../mateconf/mateconf-sources.c:690
 #, c-format
 msgid "Schema `%s' specified for `%s' stores a non-schema value"
-msgstr "'%2$s'(r)entzat zehaztutako '%1$s' eskemak eskemakoa ez den balio bat dauka"
+msgstr ""
+"'%2$s'(r)entzat zehaztutako '%1$s' eskemak eskemakoa ez den balio bat dauka"
 
 #: ../mateconf/mateconf-sources.c:752
 msgid "The '/' name can only be a directory, not a key"
@@ -1231,33 +1220,34 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
 msgstr ""
 "Ezin du '%s' gakoan balio bat biltegiratu, konfigurazio-zerbitzariak "
 "idazteko aukera ematen duen datu-baserik ez duelako. Arazo honek hainbat "
 "sorburu izan ditzake: 1) zure konfigurazioaren bide-izenaren %s/path "
 "fitxategiak ez du datu-baserik edo ezin izan da aurkitu 2) nahi gabe bi "
-"mateconfd prozesu sortu dira 3) zure sistema eragilea gaizki konfiguratuta dago "
-"eta NFS fitxategi-blokeoak ez du zure etxeko direktorioan funtzionatzen 4) "
-"zure NFS bezeroaren makinak huts egin du eta ez dio behar bezala jakinarazi "
-"berrabiarazitako zerbitzariari fitxategi-blokeoak jaregin egin behar direla. "
-"Bi mateconfd prozesu badituzu (edo bigarrena abiaraztean bi bazenituen), "
-"saiotik atera, mateconfd-en kopia guztiak desaktibatu, eta atzera saiora "
-"itzuli; lagungarria izango zaizu. Blokeo zaharkituak badituzu, kendu ~/."
-"mateconf*/*blokeoa. Baliteke arazoa hau izatea: MateConf bi makinatan aldi berean "
-"erabiltzen saiatu zara, eta MateCORBA-ek oraindik konfigurazio lehenetsia du eta "
-"hark ez dio uzten urruneko CORBA konexioak izaten - jarri \"ORBIIOPIPv4=1\" /"
-"etc/matecorbarc-en. Beti bezala, aztertu user.* syslog, mateconfd-ek aurkitu dituen "
-"arazoen xehetasunak ikusteko. mateconfd bakarra egon daiteke etxeko direktorio "
-"bakoitzeko, eta blokeo-fitxategi bat eduki behar du ~/.mateconfd-en, bai eta "
-"blokeo-fitxategiak biltegien kokapen indibidualetan; adibidez, ~/.mateconf-en"
+"mateconfd prozesu sortu dira 3) zure sistema eragilea gaizki konfiguratuta "
+"dago eta NFS fitxategi-blokeoak ez du zure etxeko direktorioan funtzionatzen"
+" 4) zure NFS bezeroaren makinak huts egin du eta ez dio behar bezala "
+"jakinarazi berrabiarazitako zerbitzariari fitxategi-blokeoak jaregin egin "
+"behar direla. Bi mateconfd prozesu badituzu (edo bigarrena abiaraztean bi "
+"bazenituen), saiotik atera, mateconfd-en kopia guztiak desaktibatu, eta "
+"atzera saiora itzuli; lagungarria izango zaizu. Blokeo zaharkituak badituzu,"
+" kendu ~/.mateconf*/*blokeoa. Baliteke arazoa hau izatea: MateConf bi "
+"makinatan aldi berean erabiltzen saiatu zara, eta MateCORBA-ek oraindik "
+"konfigurazio lehenetsia du eta hark ez dio uzten urruneko CORBA konexioak "
+"izaten - jarri \"ORBIIOPIPv4=1\" /etc/matecorbarc-en. Beti bezala, aztertu "
+"user.* syslog, mateconfd-ek aurkitu dituen arazoen xehetasunak ikusteko. "
+"mateconfd bakarra egon daiteke etxeko direktorio bakoitzeko, eta blokeo-"
+"fitxategi bat eduki behar du ~/.mateconfd-en, bai eta blokeo-fitxategiak "
+"biltegien kokapen indibidualetan; adibidez, ~/.mateconf-en"
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1330,72 +1320,73 @@ msgstr "\"%s\": %s"
 msgid "Server couldn't resolve the address `%s'"
 msgstr "Zerbitzariak ezin izan du '%s' helbidea ebatzi"
 
-#: ../mateconf/mateconf.c:819
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
 msgstr "Konfigurazio-iturburu lokalean ezin da jakinarazpenik gehitu"
 
-#: ../mateconf/mateconf.c:2269
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
-msgstr "Huts egin du zerbitzari-zerrendan bezeroa gehitzean, CORBA errorea: %s"
+msgstr ""
+"Huts egin du zerbitzari-zerrendan bezeroa gehitzean, CORBA errorea: %s"
 
-#: ../mateconf/mateconf.c:2641
+#: ../mateconf/mateconf.c:2704
 msgid "Must begin with a slash '/'"
 msgstr "Barra ('/') batez hasi behar da"
 
-#: ../mateconf/mateconf.c:2663
+#: ../mateconf/mateconf.c:2726
 msgid "Can't have two slashes '/' in a row"
 msgstr "Ezin dira bi barra (/) elkarren ondoan jarri"
 
-#: ../mateconf/mateconf.c:2665
+#: ../mateconf/mateconf.c:2728
 msgid "Can't have a period '.' right after a slash '/'"
 msgstr "Ezin da punturik (.) jarri justu barraren (/) ondoren"
 
-#: ../mateconf/mateconf.c:2685
+#: ../mateconf/mateconf.c:2748
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
 msgstr "'\\%o' ez da ASCII karakterea; beraz, ez da gako-izenetan onartzen"
 
-#: ../mateconf/mateconf.c:2695
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "'%c' ez da baliozko karakterea gako/direktorio-izenetan"
 
-#: ../mateconf/mateconf.c:2709
+#: ../mateconf/mateconf.c:2772
 msgid "Key/directory may not end with a slash '/'"
 msgstr "Gakoa/direktorioa ezin da barra (/) batez bukatu"
 
-#: ../mateconf/mateconf.c:3080
+#: ../mateconf/mateconf.c:3143
 #, c-format
 msgid "Failure shutting down configuration server: %s"
 msgstr "Huts egin du konfigurazio-zerbitzaria itzaltzean: %s"
 
-#: ../mateconf/mateconf.c:3141
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "Mugikorra espero zen, baina %s eskuratu da"
 
-#: ../mateconf/mateconf.c:3176
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "Osokoa espero zen, baina %s eskuratu da"
 
-#: ../mateconf/mateconf.c:3211
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "Katea espero zen, baina %s eskuratu da"
 
-#: ../mateconf/mateconf.c:3245
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "Boolearra espero zen, baina %s eskuratu da"
 
-#: ../mateconf/mateconf.c:3278
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "Eskema espero zen, baina %s eskuratu da"
 
-#: ../mateconf/mateconf.c:3617
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "CORBA errorea: %s"
@@ -1406,24 +1397,24 @@ msgstr "Ixteko eskaera jaso da"
 
 #: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
 msgstr ""
-"mateconfd akatsak garbitzeko aukerarekin konpilatuta; mateconf.path iturburu-"
-"direktoriotik kargatzen"
+"mateconfd akatsak garbitzeko aukerarekin konpilatuta; mateconf.path "
+"iturburu-direktoriotik kargatzen"
 
 #: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
 msgstr ""
-"Ez da konfigurazio-fitxategirik aurkitu: konfigurazio-iturburu lehenetsia ('%"
-"s') erabiltzen saiatzen ari da"
+"Ez da konfigurazio-fitxategirik aurkitu: konfigurazio-iturburu lehenetsia "
+"('%s') erabiltzen saiatzen ari da"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
 #: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
@@ -1440,8 +1431,8 @@ msgstr "Errorea konfigurazio-iturburu batzuk kargatzean: %s"
 
 #: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
 msgstr ""
 "Konfigurazio-iturburuko helbideak ez dira ondo ebatzi. Ezingo du "
 "konfigurazio-daturik kargatu edo gorde"
@@ -1481,11 +1472,11 @@ msgstr "Huts egin du ConfigServer-ren objektu-erreferentzia lortzean"
 #: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
 msgstr ""
-"Ezin izan da bytea %d fitxategi-deskriptorean kanalizazioan idatzi. Beraz,"
-"badaiteke programa esekitzea:  %s"
+"Ezin izan da bytea %d fitxategi-deskriptorean kanalizazioan idatzi. "
+"Beraz,badaiteke programa esekitzea:  %s"
 
 #: ../mateconf/mateconfd.c:965
 #, c-format
@@ -1525,10 +1516,12 @@ msgstr ""
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
-msgid "Failed to close mateconfd logfile; data may not have been properly saved (%s)"
+msgid ""
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
 msgstr ""
-"Ezin izan da mateconfd egunkari-fitxategia itxi; datuak ez ziren ondo gordeko (%"
-"s)"
+"Ezin izan da mateconfd egunkari-fitxategia itxi; datuak ez ziren ondo "
+"gordeko (%s)"
 
 #: ../mateconf/mateconfd.c:1681
 #, c-format
@@ -1562,14 +1555,16 @@ msgstr "Huts egin du gordetako egoera-fitxategi berria hona mugitzean: %s"
 
 #: ../mateconf/mateconfd.c:1744
 #, c-format
-msgid "Failed to restore original saved state file that had been moved to '%s': %s"
+msgid ""
+"Failed to restore original saved state file that had been moved to '%s': %s"
 msgstr ""
-"Ezin izan da '%s'(e)ra eramandako jatorrizko egoera-fitxategia berreskuratu: "
-"%s"
+"Ezin izan da '%s'(e)ra eramandako jatorrizko egoera-fitxategia berreskuratu:"
+" %s"
 
 #: ../mateconf/mateconfd.c:2223
 #, c-format
-msgid "Unable to restore a listener on address '%s', couldn't resolve the database"
+msgid ""
+"Unable to restore a listener on address '%s', couldn't resolve the database"
 msgstr ""
 "Ezin da '%s' helbideko entzungailu bat leheneratu, ezin izan da datu-basea "
 "ebatzi"
@@ -1587,18 +1582,18 @@ msgstr "Ezin izan da gordetako '%s' egoera-fitxategia ireki: %s"
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
 msgstr ""
 "Ezin izan da entzungailua mateconfd egunkari-fitxategira gehitu izana "
-"erregistratu; ezingo du entzungailua berriro gehitu mateconfd existitzen bada "
-"edo ixten bada (%s)"
+"erregistratu; ezingo du entzungailua berriro gehitu mateconfd existitzen "
+"bada edo ixten bada (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
 msgstr ""
 "Ezin izan da entzungailua mateconfd egunkari-fitxategira mugitu izana "
 "erregistratu; entzungailua gaizki gehituko da mateconfd existitzen bada edo "
@@ -1617,24 +1612,28 @@ msgstr "Huts egin du gordetako egoera-fitxategia irekitzean: %s"
 #: ../mateconf/mateconfd.c:2484
 #, c-format
 msgid "Failed to write client add to saved state file: %s"
-msgstr "Huts egin du gehitutako bezeroa gordetako egoera-fitxategian idaztean: %s"
+msgstr ""
+"Huts egin du gehitutako bezeroa gordetako egoera-fitxategian idaztean: %s"
 
 #: ../mateconf/mateconfd.c:2492
 #, c-format
 msgid "Failed to flush client add to saved state file: %s"
-msgstr "Huts egin du gehitutako bezeroa gordetako egoera-fitxategian iraultzean: %s"
+msgstr ""
+"Huts egin du gehitutako bezeroa gordetako egoera-fitxategian iraultzean: %s"
 
 #: ../mateconf/mateconfd.c:2591
-msgid "Some client removed itself from the MateConf server when it hadn't been added."
+msgid ""
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
 msgstr ""
-"Bezero batzuek beren burua kendu dute MateConf zerbitzaritik, baina gehitu gabe "
-"zeuden."
+"Bezero batzuek beren burua kendu dute MateConf zerbitzaritik, baina gehitu "
+"gabe zeuden."
 
 #: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
 msgstr ""
-"Gako bat balio bati esleitzen dio eta sinkronizatu egiten du. Erabili --type "
-"aukerarekin."
+"Gako bat balio bati esleitzen dio eta sinkronizatu egiten du. Erabili --type"
+" aukerarekin."
 
 #: ../mateconf/mateconftool.c:102
 msgid "Print the value of a key to standard output."
@@ -1644,7 +1643,6 @@ msgstr "Gakoaren balioa modu estandarrean inprimatzen du."
 msgid "Unset the keys on the command line"
 msgstr "Komando-lerroko gakoen esleipena kentzen du"
 
-#
 #: ../mateconf/mateconftool.c:121
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
@@ -1691,11 +1689,10 @@ msgstr "Direktorioa existitzen bada, 0 emango du, eta bestela, 2."
 msgid "Ignore schema defaults when reading values."
 msgstr "Ez ikusi egin eskema-lehenespenei balioak irakurtzean."
 
-#
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
 msgstr ""
 "Irauli direktorio bateko sarrera guztien XML azalpen bat irteera "
 "estandarrera errekurtsiboki."
@@ -1726,11 +1723,11 @@ msgstr "Gconfd martxan baldin badago, 0 ematen du, eta bestela, 2."
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
 msgstr ""
-"Abiarazi konfigurazio-zerbitzaria (mateconfd). Normalean automatikoki egiten da "
-"beharrezkoa denean."
+"Abiarazi konfigurazio-zerbitzaria (mateconfd). Normalean automatikoki egiten"
+" da beharrezkoa denean."
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
@@ -1744,12 +1741,10 @@ msgstr ""
 msgid "int|bool|float|string|list|pair"
 msgstr "int|bool|float|string|list|pair"
 
-#
 #: ../mateconf/mateconftool.c:310
 msgid "Print the data type of a key to standard output."
 msgstr "Gakoaren datu-mota modu estandarrean inprimatzen du."
 
-#
 #: ../mateconf/mateconftool.c:319
 msgid "Get the number of elements in a list key."
 msgstr "Eskuratu gako-zerrenda bateko elementu-kopurua."
@@ -1768,25 +1763,26 @@ msgstr ""
 "Zehaztu ezarritako balio-zerrendaren mota edo eskemak deskribatzen duen "
 "balio-mota. Laburdura esklusiboak onartzen dira."
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
 msgstr ""
-"Zehaztu ezarritako 'car' bikotearen mota edo eskemak deskribatzen duen balio-"
-"mota. Laburdura esklusiboak onartzen dira."
+"Zehaztu ezarritako 'car' bikotearen mota edo eskemak deskribatzen duen "
+"balio-mota. Laburdura esklusiboak onartzen dira."
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
 msgstr ""
-"Zehaztu ezarritako 'cdr' bikotearen mota edo eskemak deskribatzen duen balio-"
-"mota. Laburdura esklusiboak onartzen dira."
+"Zehaztu ezarritako 'cdr' bikotearen mota edo eskemak deskribatzen duen "
+"balio-mota. Laburdura esklusiboak onartzen dira."
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1808,8 +1804,8 @@ msgstr "ITURBURUA"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
 msgstr ""
 "Sartu konfigurazioko datu-basean zuzenean, zerbitzaritik pasa gabe. "
 "Horretarako, mateconfd-ek ezin du martxan egon."
@@ -1817,16 +1813,15 @@ msgstr ""
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
 msgstr ""
 "Komando-lerroko eskema-fitxategiak behar bezala instalatzen ditu datu-"
-"basean. Zehaztu konfigurazio-iturburu pertsonalizatua MATECONF_CONFIG_SOURCE "
-"ingurune-aldagaian, edo ezarri aldagaia kate hutsarekin konfigurazio-"
+"basean. Zehaztu konfigurazio-iturburu pertsonalizatua MATECONF_CONFIG_SOURCE"
+" ingurune-aldagaian, edo ezarri aldagaia kate hutsarekin konfigurazio-"
 "iturburu lehenetsia erabiltzeko."
 
-#
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
@@ -1856,11 +1851,11 @@ msgstr ""
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
 msgstr ""
-"Eskema bat ezartzen eta sinkronizatzen du. Hauekin erabili: --short-desc, --"
-"long- desc, --owner, eta --type."
+"Eskema bat ezartzen eta sinkronizatzen du. Hauekin erabili: --short-desc, "
+"--long- desc, --owner, eta --type."
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1887,12 +1882,12 @@ msgid "Get the name of the schema applied to this key"
 msgstr "Lortu gako honi ezarri zaion eskemaren izena"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
 msgstr ""
 "Zehaztu eskema-izena eta, ondoren, eskema-izen hori zein gakori esleitu "
 "behar zaion"
 
-#
 #: ../mateconf/mateconftool.c:499
 msgid "Remove any schema name applied to the given keys"
 msgstr "Kendu aipatutako gakoei aplikatzen zaien eskema-izena"
@@ -1982,7 +1977,6 @@ msgstr "Ezin da aldi berean lortu eta esleitu/ezabatu\n"
 msgid "Can't set and get/unset simultaneously\n"
 msgstr "Ezin da aldi berean esleitu eta lortu/ezabatu\n"
 
-#
 #: ../mateconf/mateconftool.c:674
 #, c-format
 msgid "Can't get type and set/unset simultaneously\n"
@@ -2015,8 +2009,8 @@ msgstr ""
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
 msgstr ""
 "--set_schema ez litzateke hauekin erabili behar: --get, --set, --unset, -- "
 "all-entries, --all-dirs edo --search-key\n"
@@ -2034,14 +2028,15 @@ msgstr "Balioa ezartzean mota ere zehaztu behar da\n"
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
 msgstr ""
 "--ignore-schema-defaults aukerak hauekin bakarrik balio du: --get, --all-"
 "entries, --dump, --recursive-list, --get-list-size eta --get-list-element\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -2050,8 +2045,8 @@ msgstr "%s aukera bera bakarrik erabili behar da.\n"
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
 msgstr ""
 "Konfigurazio-iturburua zehaztu --config-source erabiliz, --direct "
 "erabiltzean\n"
@@ -2063,14 +2058,17 @@ msgstr "Huts egin du Gconf hasieratzean: %s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
 msgstr ""
 "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL ezarri da, ez du eskemarik "
 "instalatuko\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
 msgstr ""
 "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL ezarri da, ez du eskemarik "
 "desinstalatuko\n"
@@ -2085,567 +2083,559 @@ msgstr "MATECONF_CONFIG_SOURCE ingurune-aldagaia ezarri behar da\n"
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "Ezin izan dira konfigurazio-iturburu hauek atzitu: %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "Errorea gertatu da ixtean: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
-msgstr "Direktorio bat edo gehiago zehaztu behar dira errekurtsiboki zerrendatzeko.\n"
+msgstr ""
+"Direktorio bat edo gehiago zehaztu behar dira errekurtsiboki "
+"zerrendatzeko.\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "Ezin izan dira '%s'(e)ko sarrerak zerrendatu: %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(ez da baliorik sartu)"
 
-#
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "Bilaketa egiteko gako bat zehaztu behar da.\n"
 
-#
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "PCRE adierazpen erregular bat zehaztu behar da bilatzeko.\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "Errorea regex konpilatzean: %s\n"
 
-#
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "Direktorio bat edo gehiago zehaztu behar dira iraultzeko.\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "Huts egin du konfigurazio-zerbitzaria (mateconfd) abiaraztean: %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "Lortu nahi den gakoa edo gakoak zehaztu behar dira\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "Mota: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "Zerrenda-mota: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car mota: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr mota: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "Balio lehenetsia: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "Ezarri gabe"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "Jabea: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "Azalpen laburra: %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "Azalpen luzea: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "Ez da '%s'(r)en baliorik ezarri\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "Huts egin du '%s'(r)en balioa lortzean: %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "Ez da '%s' mota ulertzen\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "Gakoak/balioak txandaka zehaztu behar dira argumentu gisa\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "Gako honi ez zaio baliorik ezarri: '%s'\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "Ezin da eskema balio gisa ezarri\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "Zerrenda ezartzean jatorrizko zerrenda-mota zehaztu behar da\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
 msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "Bikotea ezartzean jatorrizko car-type eta cdr-type zehaztu behar dira\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "Errorea: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "Errorea balioa ezartzean: %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "Errorea sinkronizatzean: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "Gako bat edo gehiago zehaztu behar dira argumentu gisa.\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "Ez da baliorik aurkitu %s gakoarentzako\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "Ez da balio boolearra: %s\n"
 
-#
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "Lortu nahi den gakoa edo gakoak zehaztu behar dira\n"
 
-#
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "Tamaina bilatzeko gako bat zehaztu behar da.\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "%s gakoa ez da zerrenda.\n"
 
-#
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "Elementu-zerrenda zein gakotatik eskuratu behar den zehaztu behar da.\n"
 
-#
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "Zerrenda-indizea zehaztu behar da.\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "Zerrenda-indizeak ezin du negatiboa izan.\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "Zerrenda-indizea mugaz kanpo dago.\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "Komando-lerroan gakoa edo gakoak zehaztu behar dira\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "Ez da '%s'(r)en eskemarik ezagutzen\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "Eskemak ez du '%s'(e)n gordetako dokumentu-katerik\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "Errorea '%s'(e)n eskema lortzean: %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "'%s'(e)n ez da eskemarik gorde\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "'%s'(e)ko balioa ez da eskema\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr ""
 "Eskema-izena zehaztu behar da eta, ondoren, hari esleitu beharreko gako-"
 "izena\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "Errorea '%s' eskema-izena '%s' gako-izenarekin elkartzean: %s\n"
 
-#
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "Eskema zein gakoei ez zaien aplikatu behar zehaztu behar da\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "Errorea '%s'(e)tik eskema-izena kentzean: %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "Gakoa (eskema-izena) zehaztu behar da argumentu bakar gisa\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "Zerrenda-motak primitiboa izan behar du: string, int, float edo bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "Car bikoteak primitiboa izan behar du: string, int, float edo bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "Cdr bikoteak primitiboa izan behar du: string, int, float edo bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "Errorea balioa ezartzean: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "Errorea sinkronizatzean: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr ""
 "Direktorio bat edo gehiago zehaztu behar dira handik gako-/balio-bikoteak "
 "lortzeko.\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "Ezabatu nahi diren gakoak zehaztu behar dira.\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "Errorea '%s' ezabatzean: %s\n"
 
-#
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "Errekurtsiboki ezabatu nahi diren gakoak zehaztu behar dira.\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "Huts egin du \"%s\" errekurtsiboki ezabatzean: %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr ""
 "Direktorio bat edo gehiago zehaztu behar dira handik azpidirektorioak "
 "lortzeko.\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "Errorea direktorioak zerrendatzean: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "KONTUZ: <car> eta <cdr> zehaztu behar dira <pair> batean\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr ""
 "KONTUZ: <value> bateko eskemarako zehaztutako gakoari (%s) ez ikusi egingo "
 "zaio\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "KONTUZ: nodo umea eduki behar da <value>-n\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "KONTUZ: <%s> nodoa ez da ulertzen\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "KONTUZ: ezin izan da '%s' balio osoa analizatu\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "KONTUZ: ezin izan da '%s' balio flotatzailea analizatu\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "KONTUZ: ezin izan da '%s' kate-balioa analizatu\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "KONTUZ: ezin izan da '%s' balio boolearra analizatu\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "KONTUZ: ezin izan da '%s' eskema '%s' gakoarekin asoziatu: %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "KONTUZ: eskemaren mota okerra da edo falta da (%s)\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "KONTUZ: eskemaren list_type okerra da edo falta da (%s)\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "KONTUZ: ezin izan da eskemaren '%s' balio lehenetsia analizatu (%s)\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr "KONTUZ: eskemaren car-type edo cdr-type okerra da edo falta da (%s)\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "KONTUZ: Ezin duzu eskemarako balio lehenetsia ezarri\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "KONTUZ: mateconftool-en barne-errorea, GconfValueType ezezaguna\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "KONTUZ: huts egin du '%s' mota-izena analizatzean\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
 msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
 msgstr ""
 "KONTUZ: list_type hauek egon daitezke bakarrik: int, float, string edo bool "
 "eta ez '%s'\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
 msgstr ""
 "KONTUZ: car_type hauek egon daitezke bakarrik: int, float, string edo bool "
 "eta ez '%s'\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
 msgstr ""
 "KONTUZ: cdr_type hauek egon daitezke bakarrik: int, float, string edo bool "
 "eta ez '%s'\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "KONTUZ: <applyto> nodoa hutsik"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "KONTUZ: <%s> nodoa ulertezina <schema>ren barruan\n"
 
-#
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "KONTUZ: ez dago <list_type>rik zehaztuta zerrenda-motako eskeman\n"
 
-#
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "KONTUZ: ez dago <car_type>rik zehaztuta bikote-motako eskeman\n"
 
-#
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "KONTUZ: ez dago <cdr_type>rik zehaztuta bikote-motako eskeman\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
 msgstr "KONTUZ: <locale> nodoak ez du 'izena=\"locale\"' atributua, jaramonik ez\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
-msgid "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
+msgid ""
+"WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
 msgstr ""
 "KONTUZ: <locale> nodo bat baino gehiago daude '%s' locale-rako; lehena ez "
 "beste guztiei ez ikusia egin\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "KONTUZ: <%s> nodo baliogabea <locale> nodoan\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "'%s' eskema '%s' gakoari erantsi zaio\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "Gutxienez <locale> sarrera batek egon behar du <schema>n\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "KONTUZ: huts egin du '%s' eskema '%s' locale-an instalatzean: %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "'%s' eskema '%s' locale-an instalatu da\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "KONTUZ: huts egin du '%s' eskema '%s' locale-tik desinstalatzean: %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "'%s' eskema '%s' locale-tik desinstalatu da\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "KONTUZ: eskemak ez du gakoa zehaztuta\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "KONTUZ: <%s> nodoa ulertezina <%s>(r)en barruan\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "Huts egin du '%s' irekitzean: %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "'%s' dokumentua hutsik dago?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
-msgstr "'%s' dokumentuak mota okerreko erro-nodoa du (<%s> <%s> izan beharko luke)\n"
+msgstr ""
+"'%s' dokumentuak mota okerreko erro-nodoa du (<%s> <%s> izan beharko luke)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "'%s' dokumentuak ez du goi-mailako <%s> nodorik\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "KONTUZ: <%s> nodoa ulertezina <%s>(r)en barruan\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "Errorea konfigurazio-datuak sinkronizatzean: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "Instalatu beharreko eskema-fitxategiak zehaztu behar dituzu\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
@@ -2654,39 +2644,37 @@ msgstr ""
 "\n"
 "%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "Huts egin du %s apurketa-gakoa ezabatzean: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "Apurtzeko gakoak zehaztu behar dira\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
 msgstr ""
-"Zure aplikazioa apurtzen saiatzen ari da, ondoko gakoan balio okerrak "
-"ezarriz:\n"
+"Zure aplikazioa apurtzen saiatzen ari da, ondoko gakoan balio okerrak ezarriz:\n"
 " %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "Apurtzeko direktorioak zehaztu behar dira\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
 msgstr ""
-"Zure aplikazioa apurtzen saiatzen ari da, ondoko direktorioan gakoen balio "
-"okerrak ezarriz:\n"
+"Zure aplikazioa apurtzen saiatzen ari da, ondoko direktorioan gakoen balio okerrak ezarriz:\n"
 " %s\n"
+
 
