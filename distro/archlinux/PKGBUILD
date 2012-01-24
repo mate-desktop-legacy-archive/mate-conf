@@ -9,16 +9,14 @@ makedepends=('pkgconfig' 'intltool' 'gtk-doc' 'gobject-introspection')
 groups=('mate')
 options=('!libtool')
 install=mate-conf.install
-url="http://matsusoft.com.ar/projects"
-source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download
-        mateconf-merge-schema
+url="http://matsusoft.com.ar/projects/mate/"
+source=(mateconf-merge-schema
         mateconfpkg)
-sha256sums=('9c7ea34a65024b55d622acc9d61fe67c19a0460634565dbf22bd1a67aa79948f'
-            '78ccdb9c963400694c944ee193b2fa135dcb39e0d9f1dc393fa659131d591076'
+sha256sums=('78ccdb9c963400694c944ee193b2fa135dcb39e0d9f1dc393fa659131d591076'
             '2e06a02b5312ee7853be356c1b0131ce6e85fb2949c4aef54c1e795f27fdc1dd')
 
 build() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
     # Python2 fix
     sed -i '1s|#!/usr/bin/env python$|&2|' gsettings/gsettings-schema-convert
     ./autogen.sh \
@@ -33,7 +31,7 @@ build() {
 }
 
 package() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
 
     make DESTDIR="${pkgdir}" install || return 1
     install -m755 -d "${pkgdir}/etc/mateconf/mateconf.xml.system" || return 1
