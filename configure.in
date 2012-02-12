@@ -1,5 +1,5 @@
 AC_PREREQ(2.60)
-AC_INIT([MateConf], [1.1.1], [https://github.com/mate-desktop/mate-conf/issues], [MateConf], [http://www.mate-desktop.org])
+AC_INIT([MateConf], [1.2.0], [https://github.com/mate-desktop/mate-conf/issues], [MateConf], [http://www.mate-desktop.org])
 
 AC_CONFIG_SRCDIR([mateconf/mateconf.h])
 AC_CONFIG_HEADERS([config.h])
