@@ -1,26 +1,26 @@
-<refentry id="gsettings-schema-convert" lang="en">
+<refentry id="mateconf-gsettings-schema-convert" lang="en">
 
 <refmeta>
-  <refentrytitle>gsettings-schema-convert</refentrytitle>
+  <refentrytitle>mateconf-gsettings-schema-convert</refentrytitle>
   <manvolnum>1</manvolnum>
   <refmiscinfo class="manual">User Commands</refmiscinfo>
 </refmeta>
 
 <refnamediv>
-  <refname>gsettings-schema-convert</refname>
+  <refname>mateconf-gsettings-schema-convert</refname>
   <refpurpose>MateConf to GSettings schema conversion</refpurpose>
 </refnamediv>
 
 <refsynopsisdiv>
   <cmdsynopsis>
-    <command>gsettings-schema-convert</command>
+    <command>mateconf-gsettings-schema-convert</command>
     <arg choice="opt" rep="repeat">option</arg>
     <arg choice="req">file</arg>
   </cmdsynopsis>
 </refsynopsisdiv>
 
 <refsect1><title>Description</title>
-<para><command>gsettings-schema-convert</command> converts between MateConf
+<para><command>mateconf-gsettings-schema-convert</command> converts between MateConf
 and GSettings schema file formats. Note that the conversion is not
 expected to be fully automated. You are expected to verify and edit
 the result of the conversion.
@@ -67,7 +67,7 @@ The input file is a MateConf schema.
 <listitem><para>
 Produce a GSettings schema in simple format. The simple format
 is easier to edit and can be converted into the XML format with
-<command>gsettings-schema-convert</command> later on.
+<command>mateconf-gsettings-schema-convert</command> later on.
 </para></listitem>
 </varlistentry>
 
@@ -109,7 +109,7 @@ keys should not contain any underscore.
 <refsect1><title>See also</title>
 <para>
 <citerefentry>
-  <refentrytitle>gsettings-data-convert</refentrytitle>
+  <refentrytitle>mateconf-gsettings-data-convert</refentrytitle>
   <manvolnum>1</manvolnum>
 </citerefentry> a related command to migrate user settings
 from MateConf to GSettings.

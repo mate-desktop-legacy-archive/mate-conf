@@ -288,7 +288,7 @@ load_state (time_t  *mtime,
   *mtime = 0;
   *converted = g_new0 (gchar *, 1);
 
-  filename = g_build_filename (g_get_user_data_dir (), "gsettings-data-convert", NULL);
+  filename = g_build_filename (g_get_user_data_dir (), "mateconf-gsettings-data-convert", NULL);
   keyfile = g_key_file_new ();
 
   /* ensure file exists */
@@ -349,7 +349,7 @@ save_state (time_t   mtime,
       return FALSE;
     }
 
-  filename = g_build_filename (g_get_user_data_dir (), "gsettings-data-convert", NULL);
+  filename = g_build_filename (g_get_user_data_dir (), "mateconf-gsettings-data-convert", NULL);
   keyfile = g_key_file_new ();
 
   str = g_strdup_printf ("%ld", mtime);

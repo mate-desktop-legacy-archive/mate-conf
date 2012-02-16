@@ -1,4 +1,4 @@
-.\"     Title: gsettings-data-convert
+.\"     Title: mateconf-gsettings-data-convert
 .\"    Author: 
 .\" Generator: DocBook XSL Stylesheets v1.73.2 <http://docbook.sf.net/>
 .\"      Date: 05/05/2010
@@ -11,19 +11,19 @@
 .\" disable justification (adjust text to left margin only)
 .ad l
 .SH "NAME"
-gsettings-data-convert \- MateConf to GSettings data migration
+mateconf-gsettings-data-convert \- MateConf to GSettings data migration
 .SH "SYNOPSIS"
 .HP 23
-\fBgsettings\-data\-convert\fR [option...]
+\fBmateconf\-gsettings\-data\-convert\fR [option...]
 .SH "DESCRIPTION"
 .PP
 
-\fBgsettings\-data\-convert\fR
+\fBmateconf\-gsettings\-data\-convert\fR
 reads values out of the users MateConf database and stores them in GSettings\&.
 .PP
 The information about the mapping from MateConf keys to GSettings keys is taken from files in
 \fI/usr/share/MateConf/gsettings\fR\&. Each file in that directory is read as a key file, with sections for each GSettings schema that is being converted\&. The entries in each section map GSettings keys to paths in the MateConf database\&. Currently,
-\fBgsettings\-data\-convert\fR
+\fBmateconf\-gsettings\-data\-convert\fR
 supports all basic MateConf types as well as lists of strings and lists of integers\&.
 .PP
 A simple example might look like this:
@@ -47,9 +47,9 @@ If the GSettings schema does not have a fixed path, you must specify the path in
 .RE
 .PP
 
-\fBgsettings\-data\-convert\fR
+\fBmateconf\-gsettings\-data\-convert\fR
 keeps a list of the key files it has already converted, so it is safe to run it repeatedly to handle newly appeared key files\&. The expected use of this utility is to make each application install a key file for the MateConf keys that it wants to be migrated, and run
-\fBgsettings\-data\-convert\fR
+\fBmateconf\-gsettings\-data\-convert\fR
 every time a user logs in\&.
 .SS "Options"
 .PP
@@ -70,5 +70,5 @@ Show verbose messages
 .SH "SEE ALSO"
 .PP
 
-\fBgsettings-schema-convert\fR(1)
+\fBmateconf-gsettings-schema-convert\fR(1)
 is a related command that helps with the conversion of schemas from MateConf to GSettings\&.

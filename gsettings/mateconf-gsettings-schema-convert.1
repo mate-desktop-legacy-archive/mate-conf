@@ -1,5 +1,5 @@
 '\" t
-.\"     Title: gsettings-schema-convert
+.\"     Title: mateconf-gsettings-schema-convert
 .\"    Author: [FIXME: author] [see http://docbook.sf.net/el/author]
 .\" Generator: DocBook XSL Stylesheets v1.75.2 <http://docbook.sf.net/>
 .\"      Date: 08/30/2010
@@ -19,13 +19,13 @@
 .\" * MAIN CONTENT STARTS HERE *
 .\" -----------------------------------------------------------------
 .SH "NAME"
-gsettings-schema-convert \- MateConf to GSettings schema conversion
+mateconf-gsettings-schema-convert \- MateConf to GSettings schema conversion
 .SH "SYNOPSIS"
-.HP \w'\fBgsettings\-schema\-convert\fR\ 'u
-\fBgsettings\-schema\-convert\fR [option...] {file}
+.HP \w'\fBmateconf\-gsettings\-schema\-convert\fR\ 'u
+\fBmateconf\-gsettings\-schema\-convert\fR [option...] {file}
 .SH "DESCRIPTION"
 .PP
-\fBgsettings\-schema\-convert\fR
+\fBmateconf\-gsettings\-schema\-convert\fR
 converts between MateConf and GSettings schema file formats\&. Note that the conversion is not expected to be fully automated\&. You are expected to verify and edit the result of the conversion\&.
 .PP
 Note that GSettings schemas need to be converted into binary form with
@@ -57,7 +57,7 @@ The input file is a MateConf schema\&.
 \fB\-s\fR, \fB\-\-simple\fR
 .RS 4
 Produce a GSettings schema in simple format\&. The simple format is easier to edit and can be converted into the XML format with
-\fBgsettings\-schema\-convert\fR
+\fBmateconf\-gsettings\-schema\-convert\fR
 later on\&.
 .RE
 .PP
@@ -87,5 +87,5 @@ Keep underscores in key names instead of replacing them with dashes\&. GSettings
 .SH "SEE ALSO"
 .PP
 
-\fBgsettings-data-convert\fR(1)
+\fBmateconf-gsettings-data-convert\fR(1)
 a related command to migrate user settings from MateConf to GSettings\&.
