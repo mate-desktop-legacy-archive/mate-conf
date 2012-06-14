@@ -1,4 +1,3 @@
-
 SUBDIRS = mateconf backends po doc examples
 
 DIST_SUBDIRS = tests mateconf backends po doc examples defaults gsettings
@@ -30,6 +29,8 @@ install-data-local:
 	-chmod 755 $(DESTDIR)$(sysmateconfdir)/mateconf.xml.defaults
 	-mkdir -p $(DESTDIR)$(sysmateconfdir)/mateconf.xml.mandatory
 	-chmod 755 $(DESTDIR)$(sysmateconfdir)/mateconf.xml.mandatory
+	-mkdir -p $(DESTDIR)$(sysmateconfdir)/mateconf.xml.system
+	-chmod 755 $(DESTDIR)$(sysmateconfdir)/mateconf.xml.system
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = mateconf-2.0.pc
