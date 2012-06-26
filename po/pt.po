@@ -1,19 +1,21 @@
-# mateconf's Portuguese Translation
-# Copyright © 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 mateconf
-# Distributed under the same licence as the mateconf package
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.32\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-21 17:23+0100\n"
-"PO-Revision-Date: 2010-08-21 17:25+0000\n"
-"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
-"Language-Team: Portuguese <mate_pt@yahoogroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Portuguese (http://www.transifex.net/projects/p/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
@@ -23,8 +25,7 @@ msgstr "Falha ao obter o caminho do ficheiro de configuração de '%s'"
 #: ../backends/evoldap-backend.c:173
 #, c-format
 msgid "Created Evolution/LDAP source using configuration file '%s'"
-msgstr ""
-"Origem Evolution/LDAP criada utilizando o ficheiro de configuração '%s'"
+msgstr "Origem Evolution/LDAP criada utilizando o ficheiro de configuração '%s'"
 
 #: ../backends/evoldap-backend.c:447
 #, c-format
@@ -106,15 +107,7 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"Utilização: %s <dir>\n"
-"  Reune uma hierarquia de sistema de ficheiros de suporte em etiquetas "
-"tipo:\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  em:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "Utilização: %s <dir>\n  Reune uma hierarquia de sistema de ficheiros de suporte em etiquetas tipo:\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  em:\n    dir/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
@@ -132,31 +125,25 @@ msgstr "Incapaz de criar directório `%s': %s"
 
 #: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
 msgstr "Incapaz de escrever ou ler no directório raíz XML no endereço \"%s\""
 
 #: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
 #, c-format
 msgid "Directory/file permissions for XML source at root %s are: %o/%o"
-msgstr ""
-"Permissões de directório/ficheiro para origem XML na raíz %s são: %o/%o"
+msgstr "Permissões de directório/ficheiro para origem XML na raíz %s são: %o/%o"
 
 #: ../backends/markup-backend.c:740 ../backends/xml-backend.c:683
 #, c-format
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"Operação de remoção de directório deixou de ser suportada, remova todos os "
-"valores no directório"
+msgstr "Operação de remoção de directório deixou de ser suportada, remova todos os valores no directório"
 
 #: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
 msgid "Could not open lock directory for %s to remove locks: %s\n"
-msgstr ""
-"Incapaz de abrir directório de ficheiros de exclusividade para %s para os "
-"remover: %s\n"
+msgstr "Incapaz de abrir directório de ficheiros de exclusividade para %s para os remover: %s\n"
 
 #: ../backends/markup-backend.c:839 ../backends/xml-backend.c:782
 #, c-format
@@ -172,181 +159,179 @@ msgstr "A inicializar o módulo de suporte de Texto Etiquetado"
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "Falha ao libertar exclusividade sobre directório XML \"%s\": %s"
 
-#: ../backends/markup-tree.c:437
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "Falha ao gravar alguns dados de configuração no disco\n"
 
-#: ../backends/markup-tree.c:960 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "Incapaz de criar directório \"%s\": %s"
 
-#: ../backends/markup-tree.c:1000 ../backends/markup-tree.c:1007
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "Incapaz de remover \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:1208
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "Falha ao escrever \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:1416
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "Falha ao ler o ficheiro \"%s\": %s"
 
-#: ../backends/markup-tree.c:2006
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "Linha %d caracter %d: %s"
 
-#: ../backends/markup-tree.c:2234 ../backends/markup-tree.c:2255
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "Atributo \"%s\" é inválido no elemento <%s> neste contexto"
 
-#: ../backends/markup-tree.c:2280 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "Incapaz de compreender `%s' (esperado valor inteiro)"
 
-#: ../backends/markup-tree.c:2287 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "Inteiro `%s' é demasiado grande ou pequeno"
 
-#: ../backends/markup-tree.c:2319 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "Incapaz de compreender `%s' (esperado verdadeiro ou falso)"
 
-#: ../backends/markup-tree.c:2343 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "Incapaz de compreender `%s' (esperado número real)"
 
-#: ../backends/markup-tree.c:2423
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "Valor \"%s\" desconhecido para o atributo \"%s\" no elemento <%s>"
 
-#: ../backends/markup-tree.c:2443 ../backends/markup-tree.c:2483
-#: ../backends/markup-tree.c:2507 ../backends/markup-tree.c:2515
-#: ../backends/markup-tree.c:2570 ../backends/markup-tree.c:2635
-#: ../backends/markup-tree.c:2747 ../backends/markup-tree.c:2815
-#: ../backends/markup-tree.c:2873 ../backends/markup-tree.c:3023
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "Nenhum atributo \"%s\" no elemento <%s>"
 
-#: ../backends/markup-tree.c:2457
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "ltype \"%s\" inválido em <%s>"
 
-#: ../backends/markup-tree.c:2537
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "Tipo primeiro-elemento \"%s\" inválido em <%s>"
 
-#: ../backends/markup-tree.c:2551
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "cdr_type \"%s\" inválido em <%s>"
 
-#: ../backends/markup-tree.c:2587
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "list_type \"%s\" inválido em <%s>"
 
-#: ../backends/markup-tree.c:2954
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "Dois elementos <default> abaixo de um <local_schema>"
 
-#: ../backends/markup-tree.c:2969
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "Dois elementos <longdesc> abaixo de um <local_schema>"
 
-#: ../backends/markup-tree.c:2976
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "O elemento <%s> não é permitido abaixo de <%s>"
 
-#: ../backends/markup-tree.c:3001 ../backends/markup-tree.c:3106
-#: ../backends/markup-tree.c:3160 ../backends/markup-tree.c:3211
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s> especificado mas elemento actual não tem o tipo %s"
 
-#: ../backends/markup-tree.c:3084
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "Especificados dois elementos <car> para o mesmo par"
 
-#: ../backends/markup-tree.c:3098
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "Especificados dois elementos <cdr> para o mesmo par"
 
-#: ../backends/markup-tree.c:3152
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> possui o tipo incorrecto %s"
 
-#: ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s> especificado mas a <entry> pai não possui um valor"
 
-#: ../backends/markup-tree.c:3224 ../backends/markup-tree.c:3247
-#: ../backends/markup-tree.c:3269 ../backends/markup-tree.c:3286
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "O elemento <%s> não é permitido dentro do elemento actual"
 
-#: ../backends/markup-tree.c:3318
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "Elemento externo no ficheiro de menu tem de ser <mateconf> e não <%s>"
 
-#: ../backends/markup-tree.c:3338 ../backends/markup-tree.c:3360
-#: ../backends/markup-tree.c:3365
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "O elemento <%s> não é permitido dentro de um elemento <%s>"
 
-#: ../backends/markup-tree.c:3509
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "Nenhum texto é permitido dentro do elemento <%s>"
 
-#: ../backends/markup-tree.c:3625 ../backends/markup-tree.c:4391
-#: ../backends/markup-tree.c:4410
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "Falha ao abrir \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:3655
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "Erro ao ler \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:4485
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "Incapaz de despejar o ficheiro '%s' no disco: %s"
 
-#: ../backends/markup-tree.c:4504
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "Erro ao escrever o ficheiro \"%s\": %s"
 
-#: ../backends/markup-tree.c:4533
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
-msgstr ""
-"Falha ao mover o ficheiro temporário \"%s\" para a localização final \"%s\": "
-"%s"
+msgstr "Falha ao mover o ficheiro temporário \"%s\" para a localização final \"%s\": %s"
 
 #: ../backends/xml-backend.c:239
 msgid "Unloading XML backend module."
@@ -370,9 +355,7 @@ msgstr "Falha ao sincronizar conteudo de cache XML no disco"
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"Incapaz de remover directório `%s' da cache do suporte XML, pois não foi "
-"sincronizada com sucesso para o disco"
+msgstr "Incapaz de remover directório `%s' da cache do suporte XML, pois não foi sincronizada com sucesso para o disco"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -443,9 +426,7 @@ msgstr "Entrada sem nome no ficheiro XML `%s', a ignorar"
 #: ../backends/xml-dir.c:1195
 #, c-format
 msgid "A toplevel node in XML file `%s' is <%s> rather than <entry>, ignoring"
-msgstr ""
-"Um nó de nível superior no ficheiro XML `%s' é <%s> em vez de <entry>, a "
-"ignorar"
+msgstr "Um nó de nível superior no ficheiro XML `%s' é <%s> em vez de <entry>, a ignorar"
 
 #: ../backends/xml-dir.c:1283
 #, c-format
@@ -518,9 +499,7 @@ msgstr "A ignorar car inválido em par XML: %s"
 
 #: ../backends/xml-entry.c:1153 ../backends/xml-entry.c:1176
 msgid "parsing XML file: lists and pairs may not be placed inside a pair"
-msgstr ""
-"a processar ficheiro XML: listas e pares não podem ser colocados dentro de "
-"um par"
+msgstr "a processar ficheiro XML: listas e pares não podem ser colocados dentro de um par"
 
 #: ../backends/xml-entry.c:1166
 #, c-format
@@ -549,27 +528,25 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "Faltam cdr e car em par de valores no ficheiro XML"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "Alterar os valores obrigatórios do MateConf"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "Alterar os valores de sistema do MateConf"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr ""
-"São necessárias permissões para alterar os valores obrigatórios do MateConf"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "São necessárias permissões para alterar os valores de sistema do MateConf"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "Alterar os valores obrigatórios do MateConf"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "São necessárias permissões para alterar os valores obrigatórios do MateConf"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
 msgid "`%c' is an invalid character in a configuration storage address"
-msgstr ""
-"`%c' é um caracter inválido no endereço de um armazenamento de configuração"
+msgstr "`%c' é um caracter inválido no endereço de um armazenamento de configuração"
 
 #. -- end debug only
 #: ../mateconf/mateconf-backend.c:216
@@ -599,8 +576,7 @@ msgstr "Endereço `%s' inválido"
 
 #: ../mateconf/mateconf-backend.c:337
 msgid "MateConf won't work without dynamic module support (gmodule)"
-msgstr ""
-"MateConf incapaz de funcionar sem suporte para módulos dinâmicos (gmodule)"
+msgstr "MateConf incapaz de funcionar sem suporte para módulos dinâmicos (gmodule)"
 
 #: ../mateconf/mateconf-backend.c:346
 #, c-format
@@ -621,17 +597,17 @@ msgstr "Não foi encontrado módulo de suporte para `%s'"
 msgid "Failed to shut down backend"
 msgstr "Falha ao desligar módulo de suporte"
 
-#: ../mateconf/mateconf-client.c:346 ../mateconf/mateconf-client.c:364
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "Erro MateConf: %s\n"
 
-#: ../mateconf/mateconf-client.c:940
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
 msgstr "Aviso MateConf: falha ao listar pares em `%s': %s"
 
-#: ../mateconf/mateconf-client.c:1244
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr "Era esperado `%s' mas foi obtido `%s' para a chave %s"
@@ -642,10 +618,9 @@ msgstr "Recebido valor inválido em pedido de definição (set)"
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
-msgstr ""
-"Incapaz de compreender valor CORBA recebido em pedido de definição (set) "
-"para a chave `%s'"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
+msgstr "Incapaz de compreender valor CORBA recebido em pedido de definição (set) para a chave `%s'"
 
 #: ../mateconf/mateconf-database.c:503
 msgid "Received request to drop all cached data"
@@ -667,22 +642,17 @@ msgstr "Falha ao sincronizar uma ou mais fontes: %s"
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
-msgstr ""
-"Erro ao obter o novo valor de `%s' após notificação do módulo de suporte `%"
-"s': %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
+msgstr "Erro ao obter o novo valor de `%s' após notificação do módulo de suporte `%s': %s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"Falha ao registar a adição de listener %s (%s); não será possível reiniciar "
-"este listener ao reiniciar o mateconfd, resultando em potenciais problemas na "
-"notificação de alterações à configuração."
+msgstr "Falha ao registar a adição de listener %s (%s); não será possível reiniciar este listener ao reiniciar o mateconfd, resultando em potenciais problemas na notificação de alterações à configuração."
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -694,9 +664,7 @@ msgstr "ID de Listener %lu não existe"
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"Falha ao registar no ficheiro log remoção do listener (inofensivo, poderá "
-"resultar no estranho ressurgimento de uma notificação): %s"
+msgstr "Falha ao registar no ficheiro log remoção do listener (inofensivo, poderá resultar no estranho ressurgimento de uma notificação): %s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -844,192 +812,187 @@ msgstr "Lista recebida do mateconfd com um tipo incorrecto de lista"
 msgid "Failed to convert object to IOR"
 msgstr "Falha na conversão de objecto para IOR"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "UTF-8 inválido na configuração regional do esquema"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "UTF-8 inválido na descrição abreviada do esquema"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "UTF-8 inválido na descrição extensa do esquema"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "UTF-8 inválido no dono do esquema"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "Incapaz de abrir ficheiro de caminho `%s': %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "A adicionar fonte `%s'\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "Erro de leitura no ficheiro `%s': %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1692
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "Texto contém UTF-8 inválido"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "Esperada lista, recebido %s"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "Esperada lista de %s, recebida lista de %s"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "Esperado par, recebido %s"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
-msgstr ""
-"Esperado par (%s,%s), recebido um par com um ou ambos os valores em falta"
+msgstr "Esperado par (%s,%s), recebido um par com um ou ambos os valores em falta"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "Esperado par do tipo (%s,%s) recebido tipo (%s,%s)"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "Expressão citada não é iniciada com uma aspa"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "Expressão citada não é terminada com uma aspa"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "Valor codificado não é UTF-8 válido"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "Incapaz de obter exclusividade sobre ficheiro temporário '%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "Incapaz de criar ficheiro '%s', provavelmente porque já existe"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "Falha ao criar ou abrir '%s'"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"Falha ao obter exclusividade sobre '%s': provavelmente outro processo tem a "
-"exclusividade ou o seu sistema operativo tem a exclusividade NFS de "
-"ficheiros mal configurada (%s)"
+msgstr "Falha ao obter exclusividade sobre '%s': provavelmente outro processo tem a exclusividade ou o seu sistema operativo tem a exclusividade NFS de ficheiros mal configurada (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "Falha ao remover '%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "Não está a ser executado dentro de uma sessão activa"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "Falha ao obter ligação à sessão: %s"
 
-#: ../mateconf/mateconf-internals.c:2472
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
 msgid "GetIOR failed: %s"
 msgstr "Falha no GetIOR: %s"
 
-#: ../mateconf/mateconf-internals.c:2509
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
-msgstr ""
-"incapaz de contactar ORB para resolver referência de objecto mateconfd existente"
+msgstr "incapaz de contactar ORB para resolver referência de objecto mateconfd existente"
 
-#: ../mateconf/mateconf-internals.c:2521
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "Falha na conversão de IOR '%s' numa referência de objecto"
 
-#: ../mateconf/mateconf-internals.c:2548
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "incapaz de criar directório `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2605
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "Incapaz de escrever para ficheiro `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2646
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "Não era detida a exclusividade sobre `%s', mas deveria ser"
 
-#: ../mateconf/mateconf-internals.c:2669
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "Falha ao ligar '%s' a '%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "Falha ao remover ficheiro de exclusividade `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2704
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "Falha ao limpar ficheiro '%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2720
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "Falha ao remover directório de exclusividade `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2858
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "Erro de ping ao servidor: %s"
 
-#: ../mateconf/mateconf-internals.c:2877
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"Falha a contactar servidor de configuração; algumas possíveis causas são que "
-"necessita de activar serviços de rede TCP/IP para MateCORBA, ou possui "
-"exclusividades NFS derivados de um crash de sistema. Consulte http://"
-"projects.gnome.org/mateconf/ para mais informações. (Detalhes - %s)"
 
-#: ../mateconf/mateconf-internals.c:2878
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "nenhum"
 
@@ -1042,42 +1005,22 @@ msgstr "- Verificações básicas do MateConf"
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Erro ao processar as opções: %s.\n"
-"Execute '%s --help' para consultar uma lista completa das opções de linha de "
-"comando disponíveis.\n"
+msgstr "Erro ao processar as opções: %s.\nExecute '%s --help' para consultar uma lista completa das opções de linha de comando disponíveis.\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"Contacte o seu administrador de sistemas para resolver o seguinte problema:\n"
-"Incapaz de abrir ou criar o ficheiro \"%s\"; isto indica que poderá existir "
-"um problema com a sua configuração, já que muitas aplicações necessitarão de "
-"criar ficheiros no seu directório pessoal. O erro foi \"%s\" (errno = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "Contacte o seu administrador de sistemas para resolver o seguinte problema:\nIncapaz de abrir ou criar o ficheiro \"%s\"; isto indica que poderá existir um problema com a sua configuração, já que muitas aplicações necessitarão de criar ficheiros no seu directório pessoal. O erro foi \"%s\" (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"Contacte o seu administrador de sistemas para resolver o seguinte problema:\n"
-"Incapaz de obter exclusividade sobre o ficheiro \"%s\"; isto indica que "
-"poderá existir um problema com a configuração do seu sistema operativo. Se "
-"possuir um directório pessoal montado por NFS, ou o cliente ou o servidor "
-"poderão estar incorrectamente configurados. Consulte a documentação rpc."
-"statd e rpc.lockd. Uma causa comum para este erro é que o serviço \"nfslock"
-"\" foi desactivado. O erro foi \"%s\" (errno = %d)."
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "Contacte o seu administrador de sistemas para resolver o seguinte problema:\nIncapaz de obter exclusividade sobre o ficheiro \"%s\"; isto indica que poderá existir um problema com a configuração do seu sistema operativo. Se possuir um directório pessoal montado por NFS, ou o cliente ou o servidor poderão estar incorrectamente configurados. Consulte a documentação rpc.statd e rpc.lockd. Uma causa comum para este erro é que o serviço \"nfslock\" foi desactivado. O erro foi \"%s\" (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1088,12 +1031,8 @@ msgstr "Incapaz de remover ficheiro %s: %s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"Contacte o seu administrador de sistemas para resolver o seguinte problema:\n"
-"Nenhuma fonte de configuração no ficheiro de configuração \"%s\"; isto "
-"significa que preferências e outras definições não poderão ser gravadas. %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "Contacte o seu administrador de sistemas para resolver o seguinte problema:\nNenhuma fonte de configuração no ficheiro de configuração \"%s\"; isto significa que preferências e outras definições não poderão ser gravadas. %s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1104,31 +1043,18 @@ msgstr "Erro ao ler o ficheiro: "
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"Contacte o seu administrador de sistemas para resolver o seguinte problema:\n"
-"Incapaz de resolver o endereço \"%s\" no ficheiro de configuração \"%s\": %s"
+msgstr "Contacte o seu administrador de sistemas para resolver o seguinte problema:\nIncapaz de resolver o endereço \"%s\" no ficheiro de configuração \"%s\": %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"Os ficheiros que contêm as suas preferências estão a ser utilizados.\n"
-"\n"
-"Pode ter iniciado outra sessão a partir de outro computador, e essa sessão "
-"estar a utilizar os seus ficheiros de preferências.\n"
-"\n"
-"Pode continuar a utilizar a sessão actual, mas tal poderá causar problemas "
-"temporários com as definições de preferências na outra sessão.\n"
-"\n"
-"Deseja continuar?"
+msgstr "Os ficheiros que contêm as suas preferências estão a ser utilizados.\n\nPode ter iniciado outra sessão a partir de outro computador, e essa sessão estar a utilizar os seus ficheiros de preferências.\n\nPode continuar a utilizar a sessão actual, mas tal poderá causar problemas temporários com as definições de preferências na outra sessão.\n\nDeseja continuar?"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1143,27 +1069,25 @@ msgstr "_Continuar"
 msgid "%s Continue (y/n)?"
 msgstr "%s Continuar (s/n)?"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "Esquema contém UTF-8 inválido"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
-msgstr ""
-"Esquema especifica tipo de lista mas não especifica o tipo dos elementos da "
-"lista"
+msgstr "Esquema especifica tipo de lista mas não especifica o tipo dos elementos da lista"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
 "elements"
-msgstr ""
-"Esquema especifica tipo par mas não especifica o tipo dos elementos car/cdr"
+msgstr "Esquema especifica tipo par mas não especifica o tipo dos elementos car/cdr"
 
 #: ../mateconf/mateconf-sources.c:374
 #, c-format
@@ -1172,36 +1096,26 @@ msgstr "Falha ao ler fonte \"%s\": %s"
 
 #: ../mateconf/mateconf-sources.c:414
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
-msgstr ""
-"Resolvido o endereço \"%s\" para uma fonte de configuração com permissão de "
-"escrita na posição %d"
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
+msgstr "Resolvido o endereço \"%s\" para uma fonte de configuração com permissão de escrita na posição %d"
 
 #: ../mateconf/mateconf-sources.c:420
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
-msgstr ""
-"Resolvido o endereço \"%s\" para uma fonte de configuração apenas de leitura "
-"na posição %d"
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
+msgstr "Resolvido o endereço \"%s\" para uma fonte de configuração apenas de leitura na posição %d"
 
 #: ../mateconf/mateconf-sources.c:427
 #, c-format
 msgid ""
 "Resolved address \"%s\" to a partially writable configuration source at "
 "position %d"
-msgstr ""
-"Resolvido o endereço \"%s\" para uma fonte de configuração com permissão de "
-"escrita parcial na posição %d"
+msgstr "Resolvido o endereço \"%s\" para uma fonte de configuração com permissão de escrita parcial na posição %d"
 
 #: ../mateconf/mateconf-sources.c:436
 msgid ""
 "None of the resolved addresses are writable; saving configuration settings "
 "will not be possible"
-msgstr ""
-"Nenhum dos endereços resolvidos tem permissões de escrita; não será possível "
-"gravar as definições de configuração"
+msgstr "Nenhum dos endereços resolvidos tem permissões de escrita; não será possível gravar as definições de configuração"
 
 #: ../mateconf/mateconf-sources.c:690
 #, c-format
@@ -1217,9 +1131,7 @@ msgstr "O nome '/' apenas pode ser um directório, não uma chave"
 msgid ""
 "Value for `%s' set in a read-only source at the front of your configuration "
 "path"
-msgstr ""
-"Valor para `%s' definido numa fonte apenas de leitura no início do seu "
-"caminho de configuração"
+msgstr "Valor para `%s' definido numa fonte apenas de leitura no início do seu caminho de configuração"
 
 #: ../mateconf/mateconf-sources.c:806
 #, c-format
@@ -1232,34 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"Incapaz de armazenar um valor na chave '%s', pois o servidor de configuração "
-"não possui bases de dados com permissões de escrita. Existem algumas causas "
-"comuns para tal: 1) o seu ficheiro de configuração de caminho %s/path não "
-"contém bases de dados ou não foi encontrado, 2) de alguma forma foram "
-"criados  por engano dois processos mateconfd, 3) o seu sistema operativo está "
-"mal configurado pelo que a exclusividade de ficheiros NFS não funciona no "
-"seu directório pessoal ou 4) a sua máquina cliente NFS foi reiniciada e não "
-"notificou devidamente o servidor ao arrancar que as exclusividades sobre "
-"ficheiros deveriam ser descartadas. Se possuir dois processos mateconfd (ou "
-"possuia quando iniciou o segundo), poderá ajudar terminar a sessão, matar "
-"todas as instâncias do mateconfd, e reiniciar a sessão. Caso possua "
-"exclusividades obsoletas, remova ~/.mateconf*/*lock. Talvez o problema se deva "
-"a ter tentado utilizar o MateConf a partir de duas máquinas simultaneamente, e "
-"o MateCORBA ainda tem a sua configuração por omissão que impede ligações CORBA "
-"remotas - coloque \"ORBIIOPIPv4=1\" em /etc/matecorbarc. Como sempre, consulte o "
-"user.* syslog para detalhes sobre o problema encontrado pelo mateconfd. Apenas "
-"poderá existir um mateconfd por directório pessoal, e tem de possuir um "
-"ficheiro de exclusividade em ~/.mateconfd e também ficheiros de exclusividade "
-"em localizações individuais de armazenamento tais como ~/.mateconf"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "Incapaz de armazenar um valor na chave '%s', pois o servidor de configuração não possui bases de dados com permissões de escrita. Existem algumas causas comuns para tal: 1) o seu ficheiro de configuração de caminho %s/path não contém bases de dados ou não foi encontrado, 2) de alguma forma foram criados  por engano dois processos mateconfd, 3) o seu sistema operativo está mal configurado pelo que a exclusividade de ficheiros NFS não funciona no seu directório pessoal ou 4) a sua máquina cliente NFS foi reiniciada e não notificou devidamente o servidor ao arrancar que as exclusividades sobre ficheiros deveriam ser descartadas. Se possuir dois processos mateconfd (ou possuia quando iniciou o segundo), poderá ajudar terminar a sessão, matar todas as instâncias do mateconfd, e reiniciar a sessão. Caso possua exclusividades obsoletas, remova ~/.mateconf*/*lock. Talvez o problema se deva a ter tentado utilizar o MateConf a partir de duas máquinas simultaneamente, e o MateCORBA ainda tem a sua configuração por omissão que impede ligações CORBA remotas - coloque \"ORBIIOPIPv4=1\" em /etc/matecorbarc. Como sempre, consulte o user.* syslog para detalhes sobre o problema encontrado pelo mateconfd. Apenas poderá existir um mateconfd por directório pessoal, e tem de possuir um ficheiro de exclusividade em ~/.mateconfd e também ficheiros de exclusividade em localizações individuais de armazenamento tais como ~/.mateconf"
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1274,9 +1167,7 @@ msgstr "Erro ao obter metainfo: %s"
 #: ../mateconf/mateconf-sources.c:1703
 #, c-format
 msgid "Key `%s' listed as schema for key `%s' actually stores type `%s'"
-msgstr ""
-"Chave `%s' listada como esquema para chave `%s' na realidade armazena tipo `%"
-"s'"
+msgstr "Chave `%s' listada como esquema para chave `%s' na realidade armazena tipo `%s'"
 
 #: ../mateconf/mateconf-value.c:262
 #, c-format
@@ -1291,9 +1182,7 @@ msgstr "Incapaz de compreender `%s' (lista tem de terminar com ']')"
 #: ../mateconf/mateconf-value.c:326
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ']' found inside list)"
-msgstr ""
-"Incapaz de compreender `%s' (']' extra não mascarado encontrado dentro da "
-"lista)"
+msgstr "Incapaz de compreender `%s' (']' extra não mascarado encontrado dentro da lista)"
 
 #: ../mateconf/mateconf-value.c:357 ../mateconf/mateconf-value.c:518
 #, c-format
@@ -1318,8 +1207,7 @@ msgstr "Incapaz de compreender `%s' (número incorrecto de elementos)"
 #: ../mateconf/mateconf-value.c:487
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ')' found inside pair)"
-msgstr ""
-"Incapaz de compreender `%s' (')' extra mascarado encontrado dentro do par)"
+msgstr "Incapaz de compreender `%s' (')' extra mascarado encontrado dentro do par)"
 
 #: ../mateconf/mateconf.c:95
 msgid "Key is NULL"
@@ -1335,73 +1223,72 @@ msgstr "\"%s\": %s"
 msgid "Server couldn't resolve the address `%s'"
 msgstr "Servidor incapaz de resolver o endereço `%s'"
 
-#: ../mateconf/mateconf.c:819
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
 msgstr "Incapaz de adicionar notificações a uma fonte de configuração local"
 
-#: ../mateconf/mateconf.c:2269
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
 msgstr "Falha na adição de cliente à lista do servidor, erro CORBA: %s"
 
-#: ../mateconf/mateconf.c:2641
+#: ../mateconf/mateconf.c:2704
 msgid "Must begin with a slash '/'"
 msgstr "Tem de começar com uma barra '/'"
 
-#: ../mateconf/mateconf.c:2663
+#: ../mateconf/mateconf.c:2726
 msgid "Can't have two slashes '/' in a row"
 msgstr "Não é possível ter duas barras '/' seguidas"
 
-#: ../mateconf/mateconf.c:2665
+#: ../mateconf/mateconf.c:2728
 msgid "Can't have a period '.' right after a slash '/'"
 msgstr "Não é possível ter um ponto '.' logo após uma barra '/'"
 
-#: ../mateconf/mateconf.c:2685
+#: ../mateconf/mateconf.c:2748
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
-msgstr ""
-"'\\%o' não é um caracter ASCII, pelo que não é permitido em nomes de chaves"
+msgstr "'\\%o' não é um caracter ASCII, pelo que não é permitido em nomes de chaves"
 
-#: ../mateconf/mateconf.c:2695
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "`%c' é um caracter inválido em nomes de chaves/directórios"
 
-#: ../mateconf/mateconf.c:2709
+#: ../mateconf/mateconf.c:2772
 msgid "Key/directory may not end with a slash '/'"
 msgstr "Chave/directório não pode terminar com uma barra '/'"
 
-#: ../mateconf/mateconf.c:3080
+#: ../mateconf/mateconf.c:3143
 #, c-format
 msgid "Failure shutting down configuration server: %s"
 msgstr "Falha ao desligar o servidor de configuração: %s"
 
-#: ../mateconf/mateconf.c:3141
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "Esperado numérico de vírgula flutuante, recebido %s"
 
-#: ../mateconf/mateconf.c:3176
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "Esperado inteiro, recebido %s"
 
-#: ../mateconf/mateconf.c:3211
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "Esperada expressão, recebido %s"
 
-#: ../mateconf/mateconf.c:3245
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "Esperada boleana, recebida %s"
 
-#: ../mateconf/mateconf.c:3278
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "Esperado esquema, recebido %s"
 
-#: ../mateconf/mateconf.c:3617
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "Erro CORBA: %s"
@@ -1412,32 +1299,26 @@ msgstr "Recebido pedido para desligar"
 
 #: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"mateconfd compilado com depuração; a tentar ler mateconf.path do directório de "
-"código"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "mateconfd compilado com depuração; a tentar ler mateconf.path do directório de código"
 
 #: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
-msgstr ""
-"Não foram encontrados ficheiros de configuração. A tentar utilizar a fonte "
-"de configuração por omissão `%s'"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
+msgstr "Não foram encontrados ficheiros de configuração. A tentar utilizar a fonte de configuração por omissão `%s'"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
 #: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
-msgstr ""
-"Nenhuma fonte de configuração no caminho de fontes. A configuração não será "
-"gravada; altere %s%s"
+msgstr "Nenhuma fonte de configuração no caminho de fontes. A configuração não será gravada; altere %s%s"
 
 #: ../mateconf/mateconfd.c:409
 #, c-format
@@ -1446,19 +1327,15 @@ msgstr "Erro ao ler algumas fontes de configuração: %s"
 
 #: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"Nenhum endereço de fonte de configuração resolvido com sucesso. Incapaz de "
-"ler ou gravar dados de configuração"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "Nenhum endereço de fonte de configuração resolvido com sucesso. Incapaz de ler ou gravar dados de configuração"
 
 #: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"Nenhuma fonte de configuração com permissões de escrita resolvida com "
-"sucesso. Poderá ser impossível gravar algumas alterações à configuração"
+msgstr "Nenhuma fonte de configuração com permissões de escrita resolvida com sucesso. Poderá ser impossível gravar algumas alterações à configuração"
 
 #: ../mateconf/mateconfd.c:603
 #, c-format
@@ -1487,11 +1364,9 @@ msgstr "Falha ao obter referência de objecto para ConfigServer"
 #: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
-msgstr ""
-"Falha ao escrever byte para canal do descritor de ficheiro %d pelo que a "
-"aplicação cliente poderá bloquear: %s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
+msgstr "Falha ao escrever byte para canal do descritor de ficheiro %d pelo que a aplicação cliente poderá bloquear: %s"
 
 #: ../mateconf/mateconfd.c:965
 #, c-format
@@ -1525,17 +1400,14 @@ msgstr "A devolver excepção: %s"
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"Falha ao abrir ficheiro de registo do mateconfd; será impossível reiniciar "
-"listeners após terminar o mateconfd (%s)"
+msgstr "Falha ao abrir ficheiro de registo do mateconfd; será impossível reiniciar listeners após terminar o mateconfd (%s)"
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
-msgstr ""
-"Falha ao fechar ficheiro de registo do mateconfd; dados poderão não ter sido "
-"correctamente gravados (%s)"
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
+msgstr "Falha ao fechar ficheiro de registo do mateconfd; dados poderão não ter sido correctamente gravados (%s)"
 
 #: ../mateconf/mateconfd.c:1681
 #, c-format
@@ -1565,24 +1437,19 @@ msgstr "Incapaz de pôr de lado ficheiro de estado gravado antigo '%s': %s"
 #: ../mateconf/mateconfd.c:1735
 #, c-format
 msgid "Failed to move new saved state file into place: %s"
-msgstr ""
-"Falha ao mover novo ficheiro de estado gravado para a sua localização: %s"
+msgstr "Falha ao mover novo ficheiro de estado gravado para a sua localização: %s"
 
 #: ../mateconf/mateconfd.c:1744
 #, c-format
 msgid ""
 "Failed to restore original saved state file that had been moved to '%s': %s"
-msgstr ""
-"Falha ao repôr ficheiro de estado gravado original que tinha sido movido "
-"para '%s': %s"
+msgstr "Falha ao repôr ficheiro de estado gravado original que tinha sido movido para '%s': %s"
 
 #: ../mateconf/mateconfd.c:2223
 #, c-format
 msgid ""
 "Unable to restore a listener on address '%s', couldn't resolve the database"
-msgstr ""
-"Incapaz de repôr um listener no endereço '%s', incapaz de resolver a base de "
-"dados"
+msgstr "Incapaz de repôr um listener no endereço '%s', incapaz de resolver a base de dados"
 
 #: ../mateconf/mateconfd.c:2259
 #, c-format
@@ -1597,20 +1464,16 @@ msgstr "Incapaz de abrir ficheiro de estado gravado '%s': %s"
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Falha ao registar no ficheiro do mateconfd a adição de listener; será "
-"impossível re-adicionar o listener se o mateconfd sair ou terminar (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Falha ao registar no ficheiro do mateconfd a adição de listener; será impossível re-adicionar o listener se o mateconfd sair ou terminar (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Falha ao registar no ficheiro do mateconfd a remoção de listener; poderá "
-"incorrectamente re-adicionar o listener caso o mateconfd saia ou termine (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Falha ao registar no ficheiro do mateconfd a remoção de listener; poderá incorrectamente re-adicionar o listener caso o mateconfd saia ou termine (%s)"
 
 #: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
@@ -1630,14 +1493,13 @@ msgstr "Falha ao escrever adição de cliente no ficheiro de estado gravado: %s"
 #: ../mateconf/mateconfd.c:2492
 #, c-format
 msgid "Failed to flush client add to saved state file: %s"
-msgstr ""
-"Falha ao despejar adição de cliente para ficheiro de estado gravado: %s"
+msgstr "Falha ao despejar adição de cliente para ficheiro de estado gravado: %s"
 
 #: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
-msgstr ""
-"Um cliente removeu-se do servidor MateConf mas não tinha aí sido adicionado."
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
+msgstr "Um cliente removeu-se do servidor MateConf mas não tinha aí sido adicionado."
 
 #: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
@@ -1655,9 +1517,7 @@ msgstr "Desfazer definição das chaves na linha de comando"
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
 "command line"
-msgstr ""
-"Recursivamente desfazer definição de todas as chaves dentro ou abaixo dos "
-"nomes de directório/chave na linha de comando"
+msgstr "Recursivamente desfazer definição de todas as chaves dentro ou abaixo dos nomes de directório/chave na linha de comando"
 
 #: ../mateconf/mateconftool.c:130
 msgid "Toggles a boolean key."
@@ -1673,9 +1533,7 @@ msgstr "Imprimir todos os subdirectórios de um directório."
 
 #: ../mateconf/mateconftool.c:157
 msgid "Print all subdirectories and entries under a directory, recursively."
-msgstr ""
-"Imprimir todos os subdirectórios e entradas abaixo de um directório, "
-"recursivamente."
+msgstr "Imprimir todos os subdirectórios e entradas abaixo de um directório, recursivamente."
 
 #: ../mateconf/mateconftool.c:166 ../mateconf/mateconftool.c:175
 msgid "Search for a key, recursively."
@@ -1699,19 +1557,15 @@ msgstr "Ignorar omissões do esquema ao ler valores."
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
-msgstr ""
-"Despejar na consola uma descrição XML de todas as entradas abaixo de um "
-"directório, recursivamente."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
+msgstr "Despejar na consola uma descrição XML de todas as entradas abaixo de um directório, recursivamente."
 
 #: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"Ler do ficheiro especificado uma descrição XML de valores e definí-los "
-"relativamente a um directório."
+msgstr "Ler do ficheiro especificado uma descrição XML de valores e definí-los relativamente a um directório."
 
 #: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
@@ -1731,19 +1585,15 @@ msgstr "Devolver 0 se o mateconfd estiver em execução, 2 se não estiver."
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
-msgstr ""
-"Iniciar o servidor de configuração (mateconfd). (Normalmente acontece "
-"automaticamente quando necessário.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
+msgstr "Iniciar o servidor de configuração (mateconfd). (Normalmente acontece automaticamente quando necessário.)"
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"Especificar o tipo do valor a ser definido, ou o tipo de valor que um "
-"esquema descreve. São aceites abreviações únicas."
+msgstr "Especificar o tipo do valor a ser definido, ou o tipo de valor que um esquema descreve. São aceites abreviações únicas."
 
 #: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
@@ -1759,36 +1609,30 @@ msgstr "Obter o número de elementos de uma chave de lista."
 
 #: ../mateconf/mateconftool.c:328
 msgid "Get a specific element from a list key, numerically indexed."
-msgstr ""
-"Obter um elemento específico de uma chave de lista, indexada numericamente."
+msgstr "Obter um elemento específico de uma chave de lista, indexada numericamente."
 
 #: ../mateconf/mateconftool.c:337
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"Especificar o tipo de uma lista de valores a ser definida, ou o tipo de "
-"valor que um esquema descreve. São aceites abreviações únicas."
+msgstr "Especificar o tipo de uma lista de valores a ser definida, ou o tipo de valor que um esquema descreve. São aceites abreviações únicas."
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Especificar o tipo do valor de par car a ser definido, ou o tipo de valor "
-"que um esquema descreve. São aceites abreviações únicas."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Especificar o tipo do valor de par car a ser definido, ou o tipo de valor que um esquema descreve. São aceites abreviações únicas."
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Especificar o tipo do valor de par cdr a ser definido, ou o tipo de valor "
-"que um esquema descreve. São aceites abreviações únicas."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Especificar o tipo do valor de par cdr a ser definido, ou o tipo de valor que um esquema descreve. São aceites abreviações únicas."
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1800,9 +1644,7 @@ msgstr "NOMEFICHEIRO"
 
 #: ../mateconf/mateconftool.c:379
 msgid "Specify a configuration source to use rather than the default path"
-msgstr ""
-"Especificar uma fonte de configuração a utilizar em vez do caminho por "
-"omissão"
+msgstr "Especificar uma fonte de configuração a utilizar em vez do caminho por omissão"
 
 #: ../mateconf/mateconftool.c:380
 msgid "SOURCE"
@@ -1810,58 +1652,42 @@ msgstr "FONTE"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
-msgstr ""
-"Aceder à base de dados de configuração directamente, contornando o servidor. "
-"Requer que o mateconfd não esteja em execução."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
+msgstr "Aceder à base de dados de configuração directamente, contornando o servidor. Requer que o mateconfd não esteja em execução."
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"Instalar apropriadamente na base de dados os ficheiros de esquema indicados "
-"na linha de comando. Especifique uma fonte de configuração personalizada na "
-"variável de ambiente MATECONF_CONFIG_SOURCE ou defina-a como uma expressão "
-"vazia para utilizar a fonte por omissão."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "Instalar apropriadamente na base de dados os ficheiros de esquema indicados na linha de comando. Especifique uma fonte de configuração personalizada na variável de ambiente MATECONF_CONFIG_SOURCE ou defina-a como uma expressão vazia para utilizar a fonte por omissão."
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"Desinstalar apropriadamente da base de dados os ficheiros de esquema "
-"indicados na linha de comando. A variável de ambiente MATECONF_CONFIG_SOURCE "
-"deverá ser definida para uma fonte de configuração personalizada ou definida "
-"para uma expressão vazia para utilizar a fonte por omissão."
+msgstr "Desinstalar apropriadamente da base de dados os ficheiros de esquema indicados na linha de comando. A variável de ambiente MATECONF_CONFIG_SOURCE deverá ser definida para uma fonte de configuração personalizada ou definida para uma expressão vazia para utilizar a fonte por omissão."
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"Teste-tortura a uma aplicação definindo e desfazendo definições de um número "
-"elevado de diferentes tipos para chaves, na linha de comandos."
+msgstr "Teste-tortura a uma aplicação definindo e desfazendo definições de um número elevado de diferentes tipos para chaves, na linha de comandos."
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"Teste-tortura a uma aplicação definindo e desfazendo definições de um número "
-"elevado de chaves dentro dos directórios, na linha de comandos."
+msgstr "Teste-tortura a uma aplicação definindo e desfazendo definições de um número elevado de chaves dentro dos directórios, na linha de comandos."
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"Definir um esquema e sincronizar. Utilizar com --short-desc, --long-desc, --"
-"owner, e --type."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "Definir um esquema e sincronizar. Utilizar com --short-desc, --long-desc, --owner, e --type."
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1888,10 +1714,9 @@ msgid "Get the name of the schema applied to this key"
 msgstr "Obter o nome do esquema aplicado a esta chave"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
-msgstr ""
-"Especificar o nome do esquema seguido da chave ao qual aplicar o nome do "
-"esquema"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
+msgstr "Especificar o nome do esquema seguido da chave ao qual aplicar o nome do esquema"
 
 #: ../mateconf/mateconftool.c:499
 msgid "Remove any schema name applied to the given keys"
@@ -1968,9 +1793,7 @@ msgstr "Apresentar as opções de esquema"
 #: ../mateconf/mateconftool.c:629
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Execute '%s --help' para consultar uma lista completa das opções de linha de "
-"comando disponíveis.\n"
+msgstr "Execute '%s --help' para consultar uma lista completa das opções de linha de comando disponíveis.\n"
 
 #: ../mateconf/mateconftool.c:657
 #, c-format
@@ -2007,18 +1830,14 @@ msgstr "Impossível utilizar --all-dirs com --get ou --set\n"
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list não deverá ser utilizado com --get, --set, --unset, --all-"
-"entries, --all-dirs ou --search-key\n"
+msgstr "--recursive-list não deverá ser utilizado com --get, --set, --unset, --all-entries, --all-dirs ou --search-key\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set_schema não deverá ser utilizado com --get, --set, --unset, --all-"
-"entries, --all-dirs ou --search-key\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set_schema não deverá ser utilizado com --get, --set, --unset, --all-entries, --all-dirs ou --search-key\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -2033,14 +1852,13 @@ msgstr "Tem de especificar um tipo ao definir valor\n"
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--ignore-schema-defaults apenas é relevante em conjunto com --get, --all-"
-"entries, --dump, --recursive-list, --get-list-size ou --get-list-element\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--ignore-schema-defaults apenas é relevante em conjunto com --get, --all-entries, --dump, --recursive-list, --get-list-size ou --get-list-element\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -2049,11 +1867,9 @@ msgstr "Opção %s tem de ser utilizada sozinha.\n"
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
-msgstr ""
-"Tem de especificar uma fonte de configuração com --config-source ao utilizar "
+"You must specify a configuration source with --config-source when using "
 "--direct\n"
+msgstr "Tem de especificar uma fonte de configuração com --config-source ao utilizar --direct\n"
 
 #: ../mateconf/mateconftool.c:859
 #, c-format
@@ -2062,18 +1878,16 @@ msgstr "Falha ao inicializar MateConf: %s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL está definido, esquemas não serão "
-"instalados\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL está definido, esquemas não serão instalados\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL está definido, esquemas não serão "
-"desinstalados\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL está definido, esquemas não serão desinstalados\n"
 
 #: ../mateconf/mateconftool.c:907
 #, c-format
@@ -2085,661 +1899,571 @@ msgstr "Tem de definir a variável de ambiente MATECONF_CONFIG_SOURCE\n"
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "Falha ao aceder a fonte(s) de configuração: %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "Erro ao terminar: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "Tem de especificar um ou mais directórios a listar recursivamente.\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "Falha ao listar as entradas em `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(nenhum valor definido)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "Tem de especificar um padrão a ser procurado.\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "Tem de especificar um padrão PCRE a ser procurado.\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "Erro ao compilar a expressão regular: %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "Tem de especificar um ou mais directórios a despejar.\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "Falha ao efectuar \"spawn\" do servidor de configuração (mateconfd): %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "Tem de especificar chave ou chaves a obter\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "Tipo: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "Tipo Lista: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Tipo Car: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Tipo Cdr: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "Valor por Omissão: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "Desafzer definição"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "Dono: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "Desc. Abreviada: %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "Desc. Extensa: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "Nenhum valor definido para `%s'\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "Falha ao obter valor para `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "Incapaz de compreender tipo `%s'\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "Tem de especificar chaves/valores alternados como argumentos\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "Nenhum valor a definir para a chave: `%s'\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "Incapaz de definir esquema como valor\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "Ao definir uma lista tem de especificar o tipo primitivo de lista\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "Ao definir um par tem de especificar um tipo primitivo de car e cdr\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "Erro: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "Erro ao definir valor: %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "Erro ao sincronizar: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "Tem de especificar uma ou mais chaves como argumentos.\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "Nenhum valor encontrado para a chave %s\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "Não é um valor boleano: %s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "Tem de especificar chave ou chaves das quais obter tipo\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "Tem de especificar uma chave para obter o seu tamanho.\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "Chave %s não é uma lista.\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "Tem de especificar chave de onde obter elemento de lista.\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "Tem de especificar índice de lista.\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "Índice de lista tem de ser não-negativo.\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "Índice de lista está fora dos limites.\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "Tem de especificar uma chave ou chaves na linha de comando\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "Nenhum esquema conhecido para `%s'\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "Nenhuma expressão doc armazenada em esquema em '%s'\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "Erro ao obter esquema em '%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "Nenhum esquema armazenado em '%s'\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "Valor em '%s' não é um esquema\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
-msgstr ""
-"Tem de especificar um nome de esquema seguido de um nome de chave ao qual o "
-"aplicar\n"
+msgstr "Tem de especificar um nome de esquema seguido de um nome de chave ao qual o aplicar\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "Erro ao associar nome de esquema '%s' com nome de chave '%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "Tem de especificar chaves a remover do esquema.\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "Erro ao remover nome de esquema de '%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "Tem de especificar uma chave (nome de esquema) como único argumento\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Tipo de lista tem de ser um tipo primitivo: string, int, float or bool\n"
+msgstr "Tipo de lista tem de ser um tipo primitivo: string, int, float or bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Tipo de par car tem de ser um tipo primitivo: string, int, float or bool\n"
+msgstr "Tipo de par car tem de ser um tipo primitivo: string, int, float or bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Tipo de par cdr tem de ser um tipo primitivo: string, int, float or bool\n"
+msgstr "Tipo de par cdr tem de ser um tipo primitivo: string, int, float or bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "Erro ao definir valor: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "Erro ao sincronizar: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
-msgstr ""
-"Tem de especificar um ou mais directórios de onde obter os pares chave/"
-"valor.\n"
+msgstr "Tem de especificar um ou mais directórios de onde obter os pares chave/valor.\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "Tem de especificar uma ou mais chaves a desfazer definição.\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "Erro ao desfazer definição `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
-msgstr ""
-"Tem de especificar uma ou mais chaves a desfazer definição recursivamente.\n"
+msgstr "Tem de especificar uma ou mais chaves a desfazer definição recursivamente.\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "Falha ao desfazer definição recursivamente de \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
-msgstr ""
-"Tem de especificar um ou mais directórios de onde obter subdirectórios.\n"
+msgstr "Tem de especificar um ou mais directórios de onde obter subdirectórios.\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "Erro ao listar directórios: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "AVISO: tem de especificar ambos <car> e <cdr> num <pair>\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
-msgstr ""
-"AVISO: chave especificada (%s) para o esquema sob um <value> - a ignorar\n"
+msgstr "AVISO: chave especificada (%s) para o esquema sob um <value> - a ignorar\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "AVISO: tem de ter um nó filho sob <value>\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "AVISO: incapaz de compreender nó <%s>\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "AVISO: Falha ao processar valor int `%s'\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "AVISO: Falha ao processar valor float `%s'\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "AVISO: Falha ao processar valor string `%s'\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "AVISO: Falha ao processar valor boleano `%s'\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "AVISO: falha ao associar o esquema `%s' com a chave `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "AVISO: tipo de esquema (%s) inválido ou em falta\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "AVISO: list_type de esquema (%s) inválido ou em falta\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "AVISO: Falha ao processar valor por omissão `%s' para esquema (%s)\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr "AVISO: car_type ou cdr_type inválido ou em falta para esquema (%s)\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "AVISO: Não pode definir um valor por omissão para um esquema\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "AVISO: erro interno de mateconftool, MateConfValueType desconhecido\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "AVISO: falha ao processar tipo de nome `%s'\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"AVISO: list_type apenas pode ser int, float, string ou bool e não `%s'\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgstr "AVISO: list_type apenas pode ser int, float, string ou bool e não `%s'\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"AVISO: car_type apenas pode ser int, float, string ou bool e não `%s'\n"
+msgstr "AVISO: car_type apenas pode ser int, float, string ou bool e não `%s'\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"AVISO: cdr_type apenas pode ser int, float, string ou bool e não `%s'\n"
+msgstr "AVISO: cdr_type apenas pode ser int, float, string ou bool e não `%s'\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "AVISO: nó <applyto> vazio"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "AVISO: nó <%s> não compreendido abaixo de <schema>\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "AVISO: nenhum <list_type> especificado para o esquema do tipo lista\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "AVISO: nenhum <car_type> especificado para o esquema do tipo par\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "AVISO: nenhum <cdr_type> especificado para o esquema do tipo par\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
 msgstr "AVISO: nó <locale> não tem atributo `name=\"locale\"', a ignorar\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"AVISO: múltiplos nós <locale> para a configuração regional `%s', a ignorar "
-"todos após o primeiro\n"
+msgstr "AVISO: múltiplos nós <locale> para a configuração regional `%s', a ignorar todos após o primeiro\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "AVISO: Nó <%s> inválido num nó <locale>\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "Associado o esquema `%s' à chave `%s'\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "Tem de ter pelo menos uma entrada <locale> num <schema>\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
-msgstr ""
-"AVISO: falha ao instalar o esquema `%s', configuração regional `%s': %s\n"
+msgstr "AVISO: falha ao instalar o esquema `%s', configuração regional `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "Instalado o esquema `%s' para a configuração regional `%s'\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
-msgstr ""
-"AVISO: falha ao desinstalar o esquema `%s', configuração regional `%s': %s\n"
+msgstr "AVISO: falha ao desinstalar o esquema `%s', configuração regional `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "Desinstalado o esquema `%s' para a configuração regional `%s'\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "AVISO: nenhuma chave especificada para o esquema\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "AVISO: nó <%s> não compreendido abaixo de <%s>\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "Falha ao abrir `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "Documento `%s' está vazio?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
-msgstr ""
-"Documento `%s' tem o tipo incorrecto de nó raíz (<%s>, deveria ser <%s>)\n"
+msgstr "Documento `%s' tem o tipo incorrecto de nó raíz (<%s>, deveria ser <%s>)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "Documento `%s' não tem nó de nível de topo <%s>\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "AVISO: incapaz de compreender nó <%s> abaixo de <%s>\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "Erro ao sincronizar dados de configuração: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "Tem de especificar ficheiros de esquema a instalar\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "Falha ao desfazer definição de chave a quebrar %s: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "Tem de especificar algumas chaves a quebrar\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"A tentar quebrar a sua aplicação definindo valores incorrectos para a "
-"chave:\n"
-"  %s\n"
+msgstr "A tentar quebrar a sua aplicação definindo valores incorrectos para a chave:\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "Tem de especificar alguns directórios a quebrar\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"A tentar quebrar a sua aplicação definindo valores incorrectos para as "
-"chaves no directório:\n"
-"  %s\n"
-
-#~ msgid "Could not send message to MateConf daemon: %s"
-#~ msgstr "Incapaz de enviar mensagem ao daemon MateConf: %s"
-
-#~ msgid "daemon gave erroneous reply: %s"
-#~ msgstr "daemon devolveu uma resposta incorrecta: %s"
-
-#~ msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-#~ msgstr "Atributo \"%s\" repetido duas vezes no mesmo elemento <%s>"
-
-#~ msgid "IOR file '%s' not opened successfully, no mateconfd located: %s"
-#~ msgstr ""
-#~ "Insucesso ao abrir ficheiro IOR '%s', não foi localizado o mateconfd: %s"
-
-#~ msgid "mateconftool or other non-mateconfd process has the lock file '%s'"
-#~ msgstr ""
-#~ "mateconftool ou outro processo não-mateconfd tem a exclusividade sobre o "
-#~ "ficheiro '%s'"
-
-#~ msgid "Failed to unlink lock file %s: %s\n"
-#~ msgstr "Falha ao desligar ficheiro de exclusividade %s: %s\n"
-
-#~ msgid "Failed to stat %s: %s"
-#~ msgstr "Falha ao obter estado de %s: %s"
-
-#~ msgid ""
-#~ "Failed to create pipe for communicating with spawned mateconf daemon: %s\n"
-#~ msgstr ""
-#~ "Falha ao criar canal para comunicar com daemon mateconf instanciado: %s\n"
-
-#~ msgid "Failed to launch configuration server: %s\n"
-#~ msgstr "Falha ao lançar servidor de configuração: %s\n"
-
-#~ msgid "Failed to open %s: %s"
-#~ msgstr "Falha ao abrir %s: %s"
-
-#~ msgid "Owner of %s is not the current user"
-#~ msgstr "Dono de %s não é o utilizador actual"
-
-#~ msgid "Bad permissions %lo on directory %s"
-#~ msgstr "Permissões %lo incorrectas no directório %s"
-
-#~ msgid "Failed to create %s: %s"
-#~ msgstr "Falha ao criar %s: %s"
-
-#~ msgid "Directory %s has a problem, mateconfd can't use it"
-#~ msgstr "Directório %s tem um problema, mateconfd não o poderá utilizar"
-
-#~ msgid "Received signal %d, dumping core. Please report a MateConf bug."
-#~ msgstr "Recebido sinal %d, a criar core. Relate um bug do MateConf."
-
-#~ msgid "Received signal %d. Please report a MateConf bug."
-#~ msgstr "Recebido sinal %d. Relate um bug do MateConf."
-
-#~ msgid ""
-#~ "Received signal %d, shutting down abnormally. Please file a MateConf bug "
-#~ "report."
-#~ msgstr "Recebido sinal %d, a desligar anormalmente. Relate um bug do MateConf."
-
-#~ msgid "Received signal %d, shutting down cleanly"
-#~ msgstr "Recebido sinal %d, a desligar normalmente"
+msgstr "A tentar quebrar a sua aplicação definindo valores incorrectos para as chaves no directório:\n  %s\n"

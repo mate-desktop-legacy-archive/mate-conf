@@ -1,91 +1,83 @@
-# translation of mateconf.master.gu.po to Gujarati
-# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
-# Ankit Patel <ankit@redhat.com>, 2005, 2007, 2008.
-# Sweta Kothari <swkothar@redhat.com>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mateconf.master.gu\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mateconf&component=general\n"
-"POT-Creation-Date: 2009-05-06 03:42+0000\n"
-"PO-Revision-Date: 2009-08-24 13:44+0530\n"
-"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
-"Language-Team: Gujarati\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Language: gu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../backends/evoldap-backend.c:159
+#: ../backends/evoldap-backend.c:162
 #, c-format
 msgid "Failed to get configuration file path from '%s'"
 msgstr "'%s' માંથી રૂપરેખાંકન ફાઈલ પથ મેળવવામાં નિષ્ફળ"
 
-#: ../backends/evoldap-backend.c:170
+#: ../backends/evoldap-backend.c:173
 #, c-format
 msgid "Created Evolution/LDAP source using configuration file '%s'"
 msgstr "ઈવોલ્યુશન/LDAP સ્રોત રૂપરેખાંકન ફાઈલ '%s' ની મદદથી બન્યો"
 
-#: ../backends/evoldap-backend.c:444
+#: ../backends/evoldap-backend.c:447
 #, c-format
 msgid "Unable to parse XML file '%s'"
 msgstr "XML ફાઇલ '%s' ને પદચ્છેદ કરવામાં અસમર્થ"
 
-#: ../backends/evoldap-backend.c:453
+#: ../backends/evoldap-backend.c:456
 #, c-format
 msgid "Config file '%s' is empty"
 msgstr "રૂપરેખા ફાઈલ '%s' ખાલી છે"
 
-#: ../backends/evoldap-backend.c:464
+#: ../backends/evoldap-backend.c:467
 #, c-format
 msgid "Root node of '%s' must be <evoldap>, not <%s>"
 msgstr "'%s' નો રુટ નોડ <evoldap> હોવો જ જોઈએ, નહિં કે <%s>"
 
-#: ../backends/evoldap-backend.c:502
+#: ../backends/evoldap-backend.c:505
 #, c-format
 msgid "No <template> specified in '%s'"
 msgstr "કોઈ <template> એ '%s' માં સ્પષ્ટ થયેલ નથી"
 
-#: ../backends/evoldap-backend.c:509
+#: ../backends/evoldap-backend.c:512
 #, c-format
 msgid "No \"filter\" attribute specified on <template> in '%s'"
 msgstr "કોઈ \"filter\" લક્ષણ <template> પર '%s' માં સ્પષ્ટ થયેલ નથી"
 
-#: ../backends/evoldap-backend.c:571
+#: ../backends/evoldap-backend.c:574
 #, c-format
 msgid "No LDAP server or base DN specified in '%s'"
 msgstr "કોઈ LDAP સર્વર અથવા આધાર DN એ '%s' માં સ્પષ્ટ થયેલ નથી"
 
-#: ../backends/evoldap-backend.c:577
+#: ../backends/evoldap-backend.c:580
 #, c-format
 msgid "Contacting LDAP server: host '%s', port '%d', base DN '%s'"
 msgstr "LDAP સર્વરનો સંપર્ક કરી રહ્યા છીએ: યજમાન '%s', પોર્ટ '%d', આધાર DN '%s'"
 
-#: ../backends/evoldap-backend.c:584
+#: ../backends/evoldap-backend.c:587
 #, c-format
 msgid "Failed to contact LDAP server: %s"
 msgstr "LDAP સર્વરનો સંપર્ક કરવામાં નિષ્ફળ: %s"
 
-#: ../backends/evoldap-backend.c:672
+#: ../backends/evoldap-backend.c:675
 #, c-format
 msgid "Searching for entries using filter: %s"
 msgstr "ગાળકની મદદથી પ્રવેશો શોધી રહ્યા છીએ: %s"
 
-#: ../backends/evoldap-backend.c:686
+#: ../backends/evoldap-backend.c:689
 #, c-format
 msgid "Error querying LDAP server: %s"
 msgstr "LDAP સર્વરને પ્રશ્ન કરવામાં ભૂલ: %s"
 
-#: ../backends/evoldap-backend.c:696
+#: ../backends/evoldap-backend.c:699
 #, c-format
 msgid "Got %d entries using filter: %s"
 msgstr "%d પ્રવેશો ગાળકની મદદથી મેળવી: %s"
@@ -115,14 +107,7 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"વપરાશ: %s <dir>\n"
-"  માર્કઅપ બેકેન્ડ ફાઇલસિસ્ટમ આનુવંશિકતાને આ રીતે જોડો:\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  to:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "વપરાશ: %s <dir>\n  માર્કઅપ બેકેન્ડ ફાઇલસિસ્ટમ આનુવંશિકતાને આ રીતે જોડો:\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  to:\n    dir/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
@@ -174,176 +159,176 @@ msgstr "માર્કઅપના પાશ્વભાગના મોડ્�
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "XML ડિરેક્ટરી \"%s\" પરનું તાળુ દૂર કરવામાં નિષ્ફળ: %s"
 
-#: ../backends/markup-tree.c:400
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "ડિસ્કમાં અમુક રુપરેખાંકન માહિતી લખવામાં નિષ્ફળ\n"
 
-#: ../backends/markup-tree.c:923 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "ડિરેક્ટરી \"%s\" બનાવી શકાઇ નહિ: %s"
 
-#: ../backends/markup-tree.c:963 ../backends/markup-tree.c:970
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "\"%s\" દૂર કરી શકાઇ નહિ: %s\n"
 
-#: ../backends/markup-tree.c:1171
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "\"%s\" લખવામાં નિષ્ફળતા: %s\n"
 
-#: ../backends/markup-tree.c:1379
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "ફાઈલ \"%s\" લાવવામાં નિષ્ફળ: %s"
 
-#: ../backends/markup-tree.c:1969
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "લીટી %d અક્ષર %d: %s"
 
-#: ../backends/markup-tree.c:2197 ../backends/markup-tree.c:2218
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "લક્ષણ \"%s\" એ વસ્તુ <%s> પર આ સંદર્ભે અયોગ્ય છે"
 
-#: ../backends/markup-tree.c:2243 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "`%s' ને સમજી શકાતુ નથી (પૂર્ણાંકની આશા છે)"
 
-#: ../backends/markup-tree.c:2250 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "પૂર્ણાંક `%s' એ ખૂબ મોટો કે નાનો છે"
 
-#: ../backends/markup-tree.c:2282 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "%s' ને સમજી શકાતુ નથી (true કે false આશા  રાખેલ છે)"
 
-#: ../backends/markup-tree.c:2306 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "`%s' ને સમજી શકાતુ નથી (વાસ્તવિક સંખ્યાની આશા છે)"
 
-#: ../backends/markup-tree.c:2386
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "અજ્ઞાત કિંમત \"%s\" એ \"%s\" માટે વસ્તુ <%s> પર"
 
-#: ../backends/markup-tree.c:2406 ../backends/markup-tree.c:2446
-#: ../backends/markup-tree.c:2470 ../backends/markup-tree.c:2478
-#: ../backends/markup-tree.c:2533 ../backends/markup-tree.c:2598
-#: ../backends/markup-tree.c:2710 ../backends/markup-tree.c:2778
-#: ../backends/markup-tree.c:2836 ../backends/markup-tree.c:2986
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "કોઈ \"%s\" લક્ષણ વસ્તુ <%s> પર નથી"
 
-#: ../backends/markup-tree.c:2420
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "અયોગ્ય ltype \"%s\" એ <%s> પર"
 
-#: ../backends/markup-tree.c:2500
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "અયોગ્ય પ્રથમ વસ્તુનો પ્રકાર \"%s\" એ <%s> પર"
 
-#: ../backends/markup-tree.c:2514
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "અયોગ્ય cdr_type \"%s\" એ <%s> પર"
 
-#: ../backends/markup-tree.c:2550
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "અયોગ્ય list_type \"%s\" એ <%s> પર"
 
-#: ../backends/markup-tree.c:2917
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "બે <default> વસ્તુઓ <local_schema> ની નીચે"
 
-#: ../backends/markup-tree.c:2932
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "બે <longdesc> વસ્તુઓ <local_schema> ની નીચે"
 
-#: ../backends/markup-tree.c:2939
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "વસ્તુ <%s> એ <%s> ની નીચે માન્ય નથી"
 
-#: ../backends/markup-tree.c:2964 ../backends/markup-tree.c:3069
-#: ../backends/markup-tree.c:3123 ../backends/markup-tree.c:3174
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s> પૂરુ પાડવામાં આવેલ છે પરંતુ વર્તમાન વસ્તુને %s પ્રકાર નથી"
 
-#: ../backends/markup-tree.c:3047
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "બે <car> વસ્તુઓ અમુક જોડી માટે આપેલ છે"
 
-#: ../backends/markup-tree.c:3061
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "બે <cdr> વસ્તુઓ અમુક જોડી માટે આપેલ છે"
 
-#: ../backends/markup-tree.c:3115
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> નો પ્રકાર %s ખોટો છે"
 
-#: ../backends/markup-tree.c:3146
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s> પૂરુ પાડવામાં આવેલ છે પરંતુ <entry> પાસે કિંમત નથી"
 
-#: ../backends/markup-tree.c:3187 ../backends/markup-tree.c:3210
-#: ../backends/markup-tree.c:3232 ../backends/markup-tree.c:3249
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "વસ્તુ <%s> એ વર્તમાન વસ્તુની અંદર માન્ય નથી"
 
-#: ../backends/markup-tree.c:3281
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "મેનુ ફાઈલની બહારની વસ્તુઓ <mateconf> જ હોવી જોઈએ નહિં કે <%s>"
 
-#: ../backends/markup-tree.c:3301 ../backends/markup-tree.c:3323
-#: ../backends/markup-tree.c:3328
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "વસ્તુ <%s> એ વસ્તુ <%s> અંદર માન્ય નથી"
 
-#: ../backends/markup-tree.c:3472
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "વસ્તુ <%s> ની અંદર કોઈ લખાણ માન્ય નથી"
 
-#: ../backends/markup-tree.c:3588 ../backends/markup-tree.c:4354
-#: ../backends/markup-tree.c:4373
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "\"%s\" ખોલવામાં નિષ્ફળ: %s\n"
 
-#: ../backends/markup-tree.c:3618
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "\"%s\" વાંચતી વખતે ભૂલ: %s\n"
 
-#: ../backends/markup-tree.c:4448
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "ડિસ્ક માં ફાઇલ '%s' ને ફ્લશ કરી શકાતી નથી: %s"
 
-#: ../backends/markup-tree.c:4467
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "ફાઈલ \"%s\" લખવામાં ભૂલ: %s"
 
-#: ../backends/markup-tree.c:4496
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "કામચલાઉ ફાઈલ \"%s\" ને પરિણામી જગ્યા \"%s\" પર ખસેડવામાં નિષ્ફળ: %s"
@@ -370,9 +355,7 @@ msgstr "XML કૅશના સમાવિષ્ટોનો ડિસ્ક �
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"XML બેકેન્ડ કૅશમાંથી ડિરેક્ટરી `%s' દૂર કરવામાં અસમર્થ કારણકે તેનો ડિસ્ક સાથે સફળતાપૂર્વક "
-"સુમેળ થયો નથી"
+msgstr "XML બેકેન્ડ કૅશમાંથી ડિરેક્ટરી `%s' દૂર કરવામાં અસમર્થ કારણકે તેનો ડિસ્ક સાથે સફળતાપૂર્વક સુમેળ થયો નથી"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -545,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "XML ફાઇલની અંદર કિંમતોની જોડીમાં car અને cdr બન્ને મળતું નથી"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "MateConf જરૂરી કિંમતો બદલો"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "MateConf સિસ્ટમ કિંમતો બદલો"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "MateConf જરૂરી કિંમતો બદલવા માટે વિશેષાધિકારો જરૂરી છે"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "MateConf સિસ્ટમ કિંમતો બદલવા માટે વિશેષાધિકારો જરૂરી"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "MateConf જરૂરી કિંમતો બદલો"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "MateConf જરૂરી કિંમતો બદલવા માટે વિશેષાધિકારો જરૂરી છે"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -614,17 +597,17 @@ msgstr "`%s' માટે બેકૅન્ડ મોડ્યુલ સ્થ�
 msgid "Failed to shut down backend"
 msgstr "બેકૅન્ડને બંધ કરવામાં નિષ્ફળ"
 
-#: ../mateconf/mateconf-client.c:346 ../mateconf/mateconf-client.c:364
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "જીકોન્ફની ભૂલ: %s\n"
 
-#: ../mateconf/mateconf-client.c:932
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
 msgstr "જીકોન્ફ ચેતવણી: `%s'માં જોડીઓની યાદી બનાવામાં નિષ્ફળ: %s"
 
-#: ../mateconf/mateconf-client.c:1234
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr "ઇચ્છનીય `%s'ને `%s' માટે કી %s મળ્યું"
@@ -635,7 +618,8 @@ msgstr "સુયોજિત કરવાની વિનંતીમાં અ
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
 msgstr "કી `%s' માટે સુયોજિત કરવાની મળેલી વિનંતીમાં મળેલી CORBA કિંમતનો કોઇ અર્થ નીકળતો નથી"
 
 #: ../mateconf/mateconf-database.c:503
@@ -658,19 +642,17 @@ msgstr "એક અથવા વધારે સ્રોતને સુમે�
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
 msgstr "`%s' માટે પાશ્વભાગ `%s' ના બદલાવના સૂચન પછી નવી કિંમત મેળવવામાં ભૂલ: %s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"%s સાંભળનારના ઉમેરાની નોંધણી કરવામાં નિષ્ફળ (%s); mateconfd ને ફરીથી શરુ કરતી વખતે આ "
-"સાંભળનારનો ફરીથી સંગ્રહ કરી શકાશે નહિ જે રૂપરેખાના બદલાવની અવિશ્વસનીય નોંધણીમાં પરિણમશે."
+msgstr "%s સાંભળનારના ઉમેરાની નોંધણી કરવામાં નિષ્ફળ (%s); mateconfd ને ફરીથી શરુ કરતી વખતે આ સાંભળનારનો ફરીથી સંગ્રહ કરી શકાશે નહિ જે રૂપરેખાના બદલાવની અવિશ્વસનીય નોંધણીમાં પરિણમશે."
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -682,9 +664,7 @@ msgstr "સાંભળનારની ઓળખ %lu અસ્તિત્વમ
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"સાંભળનારની બાદબાકી વિશે નોંધપત્રમાં નોંધ કરવામાં નિષ્ફળ (મોટેભાગે બિનનુકસાનકર્તા પણ કદાચ "
-"વિચિત્ર દેખાતી નોંધણીમાં પરિણમે): %s"
+msgstr "સાંભળનારની બાદબાકી વિશે નોંધપત્રમાં નોંધ કરવામાં નિષ્ફળ (મોટેભાગે બિનનુકસાનકર્તા પણ કદાચ વિચિત્ર દેખાતી નોંધણીમાં પરિણમે): %s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -832,194 +812,187 @@ msgstr "mateconfd પાસેથી ખરાબ પ્રકાર વાળ�
 msgid "Failed to convert object to IOR"
 msgstr "વસ્તુને IOR માં રૂપાંતર કરવામાં નિષ્ફળ"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "યોજના માટેના લોકૅલમાં અયોગ્ય UTF-૮"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "યોજના માટેના ટુંકા વર્ણનમાં અયોગ્ય UTF-૮"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "યોજના માટેના લાંબા વર્ણનમાં અયોગ્ય UTF-૮"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "યોજના માટેની માલિકીમાં અયોગ્ય UTF-૮"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "'%s' પથ ફાઇલ ખોલી શકાઇ નહિ: %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "`%s' સ્રોત ઉમેરી રહ્યા છે\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "`%s' ફાઇલમાં વાંચવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1668
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "લેખન અયોગ્ય UTF-૮ નો સમાવેશ કરે છે"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "ઇચ્છનીય યાદી, %s મળ્યુ"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "%s ની ઇચ્છનીય યાદી, %s ની યાદી મળી ગઇ"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "ઇચ્છનીય જોડી, %s મળી ગયું"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
 msgstr "ઇચ્છનીય (%s,%s) જોડી, એક અથવા બન્ને કિંમત ખૂટતી હોય એવી જોડી મળી"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "(%s,%s) પ્રકારની ઇચ્છનીય જોડીને (%s,%s) પ્રકાર મળી ગયુ"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "અવતરેલી શબ્દમાળા અવતરણચિહ્નથી શરૂ થતી નથી"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "અવતરેલી શબ્દમાળા અવતરણચિહ્નથી પૂરી થતી નથી"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "સંગ્રહાયેલી કિંમત યોગ્ય UTF-૮ નથી"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "કામચલાઉ ફાઇલ '%s' ને તાળું મારી શકાયું નહિ: %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "'%s' ફાઇલ બનાવી શકાઇ નહિ, સંભવિત છે કે તે પહેલેથી અસ્તિત્વ ધરાવે છે"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "'%s' બનાવવામાં કે ખોલવામાં નિષ્ફળ"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"'%s' પર તાળું મારવામાં નિષ્ફળઃ: સંભવિત છે કે બીજી કોઈ ક્રિયા પાસે તાળુ છે, અથવા તો "
-"તમારી ઓપરેટીંગ સિસ્ટમ પાસે NFS ફાઈલને તાળુ લગાવવાનું રૂપરેખાંકિત ખોટુ છે (%s)"
+msgstr "'%s' પર તાળું મારવામાં નિષ્ફળઃ: સંભવિત છે કે બીજી કોઈ ક્રિયા પાસે તાળુ છે, અથવા તો તમારી ઓપરેટીંગ સિસ્ટમ પાસે NFS ફાઈલને તાળુ લગાવવાનું રૂપરેખાંકિત ખોટુ છે (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "'%s' દૂર કરવામાં નિષ્ફળ: %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "સક્રિય સત્રમાં ચાલતું નથી"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "સત્રનું જોડાણ મેળવવામાં નિષ્ફળ: %s"
 
-#: ../mateconf/mateconf-internals.c:2468
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
-#| msgid "Could not send message to mateconf daemon: %s"
-msgid "Could not send message to MateConf daemon: %s"
-msgstr "MateConf ડિમનમાં સંદેશો મોકલી શક્યા નહિં: %s"
+msgid "GetIOR failed: %s"
+msgstr ""
 
-#: ../mateconf/mateconf-internals.c:2479
-#, c-format
-msgid "daemon gave erroneous reply: %s"
-msgstr "ડિમને ત્રુટિવાચક પ્રત્યુત્તર આપ્યો: %s"
-
-#: ../mateconf/mateconf-internals.c:2517
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
 msgstr "અસ્તિત્વ ધરાવતા mateconfd વસ્તુના ઉલ્લેખને ઉકેલવા માટે ORBનો સંપર્ક સાધી શકાયો નહિ"
 
-#: ../mateconf/mateconf-internals.c:2529
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "'%s' IORને વસ્તુના ઉલ્લેખ માટે રૂપાંતરિત કરવામાં નિષ્ફળ"
 
-#: ../mateconf/mateconf-internals.c:2556
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "'%s' ડીરેક્ટરી બનાવી શકાઇ નહિ: %s"
 
-#: ../mateconf/mateconf-internals.c:2613
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "'%s' ફાઇલમાં લખી શકાતુ નથી: %s"
 
-#: ../mateconf/mateconf-internals.c:2654
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "આપણે `%s' ફાઇલ પર તાળુ માર્યું નથી પણ મારવુ જોઇએ"
 
-#: ../mateconf/mateconf-internals.c:2677
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "'%s' ને '%s' સાથે જોડવામાં નિષ્ફળ: %s"
 
-#: ../mateconf/mateconf-internals.c:2689
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "તાળા માટેની ફાઇલ `%s' ને દૂર કરવામાં નિષ્ફળ: %s"
 
-#: ../mateconf/mateconf-internals.c:2712
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "'%s' ફાઇલને સાફ કરવામાં નિષ્ફળ: %s"
 
-#: ../mateconf/mateconf-internals.c:2728
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "તાળા માટેની ડિરેકટરી `%s' ને દૂર કરવામાં નિષ્ફળ: %s"
 
-#: ../mateconf/mateconf-internals.c:2866
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "સર્વર પીંગ ભૂલ: %s"
 
-#: ../mateconf/mateconf-internals.c:2885
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"રૂપરેખા માટેના સર્વરનો સંપર્ક કરવામાં નિષ્ફળ; આ માટે શક્ય હોય તેવા કારણો જેવાં કે તમારે "
-"MateCORBA માટે TCP/IP નેટવર્કીંગને સક્રિય કરવુ અથવા સીસ્ટમના ભંગાણને લીધે NFS પર જૂનુ તાળું હશે. "
-"વધારે માહિતી માટે http://projects.gnome.org/mateconf/ જુઓ. (વિગતો - %s)"
 
-#: ../mateconf/mateconf-internals.c:2886
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "કંઇ નહિ"
 
@@ -1032,39 +1005,22 @@ msgstr "- MateConf માટે સેનીટી ચકાસણીઓ"
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"વિકલ્પોના પદચ્છેદનમાં ભૂલ: %s.\n"
-"ઉપલબ્ધ આદેશ વાક્ય વિકલ્પોની પૂરેપૂરી યાદી જોવા માટે '%s --help' ચલાવો.\n"
+msgstr "વિકલ્પોના પદચ્છેદનમાં ભૂલ: %s.\nઉપલબ્ધ આદેશ વાક્ય વિકલ્પોની પૂરેપૂરી યાદી જોવા માટે '%s --help' ચલાવો.\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\n"
-"\"%s\" ફાઇલ ખોલી કે બનાવી શકાતી નથી; આ એવો સંકેત આપે છે કે તમારી રૂપરેખા સાથે કદાચ "
-"સમસ્યા હશે, કારણકે ઘણા બધા કાર્યક્રમોને તમારી ઘર ડિરેકટરીમાં ફાઇલો બનાવવાની જરૂર પડશે. "
-"\"%s\" ભૂલ હતી (ભૂલ ક્રમાંક = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\n\"%s\" ફાઇલ ખોલી કે બનાવી શકાતી નથી; આ એવો સંકેત આપે છે કે તમારી રૂપરેખા સાથે કદાચ સમસ્યા હશે, કારણકે ઘણા બધા કાર્યક્રમોને તમારી ઘર ડિરેકટરીમાં ફાઇલો બનાવવાની જરૂર પડશે. \"%s\" ભૂલ હતી (ભૂલ ક્રમાંક = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\n"
-"\"%s\" ફાઇલને તાળું મારી શકાતું નથી; આ એવો સંકેત આપે છે કે તમારી ઓપરેટીંગ સિસ્ટમની રૂપરેખા "
-"સાથે કદાચ સમસ્યા હશે. જો તમારી હોમ ડિરેકટરી NFS ની બનેલી હોય તો ક્લાઇન્ટ અથવા સર્વરનું "
-"સુયોજન ખોટુ છે. rpc.statd અને rpc.lockd ના દસ્તાવેજ જૂઓ. આ ભૂલ માટેનું સામાન્ય કારણ એ છે "
-"કે \"nfslock\" માટેની સેવાને નિષ્ક્રિય કરાઇ છે. \"%s\" ભૂલ હતી (ભૂલ ક્રમાંક = %d)."
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\n\"%s\" ફાઇલને તાળું મારી શકાતું નથી; આ એવો સંકેત આપે છે કે તમારી ઓપરેટીંગ સિસ્ટમની રૂપરેખા સાથે કદાચ સમસ્યા હશે. જો તમારી હોમ ડિરેકટરી NFS ની બનેલી હોય તો ક્લાઇન્ટ અથવા સર્વરનું સુયોજન ખોટુ છે. rpc.statd અને rpc.lockd ના દસ્તાવેજ જૂઓ. આ ભૂલ માટેનું સામાન્ય કારણ એ છે કે \"nfslock\" માટેની સેવાને નિષ્ક્રિય કરાઇ છે. \"%s\" ભૂલ હતી (ભૂલ ક્રમાંક = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1075,12 +1031,8 @@ msgstr "ફાઇલ '%s' દૂર કરી શકાઇ નહિ: %s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\n"
-"રૂપરેખા માટેની ફાઇલ \"%s\" માં રૂપરેખાંકનો કોઇ જ સ્રોત નથી; એનો મતલબ એ થાય છે કે "
-"પસંદગીઓ અને ગોઠવણીનો સંગ્રહ થયો નથી. %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\nરૂપરેખા માટેની ફાઇલ \"%s\" માં રૂપરેખાંકનો કોઇ જ સ્રોત નથી; એનો મતલબ એ થાય છે કે પસંદગીઓ અને ગોઠવણીનો સંગ્રહ થયો નથી. %s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1091,30 +1043,19 @@ msgstr "ફાઇલ વાંચવામાં ભૂલ: "
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\n"
-"રૂપરેખા માટેની ફાઇલ \"%s\" માં \"%s\" નુ સરનામું ઉકેલી શકાયું નહિ: %s"
+msgstr "મહેરબાની કરીને નીચેની સમસ્યા ઉકેલવા માટે તમારા સિસ્ટમ સંચાલકનો સંપર્ક કરો:\nરૂપરેખા માટેની ફાઇલ \"%s\" માં \"%s\" નુ સરનામું ઉકેલી શકાયું નહિ: %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"તમારી પસંદગીની ગોઠવણીને સમાવતી ફાઇલો અત્યારે ઊપયોગમાં છે.\n"
-"તમને કદાચ બીજા કમ્પ્યુટરમાંથી સત્રમાં પ્રવેશ અપાયો હશે અને બીજુ સત્ર તમારી સુયોજના માટેની "
-"ફાઇલો વાપરી રહ્યુ છે.\n"
-"તમે વર્તમાન સત્રનો ઊપયોગ કરવાનું ચાલુ રાખી શકો છો, પરંતુ તે કદાચ બીજા સત્રની પસંદગીની "
-"ગોઠવણીમાં ક્ષણિક સમસ્યા ઊતપન્ન કરી શકે છે.\n"
-"શું તમે ચાલું રાખવા ઇચ્છો છો?"
+msgstr "તમારી પસંદગીની ગોઠવણીને સમાવતી ફાઇલો અત્યારે ઊપયોગમાં છે.\nતમને કદાચ બીજા કમ્પ્યુટરમાંથી સત્રમાં પ્રવેશ અપાયો હશે અને બીજુ સત્ર તમારી સુયોજના માટેની ફાઇલો વાપરી રહ્યુ છે.\nતમે વર્તમાન સત્રનો ઊપયોગ કરવાનું ચાલુ રાખી શકો છો, પરંતુ તે કદાચ બીજા સત્રની પસંદગીની ગોઠવણીમાં ક્ષણિક સમસ્યા ઊતપન્ન કરી શકે છે.\nશું તમે ચાલું રાખવા ઇચ્છો છો?"
 
-# mate-session/logout.c:274
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
 msgstr "બહાર નીકળો (_L)"
@@ -1128,18 +1069,20 @@ msgstr "ચાલુ રાખો (_C)"
 msgid "%s Continue (y/n)?"
 msgstr "%s ચાલુ રાખવુ છે કે નહિ (y/n)?"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "યોજના અયોગ્ય UTF-૮ ધરાવે છે"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
-msgid "Schema specifies type list but doesn't specify the type of the list elements"
+msgid ""
+"Schema specifies type list but doesn't specify the type of the list elements"
 msgstr "યોજના પ્રકારની યાદી સ્પષ્ટ કરે છે પરંતુ યાદીના દાખલાઓના પ્રકારને સ્પષ્ટ કરતી નથી"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
@@ -1166,9 +1109,7 @@ msgstr "ઉકેલાયેલ સરનામુ \"%s\" કે જે મા�
 msgid ""
 "Resolved address \"%s\" to a partially writable configuration source at "
 "position %d"
-msgstr ""
-"\"%s\" સરનામાં પરથી જગ્યા %d પર અપૂર્ણ રીતે લખી શકાય તેવા રૂપરેખાંકિત સ્રોત પર તારી "
-"શકાયુ"
+msgstr "\"%s\" સરનામાં પરથી જગ્યા %d પર અપૂર્ણ રીતે લખી શકાય તેવા રૂપરેખાંકિત સ્રોત પર તારી શકાયુ"
 
 #: ../mateconf/mateconf-sources.c:436
 msgid ""
@@ -1203,30 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"કી `%s' માં કિંમતનો સંગ્રહ કરવામાં નિષ્ફળ, કારણકે રૂપરેખાના સર્વરમાં લખવા માટે કોઇ ડેટાબેઝ "
-"નથી. આ સમસ્યા માટે કેટલાક સામાન્ય કારણો છે. ૧) તમારી રૂપરેખાના રસ્તાની ફાઇલ %s/પથ "
-"કોઇ ડેટાબેઝ ધરાવતો નથી અથવા તે મળતી નથી ૨)કોઇકરીતે ભૂલથી આપણે mateconfd ની બે પ્રક્રિયાઓ "
-"બનાવી હશે. ૩) તમારી ઑપરેટીંગ સિસ્ટમ ની રૂપરેખા બરાબર નથી તેથી તમારી ઘર ડિરેકટરીમાં "
-"NFS ફાઇલને તાળું મારવાની ક્રિયા કામ કરતી નહિ હોય. ૪) તમારા NFS કલાઇન્ટનું મશીન ભાંગી "
-"પડ્યુ અને સર્વરને ફરીથી શરૂ કરતી વખતે વ્યવસ્થિત રીતે જાણ કરી નહિ કે ફાઇલ પરના તાળા ખોલી "
-"કાઢવા જોઇએ. જો તમારી પાસે બે mateconfડી પ્રક્રિયા હોય(અથવા બીજી શરૂ કરતી વખતે બે હોય) "
-"તો બહાર નીકળવાથી, mateconfડીની બધી નકલોને બંધ કરવાથી અને પછી ફરી પ્રવેશ કરવાથી મદદ "
-"મળશે. જો તમારી પાસે જૂના તાળા હોય તો, ~/.mateconf*/*lock ને દૂર કરો. કદાચ સમસ્યા એ છે "
-"કે તમે બે યંત્રો પરથી mateconf એક સાથે શરૂ કરવાનો પ્રયત્ન કર્યો, અને ઓરબીટ(MateCORBA) પાસે હજૂ "
-"પણ તેની મૂળભૂત રૂપરેખા છે જે દૂરના CORBA સંપર્કને અટકાવે છે - \"ORBIIOPIPv4=1\"ને etc/"
-"matecorbarc માં મૂકો. હંમેશાની જેમ mateconfd સામે આવેલી સમસ્યાઓની વિગતો માટે user.* syslog "
-"ચકાસો. એક ઘર ડિરેકટરીસાંભળનારના ઉમેરાની નોંધણી કરવામાં નિષ્ફળ દીઢ એક જ mateconf હોઇ "
-"શકે છે, અને તેની પાસે તાળા માટેની એક ફાઇલ ~/.mateconfd માં અને એકલવાયા સંગ્રહ સ્થાનો જેમ કે "
-"~/.mateconfમાં પણ હોવી જોઇએ. "
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "કી `%s' માં કિંમતનો સંગ્રહ કરવામાં નિષ્ફળ, કારણકે રૂપરેખાના સર્વરમાં લખવા માટે કોઇ ડેટાબેઝ નથી. આ સમસ્યા માટે કેટલાક સામાન્ય કારણો છે. ૧) તમારી રૂપરેખાના રસ્તાની ફાઇલ %s/પથ કોઇ ડેટાબેઝ ધરાવતો નથી અથવા તે મળતી નથી ૨)કોઇકરીતે ભૂલથી આપણે mateconfd ની બે પ્રક્રિયાઓ બનાવી હશે. ૩) તમારી ઑપરેટીંગ સિસ્ટમ ની રૂપરેખા બરાબર નથી તેથી તમારી ઘર ડિરેકટરીમાં NFS ફાઇલને તાળું મારવાની ક્રિયા કામ કરતી નહિ હોય. ૪) તમારા NFS કલાઇન્ટનું મશીન ભાંગી પડ્યુ અને સર્વરને ફરીથી શરૂ કરતી વખતે વ્યવસ્થિત રીતે જાણ કરી નહિ કે ફાઇલ પરના તાળા ખોલી કાઢવા જોઇએ. જો તમારી પાસે બે mateconfડી પ્રક્રિયા હોય(અથવા બીજી શરૂ કરતી વખતે બે હોય) તો બહાર નીકળવાથી, mateconfડીની બધી નકલોને બંધ કરવાથી અને પછી ફરી પ્રવેશ કરવાથી મદદ મળશે. જો તમારી પાસે જૂના તાળા હોય તો, ~/.mateconf*/*lock ને દૂર કરો. કદાચ સમસ્યા એ છે કે તમે બે યંત્રો પરથી mateconf એક સાથે શરૂ કરવાનો પ્રયત્ન કર્યો, અને ઓરબીટ(MateCORBA) પાસે હજૂ પણ તેની મૂળભૂત રૂપરેખા છે જે દૂરના CORBA સંપર્કને અટકાવે છે - \"ORBIIOPIPv4=1\"ને etc/matecorbarc માં મૂકો. હંમેશાની જેમ mateconfd સામે આવેલી સમસ્યાઓની વિગતો માટે user.* syslog ચકાસો. એક ઘર ડિરેકટરીસાંભળનારના ઉમેરાની નોંધણી કરવામાં નિષ્ફળ દીઢ એક જ mateconf હોઇ શકે છે, અને તેની પાસે તાળા માટેની એક ફાઇલ ~/.mateconfd માં અને એકલવાયા સંગ્રહ સ્થાનો જેમ કે ~/.mateconfમાં પણ હોવી જોઇએ. "
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1292,147 +1218,141 @@ msgstr "કી NULL છે"
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
 
-#: ../mateconf/mateconf.c:423
+#: ../mateconf/mateconf.c:418
 #, c-format
 msgid "Server couldn't resolve the address `%s'"
 msgstr "સર્વર `%s' માંથી સરનામું મેળવી શકતુ નથી"
 
-#: ../mateconf/mateconf.c:801
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
 msgstr "સ્થાનિક રૂપરેખાના સ્રોતમાં નોંધણી ઊમેરી શકાતી નથી"
 
-#: ../mateconf/mateconf.c:2251
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
 msgstr "સર્વરની યાદીમાં કલાઇન્ટ ઊમેરવામાં નિષ્ફળ, CORBA ની ભૂલ: %s"
 
-#: ../mateconf/mateconf.c:2623
+#: ../mateconf/mateconf.c:2704
 msgid "Must begin with a slash '/'"
 msgstr "ત્રાંસી લીટી '/' થી જ શરૂઆત થવી જોઇએ"
 
-#: ../mateconf/mateconf.c:2645
+#: ../mateconf/mateconf.c:2726
 msgid "Can't have two slashes '/' in a row"
 msgstr "એક જ હરોળમાં બે ત્રાંસી લીટી '/' ન હોઇ શકે"
 
-#: ../mateconf/mateconf.c:2647
+#: ../mateconf/mateconf.c:2728
 msgid "Can't have a period '.' right after a slash '/'"
 msgstr "ત્રાંસી લીટી '/' પછી તરત જ પૂર્ણવિરામ '.' ન હોઇ શકે"
 
-#: ../mateconf/mateconf.c:2667
+#: ../mateconf/mateconf.c:2748
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
 msgstr "'\\%o' એ ASCII અક્ષર નથી, તેથી તે કી નામોમાં માન્ય નથી"
 
-#: ../mateconf/mateconf.c:2677
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "`%c' એ કી/ડિરેકટરી નામોમાં અયોગ્ય અક્ષર છે"
 
-#: ../mateconf/mateconf.c:2691
+#: ../mateconf/mateconf.c:2772
 msgid "Key/directory may not end with a slash '/'"
 msgstr "કી/ડિરેકટરીનો અંત ત્રાંસી લીટી '/' થી ન થવો જોઇએ"
 
-#: ../mateconf/mateconf.c:3062
+#: ../mateconf/mateconf.c:3143
 #, c-format
 msgid "Failure shutting down configuration server: %s"
 msgstr "રૂપરેખાંકન સર્વર બંધ કરવામાં નિષ્ફળતા: %s"
 
-#: ../mateconf/mateconf.c:3123
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "અપૂર્ણાંકની આશા હતી, %s મળ્યુ"
 
-#: ../mateconf/mateconf.c:3158
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "પૂર્ણાંકની આશા હતી, %s મળ્યુ"
 
-#: ../mateconf/mateconf.c:3193
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "શબ્દમાળાની આશા હતી, %s મળ્યુ"
 
-#: ../mateconf/mateconf.c:3227
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "બુલીયનની આશા હતી, %s મળ્યુ"
 
-#: ../mateconf/mateconf.c:3260
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "યોજનાની આશા હતી, %s મળ્યુ"
 
-#: ../mateconf/mateconf.c:3599
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "CORBA ની ભૂલ: %s"
 
-#: ../mateconf/mateconfd.c:308
+#: ../mateconf/mateconfd.c:336
 msgid "Shutdown request received"
 msgstr "બંધ કરવા માટેની વિનંતી મળી"
 
-#: ../mateconf/mateconfd.c:340
+#: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"mateconfd ને ભૂલ દૂર કરવાની પ્રક્રિયા સાથે કમ્પાઇલ કરાઇ; સ્રોતમાંથી mateconf.path લાવવાનો "
-"પ્રયત્ન કરી રહ્યા છે"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "mateconfd ને ભૂલ દૂર કરવાની પ્રક્રિયા સાથે કમ્પાઇલ કરાઇ; સ્રોતમાંથી mateconf.path લાવવાનો પ્રયત્ન કરી રહ્યા છે"
 
-#: ../mateconf/mateconfd.c:360
+#: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
 msgstr "કોઈ રૂપરેખાંકન ફાઇલો મળી નહિ. મૂળભૂત રૂપરેખાંકન સ્રોત `%s' વાપરવાનો પ્રયત્ન કરી રહ્યા છે"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
-#: ../mateconf/mateconfd.c:368
+#. 
+#: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
 msgstr "કોઈ રૂપરેખાંકન સ્રોતો સ્રોત પાથમાં નથી. રૂપરેખાંકન સંગ્રહાશે નહિં; %s%s બદલો"
 
-#: ../mateconf/mateconfd.c:381
+#: ../mateconf/mateconfd.c:409
 #, c-format
 msgid "Error loading some configuration sources: %s"
 msgstr "કેટલાક રૂપરેખાંકન સ્રોત લાવવામાં ભૂલ: %s"
 
-#: ../mateconf/mateconfd.c:393
+#: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"કોઇ પણ રૂપરેખાંકન સ્રોત સરનામુ સફળતાપૂર્વક ઉકેલી શકાયું નહિ. રૂપરેખાંકન માહિતી લાવી કે "
-"સંગ્રહી શકાતી નથી"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "કોઇ પણ રૂપરેખાંકન સ્રોત સરનામુ સફળતાપૂર્વક ઉકેલી શકાયું નહિ. રૂપરેખાંકન માહિતી લાવી કે સંગ્રહી શકાતી નથી"
 
-#: ../mateconf/mateconfd.c:410
+#: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"લખી શકાય એવા કોઇપણ રૂપરેખાંકન સ્રોતને સફળતાપૂર્વક ઉકેલી શકાયો નહિ. રૂપરેખામાં અમુક "
-"બદલાવોનો સંગ્રહ કરી શકાશે નહિ"
+msgstr "લખી શકાય એવા કોઇપણ રૂપરેખાંકન સ્રોતને સફળતાપૂર્વક ઉકેલી શકાયો નહિ. રૂપરેખામાં અમુક બદલાવોનો સંગ્રહ કરી શકાશે નહિ"
 
-#: ../mateconf/mateconfd.c:591
+#: ../mateconf/mateconfd.c:603
 #, c-format
 msgid "Could not connect to session bus: %s"
 msgstr "સત્ર બસ સાથે જોડાઈ શક્યા નહિં: %s"
 
-#: ../mateconf/mateconfd.c:613
+#: ../mateconf/mateconfd.c:625
 #, c-format
 msgid "Failed to get bus name for daemon, exiting: %s"
 msgstr "ડિમન માટે બસ નામ મેળવવામાં નિષ્ફળ, બંધ કરી રહ્યા છીએ: %s"
 
-#: ../mateconf/mateconfd.c:694
+#: ../mateconf/mateconfd.c:706
 #, c-format
 msgid "Could not connect to system bus: %s"
 msgstr "સિસ્ટમ બસ સાથે જોડાઈ શક્યા નહિં: %s"
 
-#: ../mateconf/mateconfd.c:830
+#: ../mateconf/mateconfd.c:842
 #, c-format
 msgid "starting (version %s), pid %u user '%s'"
 msgstr "(આવૃત્તિ %s) શરૂ કરી રહ્યા છે, pid %u વપરાશકર્તા '%s'"
@@ -1444,8 +1364,8 @@ msgstr "રૂપરેખા સર્વર માટે વસ્તુનો
 #: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
 msgstr "પાઈપ ફાઈલ ડિસ્ક્રિપ્ટર %d પર બાઈટ લખવામાં નિષ્ફળ કે જેથી ક્લાઈન્ટ કાર્યક્રમ અટકી જાય: %s"
 
 #: ../mateconf/mateconfd.c:965
@@ -1480,16 +1400,14 @@ msgstr "અપવાદ પાછો આપી રહ્યા છે: %s"
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"mateconfd નોંધપત્ર ખોલવામાં નિષ્ફળ; mateconfd બંધ થઇ જાય પછી સાંભળનારને પાછા મેળવી શકાશે "
-"નહિ (%s)"
+msgstr "mateconfd નોંધપત્ર ખોલવામાં નિષ્ફળ; mateconfd બંધ થઇ જાય પછી સાંભળનારને પાછા મેળવી શકાશે નહિ (%s)"
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
-msgid "Failed to close mateconfd logfile; data may not have been properly saved (%s)"
-msgstr ""
-"mateconfd નોંધણી માટેની ફાઇલ બંધ કરવામાં નિષ્ફળ; માહિતીનો સંગ્રહ બરાબર કરાયો નહિ હોય (%"
-"s)"
+msgid ""
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
+msgstr "mateconfd નોંધણી માટેની ફાઇલ બંધ કરવામાં નિષ્ફળ; માહિતીનો સંગ્રહ બરાબર કરાયો નહિ હોય (%s)"
 
 #: ../mateconf/mateconfd.c:1681
 #, c-format
@@ -1523,14 +1441,14 @@ msgstr "નવી સંગ્રહાયેલ પરિસ્થિત ફા
 
 #: ../mateconf/mateconfd.c:1744
 #, c-format
-msgid "Failed to restore original saved state file that had been moved to '%s': %s"
-msgstr ""
-"સંગ્રહ કરેલી સ્થિત માટેની મૂળભૂત ફાઇલ જેને '%s' પર ખસાડી દેવાઇ હતી તેનો પાછો સંગ્રહ "
-"કરવામાં નિષ્ફળ: %s"
+msgid ""
+"Failed to restore original saved state file that had been moved to '%s': %s"
+msgstr "સંગ્રહ કરેલી સ્થિત માટેની મૂળભૂત ફાઇલ જેને '%s' પર ખસાડી દેવાઇ હતી તેનો પાછો સંગ્રહ કરવામાં નિષ્ફળ: %s"
 
 #: ../mateconf/mateconfd.c:2223
 #, c-format
-msgid "Unable to restore a listener on address '%s', couldn't resolve the database"
+msgid ""
+"Unable to restore a listener on address '%s', couldn't resolve the database"
 msgstr "સરનામા '%s' પર સાંભળનારને પાછા મેળવવામાં અસમર્થ, ડેટાબેઝને ઉકેલી શકાયુ નહિ"
 
 #: ../mateconf/mateconfd.c:2259
@@ -1546,20 +1464,16 @@ msgstr "સંગ્રહ કરેલી સ્થિત માટેની �
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"mateconfd નોંધપત્રમાં સાંભળનારના ઉમેરાની નોંધણી કરવામાં નિષ્ફળ; જો mateconfd બહાર નીકળી જશે "
-"અથવા બંધ થઇ જશે તો સાંભળનારને ફરીથી ઉમેરી શકાશે નહિ (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "mateconfd નોંધપત્રમાં સાંભળનારના ઉમેરાની નોંધણી કરવામાં નિષ્ફળ; જો mateconfd બહાર નીકળી જશે અથવા બંધ થઇ જશે તો સાંભળનારને ફરીથી ઉમેરી શકાશે નહિ (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"mateconfd નોંધપત્રમાં સાંભળનારની બાદબાકીની નોંધણી કરવામાં નિષ્ફળ; જો mateconfd બહાર નીકળી "
-"જશે અથવા બંધ થઇ જશે તો સાંભળનારને ખોટી રીતે ઉમેરી દેવાશે (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "mateconfd નોંધપત્રમાં સાંભળનારની બાદબાકીની નોંધણી કરવામાં નિષ્ફળ; જો mateconfd બહાર નીકળી જશે અથવા બંધ થઇ જશે તો સાંભળનારને ખોટી રીતે ઉમેરી દેવાશે (%s)"
 
 #: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
@@ -1582,7 +1496,9 @@ msgid "Failed to flush client add to saved state file: %s"
 msgstr "સંગ્રહ કરેલી સ્થિત માટેની ફાઇલમાં ઉમેરાયેલા કલાઇન્ટને કાઢવામાં નિષ્ફળ: %s"
 
 #: ../mateconf/mateconfd.c:2591
-msgid "Some client removed itself from the MateConf server when it hadn't been added."
+msgid ""
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
 msgstr "જીકોન્ફ સર્વરમાંથી કોઇક કલાઇન્ટે પોતાની જાતને કાઢી નાખ્યુ જ્યારે કે તેને ઉમેરાયુ જ ન હતુ."
 
 #: ../mateconf/mateconftool.c:93
@@ -1641,8 +1557,8 @@ msgstr "કિંમતો વાંચતી વખતે પદ્ધતિન
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
 msgstr "ડિરેકટરીમાં દરેક દાખલાનું XML વર્ણનને મૂળભૂત આઉટપુટ પર એક પછી એક નાખી દો."
 
 #: ../mateconf/mateconftool.c:235
@@ -1669,17 +1585,15 @@ msgstr "જો mateconfd ચાલતુ હોય તો ૦ પાછો આ�
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
 msgstr "રૂપરેખાંકન સર્વરને શરૂ કરો (mateconfd). (સામાન્ય રીતે એ જરૂર પડે ત્યારે જાતે જ થઇ જાય છે.)"
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર સ્પષ્ટ કરો. "
-"અનન્ય ટુંકાણ બરાબર છે."
+msgstr "જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર સ્પષ્ટ કરો. અનન્ય ટુંકાણ બરાબર છે."
 
 #: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
@@ -1701,29 +1615,24 @@ msgstr "કીની યાદીમાંથી ચોક્કસ વસ્ત
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"યાદીની જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર "
-"સ્પષ્ટ કરો. અન્ય ટુંકાણ બરાબર છે."
+msgstr "યાદીની જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર સ્પષ્ટ કરો. અન્ય ટુંકાણ બરાબર છે."
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"car જોડીની જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર "
-"સ્પષ્ટ કરો. અનન્ય ટુંકાણ બરાબર છે."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "car જોડીની જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર સ્પષ્ટ કરો. અનન્ય ટુંકાણ બરાબર છે."
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"cdr જોડીની જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર "
-"સ્પષ્ટ કરો. અનન્ય ટુંકાણ બરાબર છે."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "cdr જોડીની જે કિંમતનું સુયોજન કરાયું હોય અથવા જે કિંમતનું યોજનાએ વર્ણન કર્યુ હોય તેનો પ્રકાર સ્પષ્ટ કરો. અનન્ય ટુંકાણ બરાબર છે."
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1743,56 +1652,42 @@ msgstr "સ્રોત"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
-msgstr ""
-"સર્વરની મદદ લીધા વગર, રૂપરેખાંકન ડેટાબેઝ સુધી સીધા પહોંચો. આની માટે એ જરૂરી છે કે mateconfd "
-"ચાલુ ન હોય."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
+msgstr "સર્વરની મદદ લીધા વગર, રૂપરેખાંકન ડેટાબેઝ સુધી સીધા પહોંચો. આની માટે એ જરૂરી છે કે mateconfd ચાલુ ન હોય."
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"આદેશ વાક્ય પરની યોજના માટેની ફાઇલોને ડેટાબેઝમાં બરાબર સ્થાપિત કરે છે. "
-"MATECONF_CONFIG_SOURCE ક્ષેત્રીય ચલ એ મૂળભૂત ન હોય એવા રૂપરેખા સ્રોત પર સુયોજિત કરેલી "
-"હોવી જોઇએ અથવા મૂળભૂત કિંમત વાપરવા માટે ખલી શબ્દમાળા તરીકે સુયોજિત કરેલી હોવી જોઇએ."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "આદેશ વાક્ય પરની યોજના માટેની ફાઇલોને ડેટાબેઝમાં બરાબર સ્થાપિત કરે છે. MATECONF_CONFIG_SOURCE ક્ષેત્રીય ચલ એ મૂળભૂત ન હોય એવા રૂપરેખા સ્રોત પર સુયોજિત કરેલી હોવી જોઇએ અથવા મૂળભૂત કિંમત વાપરવા માટે ખલી શબ્દમાળા તરીકે સુયોજિત કરેલી હોવી જોઇએ."
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"આદેશ લીટી પરની યોજના માટેની ફાઇલોને ડેટાબેઝમાંથી બરાબર અસ્થાપિત કરે છે. "
-"MATECONF_CONFIG_SOURCE ક્ષેત્રીય ચલ એ મૂળભૂત ન હોય એવા config સ્રોત પર સુયોજિત કરેલી "
-"હોવી જોઇએ અથવા મૂળભૂત કિંમત વાપરવા માટે ખાલી શબ્દમાળા તરીકે સુયોજિત કરેલી હોવી જોઇએ."
+msgstr "આદેશ લીટી પરની યોજના માટેની ફાઇલોને ડેટાબેઝમાંથી બરાબર અસ્થાપિત કરે છે. MATECONF_CONFIG_SOURCE ક્ષેત્રીય ચલ એ મૂળભૂત ન હોય એવા config સ્રોત પર સુયોજિત કરેલી હોવી જોઇએ અથવા મૂળભૂત કિંમત વાપરવા માટે ખાલી શબ્દમાળા તરીકે સુયોજિત કરેલી હોવી જોઇએ."
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"આદેશ લીટી પરની બધી કી માટે અલગ અલગ પ્રકારની ઢગલાબંધ કિંમતોને સુયોજિત અને અસુયોજિત "
-"કરીને કાર્યક્રમની કઠોર પરીક્ષા કરો."
+msgstr "આદેશ લીટી પરની બધી કી માટે અલગ અલગ પ્રકારની ઢગલાબંધ કિંમતોને સુયોજિત અને અસુયોજિત કરીને કાર્યક્રમની કઠોર પરીક્ષા કરો."
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"આદેશ લીટી પરની બધી ડિરેકટરીમાંની ઢગલાબંધ કીને સુયોજિત અને અસુયોજિત કરીને કાર્યક્રમની "
-"કઠોર પરીક્ષા કરો."
+msgstr "આદેશ લીટી પરની બધી ડિરેકટરીમાંની ઢગલાબંધ કીને સુયોજિત અને અસુયોજિત કરીને કાર્યક્રમની કઠોર પરીક્ષા કરો."
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"યોજના ગોઠવો અને સુમેળ કરો. --short-desc, --long-desc, --owner, અને --type સાથે "
-"વાપરો."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "યોજના ગોઠવો અને સુમેળ કરો. --short-desc, --long-desc, --owner, અને --type સાથે વાપરો."
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1819,10 +1714,9 @@ msgid "Get the name of the schema applied to this key"
 msgstr "આ કી માટે અમલમાં મૂકાયેલી યોજનાનુ નામ મેળવો"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
-msgstr ""
-"યોજનાનું નામ સ્પષ્ટ કરો અને એના પછી જે કી પર આ યોજનાનું નામ અમલમાં મૂકવાનું હોય તેને સ્પષ્ટ "
-"કરો"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
+msgstr "યોજનાનું નામ સ્પષ્ટ કરો અને એના પછી જે કી પર આ યોજનાનું નામ અમલમાં મૂકવાનું હોય તેને સ્પષ્ટ કરો"
 
 #: ../mateconf/mateconftool.c:499
 msgid "Remove any schema name applied to the given keys"
@@ -1936,18 +1830,14 @@ msgstr "--get કે --set સાથે --all-dirs વાપરી શકાત�
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list એ --get, --set, --unset, --all-entries, --all-dirs, અથવા --"
-"search-key સાથે વાપરવામાં આવવું જોઈએ\n"
+msgstr "--recursive-list એ --get, --set, --unset, --all-entries, --all-dirs, અથવા --search-key સાથે વાપરવામાં આવવું જોઈએ\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set_schema એ --get, --set, --unset, --all-entries, --all-dirs, અથવા --"
-"search-key સાથે વાપરવામાં આવવું જોઈએ નહિં\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set_schema એ --get, --set, --unset, --all-entries, --all-dirs, અથવા --search-key સાથે વાપરવામાં આવવું જોઈએ નહિં\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -1962,14 +1852,13 @@ msgstr "કિંમત સુયોજિત કરતી વખતે પ્�
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--ignore-schema-defaults એ માત્ર --get, --all-entries, --dump, --recursive-"
-"list, --get-list-size અથવા --get-list-element સાથે સંબંધિત છે\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--ignore-schema-defaults એ માત્ર --get, --all-entries, --dump, --recursive-list, --get-list-size અથવા --get-list-element સાથે સંબંધિત છે\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -1978,8 +1867,8 @@ msgstr "%s વિકલ્પ તેના દ્વારા જ વપરા�
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
 msgstr "--direct વાપરતી વખતે --config-source સાથે તમારે રૂપરેખા સ્રોત સ્પષ્ટ કરવો જોઇએ\n"
 
 #: ../mateconf/mateconftool.c:859
@@ -1989,12 +1878,15 @@ msgstr "જીકૉન્ફને શરૂ કરવામાં ભૂલ: %
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL સુયોજિત છે, યોજનાને સ્થાપિત કરી રહ્યા નથી\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL સુયોજિત છે, યોજનાને અસ્થાપિત કરી રહ્યા નથી\n"
 
 #: ../mateconf/mateconftool.c:907
@@ -2007,584 +1899,571 @@ msgstr "ક્ષેત્રીય ચલ MATECONF_CONFIG_SOURCE સુયો�
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "રૂપરેખાના સ્રોતને પ્રાપ્ત કરવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "બંધ કરવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "એક પછી એક યાદીમાં મૂકવા માટે એક અથવા તેનાથી વધારે ડિરેકટરીઓ સ્પષ્ટ કરો.\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "`%s' માં પ્રવેશો કરવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(કિંમત ગોઠવાયેલી નથી)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "શોધવા માટે કી ભાત સ્પષ્ટ કરવી જ જોઈએ.\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "શોધવા માટે PCRE regex ને સ્પષ્ટ કરવુ જ જોઇએ.\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "regex કમ્પાઇલ કરવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "નાખી દેવા માટે એક કે એક કરતાં વધુ ડિરેક્ટરીઓ સ્પષ્ટ કરો.\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "રૂપરેખાંકન સર્વર (mateconfd) બનાવવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "મેળવવા માટેની એક કી અથવા બધી કીને સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "પ્રકાર: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "યાદીનો પ્રકાર: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car પ્રકાર: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr પ્રકાર: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "મૂળભૂત કિંમત: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "અસુયોજિત"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "માલિક: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "સંક્ષિપ્ત વર્ણન :%s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "વિસ્તૃત વર્ણન: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "'%s' માટે કોઇ કિંમત અપાઇ નથી\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "'%s' માટે કિંમત મેળવવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "પ્રકાર '%s' સમજી શકાયો નહિ\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "વૈકલ્પિક કીને/કિંમતોને દલીલ તરીકે સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "કી માટે સુયોજિત કરવા કોઇ કિંમત નથી: '%s'\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "યોજનાને કિંમત તરીકે સુયોજિત કરવામાં નિષ્ફળ\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "યાદીને સુયોજિત કરતી વખતે તમારે મૂળ યાદીનો પ્રકાર સ્પષ્ટ કરવો જોઇએ\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
 msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "જોડીને સુયોજિત કરતી વખતે તમારે મૂળ car અને cdr નો પ્રકાર સ્પષ્ટ કરવો જોઇએ\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "કિંમત સુયોજિત કરવામાં ભૂલ : %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "સુમેળ કરવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "દલીલો તરીકે એક અથવા વધારે કીઓ ને સ્પષ્ટ કરવુ જ જોઇએ\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "કી %s માટે કિંમત શોધાઇ નથી\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "બુલિયન કિંમત નથી: %s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "પ્રકાર મેળવવા માટે એક અથવા વધારે કી સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "માપ જોવા માટે કી સ્પષ્ટ કરવી જરૂરી છે.\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "કી %s એ યાદી નથી.\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "જે કીમાંથી યાદીની વસ્તુ મેળવવાની છે તે સ્પષ્ટ કરવી જરૂરી છે.\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "યાદીનો ક્રમાંક સ્પષ્ટ કરવો જરૂરી છે.\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "યાદીનો ક્રમાંક ઋણ ન હોવો જોઇએ.\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "યાદીનો ક્રમાંક સીમાની બહાર છે.\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "આદેશ વાક્ય પર એક અથવા વધારે કી સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "'%s' માટે કોઇ યોજના જાણીતી નથી\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "યોજનામાં '%s' પર કોઇ દસ્તાવેજની શબ્દમાળાનો સંગ્રહ થયેલ નથી\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "'%s' પર યોજના મેળવવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "'%s' પર કોઇ યોજનાનો સંગ્રહ થયેલ નથી\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "'%s' પરની કિંમત એ કોઇ યોજના નથી\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr "યોજનાનું નામ સ્પષ્ટ કરવું જરૂરી છે અને એના પછી જે કી પર આ અમલમાં મૂકવાનું હોય તેને સ્પષ્ટ કરો\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "યોજનાના નામ '%s' ને કી નામ '%s' સાથે સાંકળવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "જે કી માંથી અમલમાં મૂકાયેલી યોજનાને દૂર કરવાની છે તે સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "'%s' માંથી યોજનાનું નામ કાઢવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "એક માત્ર દલીલ તરીકે કી (યોજનાનું નામ) સ્પષ્ટ કરવું જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "યાદીનો પ્રકાર એક મૂળ પ્રકાર હોવો જોઇએઃ  string, int, float અથવા bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "car જોડીનો પ્રકાર એક મૂળ પ્રકાર હોવો જોઇએઃ  string, int, float અથવા bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "cdr જોડીનો પ્રકાર એક મૂળ પ્રકાર હોવો જોઇએઃ  string, int, float અથવા bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "કિંમત સુયોજિત કરવામાં ભૂલ: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "સુમેળ કરવામાં ભૂલ: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr "કીની/કિંમતની જોડી મેળવવા માટે એક અથવા વધારે ડિરેકટરી સ્પષ્ટ કરવી જરૂરી છે.\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "અસુયોજિત કરવા માટે એક અથવા વધારે કી સ્પષ્ટ કરવી જરૂરી છે.\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "'%s' અસુયોજિત કરવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "એક પછી એક અસુયોજિત કરવા માટે એક અથવા વધારે કી સ્પષ્ટ કરવી જરૂરી છે.\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "\"%s\" ના પુનરાવર્તિત અસુયોજનમાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr "ઊપડિરેકટરી મેળવવા માટે એક અથવા વધારે ડિરેકટરી સ્પષ્ટ કરવી જરૂરી છે.\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "ડિરેકટરીની યાદી બનાવવામાં ભૂલ: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "ચેતવણી: <car> અને <cdr> બન્નેને <pair> માં સ્પષ્ટ કરવું જરુરી છે\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr "ચેતવણી: <value> ની નીચેની યોજના માટે સ્પષ્ટ કરાયેલી કી (%s) - અવગણી રહ્યા છે\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "ચેતવણી: <value> ની નીચે બાળ નોડ હોવો જોઇએ\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "ચેતવણી: નોડ <%s> સમજી શકાયો નહિ\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "ચેતવણી: પૂર્ણાંક કિંમત `%s' નો પદચ્છેદ કરવામાં નિષ્ફળ\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "ચેતવણી: અપૂર્ણાંક કિંમત `%s' નો પદચ્છેદ કરવામાં નિષ્ફળ \n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "ચેતવણી: શબ્દમાળાની કિંમત `%s' નો પદચ્છેદ કરવામાં નિષ્ફળ \n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "ચેતવણી: બુલિયન કિંમત `%s' નો પદચ્છેદ કરવામાં નિષ્ફળ \n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "ચેતવણી: યોજના '%s' ને કી '%s' સાથે સાંકળવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "ચેતવણી: યોજના (%s) માટે અયોગ્ય અથવા ખૂટતા પ્રકાર \n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "ચેતવણી: યોજના (%s) માટે અયોગ્ય અથવા ખૂટતા યાદીનો પ્રકાર\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "ચેતવણી: મૂળભૂત કિંમત `%s' માટે યોજના (%s) નો પદચ્છેદ કરવામાં નિષ્ફળ\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr "ચેતવણી: યોજના (%s) માટેના અયોગ્ય અથવા ખૂટતા car અથવા cdr પ્રકાર\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "ચેતવણી: યોજના માટે તમે મૂળભૂત કિંમત સુયોજિત ન કરી શકો\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "ચેતવણી: mateconftool ની આંતરિક ભૂલ, અજાણીતો MateConfValueType\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "ચેતવણી: પ્રકારના નામ `%s'નો પદચ્છેદ કરવામાં નિષ્ફળ \n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
 msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"ચેતવણી: યાદીનો પ્રકાર ફકત પૂર્ણાંક, અપૂર્ણાંક, શબ્દમાળા અથવા બુલિયન હોઇ શકે પણ `%s' "
-"નહિ\n"
+msgstr "ચેતવણી: યાદીનો પ્રકાર ફકત પૂર્ણાંક, અપૂર્ણાંક, શબ્દમાળા અથવા બુલિયન હોઇ શકે પણ `%s' નહિ\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"ચેતવણી: car નો પ્રકાર ફકત પૂર્ણાંક, અપૂર્ણાંક, શબ્દમાળા અથવા બુલિયન હોઇ શકે પણ `%s' "
-"નહિ\n"
+msgstr "ચેતવણી: car નો પ્રકાર ફકત પૂર્ણાંક, અપૂર્ણાંક, શબ્દમાળા અથવા બુલિયન હોઇ શકે પણ `%s' નહિ\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"ચેતવણી: cdr નો પ્રકાર ફકત પૂર્ણાંક, અપૂર્ણાંક, શબ્દમાળા અથવા બુલિયન હોઇ શકે પણ `%s' "
-"નહિ\n"
+msgstr "ચેતવણી: cdr નો પ્રકાર ફકત પૂર્ણાંક, અપૂર્ણાંક, શબ્દમાળા અથવા બુલિયન હોઇ શકે પણ `%s' નહિ\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "ચેતવણી: ખાલી <applyto> નોડ"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "ચેતવણી: નોડ <%s> ને <schema> ની નીચે સમજી શકાયી નહિ\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "ચેતવણી: યાદીના પ્રકારની યોજના માટે કોઇ <list_type> સ્પષ્ટ કરાયો નથી.\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "ચેતવણી: જોડીના પ્રકારની યોજના માટે કોઇ <car_type> સ્પષ્ટ કરાયો નથી.\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "ચેતવણી: જોડીના પ્રકારની યોજના માટે કોઇ <cdr_type> સ્પષ્ટ કરાયો નથી\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
 msgstr "ચેતવણી: <locale> નોડ પાસે કોઇ `name=\"locale\"' લાક્ષણિકતા નથી, અવગણી રહ્યા છે\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
-msgid "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
+msgid ""
+"WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
 msgstr "ચેતવણી: લોકેલ `%s' માટે ઘણા બધા <locale> નોડ, આગળના બધાને અવગણી રહ્યા છે\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "ચેતવણી: <%s> નોડ એ <locale> માં અયોગ્ય છે\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "કી `%s' સાથે યોજના `%s' ના સંકળાઈ હતી\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "<locale>માં <schema> નો ઓછામાં ઓછો એક દાખલો હોવો જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "ચેતવણી: યોજના `%s', લોકેલ `%s' સ્થાપન કરવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "લોકેલ `%s' માટે `%s' યોજનાની સ્થાપના કરી \n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "ચેતવણી: યોજના `%s', લોકેલ `%s' વિસ્થાપિત કરવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "લોકેલ `%s' માંથી યોજના `%s' ને અસ્થાપિત કરી\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "ચેતવણી: યોજના માટે કોઇ કી સ્પષ્ટ કરાઇ નથી\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "ચેતવણી: <%s> ની નીચે નોડ <%s> ને સમજી શકાયો નહિ\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "'%s' ખોલવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "શું દસ્તાવેજ '%s' ખાલી છે?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
 msgstr "દસ્તાવેજ '%s'નો રૂટ નોડનો પ્રકાર ખોટો છે (<%s>, એ <%s> હોવું જોઇએ)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "દસ્તાવેજ '%s' માટે કોઇ ઉપલા સ્તરનો <%s> નોડ નથી\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "ચેતવણી: <%s> ની નીચેનો નોડ <%s> ને સમજી શકાયો નહિ\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "રુપરેખાંકન માહિતીને સુમેળ કરવામાં ભૂલ: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "સ્થાપિત કરવા માટે અમુક યોજના માટેની ફાઇલ સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "તોડવા માટેની કી %s ને અસુયોજિત કરવામાં નિષ્ફળ: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "તોડવા માટે અમુક કી સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"કી માટે ખરાબ કિંમત આપીને તમારો કાર્યક્રમ તોડવાનો પ્રયત્ન કરે છે:\n"
-"  %s\n"
+msgstr "કી માટે ખરાબ કિંમત આપીને તમારો કાર્યક્રમ તોડવાનો પ્રયત્ન કરે છે:\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "તોડવા માટે અમુક ડિરેકટરીઓ સ્પષ્ટ કરવી જરૂરી છે\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"ડિરેકટરીમાં કી માટે ખરાબ કિંમત આપીને તમારો કાર્યક્રમ તોડવાનો પ્રયત્ન કરે છે:\n"
-"  %s\n"
-
+msgstr "ડિરેકટરીમાં કી માટે ખરાબ કિંમત આપીને તમારો કાર્યક્રમ તોડવાનો પ્રયત્ન કરે છે:\n  %s\n"

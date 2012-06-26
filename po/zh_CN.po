@@ -1,24 +1,21 @@
-# Translation of mateconf.po to zh_CN
-# Copyright (C) 2001-2009 Free Software Foundation, Inc.
-# Wang Jian <lark@linux.net.cn>, 2001.
-# Xiong Jiang <jxiong@offtopic.org>, 2003.
-# Funda Wang <fundawang@linux.net.cn>, 2003, 2004.
-# LoneStar <lone@auvtech.com>, 2004.
-# Yang Zhang <zyangmath@gmail.com>, 2009.
-# Ray Wang <wanglei1123@gmail.com>, 2009.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mateconf HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-15 15:39+0800\n"
-"PO-Revision-Date: 2010-09-15 15:39+0800\n"
-"Last-Translator: Hinker <hinkerliu@gmail.com>\n"
-"Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
@@ -110,14 +107,7 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"用法：%s <dir>\n"
-"  合并一个标记后端文件系统层次形如：\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  成为：\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "用法：%s <dir>\n  合并一个标记后端文件系统层次形如：\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  成为：\n    dir/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
@@ -135,8 +125,7 @@ msgstr "无法创建目录“%s”：%s"
 
 #: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
 msgstr "无法读取或写入地址“%s”中的 XML 根目录"
 
 #: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
@@ -170,176 +159,176 @@ msgstr "初始化标记语言后端模块"
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "放弃锁定 XML 目录 “%s” 已失败：%s"
 
-#: ../backends/markup-tree.c:437
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "将某些配置数据写入磁盘失败\n"
 
-#: ../backends/markup-tree.c:960 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "无法创建目录“%s”：%s"
 
-#: ../backends/markup-tree.c:1000 ../backends/markup-tree.c:1007
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "无法删除文件“%s”：%s\n"
 
-#: ../backends/markup-tree.c:1208
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "写入“%s”失败：%s\n"
 
-#: ../backends/markup-tree.c:1416
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "载入文件“%s”失败：%s"
 
-#: ../backends/markup-tree.c:2006
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "第 %d 行第 %d 个字符：%s"
 
-#: ../backends/markup-tree.c:2234 ../backends/markup-tree.c:2255
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "在此上下文中，<%2$s> 元素的属性“%1$s”无效"
 
-#: ../backends/markup-tree.c:2280 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "不理解“%s”(需要整数)"
 
-#: ../backends/markup-tree.c:2287 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "整数“%s”过大或过小"
 
-#: ../backends/markup-tree.c:2319 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "不理解“%s”(需要 true 或 false)"
 
-#: ../backends/markup-tree.c:2343 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "不理解“%s”(需要实数)"
 
-#: ../backends/markup-tree.c:2423
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "元素 <%3$s> 上的“%2$s”属性设置了未知值“%1$s”"
 
-#: ../backends/markup-tree.c:2443 ../backends/markup-tree.c:2483
-#: ../backends/markup-tree.c:2507 ../backends/markup-tree.c:2515
-#: ../backends/markup-tree.c:2570 ../backends/markup-tree.c:2635
-#: ../backends/markup-tree.c:2747 ../backends/markup-tree.c:2815
-#: ../backends/markup-tree.c:2873 ../backends/markup-tree.c:3023
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "<%2$s> 元素没有“%1$s”属性"
 
-#: ../backends/markup-tree.c:2457
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "<%2$s> 类型“%1$s”未知"
 
-#: ../backends/markup-tree.c:2537
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "<%2$s> 上第一元素的类型“%1$s”无效"
 
-#: ../backends/markup-tree.c:2551
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "<%2$s> 上 cdr_type“%1$s”无效"
 
-#: ../backends/markup-tree.c:2587
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "<%2$s> 上 list_type“%1$s”无效"
 
-#: ../backends/markup-tree.c:2954
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "一个 <local_schema> 下有两个 <default> 元素"
 
-#: ../backends/markup-tree.c:2969
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "一个 <local_schema> 下有两个 <longdesc> 元素"
 
-#: ../backends/markup-tree.c:2976
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "不允许在 <%2$s> 下出现元素 <%1$s>"
 
-#: ../backends/markup-tree.c:3001 ../backends/markup-tree.c:3106
-#: ../backends/markup-tree.c:3160 ../backends/markup-tree.c:3211
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "提供了 <%s> 但当前元素不拥有类型 %s"
 
-#: ../backends/markup-tree.c:3084
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "同一对给出了两个 <car> 元素"
 
-#: ../backends/markup-tree.c:3098
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "同一对给出了两个 <cdr> 元素"
 
-#: ../backends/markup-tree.c:3152
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> 的类型 %s 错误"
 
-#: ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "提供了 <%s> 但父 <entry> 没有值"
 
-#: ../backends/markup-tree.c:3224 ../backends/markup-tree.c:3247
-#: ../backends/markup-tree.c:3269 ../backends/markup-tree.c:3286
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "不允许在当前元素中出现元素 <%s>"
 
-#: ../backends/markup-tree.c:3318
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "菜单文件中的最里层元素应该是 <mateconf> 而非 <%s>"
 
-#: ../backends/markup-tree.c:3338 ../backends/markup-tree.c:3360
-#: ../backends/markup-tree.c:3365
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "不允许在 <%2$s> 元素内出现元素 <%1$s>"
 
-#: ../backends/markup-tree.c:3509
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "不允许在元素 <%s> 内出现文字"
 
-#: ../backends/markup-tree.c:3625 ../backends/markup-tree.c:4391
-#: ../backends/markup-tree.c:4410
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "打开“%s”失败：%s\n"
 
-#: ../backends/markup-tree.c:3655
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "读取“%s”出错：%s\n"
 
-#: ../backends/markup-tree.c:4485
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "无法保存文件 '%s' 到磁盘：%s"
 
-#: ../backends/markup-tree.c:4504
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "写入文件“%s”出错：%s"
 
-#: ../backends/markup-tree.c:4533
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "将临时文件“%s”移至最终位置“%s”失败：%s"
@@ -539,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "缺少来自 XML 文件中 pair 的 car 和 cdr 值"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "更改 MateConf 强制源的值"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "更改 MateConf 系统源的值"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "需要特权以更改 MateConf 强制源的值"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "需要特权以更改 MateConf 系统源的值"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "更改 MateConf 强制源的值"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "需要特权以更改 MateConf 强制源的值"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -629,7 +618,8 @@ msgstr "在“设置”请求中收到无效值"
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
 msgstr "无法理解键“%s”的设置请求中接收到的 CORBA 值"
 
 #: ../mateconf/mateconf-database.c:503
@@ -652,19 +642,17 @@ msgstr "同步一个或多个源失败：%s"
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
 msgstr "在后端“%2$s”发送的更改通知后获取“%1$s”的新值出错：%3$s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"记录新监听程序 %s 失败(%s)；将无法在 mateconfd 重启时恢复该监听程序，这会导致配"
-"置更改的通知不可靠。"
+msgstr "记录新监听程序 %s 失败(%s)；将无法在 mateconfd 重启时恢复该监听程序，这会导致配置更改的通知不可靠。"
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -676,9 +664,7 @@ msgstr "监听程序 ID %lu 不存在"
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"向日志文件记录删除了监听程序失败(多半无害，可能会导致某个通知奇怪地反复出"
-"现)：%s"
+msgstr "向日志文件记录删除了监听程序失败(多半无害，可能会导致某个通知奇怪地反复出现)：%s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -826,188 +812,187 @@ msgstr "从 mateconfd 接收到的列表的列表类型不正确"
 msgid "Failed to convert object to IOR"
 msgstr "将对象转换到 IOR 失败"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "schema 的区域设置中有无效的 UTF-8 字符"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "schema 的简短说明中有无效的 UTF-8 字符"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "schema 的详细说明中有无效的 UTF-8 字符"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "schema 的所有者中有无效的 UTF-8 字符"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "无法打开路径文件“%s”：%s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "正在添加源“%s”\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "文件“%s”上的读取错误：%s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1704
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "文本包含无效的 UTF-8"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "需要列表，得到的是 %s"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "需要 %s 列表，得到的是 %s 列表"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "需要对，得到的是 %s"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
 msgstr "需要 (%s,%s) 对，得到的对仅有一个值或两个值都没有"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "需要类型 (%s,%s) 对，得到的是类型 (%s,%s)"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "引用的字符串不是以引号开始"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "引用的字符串不是以引号结束"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "已编码的值不是有效的 UTF-8"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "无法锁住临时文件“%s”：%s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "无法创建文件“%s”，也许它已经存在"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "创建或打开“%s”失败"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"锁定“%s”失败：可能另一个进程已锁定它，或者您的操作系统的 NFS 文件锁定配置不正"
-"确 (%s)"
+msgstr "锁定“%s”失败：可能另一个进程已锁定它，或者您的操作系统的 NFS 文件锁定配置不正确 (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "删除“%s”失败：%s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "未在活动会话中运行"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "获取到会话的连接失败：%s"
 
-#: ../mateconf/mateconf-internals.c:2472
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
 msgid "GetIOR failed: %s"
 msgstr "GetIOR 失败：%s"
 
-#: ../mateconf/mateconf-internals.c:2509
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
 msgstr "无法联系 ORB 以解决现有的 mateconfd 对象引用"
 
-#: ../mateconf/mateconf-internals.c:2521
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "将 IOR“%s”转换为对象引用失败"
 
-#: ../mateconf/mateconf-internals.c:2548
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "无法创建目录“%s”：%s"
 
-#: ../mateconf/mateconf-internals.c:2605
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "无法写入文件“%s”：%s"
 
-#: ../mateconf/mateconf-internals.c:2646
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "我们没有锁定文件“%s”，但应该锁定"
 
-#: ../mateconf/mateconf-internals.c:2669
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "将“%s”链接到“%s”失败：%s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "删除锁定文件“%s”失败：%s"
 
-#: ../mateconf/mateconf-internals.c:2704
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "清理文件“%s”失败：%s"
 
-#: ../mateconf/mateconf-internals.c:2720
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "删除锁定目录“%s”失败：%s"
 
-#: ../mateconf/mateconf-internals.c:2858
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "服务器 ping 错误：%s"
 
-#: ../mateconf/mateconf-internals.c:2877
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"联系配置服务器失败；某些可能原因是需要为 MateCORBA 启用 TCP/IP 联网，或者由于系统"
-"崩溃，您的 NFS 锁定已失效。请访问 http://projects.gnome.org/mateconf/ 了解详细信"
-"息。(详细信息 - %s)"
 
-#: ../mateconf/mateconf-internals.c:2878
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "无"
 
@@ -1020,37 +1005,22 @@ msgstr "- 为 MateConf 进行的稳健性检测"
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"解析选项出错：%s。\n"
-"运行“%s --help”可查看可用命令行选项的完整列表。\n"
+msgstr "解析选项出错：%s。\n运行“%s --help”可查看可用命令行选项的完整列表。\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"请与系统管理员联系以解决如下问题：\n"
-"无法打开或创建文件“%s”；这表示您的配置可能有问题， 因为许多程序都将需要在您的"
-"主目录下创建文件。该错误为“%s”(错误号 = %d)。"
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "请与系统管理员联系以解决如下问题：\n无法打开或创建文件“%s”；这表示您的配置可能有问题， 因为许多程序都将需要在您的主目录下创建文件。该错误为“%s”(错误号 = %d)。"
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"请与系统管理员联系以解决如下问题：\n"
-"无法锁定文件“%s”；这表明您的操作系统配置可能有问题。如果您的主目录安装了 NFS "
-"文件系统，那么客户端或者服务器可能设置不正确。请参见rpc.statd 和 rpc.lockd 文"
-"档。该错误的常见原因是“nfslock”服务已被禁用。该错误为“%s”(错误号 = %d)。"
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "请与系统管理员联系以解决如下问题：\n无法锁定文件“%s”；这表明您的操作系统配置可能有问题。如果您的主目录安装了 NFS 文件系统，那么客户端或者服务器可能设置不正确。请参见rpc.statd 和 rpc.lockd 文档。该错误的常见原因是“nfslock”服务已被禁用。该错误为“%s”(错误号 = %d)。"
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1061,11 +1031,8 @@ msgstr "无法删除文件 %s：%s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"请与系统管理员联系以解决如下问题：\n"
-"配置文件“%s”中没有配置源；这意味着无法保存首选项和其它设置。%s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "请与系统管理员联系以解决如下问题：\n配置文件“%s”中没有配置源；这意味着无法保存首选项和其它设置。%s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1076,29 +1043,18 @@ msgstr "读取文件时出错："
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"请与系统管理员联系以解决如下问题：\n"
-"无法解析地址“%s”(位于配置文件“%s”中)：%s"
+msgstr "请与系统管理员联系以解决如下问题：\n无法解析地址“%s”(位于配置文件“%s”中)：%s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"包含您首选项设置的文件正在使用中。\n"
-"\n"
-"您可能已经从其它电脑上登录了会话，而该会话正在使用您的首选项设置文件。\n"
-"\n"
-"您可以继续使用当前会话，但是可能在其它会话的首选项设置上遇到临时问题。\n"
-"\n"
-"您想要继续吗？"
+msgstr "包含您首选项设置的文件正在使用中。\n\n您可能已经从其它电脑上登录了会话，而该会话正在使用您的首选项设置文件。\n\n您可以继续使用当前会话，但是可能在其它会话的首选项设置上遇到临时问题。\n\n您想要继续吗？"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1113,19 +1069,20 @@ msgstr "继续(_C)"
 msgid "%s Continue (y/n)?"
 msgstr "%s 继续吗(y/n)？"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "schema 包含无效的 UTF-8"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
 msgstr "schema 指定了列表类型，但并未指定列表元素的类型"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
@@ -1139,14 +1096,12 @@ msgstr "载入源“%s”失败：%s"
 
 #: ../mateconf/mateconf-sources.c:414
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
 msgstr "地址“%s”解析为位于 %d 的可写入配置源"
 
 #: ../mateconf/mateconf-sources.c:420
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
 msgstr "地址“%s”解析为位于 %d 的只读配置源"
 
 #: ../mateconf/mateconf-sources.c:427
@@ -1189,26 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"无法以键“%s”存储值，因为配置服务器没有可写入数据库。该问题的常见原因如下：1) "
-"您的配置路径文件 %s/path 不包含任何数据库或者没有 找到该文件 2) 可能由于某些"
-"原因错误地创建了两个 mateconfd 进程 3) 您的操作系统配置错误，所以 NFS 文件锁定在"
-"您的主目录中不起作用或者 4) 您的 NFS 客户机崩溃并在重新启动时没有正确通知服务"
-"器应删除文件锁定。如果您有两个mateconfd 进程(或在第二个进程启动时曾有两个进程)，"
-"注销、杀死 mateconfd 的所有副本，然后再重新登录可能会有帮助。如果您的锁定已失"
-"效，删除 ~/.mateconf*/*lock。可能问题是您尝试从两台计算机同时使用 MateConf，而 "
-"MateCORBA 仍然使用阻止远程 CORBA 连接的默认配置 - 将 \"ORBIIOPIPv4=1\" 放入 /etc/"
-"matecorbarc 目录中。并且一定要检查 user.* syslog 了解有关 mateconfd 遇到的问题的详细"
-"信息。每个主目录只能有一个 mateconfd 进程，并且该进程必须在 ~/.mateconfd 中拥有一个"
-"锁定文件，并在各个存储位置，如 ~/.mateconf 中拥有锁定文件"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "无法以键“%s”存储值，因为配置服务器没有可写入数据库。该问题的常见原因如下：1) 您的配置路径文件 %s/path 不包含任何数据库或者没有 找到该文件 2) 可能由于某些原因错误地创建了两个 mateconfd 进程 3) 您的操作系统配置错误，所以 NFS 文件锁定在您的主目录中不起作用或者 4) 您的 NFS 客户机崩溃并在重新启动时没有正确通知服务器应删除文件锁定。如果您有两个mateconfd 进程(或在第二个进程启动时曾有两个进程)，注销、杀死 mateconfd 的所有副本，然后再重新登录可能会有帮助。如果您的锁定已失效，删除 ~/.mateconf*/*lock。可能问题是您尝试从两台计算机同时使用 MateConf，而 MateCORBA 仍然使用阻止远程 CORBA 连接的默认配置 - 将 \"ORBIIOPIPv4=1\" 放入 /etc/matecorbarc 目录中。并且一定要检查 user.* syslog 了解有关 mateconfd 遇到的问题的详细信息。每个主目录只能有一个 mateconfd 进程，并且该进程必须在 ~/.mateconfd 中拥有一个锁定文件，并在各个存储位置，如 ~/.mateconf 中拥有锁定文件"
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1355,20 +1299,20 @@ msgstr "已接收到关闭请求"
 
 #: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
 msgstr "mateconfd 用调试编译；尝试从源目录载入mateconf.path"
 
 #: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
 msgstr "找不到配置文件，尝试使用默认配置源“%s”"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
 #: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
@@ -1383,8 +1327,8 @@ msgstr "载入某些配置源时出错：%s"
 
 #: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
 msgstr "配置源地址无一解析成功，无法载入或存储配置数据"
 
 #: ../mateconf/mateconfd.c:438
@@ -1420,8 +1364,8 @@ msgstr "获取 ConfigServer 的对象引用失败"
 #: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
 msgstr "将字节写入管道文件描述符 %d 失败，所以客户端程序可能挂起：%s"
 
 #: ../mateconf/mateconfd.c:965
@@ -1461,7 +1405,8 @@ msgstr "打开 mateconfd 日志文件失败；无法在mateconfd 关闭后恢复
 #: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
 msgstr "关闭 mateconfd 日志文件失败；数据可能没有正确保存 (%s)"
 
 #: ../mateconf/mateconfd.c:1681
@@ -1519,20 +1464,16 @@ msgstr "无法打开已保存的状态文件“%s”：%s"
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"向 mateconfd 日志文件记录添加监听程序失败；如果 mateconfd 退出或关闭，将无法重新添"
-"加该监听程序 (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "向 mateconfd 日志文件记录添加监听程序失败；如果 mateconfd 退出或关闭，将无法重新添加该监听程序 (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"从 mateconfd 日志文件记录删除监听程序失败；如果 mateconfd 退出或关闭，可能会错误地"
-"重新添加该监听程序 (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "从 mateconfd 日志文件记录删除监听程序失败；如果 mateconfd 退出或关闭，可能会错误地重新添加该监听程序 (%s)"
 
 #: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
@@ -1556,7 +1497,8 @@ msgstr "将客户端添加刷新到已保存的状态文件失败：%s"
 
 #: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
 msgstr "当某个客户端未被添加时，它将自己从 MateConf 服务器中删除。"
 
 #: ../mateconf/mateconftool.c:93
@@ -1615,8 +1557,8 @@ msgstr "读取值示忽略 schema 默认值。"
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
 msgstr "递归将目录下所有项的 XML 描述转存到标准输出。"
 
 #: ../mateconf/mateconftool.c:235
@@ -1643,8 +1585,8 @@ msgstr "如果 mateconfd 正在运行，返回 0，否则返回 2。"
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
 msgstr "启动该配置服务器 (mateconfd)。(当需要时通常会自动启动。)"
 
 #: ../mateconf/mateconftool.c:301
@@ -1673,28 +1615,24 @@ msgstr "从列表键中获取指定元素，以数字作为索引。"
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"指定正在设置的列表值的类型，或 schema 描述的值的类型。可使用唯一的缩写词。"
+msgstr "指定正在设置的列表值的类型，或 schema 描述的值的类型。可使用唯一的缩写词。"
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"指定正在设置的 car pair 值的类型，或 schema 描述的值的类型。可使用唯一的缩写"
-"词。"
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "指定正在设置的 car pair 值的类型，或 schema 描述的值的类型。可使用唯一的缩写词。"
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"指定正在设置的 cdr pair 值的类型，或 schema 描述的值的类型。可使用唯一的缩写"
-"词。"
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "指定正在设置的 cdr pair 值的类型，或 schema 描述的值的类型。可使用唯一的缩写词。"
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1714,49 +1652,42 @@ msgstr "源"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
 msgstr "绕过服务器，直接访问配置数据库。要求 mateconfd 不在运行。"
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"在命令行上将 schema 文件正确安装到数据库中。设置 MATECONF_CONFIG_SOURCE 环境变量"
-"以指定一个自定义配置源，此变量设为空串时使用默认配置源。"
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "在命令行上将 schema 文件正确安装到数据库中。设置 MATECONF_CONFIG_SOURCE 环境变量以指定一个自定义配置源，此变量设为空串时使用默认配置源。"
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"在命令行上将 schema 文件正确的从数据库中卸载。设置 MATECONF_CONFIG_SOURCE 环境变"
-"量以指定一个自定义配置源，此变量设为空串时使用默认配置源。"
+msgstr "在命令行上将 schema 文件正确的从数据库中卸载。设置 MATECONF_CONFIG_SOURCE 环境变量以指定一个自定义配置源，此变量设为空串时使用默认配置源。"
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"通过在命令行上为键设置和取消设置各种不同类型的值，对应用程序进行严格的测试。"
+msgstr "通过在命令行上为键设置和取消设置各种不同类型的值，对应用程序进行严格的测试。"
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"通过在命令行上设置和取消设置目录中的一系列键，对应用程序进行严格的测试。"
+msgstr "通过在命令行上设置和取消设置目录中的一系列键，对应用程序进行严格的测试。"
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"设置 schema 和同步。使用 --short-desc、--long-desc、--owner 和 --type。"
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "设置 schema 和同步。使用 --short-desc、--long-desc、--owner 和 --type。"
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1783,7 +1714,8 @@ msgid "Get the name of the schema applied to this key"
 msgstr "获取要应用于此键的 schema 名称"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
 msgstr "指定 schema 名，后面跟着要应用该 schema 名的键"
 
 #: ../mateconf/mateconftool.c:499
@@ -1898,18 +1830,14 @@ msgstr "不能将 --all-dirs 用于 --get 或 --set\n"
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list 不应用于 --get、--set、--unset、--all-entries、--all-dirs "
-"或 --search-key\n"
+msgstr "--recursive-list 不应用于 --get、--set、--unset、--all-entries、--all-dirs 或 --search-key\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set_schema 不应用于 --get、--set、--unset、--all-entries、--all-dirs 或 --"
-"search-key\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set_schema 不应用于 --get、--set、--unset、--all-entries、--all-dirs 或 --search-key\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -1924,14 +1852,13 @@ msgstr "当设置值时，必须指定值类型\n"
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--ignore-schema-defaults 只相对于 --get、--all-entries、--dump、--recursive-"
-"list、--get-list-size 或 --get-list-element\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--ignore-schema-defaults 只相对于 --get、--all-entries、--dump、--recursive-list、--get-list-size 或 --get-list-element\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -1940,8 +1867,8 @@ msgstr "%s 选项必须单独使用。\n"
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
 msgstr "当使用 --direct 时，必须用 --config-source 指定配置源\n"
 
 #: ../mateconf/mateconftool.c:859
@@ -1951,13 +1878,15 @@ msgstr "初始化 MateConf 失败：%s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL 已设置，不再安装 schema\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL 已设置，不再卸载 schema\n"
 
 #: ../mateconf/mateconftool.c:907
@@ -1970,637 +1899,571 @@ msgstr "必须设置 MATECONF_CONFIG_SOURCE 环境变量\n"
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "访问配置源失败：%s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "关闭错误：%s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "必须要指定递归列出的一个或多个目录。\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "列出“%s”中的条目时发生错误：%s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(没有设置值)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "必须指定待搜索的键的模式。\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "必须为搜索指定一个 PRCE 正规表达式。\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "编译正规表达式时错误：%s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "必须指定要转存的一个或多个目录。\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "启动配置服务器(mateconfd)失败：%s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "必须指定要获取的键或多个键\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "类型：%s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "列表类型：%s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car 类型：%s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr 类型：%s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "默认值：%s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "清除"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "所有者：%s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "简单说明：%s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "详细说明：%s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "没有为“%s”设置值\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "获取“%s”的值失败：%s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "不理解类型“%s”\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "必须将替代键/值指定为参数\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "没有可为键“%s”设置的值\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "无法将 schema 设置为值\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "当设置列表时，您必须指定简单的 list-type\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "当设置 pair 时，您必须指定基本的 car-type 和 cdr-type\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "错误：%s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "设置值时发生错误：%s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "同步时发生错误：%s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "必须指定一个或多个键值作为参数\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "没有找到 %s 的键值\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "不是一个布尔值：%s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "必须指定要获取类型的键\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "必须指定要查阅大小的键。\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "键 %s 不是列表。\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "必须指定要获取列表元素的键。\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "必须指定列表索引。\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "列表索引必须是非负。\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "列表索引超出范围。\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "必须在命令行上指定一个或多个键\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "没有已知的 schema 用于“%s”\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "没有文档字符串存储在模式的“%s”处\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "在“%s”获取 schema 时发生错误：%s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "没有模式存储在“%s”\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "“%s”处的值不是模式\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr "必须指定模式名，后面跟着要应用该模式名的键名称\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "将模式名“%s”与键名“%s”关联时出错：%s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "必须指定要取消应用 schema 的键\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "从“%s”删除模式名时出错：%s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "必须将键(模式名)指定为唯一的参数\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "List 类型必须是一种基本类型：string、int、float 或 bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "Pair car 类型必须是一种基本类型：string、int、float 或 bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "Pair cdr 类型必须是一种基本类型：string、int、float 或 bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "设置值时发生错误：%s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "同步时发生错误：%s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr "必须指定一个或多个要从其中获得键/值对的目录。\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "必须指定一个或多个要取消设置的键。\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "取消设置“%s”时出错：%s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "必须指定一个或多个要递归取消设置的键。\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "在递归取消设置“%s”时失败：%s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr "必须指定要获取子目录的一个或多个目录。\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "列目录时错误：%s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "警告：必须在 <pair> 中同时指定 <car> 和 <cdr>\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr "警告：在 <value> 下为 schema 指定的键(%s) - 忽略\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "警告：必须在 <value> 下有子节点\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "警告：无法理解节点 <%s>\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "警告：解析整数值“%s”失败\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "警告：解析浮点值“%s”失败\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "警告：处理字符串值“%s”失败\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "警告：解析布尔值“%s”失败\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "警告：将 schema “%s”关联到键“%s”失败：%s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "警告：schema (%s) 的类型无效或缺少\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "警告：schema (%s) 的 list_type 无效或缺少\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "警告：解析 schema (%s) 的默认值“%s”失败\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr "警告：schema (%s) car_type 或 cdr_type 无效或缺少 \n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "警告：您无法为 schema 设置默认值\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "警告：mateconftool 内部错误，未知的 MateConfValueType\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "警告：解析类型名“%s”失败\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
 msgstr "警告：list_type 只能是整型、浮点型、字符串或布尔型，不能是“%s”\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
 msgstr "警告：car_type 只能是整型、浮点型、字符串或布尔型，不能是“%s”\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
 msgstr "警告：cdr_type 只能是整型、浮点型、字符串或布尔型，不能是“%s”\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "警告：空的 <applyto> 节点"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "警告：无法理解 <schema> 下的节点 <%s>\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "警告：没有指定列表类型模式的 <list_type> 键\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "警告：没有指定成对类型模式的 <car_type> 键\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "警告：没有指定成对类型模式的 <cdr_type> 键\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
 msgstr "警告：<locale> 节点没有“name=\"locale\"”属性，忽略\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
 msgstr "警告：区域设置“%s”有多个 <locale> 节点，忽略第一个后的所有节点\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "警告：<locale> 节点中的节点 <%s> 无效\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "将 schema “%s” 关联到键“%s”上\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "您在 <schema> 中必须至少有一个 <locale> 项\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "警告：安装 schema“%s”失败，区域设置“%s”：%s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "安装 schema “%s”，区域设置“%s”\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "警告：卸载 schema “%s”失败，区域设置“%s”：%s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "已经从区域“%2$s”中卸载了 schema “%1$s”\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "警告：没有指定 schema 的键\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "警告：无法理解 <%2$s> 下的节点 <%1$s>\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "打开“%s”失败：%s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "文档“%s”是空的？\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
 msgstr "文档“%s”的根节点类型错误(<%s>，应该是 <%s>)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "文档“%s”没有顶层 <%s> 节点\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "警告：无法理解位于 <%2$s> 下的节点 <%1$s>\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "在同步配置数据时发生错误：%s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "必须指定要安装的 schema 文件\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "取消设置破坏键 %s 失败：%s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "必须指定一些要破坏的键\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"正在试图通过为键设置不正确的值来破坏您的应用程序：\n"
-"  %s\n"
+msgstr "正在试图通过为键设置不正确的值来破坏您的应用程序：\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "必须指定一些要破坏的目录\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"正在试图通过为目录中的键设置不正确的值来破坏您的应用程序：\n"
-"  %s\n"
-
-#~ msgid "Could not send message to MateConf daemon: %s"
-#~ msgstr "无法发送消息到 MateConf 守护进程：%s"
-
-#~ msgid "daemon gave erroneous reply: %s"
-#~ msgstr "守护进程返回错误的回复：%s"
-
-#~ msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-#~ msgstr "属性“%s”在同一个 <%s> 元素上重复两次"
-
-#~ msgid "IOR file '%s' not opened successfully, no mateconfd located: %s"
-#~ msgstr "IOR 文件“%s”没有成功打开，无 mateconfd 位于：%s"
-
-#~ msgid "mateconftool or other non-mateconfd process has the lock file '%s'"
-#~ msgstr "mateconftool 或其它非 mateconfd 进程的锁定文件为“%s”"
-
-#~ msgid "Failed to unlink lock file %s: %s\n"
-#~ msgstr "取消锁定文件 %s 失败：%s\n"
-
-#~ msgid "Failed to stat %s: %s"
-#~ msgstr "查看 %s 失败：%s"
-
-#~ msgid ""
-#~ "Failed to create pipe for communicating with spawned mateconf daemon: %s\n"
-#~ msgstr "创建与产生的 mateconf 守护进程通讯的管道失败：%s\n"
-
-#~ msgid "Failed to launch configuration server: %s\n"
-#~ msgstr "启动配置服务器失败：%s\n"
-
-#~ msgid "Failed to open %s: %s"
-#~ msgstr "打开 %s 失败：%s"
-
-#~ msgid "Owner of %s is not the current user"
-#~ msgstr "%s 的所有者并非当前用户"
-
-#~ msgid "Bad permissions %lo on directory %s"
-#~ msgstr "目录 %2$s 的权限 %1$lo 有错"
-
-#~ msgid "Failed to create %s: %s"
-#~ msgstr "创建 %s 失败：%s"
-
-#~ msgid "Directory %s has a problem, mateconfd can't use it"
-#~ msgstr "目录 %s 有问题，mateconfd 无法使用它"
-
-#~ msgid "Received signal %d, dumping core. Please report a MateConf bug."
-#~ msgstr "已接收到信号 %d，正在转储核心文件。请报告一个 MateConf 问题。"
-
-#~ msgid "Received signal %d. Please report a MateConf bug."
-#~ msgstr "收到了信号 %d。请报告一个 MateConf 问题。"
-
-#~ msgid ""
-#~ "Received signal %d, shutting down abnormally. Please file a MateConf bug "
-#~ "report."
-#~ msgstr "收到了信号 %d，正在异常关闭。请将 MateConf 问题记入报告。"
-
-#~ msgid "Received signal %d, shutting down cleanly"
-#~ msgstr "已接收到信号 %d，正在干净地关闭"
+msgstr "正在试图通过为目录中的键设置不正确的值来破坏您的应用程序：\n  %s\n"

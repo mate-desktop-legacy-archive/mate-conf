@@ -1,25 +1,21 @@
-# translation of lt.po to Lithuanian
-# Lithuanian translation of mateconf
-# Copyright (C) 2003-2006, 2008 Free Software Foundation, Inc.
-# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
-# Žygimantas Beručka <zygis@gnome.org>, 2004-2006.
-# Gintautas Miliauskas <gintas@akl.lt>, 2008.
-# Rimas Kudelis <rq@akl.lt>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: lt\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-02 17:25+0200\n"
-"PO-Revision-Date: 2010-03-02 17:24+0200\n"
-"Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
-"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.net/projects/p/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
@@ -64,9 +60,7 @@ msgstr "„%s“ nenurodytas LDAP serveris arba pagrindinis DN"
 #: ../backends/evoldap-backend.c:580
 #, c-format
 msgid "Contacting LDAP server: host '%s', port '%d', base DN '%s'"
-msgstr ""
-"Susisiekima su LDAP serveriu: serveris „%s“, prievadas „%d“, pagrindinis DN "
-"„%s“"
+msgstr "Susisiekima su LDAP serveriu: serveris „%s“, prievadas „%d“, pagrindinis DN „%s“"
 
 #: ../backends/evoldap-backend.c:587
 #, c-format
@@ -113,14 +107,7 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"Naudojimas: %s <dir>\n"
-"  Sujungia tekstinės posistemės failų sistemos hierarchiją, pavyzdžiui:\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  į:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "Naudojimas: %s <dir>\n  Sujungia tekstinės posistemės failų sistemos hierarchiją, pavyzdžiui:\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  į:\n    dir/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
@@ -138,11 +125,8 @@ msgstr "Nepavyko sukurti aplanko „%s“: %s"
 
 #: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
-msgstr ""
-"Nepavyko perskaityti arba įrašyti į pagrindinį XML aplanką, esantį adresu „%"
-"s“"
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
+msgstr "Nepavyko perskaityti arba įrašyti į pagrindinį XML aplanką, esantį adresu „%s“"
 
 #: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
 #, c-format
@@ -154,16 +138,12 @@ msgstr "XML šaltinio aplanko/failo priėjimo teisės adresu %s yra: %o/%o"
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"Aplanko pašalinimo operacija nebepalaikoma.  Tiesiog pašalinkite visus "
-"elementus, saugomus aplanke"
+msgstr "Aplanko pašalinimo operacija nebepalaikoma.  Tiesiog pašalinkite visus elementus, saugomus aplanke"
 
 #: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
 msgid "Could not open lock directory for %s to remove locks: %s\n"
-msgstr ""
-"Nepavyko atverti %s skirto rezervavimo aplanko, kad būtų atšaukti "
-"blokavimai: %s\n"
+msgstr "Nepavyko atverti %s skirto rezervavimo aplanko, kad būtų atšaukti blokavimai: %s\n"
 
 #: ../backends/markup-backend.c:839 ../backends/xml-backend.c:782
 #, c-format
@@ -179,176 +159,176 @@ msgstr "Paleidžiamas Markup posistemės modulis"
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "Nepavyko atšaukti XML aplanko „%s“ rezervavimo: %s"
 
-#: ../backends/markup-tree.c:400
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "Nepavyko į diską įrašyti kai kurių konfigūracijos duomenų\n"
 
-#: ../backends/markup-tree.c:923 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "Nepavyko sukurti aplanko „%s“: %s"
 
-#: ../backends/markup-tree.c:963 ../backends/markup-tree.c:970
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "Nepavyko pašalinti „%s“: %s\n"
 
-#: ../backends/markup-tree.c:1171
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "Nepavyko įrašyti „%s“: %s\n"
 
-#: ../backends/markup-tree.c:1379
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "Nepavyko įkelti failo „%s“: %s"
 
-#: ../backends/markup-tree.c:1969
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "Eilutėje %d simbolis %d: %s"
 
-#: ../backends/markup-tree.c:2197 ../backends/markup-tree.c:2218
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "Atributas „%s“ šiame kontekste yra netinkamas elementui <%s>"
 
-#: ../backends/markup-tree.c:2243 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "Nesuprantama „%s“ reikšmė (tikėtasi sveikojo skaičiaus)"
 
-#: ../backends/markup-tree.c:2250 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "Sveikasis skaičius „%s“ yra per didelis arba per mažas"
 
-#: ../backends/markup-tree.c:2282 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "Nesuprantama „%s“ reikšmė (tikėtasi loginės reikšmės)"
 
-#: ../backends/markup-tree.c:2306 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "Nesuprantama „%s“ reikšmė (tikėtasi realaus skaičiaus)"
 
-#: ../backends/markup-tree.c:2386
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "Nežinoma vertė „%s“ atributui „%s“ elemente <%s>"
 
-#: ../backends/markup-tree.c:2406 ../backends/markup-tree.c:2446
-#: ../backends/markup-tree.c:2470 ../backends/markup-tree.c:2478
-#: ../backends/markup-tree.c:2533 ../backends/markup-tree.c:2598
-#: ../backends/markup-tree.c:2710 ../backends/markup-tree.c:2778
-#: ../backends/markup-tree.c:2836 ../backends/markup-tree.c:2986
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "Elemente <%2$s> trūksta „%1$s“ atributo"
 
-#: ../backends/markup-tree.c:2420
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "Netinkamas ltype „%s“ esantis <%s>"
 
-#: ../backends/markup-tree.c:2500
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "Netinkamas pirmo elemento tipas „%s“ esantis <%s>"
 
-#: ../backends/markup-tree.c:2514
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "Netinkamas cdr_type „%s“ esantis <%s>"
 
-#: ../backends/markup-tree.c:2550
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "Invalid list_type „%s“ esantis <%s>"
 
-#: ../backends/markup-tree.c:2917
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "Du <default> elementai po <local_schema>"
 
-#: ../backends/markup-tree.c:2932
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "Du <longdesc> elementai po <local_shema>"
 
-#: ../backends/markup-tree.c:2939
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "Elementas <%s> po <%s> neleidžiamas"
 
-#: ../backends/markup-tree.c:2964 ../backends/markup-tree.c:3069
-#: ../backends/markup-tree.c:3123 ../backends/markup-tree.c:3174
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s> pateiktas, bet esamas elementas nėra %s tipo"
 
-#: ../backends/markup-tree.c:3047
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "Du <car> elementai tai pačiai porai"
 
-#: ../backends/markup-tree.c:3061
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "Du <cdr> elementai tai pačiai porai"
 
-#: ../backends/markup-tree.c:3115
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> turi netinkamą tipą %s"
 
-#: ../backends/markup-tree.c:3146
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s> pateiktas, bet tėvinis <entry> neturi jokios reikšmės"
 
-#: ../backends/markup-tree.c:3187 ../backends/markup-tree.c:3210
-#: ../backends/markup-tree.c:3232 ../backends/markup-tree.c:3249
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "Elementas <%s> neleidžiamas esamo elemento viduje"
 
-#: ../backends/markup-tree.c:3281
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "Šakninis meniu failo elementas turi būti <mateconf>, o ne <%s>"
 
-#: ../backends/markup-tree.c:3301 ../backends/markup-tree.c:3323
-#: ../backends/markup-tree.c:3328
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "Elementas <%s> neleidžiamas <%s> elemento viduje"
 
-#: ../backends/markup-tree.c:3472
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "Tekstas <%s> elemento viduje yra neleidžiamas"
 
-#: ../backends/markup-tree.c:3588 ../backends/markup-tree.c:4354
-#: ../backends/markup-tree.c:4373
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "Nepavyko atverti „%s“: %s\n"
 
-#: ../backends/markup-tree.c:3618
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "Klaida skaitant „%s“: %s\n"
 
-#: ../backends/markup-tree.c:4448
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "Nepavyko įrašyti failo %s į diską: %s"
 
-#: ../backends/markup-tree.c:4467
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "Klaida rašant failą „%s“: %s"
 
-#: ../backends/markup-tree.c:4496
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "Nepavyko perkelti laikinojo failo „%s“ į galutinę vietą „%s“: %s"
@@ -375,9 +355,7 @@ msgstr "Nepavyko patalpinti XML podėlio turinio į diską"
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"Iš XML posistemės podėlio negalima pašalinti aplanko „%s“, nes jo nepavyko "
-"patalpinti į diską"
+msgstr "Iš XML posistemės podėlio negalima pašalinti aplanko „%s“, nes jo nepavyko patalpinti į diską"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -448,8 +426,7 @@ msgstr "Bevardis įrašas XML faile „%s“, ignoruojama"
 #: ../backends/xml-dir.c:1195
 #, c-format
 msgid "A toplevel node in XML file `%s' is <%s> rather than <entry>, ignoring"
-msgstr ""
-"Pagrindinis elementas XML faile „%s“ yra <%s>, o ne <entry>, ignoruojama"
+msgstr "Pagrindinis elementas XML faile „%s“ yra <%s>, o ne <entry>, ignoruojama"
 
 #: ../backends/xml-dir.c:1283
 #, c-format
@@ -522,8 +499,7 @@ msgstr "Ignoruojamas blogas XML poros car punktas: %s"
 
 #: ../backends/xml-entry.c:1153 ../backends/xml-entry.c:1176
 msgid "parsing XML file: lists and pairs may not be placed inside a pair"
-msgstr ""
-"apdorojamas XML failas: sąrašai ir poros negali būti įdėti poros viduje"
+msgstr "apdorojamas XML failas: sąrašai ir poros negali būti įdėti poros viduje"
 
 #: ../backends/xml-entry.c:1166
 #, c-format
@@ -552,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "XML faile tarp poros elementų trūksta tiek car, tiek cdr punktų"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "Keisti MateConf būtinąsias reikšmes"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "Keisti MateConf sistemines reikšmes"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "Norint pakeisti MateConf būtinąsias reikšmes reikia privilegijų"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "Norint pakeisti MateConf sistemines reikšmes reikia privilegijų"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "Keisti MateConf būtinąsias reikšmes"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "Norint pakeisti MateConf būtinąsias reikšmes reikia privilegijų"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -621,17 +597,17 @@ msgstr "Nepavyko aptikti posistemės modulio skirto „%s“"
 msgid "Failed to shut down backend"
 msgstr "Nepavyko išjungti posistemės"
 
-#: ../mateconf/mateconf-client.c:346 ../mateconf/mateconf-client.c:364
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "MateConf klaida: %s\n"
 
-#: ../mateconf/mateconf-client.c:932
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
 msgstr "MateConf perspėjimas: įvyko klaida peržiūrint sekų poras tarp „%s“: %s"
 
-#: ../mateconf/mateconf-client.c:1236
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr "Tikėtasi „%s“, tačiau sulaukta „%s“ raktui %s"
@@ -642,9 +618,9 @@ msgstr "Gauta klaidinga reikšmė nustatymo užklausoje"
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
-msgstr ""
-"Nusiuntus nustatymo užklausą raktui „%s“ sulaukta nesuprantamo CORBA atsakymo"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
+msgstr "Nusiuntus nustatymo užklausą raktui „%s“ sulaukta nesuprantamo CORBA atsakymo"
 
 #: ../mateconf/mateconf-database.c:503
 msgid "Received request to drop all cached data"
@@ -656,9 +632,7 @@ msgstr "Gautas prašymas sinchronizuoti sinchroniškai"
 
 #: ../mateconf/mateconf-database.c:808
 msgid "Fatal error: failed to get object reference for ConfigDatabase"
-msgstr ""
-"Lemtinga klaida: nepavyko gauti objekto aprašymo konfiguracijos duomenų "
-"bazėje"
+msgstr "Lemtinga klaida: nepavyko gauti objekto aprašymo konfiguracijos duomenų bazėje"
 
 #: ../mateconf/mateconf-database.c:974
 #, c-format
@@ -668,22 +642,17 @@ msgstr "Nepavyko sulyginti vieno ar kelių šaltinių: %s"
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
-msgstr ""
-"Įvyko klaida gaunant naują vertę `%s', po backend'o perspėjimo pakeitimo `%"
-"s': %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
+msgstr "Įvyko klaida gaunant naują vertę `%s', po backend'o perspėjimo pakeitimo `%s': %s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"Nepavyko užregistruoti besiklausančio objekto %s (%s) įjungimo; jo nepavyks "
-"atstatyti perkrovus mateconfd, tikėtina nepatikima informacija apie nustatymų "
-"pakeitimus."
+msgstr "Nepavyko užregistruoti besiklausančio objekto %s (%s) įjungimo; jo nepavyks atstatyti perkrovus mateconfd, tikėtina nepatikima informacija apie nustatymų pakeitimus."
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -695,9 +664,7 @@ msgstr "Klausytojo ID %lu neegzistuoja"
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"Nepavyko užregistruoti klausytojo išmetimo žurnale (greičiausiai nieko "
-"baisaus, bet galima tikėtis pasikartojančių informacinių pranešimų): %s"
+msgstr "Nepavyko užregistruoti klausytojo išmetimo žurnale (greičiausiai nieko baisaus, bet galima tikėtis pasikartojančių informacinių pranešimų): %s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -845,197 +812,187 @@ msgstr "Iš mateconfd gautas sąrašas su blogu sąrašo tipu"
 msgid "Failed to convert object to IOR"
 msgstr "Nepavyko objekto perversti į IOR"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "Klaidingas UTF-8 schemos lokalėje"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "Klaidingas UTF-8 schemos trumpame aprašyme"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "Klaidingas UTF-8 schemos ilgame aprašyme"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "Klaidingas UTF-8 schemos savininko aprašyme"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "Nepavyko atverti kelio failo „%s“: %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "Nepavyko pridėti pradinio dokumento „%s“\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "Klaida skaitant failą „%s“: %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1668
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "Tekste yra klaidingai suformatuotas UTF-8"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "Tikėtasi sąrašo, gauta %s"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "Tikėtasi %s sąrašo, gautas %s sąrašas"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "Tikėtasi poros, bet gauta %s"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
-msgstr ""
-"Tikėtasi (%s,%s) poros, tačiau gauta pora, kuriai trūsta vieno arba abiejų "
-"punktų"
+msgstr "Tikėtasi (%s,%s) poros, tačiau gauta pora, kuriai trūsta vieno arba abiejų punktų"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "Tikėtasi (%s,%s) poros tipo, tačiau gautas (%s,%s) tipas"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "Citata neprasideda citatos ženklu"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "Citata nesibaigia citatos ženklu"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "Įrašyta reikšmė neatitinka UTF-8"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "Nepavyko rezervuoti laikino failo „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "Nepavyko sukurti failo „%s“, greičiausiai šis failas jau egzistuoja"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "Nepavyko sukurti arba atverti „%s“"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"Nepavyko rezervuoti „%s“: greičiausiai kitas procesas užblokavo resursą arba "
-"yra klaida operacinės sistemos NFS failų blokavimo nustatymuose (%s)"
+msgstr "Nepavyko rezervuoti „%s“: greičiausiai kitas procesas užblokavo resursą arba yra klaida operacinės sistemos NFS failų blokavimo nustatymuose (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "Nepavyko pašalinti „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "Neveikia aktyvioje sesijoje"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "Nepavyko gauti prisijungimo prie sesijos: %s"
 
-#: ../mateconf/mateconf-internals.c:2468
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
-msgid "Could not send message to MateConf daemon: %s"
-msgstr "Nepavyko išsiųsti pranešimo MateConf tarnybai: %s"
+msgid "GetIOR failed: %s"
+msgstr ""
 
-#: ../mateconf/mateconf-internals.c:2479
-#, c-format
-msgid "daemon gave erroneous reply: %s"
-msgstr "tarnyba grąžino klaidingą atsakymą: %s"
-
-#: ../mateconf/mateconf-internals.c:2517
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
-msgstr ""
-"nepavyko susisiekti su ORB tam, kad atpažinti nurodytą mateconfd objekto aprašym"
+msgstr "nepavyko susisiekti su ORB tam, kad atpažinti nurodytą mateconfd objekto aprašym"
 
-#: ../mateconf/mateconf-internals.c:2529
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "Nepavyko paversti IOR „%s“ į objekto aprašymą"
 
-#: ../mateconf/mateconf-internals.c:2556
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "nepavyko sukurti aplanko „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2613
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "Nepavyko įrašyti į failą „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2654
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "Sistema nerezervavo failo „%s“, tačiau tai turėjo būti padaryta"
 
-#: ../mateconf/mateconf-internals.c:2677
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "Nepavyko susieti „%s“ su „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2689
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "Nepavyko pašalinti rezervavimo failo „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2712
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "Nepavyko išvalyti failo „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2728
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "Nepavyko pašalinti rezervavimo aplanko „%s“: %s"
 
-#: ../mateconf/mateconf-internals.c:2866
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "Serverio ping'o klaida: %s"
 
-#: ../mateconf/mateconf-internals.c:2885
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"Nepavyko susisiekti su nustatymų serveriu; galimos priežastys - reikia "
-"įjungti TCP/IP palaikymą MateCORBA, arba turite neveiksnius NFS blokavimo "
-"failus, atsiradusius dėl sistemos gedimo. Daugiau informacijos galima rasti "
-"adresu http://www.gnome.org/projects/mateconf/ . (Smulkmenos - %s)"
 
-#: ../mateconf/mateconf-internals.c:2886
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "joks"
 
@@ -1048,42 +1005,22 @@ msgstr "- MateConf testai"
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Klaida apdorojant parinktis: %s.\n"
-"Paleiskite „%s --help“, norėdami pamatyti komandų eilutės parinkčių sarašą.\n"
+msgstr "Klaida apdorojant parinktis: %s.\nPaleiskite „%s --help“, norėdami pamatyti komandų eilutės parinkčių sarašą.\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau "
-"įvardintą problemą:\n"
-"Nepavyko atverti ar sukurti failo „%s“; tai rodo problemą sistemos "
-"konfigūracijoje, kadangi daliai programų reikia galimybės rašyti į namų "
-"aplanką. Klaidos pranešimas: „%s“ (errno = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau įvardintą problemą:\nNepavyko atverti ar sukurti failo „%s“; tai rodo problemą sistemos konfigūracijoje, kadangi daliai programų reikia galimybės rašyti į namų aplanką. Klaidos pranešimas: „%s“ (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau "
-"įvardintą problemą:\n"
-"Nepavyko rezervuoti failo „%s“; tai rodo sistemos nustatymų problemą. Jei "
-"naudojate namų aplanką, prijungtą per NFS, serveris arba klientinė sistema "
-"gali būti neteisingai sukonfigūruoti. Daugiau informacijos galima rasti rpc."
-"statd ir rpc.lockd aprašymuose. Dažniausiai pasitaikanti priežastis - "
-"išjungta „nfslock“ paslauga. Klaidos pranešimas: „%s“ (errno = %d)."
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau įvardintą problemą:\nNepavyko rezervuoti failo „%s“; tai rodo sistemos nustatymų problemą. Jei naudojate namų aplanką, prijungtą per NFS, serveris arba klientinė sistema gali būti neteisingai sukonfigūruoti. Daugiau informacijos galima rasti rpc.statd ir rpc.lockd aprašymuose. Dažniausiai pasitaikanti priežastis - išjungta „nfslock“ paslauga. Klaidos pranešimas: „%s“ (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1094,13 +1031,8 @@ msgstr "Nepavyko pašalinti failo %s: %s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau "
-"įvardintą problemą:\n"
-"Nerasti pradiniai nustatymų šaltiniai nustatymų faile „%s“; tai rodo, kad "
-"nepavyks išsaugoti nustatymų ir kitų pakeitimų. %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau įvardintą problemą:\nNerasti pradiniai nustatymų šaltiniai nustatymų faile „%s“; tai rodo, kad nepavyks išsaugoti nustatymų ir kitų pakeitimų. %s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1111,32 +1043,18 @@ msgstr "Klaida skaitant failą:"
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau "
-"įvardintą problemą:\n"
-"Nepavyko atpažinti adreso „%s“ esančio nustatymų faile „%s“: %s"
+msgstr "Susisiekite su sistemos administratoriumi, jei norite išspręsti žemiau įvardintą problemą:\nNepavyko atpažinti adreso „%s“ esančio nustatymų faile „%s“: %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"Failai, kuriuose saugomi Jūsų nustatymai, šiuo metu jau naudojami.\n"
-"\n"
-"Galbūt esate prisijungę prie sesijos iš kito kompiuterio ir ta prisijungimo "
-"sesija naudoja šiuos failus.\n"
-"\n"
-"Galite ir toliau naudoti dabartinę sesiją, tačiau tai gali sukelti laikinų "
-"nustatymų sutrikimų kitoje sesijoje.\n"
-"\n"
-"Ar norite tęsti?"
+msgstr "Failai, kuriuose saugomi Jūsų nustatymai, šiuo metu jau naudojami.\n\nGalbūt esate prisijungę prie sesijos iš kito kompiuterio ir ta prisijungimo sesija naudoja šiuos failus.\n\nGalite ir toliau naudoti dabartinę sesiją, tačiau tai gali sukelti laikinų nustatymų sutrikimų kitoje sesijoje.\n\nAr norite tęsti?"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1151,19 +1069,20 @@ msgstr "_Tęsti"
 msgid "%s Continue (y/n)?"
 msgstr "%s Tęsti (y/n)?"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "Schemoje yra klaidingų UTF-8 simbolių"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
 msgstr "Schema aprašo sąrašo tipą, bet neaprašo sąrašo elementų tipo"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
@@ -1177,34 +1096,26 @@ msgstr "Nepavyko įkelti šaltinio „%s“: %s"
 
 #: ../mateconf/mateconf-sources.c:414
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
-msgstr ""
-"Atpažintas adresas „%s“ skirtas rašomam nustatymų šaltiniui pozicijoje %d"
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
+msgstr "Atpažintas adresas „%s“ skirtas rašomam nustatymų šaltiniui pozicijoje %d"
 
 #: ../mateconf/mateconf-sources.c:420
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
-msgstr ""
-"Atpažintas adresas „%s“ skirtas nekeičiamam nustatymų šaltiniui pozicijoje %d"
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
+msgstr "Atpažintas adresas „%s“ skirtas nekeičiamam nustatymų šaltiniui pozicijoje %d"
 
 #: ../mateconf/mateconf-sources.c:427
 #, c-format
 msgid ""
 "Resolved address \"%s\" to a partially writable configuration source at "
 "position %d"
-msgstr ""
-"Atpažintas adresas „%s“ skirtas dalinai rašomam nustatymų šaltiniui "
-"pozicijoje %d"
+msgstr "Atpažintas adresas „%s“ skirtas dalinai rašomam nustatymų šaltiniui pozicijoje %d"
 
 #: ../mateconf/mateconf-sources.c:436
 msgid ""
 "None of the resolved addresses are writable; saving configuration settings "
 "will not be possible"
-msgstr ""
-"Nei vienas iš atpažintų adresų nėra rašomas; Nebus įmanoma išsaugoti "
-"nustatymus"
+msgstr "Nei vienas iš atpažintų adresų nėra rašomas; Nebus įmanoma išsaugoti nustatymus"
 
 #: ../mateconf/mateconf-sources.c:690
 #, c-format
@@ -1220,8 +1131,7 @@ msgstr "Vardas „/“ gali būti tik aplanko, o ne rakto"
 msgid ""
 "Value for `%s' set in a read-only source at the front of your configuration "
 "path"
-msgstr ""
-"„%s“ reikšmė yra nustatyta nekeičiamame šaltinyje nustatymų kelio pradžioje"
+msgstr "„%s“ reikšmė yra nustatyta nekeičiamame šaltinyje nustatymų kelio pradžioje"
 
 #: ../mateconf/mateconf-sources.c:806
 #, c-format
@@ -1234,33 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"Nepavyko išsaugoti rakto „%s“ reikšmės, nes nustatymų serveris neturi "
-"keičiamų duomenų bazių. Dažniausiai pasitaikančios problemos priežastys: 1) "
-"nustatymų kelio failas %s/path nesaugo jokių duomenų bazių arba ji rerasta "
-"2) kažkaip netyčia buvo sukurti du mateconfd procesai 3) sistema yra klaidingai "
-"sukonfigūruota ir NFS failų rezervavimas neveikia namų aplanke 4) Jūsų NFS "
-"klientinis kompiuteris netvarkingai išsijungė arba neinformavo serverio, kad "
-"failų rezervavimas turi būti atšauktias. Jei turite du mateconfd procesus (arba "
-"turėjote du, kai paleidote antrąjį), išsiregistravimas, visų mateconfd kopijų "
-"pašalinimas iš atminties ir prisiregistravimas iš naujo turėtų padėti. Jei "
-"turite neveiksnių rezervavimo failų, pašalinkite failus ~/.mateconf*/*lock. Gal "
-"problema atsirado dėl to, kad bandėte pasinaudoti MateConf iš dviejų "
-"kompiuterių vienu metu ir MateCORBA vis dar turi standartinius nustatymus, "
-"draudžiančius nutolusias CORBA jungtis - prirašykite „ORBIIOPIPv4=1“ į /etc/"
-"matecorbarc. Dėl viso pikto patikrinkite user.* sisteminį žurnalą, kuriame "
-"turėtų būti detalesnė informacija apie mateconfd sutiktas problemas. "
-"Kiekviename namų aplanke gali būti tik vienas mateconfd procesas ir jis turi "
-"kontroliuoti blokavimo failą, esantį tarp ~/.mateconfd bei kitus blokavimo "
-"failus nepriklausomų saugyklų saugojimo vietose (pvz., tarp ~/.mateconf)"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "Nepavyko išsaugoti rakto „%s“ reikšmės, nes nustatymų serveris neturi keičiamų duomenų bazių. Dažniausiai pasitaikančios problemos priežastys: 1) nustatymų kelio failas %s/path nesaugo jokių duomenų bazių arba ji rerasta 2) kažkaip netyčia buvo sukurti du mateconfd procesai 3) sistema yra klaidingai sukonfigūruota ir NFS failų rezervavimas neveikia namų aplanke 4) Jūsų NFS klientinis kompiuteris netvarkingai išsijungė arba neinformavo serverio, kad failų rezervavimas turi būti atšauktias. Jei turite du mateconfd procesus (arba turėjote du, kai paleidote antrąjį), išsiregistravimas, visų mateconfd kopijų pašalinimas iš atminties ir prisiregistravimas iš naujo turėtų padėti. Jei turite neveiksnių rezervavimo failų, pašalinkite failus ~/.mateconf*/*lock. Gal problema atsirado dėl to, kad bandėte pasinaudoti MateConf iš dviejų kompiuterių vienu metu ir MateCORBA vis dar turi standartinius nustatymus, draudžiančius nutolusias CORBA jungtis - prirašykite „ORBIIOPIPv4=1“ į /etc/matecorbarc. Dėl viso pikto patikrinkite user.* sisteminį žurnalą, kuriame turėtų būti detalesnė informacija apie mateconfd sutiktas problemas. Kiekviename namų aplanke gali būti tik vienas mateconfd procesas ir jis turi kontroliuoti blokavimo failą, esantį tarp ~/.mateconfd bei kitus blokavimo failus nepriklausomų saugyklų saugojimo vietose (pvz., tarp ~/.mateconf)"
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1290,9 +1182,7 @@ msgstr "Nesuprantama „%s“ reikšmė (sąrašas turi baigtis „]“ simboliu
 #: ../mateconf/mateconf-value.c:326
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ']' found inside list)"
-msgstr ""
-"Nesuprantama „%s“ reikšmė (papildomi neapsaugoti „]“ simboliai rasti sąrašo "
-"viduje)"
+msgstr "Nesuprantama „%s“ reikšmė (papildomi neapsaugoti „]“ simboliai rasti sąrašo viduje)"
 
 #: ../mateconf/mateconf-value.c:357 ../mateconf/mateconf-value.c:518
 #, c-format
@@ -1317,9 +1207,7 @@ msgstr "Nesuprantama „%s“ reikšmė (klaidingas elementų skaičius)"
 #: ../mateconf/mateconf-value.c:487
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ')' found inside pair)"
-msgstr ""
-"Nesuprantama „%s“ reikšmė (papildomi neapsaugoti „)“ simboliai rasti poros "
-"viduje)"
+msgstr "Nesuprantama „%s“ reikšmė (papildomi neapsaugoti „)“ simboliai rasti poros viduje)"
 
 #: ../mateconf/mateconf.c:95
 msgid "Key is NULL"
@@ -1335,310 +1223,283 @@ msgstr "„%s“: %s"
 msgid "Server couldn't resolve the address `%s'"
 msgstr "Serverui nepavyko atpažinti adreso „%s“"
 
-#: ../mateconf/mateconf.c:819
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
 msgstr "Negalima pridėti perspėjimų į vietinį nustatymų šaltinį"
 
-#: ../mateconf/mateconf.c:2269
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
 msgstr "Nepavyko įtraukti kliento į serverio sąrašą, CORBA klaida: %s"
 
-#: ../mateconf/mateconf.c:2641
+#: ../mateconf/mateconf.c:2704
 msgid "Must begin with a slash '/'"
 msgstr "Turi prasidėti įkypuoju brūkšniu (/)"
 
-#: ../mateconf/mateconf.c:2663
+#: ../mateconf/mateconf.c:2726
 msgid "Can't have two slashes '/' in a row"
 msgstr "Negalima šalia turėti dviejų įkypųjų brūkšnių (/)"
 
-#: ../mateconf/mateconf.c:2665
+#: ../mateconf/mateconf.c:2728
 msgid "Can't have a period '.' right after a slash '/'"
 msgstr "Negalima įvesti tašto (.) tuoj po įkypojo brūkšnio (/)"
 
-#: ../mateconf/mateconf.c:2685
+#: ../mateconf/mateconf.c:2748
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
 msgstr "„\\%o“ nėra ASCII simbolis, todėl neleistinas raktų varduose"
 
-#: ../mateconf/mateconf.c:2695
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "„%c“ simbolis yra netinkamas raktų arba aplankų varduose"
 
-#: ../mateconf/mateconf.c:2709
+#: ../mateconf/mateconf.c:2772
 msgid "Key/directory may not end with a slash '/'"
 msgstr "Raktas ar aplankas negali baigtis įkypuoju brūkšniu (/)"
 
-#: ../mateconf/mateconf.c:3080
+#: ../mateconf/mateconf.c:3143
 #, c-format
 msgid "Failure shutting down configuration server: %s"
 msgstr "Nepavyko sustabdyti konfigūracijos serverio: %s"
 
-#: ../mateconf/mateconf.c:3141
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "Tikėtasi slankaus kablelio skaičiaus, sulaukta %s"
 
-#: ../mateconf/mateconf.c:3176
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "Tikėtasi sveikojo skaičiaus, sulaukta %s"
 
-#: ../mateconf/mateconf.c:3211
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "Tikėtasi simbolių sekos, sulaukta %s"
 
-#: ../mateconf/mateconf.c:3245
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "Tikėtasi loginės reikšmės, sulaukta %s"
 
-#: ../mateconf/mateconf.c:3278
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "Tikėtasi schemos, sulaukta %s"
 
-#: ../mateconf/mateconf.c:3617
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "CORBA klaida: %s"
 
-#: ../mateconf/mateconfd.c:306
+#: ../mateconf/mateconfd.c:336
 msgid "Shutdown request received"
 msgstr "Sulaukta išsijungimo prašymo"
 
-#: ../mateconf/mateconfd.c:338
+#: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"mateconfd užprogramuotas su testavimo funkcijomis; pabandykite paleisti mateconf."
-"path iš pradinių šaltinių aplanko"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "mateconfd užprogramuotas su testavimo funkcijomis; pabandykite paleisti mateconf.path iš pradinių šaltinių aplanko"
 
-#: ../mateconf/mateconfd.c:358
+#: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
-msgstr ""
-"Nerasta jokių nustatymų failų, bandoma naudoti standartinius nustatymų "
-"šaltinius „%s“"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
+msgstr "Nerasta jokių nustatymų failų, bandoma naudoti standartinius nustatymų šaltinius „%s“"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
-#: ../mateconf/mateconfd.c:366
+#. 
+#: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
-msgstr ""
-"Šaltinio kelyje nėra konfigūracijos šaltinių, konfigūracija nebus išsaugota; "
-"redaguokite %s%s"
+msgstr "Šaltinio kelyje nėra konfigūracijos šaltinių, konfigūracija nebus išsaugota; redaguokite %s%s"
 
-#: ../mateconf/mateconfd.c:379
+#: ../mateconf/mateconfd.c:409
 #, c-format
 msgid "Error loading some configuration sources: %s"
 msgstr "Klaida įkeliant kai kuriuos konfigūracijos šaltinius: %s"
 
-#: ../mateconf/mateconfd.c:391
+#: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"Nepavyko atpažinti jokių pradinių nustatymų adresų, negalima perskaityti "
-"arba išsaugoti nustatymų"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "Nepavyko atpažinti jokių pradinių nustatymų adresų, negalima perskaityti arba išsaugoti nustatymų"
 
-#: ../mateconf/mateconfd.c:408
+#: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"Nerasti keičiami nustatymų šaltiniai, gali nepavykti išsaugoti dalies "
-"nustatymų pakeitimų"
+msgstr "Nerasti keičiami nustatymų šaltiniai, gali nepavykti išsaugoti dalies nustatymų pakeitimų"
 
-#: ../mateconf/mateconfd.c:573
+#: ../mateconf/mateconfd.c:603
 #, c-format
 msgid "Could not connect to session bus: %s"
 msgstr "Nepavyko prisijungti prie sesijos magistralės: %s"
 
-#: ../mateconf/mateconfd.c:595
+#: ../mateconf/mateconfd.c:625
 #, c-format
 msgid "Failed to get bus name for daemon, exiting: %s"
-msgstr ""
-"Nepavyko gauti tarnybos magistralės pavadinimo, nutraukiamas darbas: %s"
+msgstr "Nepavyko gauti tarnybos magistralės pavadinimo, nutraukiamas darbas: %s"
 
-#: ../mateconf/mateconfd.c:676
+#: ../mateconf/mateconfd.c:706
 #, c-format
 msgid "Could not connect to system bus: %s"
 msgstr "Nepavyko prisijungti prie sisteminės magistralės: %s"
 
-#: ../mateconf/mateconfd.c:812
+#: ../mateconf/mateconfd.c:842
 #, c-format
 msgid "starting (version %s), pid %u user '%s'"
 msgstr "paleidžiama (versija %s), pid %u vartotojas „%s“"
 
-#: ../mateconf/mateconfd.c:860
+#: ../mateconf/mateconfd.c:890
 msgid "Failed to get object reference for ConfigServer"
 msgstr "Nepavyko gauti objekto aprašymo skirto ConfigServer"
 
-#: ../mateconf/mateconfd.c:889
+#: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
-msgstr ""
-"Nepavyko įrašyti duomenų į konvejerio failo aprašą %d, todėl klientinė "
-"programa gali pakibti: %s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
+msgstr "Nepavyko įrašyti duomenų į konvejerio failo aprašą %d, todėl klientinė programa gali pakibti: %s"
 
-#: ../mateconf/mateconfd.c:935
+#: ../mateconf/mateconfd.c:965
 #, c-format
 msgid "Error releasing lockfile: %s"
 msgstr "Įvyko klaida atlaisvinant užrakinimo failą: %s"
 
-#: ../mateconf/mateconfd.c:943
+#: ../mateconf/mateconfd.c:973
 msgid "Exiting"
 msgstr "Atsijungiama"
 
-#: ../mateconf/mateconfd.c:961
+#: ../mateconf/mateconfd.c:991
 msgid "SIGHUP received, reloading all databases"
 msgstr "gautas SIGHUP, perkraunamos visos duomenų bazės"
 
-#: ../mateconf/mateconfd.c:978
+#: ../mateconf/mateconfd.c:1008
 msgid "MateConf server is not in use, shutting down."
 msgstr "MateConf serveris nenaudojamas, išsijungiama."
 
-#: ../mateconf/mateconfd.c:1304
+#: ../mateconf/mateconfd.c:1334
 #, c-format
 msgid "Error obtaining new value for `%s': %s"
 msgstr "Įvyko klaida gaunant naują „%s“ reikšmę: %s"
 
-#: ../mateconf/mateconfd.c:1448
+#: ../mateconf/mateconfd.c:1478
 #, c-format
 msgid "Returning exception: %s"
 msgstr "Grąžinama išimtis: %s"
 
-#: ../mateconf/mateconfd.c:1554
+#: ../mateconf/mateconfd.c:1584
 #, c-format
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"Nepavyko atverti mateconfd žurnalo; nepavyks atstatyti besiklausančių proceso "
-"išjungus mateconfd (%s)"
+msgstr "Nepavyko atverti mateconfd žurnalo; nepavyks atstatyti besiklausančių proceso išjungus mateconfd (%s)"
 
-#: ../mateconf/mateconfd.c:1589
+#: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
-msgstr ""
-"Nepavyko užverti mateconfd žurnalo; duomenys gali būti neteisingai išsaugoti (%"
-"s)"
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
+msgstr "Nepavyko užverti mateconfd žurnalo; duomenys gali būti neteisingai išsaugoti (%s)"
 
-#: ../mateconf/mateconfd.c:1651
+#: ../mateconf/mateconfd.c:1681
 #, c-format
 msgid "Could not open saved state file '%s' for writing: %s"
 msgstr "Nepavyko rašymui atverti išsaugotos būsenos failo „%s“: %s"
 
-#: ../mateconf/mateconfd.c:1665
+#: ../mateconf/mateconfd.c:1695
 #, c-format
 msgid "Could not write saved state file '%s' fd: %d: %s"
 msgstr "Nepavyko rašyti į išsaugotą būsenos failą „%s“ fd: %d: %s"
 
-#: ../mateconf/mateconfd.c:1674
+#: ../mateconf/mateconfd.c:1704
 #, c-format
 msgid "Could not flush saved state file '%s' to disk: %s"
 msgstr "Nepavyko įrašyti išsaugotosios būsenos failo „%s“ į diską: %s"
 
-#: ../mateconf/mateconfd.c:1681
+#: ../mateconf/mateconfd.c:1711
 #, c-format
 msgid "Failed to close new saved state file '%s': %s"
 msgstr "Nepavyko užverti naujos išsaugotos būsenos failo „%s“: %s"
 
-#: ../mateconf/mateconfd.c:1695
+#: ../mateconf/mateconfd.c:1725
 #, c-format
 msgid "Could not move aside old saved state file '%s': %s"
 msgstr "Nepavyko patraukti į šalį senos išsaugotos būsenos failo „%s“: %s"
 
-#: ../mateconf/mateconfd.c:1705
+#: ../mateconf/mateconfd.c:1735
 #, c-format
 msgid "Failed to move new saved state file into place: %s"
 msgstr "Nepavyko perkelti naujos išsaugotos būsenos failo į vietą: %s"
 
-#: ../mateconf/mateconfd.c:1714
+#: ../mateconf/mateconfd.c:1744
 #, c-format
 msgid ""
 "Failed to restore original saved state file that had been moved to '%s': %s"
-msgstr ""
-"Nepavyko atstatyti originalios išsaugotos būsenos failo, kuri buvo perkelta "
-"į „%s“: %s"
+msgstr "Nepavyko atstatyti originalios išsaugotos būsenos failo, kuri buvo perkelta į „%s“: %s"
 
-#: ../mateconf/mateconfd.c:2193
+#: ../mateconf/mateconfd.c:2223
 #, c-format
 msgid ""
 "Unable to restore a listener on address '%s', couldn't resolve the database"
-msgstr ""
-"Nepavyko atstatyti nesiklausančios programos adresu „%s“, nepavyko atpažinti "
-"duomenų bazės adreso"
+msgstr "Nepavyko atstatyti nesiklausančios programos adresu „%s“, nepavyko atpažinti duomenų bazės adreso"
 
-#: ../mateconf/mateconfd.c:2229
+#: ../mateconf/mateconfd.c:2259
 #, c-format
 msgid "Error reading saved state file: %s"
 msgstr "Įvyko klaida skaitant išsaugotos būsenos failą: %s"
 
-#: ../mateconf/mateconfd.c:2279
+#: ../mateconf/mateconfd.c:2309
 #, c-format
 msgid "Unable to open saved state file '%s': %s"
 msgstr "Nepavyko atverti išsaugotos būsenos failo „%s“: %s"
 
-#: ../mateconf/mateconfd.c:2398
+#: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Nepavyko užregistruoti besiklausančios programos mateconfd žurnale: jos "
-"nepavyks įtraukti iš naujo, jei mateconfd nutrauks darbą arba atsijungs (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Nepavyko užregistruoti besiklausančios programos mateconfd žurnale: jos nepavyks įtraukti iš naujo, jei mateconfd nutrauks darbą arba atsijungs (%s)"
 
-#: ../mateconf/mateconfd.c:2403
+#: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Nepavyko užregistruoti besiklausančios programos pašalinimo mateconfd žurnale; "
-"programa gali būti klaidingai paleista, jei mateconfd nutrauks darbą arba "
-"atsijungs (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Nepavyko užregistruoti besiklausančios programos pašalinimo mateconfd žurnale; programa gali būti klaidingai paleista, jei mateconfd nutrauks darbą arba atsijungs (%s)"
 
-#: ../mateconf/mateconfd.c:2426 ../mateconf/mateconfd.c:2600
+#: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
 msgid "Failed to get IOR for client: %s"
 msgstr "Nepavyko gauti kliento IOR: %s"
 
-#: ../mateconf/mateconfd.c:2441
+#: ../mateconf/mateconfd.c:2471
 #, c-format
 msgid "Failed to open saved state file: %s"
 msgstr "Nepavyko atverti išsaugotos būsenos failo: %s"
 
-#: ../mateconf/mateconfd.c:2454
+#: ../mateconf/mateconfd.c:2484
 #, c-format
 msgid "Failed to write client add to saved state file: %s"
 msgstr "Nepavyko įrašyti kliento įtraukimo į išsaugotos būsenos failą: %s"
 
-#: ../mateconf/mateconfd.c:2462
+#: ../mateconf/mateconfd.c:2492
 #, c-format
 msgid "Failed to flush client add to saved state file: %s"
-msgstr ""
-"Nepavyko nuleisti kliento įtraukimo registravimo į išsaugotos būsenos failą: "
-"%s"
+msgstr "Nepavyko nuleisti kliento įtraukimo registravimo į išsaugotos būsenos failą: %s"
 
-#: ../mateconf/mateconfd.c:2561
+#: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
-msgstr ""
-"Kažkoks klientas pašalino save iš MateConf serverio, nors jis nebuvo įtrauktas."
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
+msgstr "Kažkoks klientas pašalino save iš MateConf serverio, nors jis nebuvo įtrauktas."
 
 #: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
@@ -1656,9 +1517,7 @@ msgstr "Atšaukti raktus komandinėje eilutėje"
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
 "command line"
-msgstr ""
-"Komandine eilute atšaukti visus raktus esančius esamame arba žemiau "
-"esančiuose aplankuose"
+msgstr "Komandine eilute atšaukti visus raktus esančius esamame arba žemiau esančiuose aplankuose"
 
 #: ../mateconf/mateconftool.c:130
 msgid "Toggles a boolean key."
@@ -1674,9 +1533,7 @@ msgstr "Parodyti visus aplanke esančius žemesnio lygio aplankus."
 
 #: ../mateconf/mateconftool.c:157
 msgid "Print all subdirectories and entries under a directory, recursively."
-msgstr ""
-"Parodyti visus aplankus ir įrašus, saugomus nurodytame aplanke bei jo "
-"poaplankiuose."
+msgstr "Parodyti visus aplankus ir įrašus, saugomus nurodytame aplanke bei jo poaplankiuose."
 
 #: ../mateconf/mateconftool.c:166 ../mateconf/mateconftool.c:175
 msgid "Search for a key, recursively."
@@ -1700,19 +1557,15 @@ msgstr "Reikšmių skaitymo metu ignoruoti schemų įprastas reikšmes."
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
-msgstr ""
-"Išvesti į standartinę išvestį visų įrašų, saugomų dabartiniame aplanke bei "
-"žemiau esančiuose aplankuose, XML aprašus."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
+msgstr "Išvesti į standartinę išvestį visų įrašų, saugomų dabartiniame aplanke bei žemiau esančiuose aplankuose, XML aprašus."
 
 #: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"Įkelti iš nurodyto failo XML reikšmių aprašymą ir nustatyti jas nurodytame "
-"aplanke."
+msgstr "Įkelti iš nurodyto failo XML reikšmių aprašymą ir nustatyti jas nurodytame aplanke."
 
 #: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
@@ -1732,19 +1585,15 @@ msgstr "Grąžinti 0, jei mateconfd yra paleistas, 2 jei nepaleistas."
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
-msgstr ""
-"Paleisti nustatymų serverį (mateconfd). (Paprastai įvyksta automatiškai, kai to "
-"prireikia.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
+msgstr "Paleisti nustatymų serverį (mateconfd). (Paprastai įvyksta automatiškai, kai to prireikia.)"
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"Nurodyti nustatomos reišmės tipą arba aprašomos schemos reikšmės tipą. Tinka "
-"ir unikalūs sutrumpinimai."
+msgstr "Nurodyti nustatomos reišmės tipą arba aprašomos schemos reikšmės tipą. Tinka ir unikalūs sutrumpinimai."
 
 #: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
@@ -1760,36 +1609,30 @@ msgstr "Gauti sąrašo rakto elementų skaičių."
 
 #: ../mateconf/mateconftool.c:328
 msgid "Get a specific element from a list key, numerically indexed."
-msgstr ""
-"Gauti nurodytą elementą iš sąrašo rakto, su skaitine eiliškumo reikšme."
+msgstr "Gauti nurodytą elementą iš sąrašo rakto, su skaitine eiliškumo reikšme."
 
 #: ../mateconf/mateconftool.c:337
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"Nurodyti nustatomos sąrašo reikšmės tipą arba aprašomos schemos reikšmės "
-"tipą. Tinka ir unikalūs sutrumpinimai."
+msgstr "Nurodyti nustatomos sąrašo reikšmės tipą arba aprašomos schemos reikšmės tipą. Tinka ir unikalūs sutrumpinimai."
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Nurodyti nustatomos car poros reikšmės tipą arba aprašomos schemos reikšmės "
-"tipą. Tinka ir unikalūs sutrumpinimai."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Nurodyti nustatomos car poros reikšmės tipą arba aprašomos schemos reikšmės tipą. Tinka ir unikalūs sutrumpinimai."
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Nurodyti nustatomos cdr poros reikšmės tipą arba aprašomos schemos reikšmės "
-"tipą. Tinka ir unikalūs sutrumpinimai."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Nurodyti nustatomos cdr poros reikšmės tipą arba aprašomos schemos reikšmės tipą. Tinka ir unikalūs sutrumpinimai."
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1809,56 +1652,42 @@ msgstr "ŠALTINIS"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
-msgstr ""
-"Pasiekti konfigūracijos duomenų bazę tiesiogiai, aplenkiant serverį. Tuo "
-"metu mateconfd turi būti nepaleistas."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
+msgstr "Pasiekti konfigūracijos duomenų bazę tiesiogiai, aplenkiant serverį. Tuo metu mateconfd turi būti nepaleistas."
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"Tvarkingai įdiegia į duomenų bazę schemų failus komandine eilute. "
-"MATECONF_CONFIG_SOURCE aplinkos kintamasis turi būti nustatytas į netipinį "
-"nustatymų šaltinį arba turėti tuščią simbolių seką."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "Tvarkingai įdiegia į duomenų bazę schemų failus komandine eilute. MATECONF_CONFIG_SOURCE aplinkos kintamasis turi būti nustatytas į netipinį nustatymų šaltinį arba turėti tuščią simbolių seką."
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"Tvarkingai pašalina iš duomenų bazės schemų failus komandine eilute. "
-"MATECONF_CONFIG_SOURCE aplinkos kintamasis turi būti nustatytas į netipinį "
-"nustatymų šaltinį arba turėti tuščią simbolių seką."
+msgstr "Tvarkingai pašalina iš duomenų bazės schemų failus komandine eilute. MATECONF_CONFIG_SOURCE aplinkos kintamasis turi būti nustatytas į netipinį nustatymų šaltinį arba turėti tuščią simbolių seką."
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"Agresyviai patikrinti programą komandinėje eilutėje nustatant bei atšaukiant "
-"daug skirtingų tipų raktų reikšmių."
+msgstr "Agresyviai patikrinti programą komandinėje eilutėje nustatant bei atšaukiant daug skirtingų tipų raktų reikšmių."
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"Agresyviai patikrinti programą komandinėje eilutėje nustatant bei atšaukiant "
-"daug skirtingų tipų raktų saugomų aplankuose."
+msgstr "Agresyviai patikrinti programą komandinėje eilutėje nustatant bei atšaukiant daug skirtingų tipų raktų saugomų aplankuose."
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"Nustatyti schemą ir ją išsaugoti. Naudojama kartu su --short-desc, --long-"
-"desc, --owner ir --type."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "Nustatyti schemą ir ją išsaugoti. Naudojama kartu su --short-desc, --long-desc, --owner ir --type."
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1885,7 +1714,8 @@ msgid "Get the name of the schema applied to this key"
 msgstr "Gauti schemos, pritaikytos šiam raktui, vardą"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
 msgstr "Nurodyti schemos vardą ir raktą, kuriam reikia pritaikyti tą schemą"
 
 #: ../mateconf/mateconftool.c:499
@@ -1963,8 +1793,7 @@ msgstr "Rodyti schemos parinktis"
 #: ../mateconf/mateconftool.c:629
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Paleiskite „%s --help“, norėdami pamatyti komandų eilutės parinkčių sąrašą.\n"
+msgstr "Paleiskite „%s --help“, norėdami pamatyti komandų eilutės parinkčių sąrašą.\n"
 
 #: ../mateconf/mateconftool.c:657
 #, c-format
@@ -1979,8 +1808,7 @@ msgstr "Negalima tuo pat metu nustatyti reikšmes ir jas gauti ar atšaukti\n"
 #: ../mateconf/mateconftool.c:674
 #, c-format
 msgid "Can't get type and set/unset simultaneously\n"
-msgstr ""
-"Negalima tuo pat metu gauti tipo informacijos bei ja nustatyti ar atšaukti\n"
+msgstr "Negalima tuo pat metu gauti tipo informacijos bei ja nustatyti ar atšaukti\n"
 
 #: ../mateconf/mateconftool.c:682
 #, c-format
@@ -2002,18 +1830,14 @@ msgstr "Negalima naudoti --all-dirs rakto kartu su --get ar --set\n"
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list neturėtų būti naudojamas kartu su --get, --set, --unset, --"
-"all-entries, --all-dirs arba --search-key\n"
+msgstr "--recursive-list neturėtų būti naudojamas kartu su --get, --set, --unset, --all-entries, --all-dirs arba --search-key\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set_schema neturėtų būti naudojama kartu su --get, --set, --unset, --all-"
-"entries, --all-dirs arba --search-key\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set_schema neturėtų būti naudojama kartu su --get, --set, --unset, --all-entries, --all-dirs arba --search-key\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -2028,14 +1852,13 @@ msgstr "Nustatydami reikšmę turite nurodyti jos tipą\n"
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--ignore-schema-defaults turi įtakos tik tada kai naudojamas su --get, --all-"
-"entries, --dump, --recursive-list, --get-list-size arba --get-list-element\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--ignore-schema-defaults turi įtakos tik tada kai naudojamas su --get, --all-entries, --dump, --recursive-list, --get-list-size arba --get-list-element\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -2044,11 +1867,9 @@ msgstr "%s raktas nenaudojamas be kitų raktų.\n"
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
-msgstr ""
-"Naudodami --direct turite nurodyti nustatymų šaltinį su --config-source "
-"raktu\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
+msgstr "Naudodami --direct turite nurodyti nustatymų šaltinį su --config-source raktu\n"
 
 #: ../mateconf/mateconftool.c:859
 #, c-format
@@ -2057,18 +1878,16 @@ msgstr "Nepavyko paleisti MateConf: %s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-msgstr ""
-"Nustatytas MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL kintamasis, schemos "
-"neįdiegiamos\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "Nustatytas MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL kintamasis, schemos neįdiegiamos\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
-msgstr ""
-"Nustatytas MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL kintamasis, schemos "
-"nepašalinamos\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
+msgstr "Nustatytas MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL kintamasis, schemos nepašalinamos\n"
 
 #: ../mateconf/mateconftool.c:907
 #, c-format
@@ -2080,633 +1899,571 @@ msgstr "Turite nustatyti MATECONF_CONFIG_SOURCE aplinkos kintamąjį\n"
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "Nepavyko pasiekti nustatymų šaltinio(ų): %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "Darbo pabaigos klaida: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "Turite nurodyti vieną ar kelius aplankus rekursiniam išvedimui.\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "Nepavyko išvesti įrašų saugomų tarp „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(reikšmė nenustatyta)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "Turite nurodyti ieškotino rakto šabloną.\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "Turite nurodyti PCRE regex paieškai.\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "Įvyko klaida kompiliuojant regex: %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "Turite nurodyti išvedamą aplanką ar aplankus.\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "Nepavyko paleisti nustatymų serverio (mateconfd): %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "Turite nurodyti gautiną raktą ar raktus\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "Tipas: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "Sąrašo tipas: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car tipas: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr tipas: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "Standartinė reikšmė: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "Atšaukti"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "Savininkas: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "Trumpas aprašas: %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "Ilgas aprašas: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "„%s“ reikšmė nenustatyta\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "Nepavyko gauti „%s“ reikšmės: %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "Nesuprantamas „%s“ tipas\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "Parametruose turite nurodyti alternativias raktų/reikšmių vertes\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "Nenustatyta rakto „%s“ reikšmė\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "Negalima naudoti schemos vardo kaip reikšmės\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "Nustatydami sąrašą privalote nurodyti primityvų sąrašo tipą\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "Nustatydami porą privalote nurodyti primityvius car ir cdr tipus\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "Klaida: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "Klaida nustatant reikšmę: %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "Klaida sinchronizuojant: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "Turite nurodyti vieną ar kelis raktus kaip argumentus\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "Nenustatyta rakto „%s“ reikšmė\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "Ne loginė reikšmė: „%s“\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "Norėdami gauti tipą, turite nurodyti raktą ar raktus\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "Turite nurodyti raktą, kurio dydį norite gauti.\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "Raktas %s nėra sąrašas.\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "Turite nurodyti raktą, iš kurio reikia gauti sąrašo elementą.\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "Turite nurodyti sąrašo indeksą.\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "Sąrašo indeksas negali būti neigiamas.\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "Sąrašo indeksas viršija galimas ribas.\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "Komandinėje eilutėje turite nurodyti raktą ar raktus\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "Nežinoma „%s“ schema\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "Schemoje nesaugoja aprašymo seka susieta su „%s“\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "Klaida gaunat schemą skirtą „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "Schema nesaugoma tarp „%s“\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "„%s“ reikšmė nėra schema\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr "Turite nurodyti schemą ir nustatomo rakto vardą\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "Įvyko klaida susiejant schemos vardą „%s“ su rakto vardu „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "Turite nurodyti raktus, kuriems reikia atšaukti schemos nustatymus\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "Įvyko klaida šalinant schemos vardą iš „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "Raktas (schemos vardas) yra vienintelis galimas parametras\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Sąrašo tipas turi būti primityvaus tipo: string, int, float arba bool\n"
+msgstr "Sąrašo tipas turi būti primityvaus tipo: string, int, float arba bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "Poros car tipas turi būti primityvus: string, int, float arba bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "Poros cdr tipas turi būti primityvus: string, int, float arba bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "Įvyko klaida nustatant reikšmę: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "Įvyko klaida sinchronizuojant: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
-msgstr ""
-"Turite nurodyti vieną ar kelis aplankus, iš kurių reikia gauti raktų/"
-"reikšmių poras.\n"
+msgstr "Turite nurodyti vieną ar kelis aplankus, iš kurių reikia gauti raktų/reikšmių poras.\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "Turite nurodyti viena ar kelis raktus, kuriuos reikia atšaukti.\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "Klaida atšaukiant „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "Turite nurodyti vieną ar kelis raktus, rekursyviam atšaukimui.\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "Nesekmė rekursyvaus „%s“ atšaukimo metu: %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
-msgstr ""
-"Turite nurodyti vieną ar kelis aplankus, iš kurių reikia gauti žemesnių "
-"aplankų sąrašą.\n"
+msgstr "Turite nurodyti vieną ar kelis aplankus, iš kurių reikia gauti žemesnių aplankų sąrašą.\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "Įvyko klaida gaunant aplankų sąrašą: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "DĖMESIO: tarp <pair> turite nurodyti tiek <car> tiek <cdr> elementus\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr "DĖMESIO: nurodytas schemos raktas (%s) su <value> - ignoruojama\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "DĖMESIO: žemiau <value> turi būti antrinis elementas\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "DĖMESIO: elementas <%s> neatpažintas\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "DĖMESIO: Nepavyko apdoroti sveiko skaičiaus reikšmės „%s“\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "DĖMESIO: Nepavyko apdoroti slankaus kablelio reikšmės „%s“\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "DĖMESIO: Nepavyko apdoroti sekos reikšmės „%s“\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "DĖMESIO: Nepavyko apdoroti loginės reikšmės „%s“\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "DĖMESIO: Nepavyko susieti schemos „%s“ su raktu „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "DĖMESIO: klaidingas arba trūkstamas schemos tipas (%s)\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "DĖMESIO: klaidingas arba trūkstamas schemos sąrašo tipas (%s)\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "DĖMESIO: Nepavyko apdoroti standartinės reikšmės „%s“ schemoje (%s)\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr "DĖMESIO: klaidingas arba trūkstamas schemos (%s) car ar cdr tipas\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "DĖMESIO: schemai negalima nustatyti standartinės reikšmės\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "DĖMESIO: mateconftool vidinė klaida, nežinomas MateConfValueType\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "DĖMESIO: nepavyko apdoroti tipo vardu „%s“\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"DĖMESIO: sąrašo tipas gali būti tik int, float, string ar bool, o ne „%s“\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgstr "DĖMESIO: sąrašo tipas gali būti tik int, float, string ar bool, o ne „%s“\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"DĖMESIO: car_type gali būti tik int, float, string arba bool, o ne „%s“\n"
+msgstr "DĖMESIO: car_type gali būti tik int, float, string arba bool, o ne „%s“\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"DĖMESIO: cdr_type gali būti tik int, float, string arba bool, o ne „%s“\n"
+msgstr "DĖMESIO: cdr_type gali būti tik int, float, string arba bool, o ne „%s“\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "DĖMESIO: tuščias <applyto> elementas"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "DĖMESIO: elementas <%s> nesuprantamas žemiau <schema>\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "DĖMESIO: nenurodytas schemos sąrašo tipas <list_type>\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "DĖMESIO: nenurodytas schemos poros tipas <car_type>\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "DĖMESIO: nenurodytas schemos poros tipas <cdr_type>\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
-msgstr ""
-"DĖMESIO: <locale> elementas neturi „name=„locale““ požymio, ignoruojama\n"
+msgstr "DĖMESIO: <locale> elementas neturi „name=„locale““ požymio, ignoruojama\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"DĖMESIO: keli lokalės „%s“ <locale> elementai, ignoruojami visi, išskyrus "
-"pirmąjį\n"
+msgstr "DĖMESIO: keli lokalės „%s“ <locale> elementai, ignoruojami visi, išskyrus pirmąjį\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "DĖMESIO: Klaidingas elementas <%s> tarp <locale> elemento\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "Prie rakto „%2$s“ prijungta schema „%1$s“\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "Elemente <schema> turi būti bent vienas <locale> įrašas\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "DĖMESIO: įvyko klaida įdiegiant schemą „%s“, skirtą lokalei „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "Įdiegta schema „%s“, skirta lokalei „%s“\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "DĖMESIO: nepavyko pašalinti schemos „%s“, skirtos lokalei „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "Pašalinta schema „%s“, skirta lokalei „%s“\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "DĖMESIO: nenurodytas joks schemos raktas\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "DĖMESIO: elementas <%s> nesuprantamas žemiau elemento <%s>\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "Nepavyko atverti „%s“: %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "Dokumentas „%s“ yra tuščias?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
-msgstr ""
-"Dokumentas „%s“ turi klaidingą šakninio elemento tipą (<%s>, nors turėtų "
-"būti <%s>)\n"
+msgstr "Dokumentas „%s“ turi klaidingą šakninio elemento tipą (<%s>, nors turėtų būti <%s>)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "Dokumentas „%s“ neturi pagrindinio elemento <%s>\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "DĖMESIO: elementas <%s> nesuprantamas žemiau <%s>\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "Klaida sinchronizuojant nustatymus: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "Turite nurodyti įdiegtinus schemų failus\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "Nepavyko atšaukti tikrinamo rakto %s: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "Turite nurodyti nulaužtinus raktus\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"Bandoma nulaužti Jūsų programą nustatant netinkamas reikšmes raktui:\n"
-" %s\n"
+msgstr "Bandoma nulaužti Jūsų programą nustatant netinkamas reikšmes raktui:\n %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "Turite nurodyti nulaužtinus aplankus\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"Bandoma nulaužti jūsų programą nustatant netinkamas raktų reikšmes aplanke:\n"
-"  %s\n"
-
-#~ msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-#~ msgstr "Atributas „%s“ pakartotas du kartus tame pačiamiame <%s> elemente"
-
-#~ msgid "IOR file '%s' not opened successfully, no mateconfd located: %s"
-#~ msgstr "Nepavyko atverti IOR failo „%s“, mateconfd nerastas: %s"
-
-#~ msgid "mateconftool or other non-mateconfd process has the lock file '%s'"
-#~ msgstr ""
-#~ "mateconftool ar kitas ne mateconfd tipo procesas turi blokavimo failą „%s“"
-
-#~ msgid "Failed to unlink lock file %s: %s\n"
-#~ msgstr "Nepavyko atsieti rezervavimo failo %s: %s\n"
-
-#~ msgid "Failed to stat %s: %s"
-#~ msgstr "Nepavyko pasiekti %s: %s"
-
-#~ msgid ""
-#~ "Failed to create pipe for communicating with spawned mateconf daemon: %s\n"
-#~ msgstr ""
-#~ "Nepavyko sukurti tunelio skirto duomenų keitimuisi su paleistu mateconf "
-#~ "demonu: %s\n"
-
-#~ msgid "Failed to launch configuration server: %s\n"
-#~ msgstr "Nepavyko paleisti nustatymų serverio: %s\n"
-
-#~ msgid "Failed to open %s: %s"
-#~ msgstr "Nepavyko atverti %s: %s"
-
-#~ msgid "Owner of %s is not the current user"
-#~ msgstr "%s savininkas nėra dabartinis naudotojas"
-
-#~ msgid "Bad permissions %lo on directory %s"
-#~ msgstr "Netinkami teisių nustatymai %lo aplanke %s"
-
-#~ msgid "Failed to create %s: %s"
-#~ msgstr "Nepavyko sukurti %s: %s"
-
-#~ msgid "Directory %s has a problem, mateconfd can't use it"
-#~ msgstr "Aplanke %s yra problemų, mateconfd negali jo naudoti"
+msgstr "Bandoma nulaužti jūsų programą nustatant netinkamas raktų reikšmes aplanke:\n  %s\n"

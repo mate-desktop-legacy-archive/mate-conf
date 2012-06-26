@@ -1,20 +1,21 @@
-# mateconf  Korean message translation
-# This file is distributed under the same license as the mateconf package.
-# Chideok Hwang <hwang@mizi.co.kr>, 2000.
-# Changwoo Ryu <cwryu@debian.org>, 2002-2008, 2009, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mateconf\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mateconf&component=general\n"
-"POT-Creation-Date: 2010-09-10 01:45+0900\n"
-"PO-Revision-Date: 2010-09-10 01:46+0900\n"
-"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
-"Language-Team: MATE Korea <mate-kr@googlegroups.com>\n"
-"Language: \n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
@@ -106,14 +107,7 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"사용법: %s <디렉터리>\n"
-"  다음과 같은 마크업 백엔드 파일 시스템을:\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  다음과 같이 합칩니다:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "사용법: %s <디렉터리>\n  다음과 같은 마크업 백엔드 파일 시스템을:\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  다음과 같이 합칩니다:\n    dir/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
@@ -131,10 +125,8 @@ msgstr "`%s'디렉터리를 만들 수가 없습니다: %s"
 
 #: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
-msgstr ""
-"주소 `%s'의 XML 루트 디렉터리에서 읽거나 XML 루트 디렉터리를 쓸 수 없습니다"
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
+msgstr "주소 `%s'의 XML 루트 디렉터리에서 읽거나 XML 루트 디렉터리를 쓸 수 없습니다"
 
 #: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
 #, c-format
@@ -146,9 +138,7 @@ msgstr "루트 디렉터리 %s에 있는 XML 소스의 디렉터리/파일 권�
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"디렉터리 제거 작업은 더 이상 지원하지 않습니다. 디렉터리 내의 모든 값을 삭제"
-"하면 됩니다"
+msgstr "디렉터리 제거 작업은 더 이상 지원하지 않습니다. 디렉터리 내의 모든 값을 삭제하면 됩니다"
 
 #: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
@@ -169,176 +159,176 @@ msgstr "마크업 백엔드 모듈을 초기화합니다"
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "XML 디렉터리 \"%s\"에 잠금을 포기하는데 실패했습니다: %s"
 
-#: ../backends/markup-tree.c:437
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "설정 데이터를 디스크에 쓰는데 실패했습니다\n"
 
-#: ../backends/markup-tree.c:960 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "\"%s\" 디렉터리를 만들 수가 없습니다: %s"
 
-#: ../backends/markup-tree.c:1000 ../backends/markup-tree.c:1007
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "\"%s\" 파일을 지울 수 없습니다: %s\n"
 
-#: ../backends/markup-tree.c:1208
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "\"%s\" 파일을 지우는데 실패했습니다: %s\n"
 
-#: ../backends/markup-tree.c:1416
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "\"%s\" 파일을 읽어들이는데 실패했습니다: %s"
 
-#: ../backends/markup-tree.c:2006
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "줄 %d, 문자 %d: %s"
 
-#: ../backends/markup-tree.c:2234 ../backends/markup-tree.c:2255
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "이 컨텍스트에서 \"%s\" 속성은 <%s> 원소에서 쓸 수 없습니다"
 
-#: ../backends/markup-tree.c:2280 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "`%s'을(를) 해석할 수가 없습니다 (정수가 와야합니다)"
 
-#: ../backends/markup-tree.c:2287 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "정수값 `%s'이(가) 너무 크거나 아니면 너무 작습니다"
 
-#: ../backends/markup-tree.c:2319 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "`%s'을(를) 해석할 수가 없습니다 (true나 false가 와야합니다)"
 
-#: ../backends/markup-tree.c:2343 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "`%s'을(를) 해석할 수가 없습니다 (실수가 와야합니다)"
 
-#: ../backends/markup-tree.c:2423
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "<%3$s> 원소의 \"%2$s\" 속성에 알 수 없는 값 \"%1$s\"이(가) 있습니다"
 
-#: ../backends/markup-tree.c:2443 ../backends/markup-tree.c:2483
-#: ../backends/markup-tree.c:2507 ../backends/markup-tree.c:2515
-#: ../backends/markup-tree.c:2570 ../backends/markup-tree.c:2635
-#: ../backends/markup-tree.c:2747 ../backends/markup-tree.c:2815
-#: ../backends/markup-tree.c:2873 ../backends/markup-tree.c:3023
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "<%s> 원소에 \"%s\"속성값이 없습니다"
 
-#: ../backends/markup-tree.c:2457
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "<%2$s>에 ltype(\"%1$s\")이 잘못되었습니다"
 
-#: ../backends/markup-tree.c:2537
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "<%2$s>에 first-element type(\"%1$s\")이 잘못되었습니다"
 
-#: ../backends/markup-tree.c:2551
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "<%2$s>에 cdr_type(\"%1$s\")이 잘못되었습니다"
 
-#: ../backends/markup-tree.c:2587
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "<%2$s>에 list_type(\"%1$s\")이 잘못되었습니다"
 
-#: ../backends/markup-tree.c:2954
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "<local_schema> 아래에 <default> 원소가 두 개 있습니다"
 
-#: ../backends/markup-tree.c:2969
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "<local_schema> 아래에 <longdesc> 원소가 두 개 있습니다"
 
-#: ../backends/markup-tree.c:2976
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "<%2$s> 아래에 <%1$s> 원소가 올 수 없습니다"
 
-#: ../backends/markup-tree.c:3001 ../backends/markup-tree.c:3106
-#: ../backends/markup-tree.c:3160 ../backends/markup-tree.c:3211
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s>이(가) 있지만 현재 원소는 %s 타입이 아닙니다"
 
-#: ../backends/markup-tree.c:3084
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "같은 페어에 두 개의 <car> 원소가 들어 있습니다"
 
-#: ../backends/markup-tree.c:3098
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "같은 페어에 두 개의 <cdr> 원소가 들어 있습니다"
 
-#: ../backends/markup-tree.c:3152
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li>의 타입이 잘못되었습니다 (%s)"
 
-#: ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s>이(가) 있지만 그 상위의 <entry>에 값이 들어 있지 않습니다"
 
-#: ../backends/markup-tree.c:3224 ../backends/markup-tree.c:3247
-#: ../backends/markup-tree.c:3269 ../backends/markup-tree.c:3286
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "<%s> 원소는 현재 원소 안에 들어갈 수 없습니다"
 
-#: ../backends/markup-tree.c:3318
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "메뉴 파일의 맨 바깥쪽 원소는 <%s>이(가) 아니라 <mateconf>여야 합니다"
 
-#: ../backends/markup-tree.c:3338 ../backends/markup-tree.c:3360
-#: ../backends/markup-tree.c:3365
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "<%s> 원소는 <%s> 원소 안에 쓸 수 없습니다"
 
-#: ../backends/markup-tree.c:3509
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "<%s> 원소 안에는 텍스트를 쓸 수 없습니다"
 
-#: ../backends/markup-tree.c:3625 ../backends/markup-tree.c:4391
-#: ../backends/markup-tree.c:4410
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "\"%s\" 파일을 여는데 실패했습니다: %s\n"
 
-#: ../backends/markup-tree.c:3655
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "\"%s\"을(를) 읽는데 오류가 발생했습니다: %s\n"
 
-#: ../backends/markup-tree.c:4485
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "'%s' 파일을 디스크에 써 넣을 수 없습니다: %s"
 
-#: ../backends/markup-tree.c:4504
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "\"%s\" 파일을 쓰는데 실패했습니다: %s"
 
-#: ../backends/markup-tree.c:4533
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "\"%s\" 임시 파일을 제 위치 \"%s\"에 옮겨 놓는데 실패했습니다: %s"
@@ -365,9 +355,7 @@ msgstr "XML 캐쉬의 내용을 디스크에 쓰는데 실패했습니다"
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"XML 백엔드 캐쉬에서 %s 디렉터리를 지울 수 없습니다. 그 내용이 디스크에 올바르"
-"게 쓰여지지 않았기 때문입니다"
+msgstr "XML 백엔드 캐쉬에서 %s 디렉터리를 지울 수 없습니다. 그 내용이 디스크에 올바르게 쓰여지지 않았기 때문입니다"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -540,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "XML 파일의 값 쌍에서 car가 없습니다"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "MateConf 필수 값 바꾸기"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "MateConf 시스템 값 바꾸기"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "MateConf 필수 값을 바꾸려면 관리자 권한이 필요합니다"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "MateConf 시스템 값을 바꾸려면 관리자 권한이 필요합니다"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "MateConf 필수 값 바꾸기"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "MateConf 필수 값을 바꾸려면 관리자 권한이 필요합니다"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -630,7 +618,8 @@ msgstr "set 요청에서 잘못된 값을 받았습니다"
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
 msgstr "`%s' 키에 대한 set 요청에서 받은 코바 값이 올바른 값이 아닙니다"
 
 #: ../mateconf/mateconf-database.c:503
@@ -653,22 +642,17 @@ msgstr "한 개 이상의 소스를 쓰는데 실패했습니다: %s"
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `"
-"%s': %s"
-msgstr ""
-"`%s':%s 백엔드에서 바뀜 알림을 받은 다음에 `%s'의 값을 얻어내는데 오류가 발생"
-"했습니다."
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
+msgstr "`%s':%s 백엔드에서 바뀜 알림을 받은 다음에 `%s'의 값을 얻어내는데 오류가 발생했습니다."
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"리스너 %s 추가하기를 기록하는데 실패했습니다 (%s):mateconf가 다시 시작할 때 이 "
-"리스너를 복구하지 못할 것이므로, 설정 변화에 대해 안정적으로 통고할 수 없습니"
-"다."
+msgstr "리스너 %s 추가하기를 기록하는데 실패했습니다 (%s):mateconf가 다시 시작할 때 이 리스너를 복구하지 못할 것이므로, 설정 변화에 대해 안정적으로 통고할 수 없습니다."
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -680,9 +664,7 @@ msgstr "리스너 ID %lu이(가) 존재하지 않습니다"
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"리스너의 제거를 로그파일에 기록하는데 실패했습니다 (대부분 해가 될 것은 없으"
-"나, 통고가 이상하게 다시 나타날 수도 있습니다): %s"
+msgstr "리스너의 제거를 로그파일에 기록하는데 실패했습니다 (대부분 해가 될 것은 없으나, 통고가 이상하게 다시 나타날 수도 있습니다): %s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -830,193 +812,187 @@ msgstr "mateconfd에서 받은 리스트의 타입이 틀렸습니다"
 msgid "Failed to convert object to IOR"
 msgstr "오브젝트를 IOR로 변환하는데 실패했습니다"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "스키마에 대한 로캘에서 잘못된 UTF-8"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "스키마에 대한 짧은 설명에서 잘못된 UTF-8"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "스키마에 대한 긴 설명에서 잘못된 UTF-8"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "스키마에 대한 소유자에서 잘못된 UTF-8"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "경로 파일 `%s'을(를) 열 수 없습니다: %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "소스 `%s'을(를) 추가합니다\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "`%s'파일을 읽는데 오류가 발생했습니다: %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1704
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "텍스트에 잘못된 UTF-8이 들어 있습니다"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "예상되는 리스트 대신 %s을(를) 얻었습니다"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "예상되는 %s의 리스트대신 %s의 리스트를 얻었습니다"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "예상되는 pair대신에 %s을(를) 얻었습니다"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
-msgstr ""
-"(%s,%s) 쌍이 나와야 하는 데, 그 중에 한 개 혹은 두 모두의 값이 없는 채로 나타"
-"났습니다"
+msgstr "(%s,%s) 쌍이 나와야 하는 데, 그 중에 한 개 혹은 두 모두의 값이 없는 채로 나타났습니다"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "예상되는 (%s, %s)타입의 pair 대신에 (%s, %s)을 얻었습니다"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "따옴표된 문자열이 따옴표로 시작하지 않습니다"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "따옴표된 문자열이 따옴표로 끝나지 않습니다"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "인코딩된 값이 올바른 UTF-8이 아닙니다"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "'%s' 임시 파일에 잠금을 걸 수 없습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
-msgstr ""
-"'%s' 파일을 만들 수 없습니다. 아마도 이미 존재하는 파일이기 때문일 것입니다"
+msgstr "'%s' 파일을 만들 수 없습니다. 아마도 이미 존재하는 파일이기 때문일 것입니다"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "`%s' 파일을 만들거나 여는데 실패했습니다"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"'%s'을(를) 잠그는데 실패했습니다: 아마도 다른 프로세스가 그 잠금을 가지고 있"
-"던지, 아니면 이 운영 체제에서 NFS 파일 잠금이 잘못 설정되엉 있기 때문일 것입"
-"니다 (%s)"
+msgstr "'%s'을(를) 잠그는데 실패했습니다: 아마도 다른 프로세스가 그 잠금을 가지고 있던지, 아니면 이 운영 체제에서 NFS 파일 잠금이 잘못 설정되엉 있기 때문일 것입니다 (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "`%s'을(를) 지우는데 실패했습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "활성 세션에서 실행하지 않았습니다"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "세션에 연결하는데 실패했습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2472
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
 msgid "GetIOR failed: %s"
 msgstr "GetIOR 실패: %s"
 
-#: ../mateconf/mateconf-internals.c:2509
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
 msgstr "실행 중인 mateconfd 오브젝트 참조를 확인하는데 ORB에 접근할 수 없습니다"
 
-#: ../mateconf/mateconf-internals.c:2521
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "IOR '%s'을(를) 오브젝트 참조로 변환할 수 없습니다"
 
-#: ../mateconf/mateconf-internals.c:2548
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "`%s'디렉터리를 만들 수가 없습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2605
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "`%s'파일에 쓸 수가 없습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2646
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "파일 `%s'에 대해 잠금을 가지고 있지 않지만, 잠금을 가져야 합니다"
 
-#: ../mateconf/mateconf-internals.c:2669
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "`%s'을(를) '%s'(으)로 링크를 만들 수 없습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "`%s' 잠금 파일을 지우는데 실패했습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2704
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "'%s' 파일을 지우는데 실패했습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2720
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "`%s' 잠금 디렉터리를 지우는데 실패했습니다: %s"
 
-#: ../mateconf/mateconf-internals.c:2858
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "서버 ping 오류: %s"
 
-#: ../mateconf/mateconf-internals.c:2877
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"설정 서버에 연결하는데 실패했습니다. 원인은 MateCORBA에 TCP/IP 네트워크를 사용하"
-"는 경우이거나, 아니면 시스템의 이상 종료로 인해 NFS 잠금이 동작하지 않게 되었"
-"을 경우입니다. 자세한 정보는 <http://projects.gnome.org/mateconf/> 페이지를 참조"
-"하십시오. (자세한 정보 - %s)"
 
-#: ../mateconf/mateconf-internals.c:2878
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "없음"
 
@@ -1029,39 +1005,22 @@ msgstr "- MateConf 설정이 정상인지 검사"
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"옵션을 분석하는데 오류: %s.\n"
-"사용 가능한 명령행 옵션을 모두 보려면 '%s --help'라고 실행하십시오.\n"
+msgstr "옵션을 분석하는데 오류: %s.\n사용 가능한 명령행 옵션을 모두 보려면 '%s --help'라고 실행하십시오.\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n"
-"\"%s' 파일을 열거나 만들 수 없습니다; 설정 사항에 문제가 있다는 뜻일 수 있습"
-"니다. 많은 프로그램이 홈 디렉터리 내에 파일을 만들어야 합니다. 오류는 \"%s"
-"\" (errno = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n\"%s' 파일을 열거나 만들 수 없습니다; 설정 사항에 문제가 있다는 뜻일 수 있습니다. 많은 프로그램이 홈 디렉터리 내에 파일을 만들어야 합니다. 오류는 \"%s\" (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n"
-"\"%s' 파일을 잠글 수 없습니다; 운영 체제의 설정 사항에 문제가 있을 수 있습니"
-"다. 홈 디렉터리를 NFS에 마운트했다면, 클라이언트 혹은 서버를 잘못 설정했을 것"
-"입니다. rpc.statd와 rpc.lockd 문서를 참조하십시오. 이 오류의 대부분의 원인은 "
-"\"nfslock\" 서비스를 사용하지 않았기 때문입니다. 오류는 \"%s\" (errno = %d)."
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n\"%s' 파일을 잠글 수 없습니다; 운영 체제의 설정 사항에 문제가 있을 수 있습니다. 홈 디렉터리를 NFS에 마운트했다면, 클라이언트 혹은 서버를 잘못 설정했을 것입니다. rpc.statd와 rpc.lockd 문서를 참조하십시오. 이 오류의 대부분의 원인은 \"nfslock\" 서비스를 사용하지 않았기 때문입니다. 오류는 \"%s\" (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1072,12 +1031,8 @@ msgstr "`%s' 파일을 지울 수 없습니다: %s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n"
-"설정 파일 \"%s\"에 설정 소스가 없습니다; 기본 설정과 그 외의 설정 사항을 저장"
-"할 수 없다는 뜻입니다. %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n설정 파일 \"%s\"에 설정 소스가 없습니다; 기본 설정과 그 외의 설정 사항을 저장할 수 없다는 뜻입니다. %s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1088,31 +1043,18 @@ msgstr "파일을 읽는데 오류가 발생했습니다: "
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n"
-"설정 파일 \"%2$s\"의 주소 \"%1$s\"(을)를 확인(resolve)할 수 없습니다: %3$s"
+msgstr "시스템 관리자에게 접촉해 다음 문제를 해결하십시오: \n설정 파일 \"%2$s\"의 주소 \"%1$s\"(을)를 확인(resolve)할 수 없습니다: %3$s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"기본 설정이 들어 있는 파일이 현재 사용중입니다.\n"
-"\n"
-"다른 컴퓨터에서 세션에 로그인했을 수도 있고, 또 다른 로그인 세션이 기본 설정 "
-"파일을 사용중일 수도 있습니다.\n"
-"\n"
-"현재 세션을 계속 사용할 수도 있지만, 다른 세션에서 그 기본 설정을 이용할 때 "
-"일시적으로 문제가 발생할 수도 있습니다.\n"
-"\n"
-"이 세션을 계속 사용하시겠습니까?"
+msgstr "기본 설정이 들어 있는 파일이 현재 사용중입니다.\n\n다른 컴퓨터에서 세션에 로그인했을 수도 있고, 또 다른 로그인 세션이 기본 설정 파일을 사용중일 수도 있습니다.\n\n현재 세션을 계속 사용할 수도 있지만, 다른 세션에서 그 기본 설정을 이용할 때 일시적으로 문제가 발생할 수도 있습니다.\n\n이 세션을 계속 사용하시겠습니까?"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1127,26 +1069,25 @@ msgstr "계속(_C)"
 msgid "%s Continue (y/n)?"
 msgstr "%s 계속하시겠습니까 (y/n)?"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "스키마에 잘못된 UTF-8이 들어 있습니다"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
-msgstr ""
-"스키마에서 타입 리스트를 지정했지만, 리스트 내용의 타입을 지정하지 않았습니다"
+msgstr "스키마에서 타입 리스트를 지정했지만, 리스트 내용의 타입을 지정하지 않았습니다"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
 "elements"
-msgstr ""
-"스키마에서 타입 pair를 지정했지만, car/cdr 내용의 타입을 지정하지 않았습니다"
+msgstr "스키마에서 타입 pair를 지정했지만, car/cdr 내용의 타입을 지정하지 않았습니다"
 
 #: ../mateconf/mateconf-sources.c:374
 #, c-format
@@ -1155,14 +1096,12 @@ msgstr "source \"%s\"을(를) 불러들이는데 실패했습니다: %s"
 
 #: ../mateconf/mateconf-sources.c:414
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
 msgstr "주소 \"%s\"을(를) 위치 %d에 있는 쓰기 가능한 설정 소스로 확인했습니다"
 
 #: ../mateconf/mateconf-sources.c:420
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
 msgstr "주소 \"%s\"을(를) 위치 %d에 있는 읽기 전용 설정 소스로 확인했습니다"
 
 #: ../mateconf/mateconf-sources.c:427
@@ -1170,17 +1109,13 @@ msgstr "주소 \"%s\"을(를) 위치 %d에 있는 읽기 전용 설정 소스로
 msgid ""
 "Resolved address \"%s\" to a partially writable configuration source at "
 "position %d"
-msgstr ""
-"주소 \"%s\"을(를) 위치 %d에 있는 부분적으로 쓰기 가능한 설정 소스로 확인했습"
-"니다"
+msgstr "주소 \"%s\"을(를) 위치 %d에 있는 부분적으로 쓰기 가능한 설정 소스로 확인했습니다"
 
 #: ../mateconf/mateconf-sources.c:436
 msgid ""
 "None of the resolved addresses are writable; saving configuration settings "
 "will not be possible"
-msgstr ""
-"확인 된 주소 중 어느 것도 쓰기 가능하지 않습니다; 설정 사항을 저장하는 것이 "
-"불가능합니다"
+msgstr "확인 된 주소 중 어느 것도 쓰기 가능하지 않습니다; 설정 사항을 저장하는 것이 불가능합니다"
 
 #: ../mateconf/mateconf-sources.c:690
 #, c-format
@@ -1196,8 +1131,7 @@ msgstr "'/' 이름은 디렉터리만이 사용할 수 있습니다. 키는 안 
 msgid ""
 "Value for `%s' set in a read-only source at the front of your configuration "
 "path"
-msgstr ""
-"설정 경로의 앞에 있는 읽기 전용 소스에 있는 `%s'에 대한 값이 설정되었습니다"
+msgstr "설정 경로의 앞에 있는 읽기 전용 소스에 있는 `%s'에 대한 값이 설정되었습니다"
 
 #: ../mateconf/mateconf-sources.c:806
 #, c-format
@@ -1210,31 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"키 '%s'에 값을 저장할 수 없습니다. 설정 서버에 쓰기 가능한 데이터베이스가 없"
-"기 때문입니다. 이 문제에 대한 몇 가지 흔한 원인이 있습니다: 설정 경로 파일 "
-"%s/path에 데이터베이스가 하나도 없거나 이 파일이 없습니다 2) 무슨 이유에선가 "
-"mateconfd 프로세스를 두 개 만들 지 못했습니다 3) 운영 체제가 잘못 설정해 NFS 파"
-"일 잠금이 홈 디렉터리에서 동작하지 않습니다 4) NFS 클라이언트 기계가 이상 종"
-"료하는 바람에 파일 잠금을 버려야 한다는 사실을 서버에 통보하지 못했습니다. 만"
-"약 mateconfd 프로세스가 두 개 떠 있다면 (혹은 두 번째 프로세스를 실행했을 때 두 "
-"개가 떠 있다면), 로그 아웃해서 모든 mateconfd 프로세스를 죽이고, 다시 로그인 하"
-"면 제대로 동작할 지도 모릅니다. 잠금을 잃어버린 경우, ~/.mateconf*/*lock 파일을 "
-"지우십시오. 아마도 이 문제는 두 개의 기계에서 동시에 MateConf를 사용하는데, "
-"MateCORBA이 기본 설정 사항을 그대로 가지고 있어서 원격 코바 연결을 거부하기 때문"
-"일 지도 모릅니다. 이러한 경우 \"ORBIIOPIPv4=1\"을 /etc/matecorbarc에 넣으십시오. "
-"언제나처럼, mateconfd에서 발생하는 문제에 대한 자세한 정보는 user.* syslog를 확"
-"인하십시오. 홈 디렉터리에는 오직 한 개의 mateconfd만 실행할 수 있고, ~/.mateconfd"
-"에 잠금 파일을 소유하고 있어야 하며 ~/.gcon와 같은 각각의 저장 위치에도 잠금 "
-"파일을 소유하고 있어야 합니다."
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "키 '%s'에 값을 저장할 수 없습니다. 설정 서버에 쓰기 가능한 데이터베이스가 없기 때문입니다. 이 문제에 대한 몇 가지 흔한 원인이 있습니다: 설정 경로 파일 %s/path에 데이터베이스가 하나도 없거나 이 파일이 없습니다 2) 무슨 이유에선가 mateconfd 프로세스를 두 개 만들 지 못했습니다 3) 운영 체제가 잘못 설정해 NFS 파일 잠금이 홈 디렉터리에서 동작하지 않습니다 4) NFS 클라이언트 기계가 이상 종료하는 바람에 파일 잠금을 버려야 한다는 사실을 서버에 통보하지 못했습니다. 만약 mateconfd 프로세스가 두 개 떠 있다면 (혹은 두 번째 프로세스를 실행했을 때 두 개가 떠 있다면), 로그 아웃해서 모든 mateconfd 프로세스를 죽이고, 다시 로그인 하면 제대로 동작할 지도 모릅니다. 잠금을 잃어버린 경우, ~/.mateconf*/*lock 파일을 지우십시오. 아마도 이 문제는 두 개의 기계에서 동시에 MateConf를 사용하는데, MateCORBA이 기본 설정 사항을 그대로 가지고 있어서 원격 코바 연결을 거부하기 때문일 지도 모릅니다. 이러한 경우 \"ORBIIOPIPv4=1\"을 /etc/matecorbarc에 넣으십시오. 언제나처럼, mateconfd에서 발생하는 문제에 대한 자세한 정보는 user.* syslog를 확인하십시오. 홈 디렉터리에는 오직 한 개의 mateconfd만 실행할 수 있고, ~/.mateconfd에 잠금 파일을 소유하고 있어야 하며 ~/.gcon와 같은 각각의 저장 위치에도 잠금 파일을 소유하고 있어야 합니다."
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1249,9 +1167,7 @@ msgstr "메타 정보를 얻어내는데 오류가 생겼습니다: %s"
 #: ../mateconf/mateconf-sources.c:1703
 #, c-format
 msgid "Key `%s' listed as schema for key `%s' actually stores type `%s'"
-msgstr ""
-"키 `%2$s'에 대한 스키마로 열거된 키 `%1$s'이(가) 실제로는 타입 `%3$s'을(를) "
-"저장합니다"
+msgstr "키 `%2$s'에 대한 스키마로 열거된 키 `%1$s'이(가) 실제로는 타입 `%3$s'을(를) 저장합니다"
 
 #: ../mateconf/mateconf-value.c:262
 #, c-format
@@ -1383,30 +1299,26 @@ msgstr "끝내라는 요청을 받았습니다"
 
 #: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"mateconfd가 디버깅 용으로 컴파일되었습니다; 소스 디렉터리에서 mateconf.path를 읽어"
-"들이도록 시도합니다"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "mateconfd가 디버깅 용으로 컴파일되었습니다; 소스 디렉터리에서 mateconf.path를 읽어들이도록 시도합니다"
 
 #: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
 msgstr "설정 파일을 찾을 수 없습니다. 기본 설정 소스 `%s'을(를) 읽어들입니다"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
 #: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
-msgstr ""
-"소스 경로에 설정 소스가 없습니다. 설정을 저장할 수 없습니다. %s%s을(를) 편집"
-"하십시오"
+msgstr "소스 경로에 설정 소스가 없습니다. 설정을 저장할 수 없습니다. %s%s을(를) 편집하십시오"
 
 #: ../mateconf/mateconfd.c:409
 #, c-format
@@ -1415,19 +1327,15 @@ msgstr "설정 파일을 불러들이는데 오류가 발생했습니다: %s"
 
 #: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"설정 소스 주소를 확인하는데 실패했습니다. 설정 데이터를 읽어들이거나 저장할 "
-"수 없습니다"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "설정 소스 주소를 확인하는데 실패했습니다. 설정 데이터를 읽어들이거나 저장할 수 없습니다"
 
 #: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"쓰기 가능한 설정 소스를 확인할 수 없습니다. 설정 사항의 변화를 저장하지 못할 "
-"것입니다"
+msgstr "쓰기 가능한 설정 소스를 확인할 수 없습니다. 설정 사항의 변화를 저장하지 못할 것입니다"
 
 #: ../mateconf/mateconfd.c:603
 #, c-format
@@ -1458,9 +1366,7 @@ msgstr "ConfigServer에 대한 오브젝트 참조를 얻지 못했습니다"
 msgid ""
 "Failed to write byte to pipe file descriptor %d so client program may hang: "
 "%s"
-msgstr ""
-"바이트를 파이프 fd %d에 쓰는데 실패하여 클라이언트 프로그램이 이상 종료할 수 "
-"있습니다: %s"
+msgstr "바이트를 파이프 fd %d에 쓰는데 실패하여 클라이언트 프로그램이 이상 종료할 수 있습니다: %s"
 
 #: ../mateconf/mateconfd.c:965
 #, c-format
@@ -1494,17 +1400,14 @@ msgstr "예외가 발생했습니다: %s"
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"mateconfd 로그파일을 여는데 실패했습니다; mateconfd 셧다운 후에 리스너를 복구하지 "
-"못할 것입니다 (%s)"
+msgstr "mateconfd 로그파일을 여는데 실패했습니다; mateconfd 셧다운 후에 리스너를 복구하지 못할 것입니다 (%s)"
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
-msgstr ""
-"mateconfd 로그파일을 닫는데 실패했습니다; 데이터를 올바르게 저장하지 못할 수도 "
-"있습니다 (%s)"
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
+msgstr "mateconfd 로그파일을 닫는데 실패했습니다; 데이터를 올바르게 저장하지 못할 수도 있습니다 (%s)"
 
 #: ../mateconf/mateconfd.c:1681
 #, c-format
@@ -1546,9 +1449,7 @@ msgstr "'%s'(으)로 옮겨진 원래 저장된 상태 파일을 복구하는데
 #, c-format
 msgid ""
 "Unable to restore a listener on address '%s', couldn't resolve the database"
-msgstr ""
-"주소 '%s'의 리스너를 복구하는데 실패했습니다. 데이터베이스를 확인할 수 없습니"
-"다"
+msgstr "주소 '%s'의 리스너를 복구하는데 실패했습니다. 데이터베이스를 확인할 수 없습니다"
 
 #: ../mateconf/mateconfd.c:2259
 #, c-format
@@ -1563,20 +1464,16 @@ msgstr "저장된 상태 파일 '%s'을(를) 열 수 없습니다: %s"
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"리스너 추가하기를 mateconfd 로그파일에 기록하는데 실패했습니다; mateconfd나 끝나거"
-"나 셧다운할 때 리스너를 다시 추가할 수 없을 것입니다 (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "리스너 추가하기를 mateconfd 로그파일에 기록하는데 실패했습니다; mateconfd나 끝나거나 셧다운할 때 리스너를 다시 추가할 수 없을 것입니다 (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"리스너의 제거를 mateconfd 로그파일에 기록하는데 실패했습니다; mateconfd나 끝나거나 "
-"셧다운할 때 리스너를 다시 추가할 수 없을 것입니다 (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "리스너의 제거를 mateconfd 로그파일에 기록하는데 실패했습니다; mateconfd나 끝나거나 셧다운할 때 리스너를 다시 추가할 수 없을 것입니다 (%s)"
 
 #: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
@@ -1596,14 +1493,13 @@ msgstr "클라이언트에 저장된 상태 파일에 추가하도록 쓰는데 
 #: ../mateconf/mateconfd.c:2492
 #, c-format
 msgid "Failed to flush client add to saved state file: %s"
-msgstr ""
-"클라이언트에 저장된 상태 파일에 추가하도록 쓰기 실행하는데 실패했습니다: %s"
+msgstr "클라이언트에 저장된 상태 파일에 추가하도록 쓰기 실행하는데 실패했습니다: %s"
 
 #: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
-msgstr ""
-"어떤 클라이언트를 추가하기도 전에 자기 자신을 MateConf 서버에서 지웠습니다."
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
+msgstr "어떤 클라이언트를 추가하기도 전에 자기 자신을 MateConf 서버에서 지웠습니다."
 
 #: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
@@ -1621,8 +1517,7 @@ msgstr "명령행에서 키를 지웁니다"
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
 "command line"
-msgstr ""
-"명령행에서 모든 키와 그 아래의 키/디렉터리 이름을 재귀적으로 모두 지웁니다"
+msgstr "명령행에서 모든 키와 그 아래의 키/디렉터리 이름을 재귀적으로 모두 지웁니다"
 
 #: ../mateconf/mateconftool.c:130
 msgid "Toggles a boolean key."
@@ -1662,20 +1557,15 @@ msgstr "값을 읽을 때 스키마 기본값을 무시합니다."
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
-msgstr ""
-"디렉터리 아래의 모든 항목에 대한 XML 표현을 재귀적으로 표준 출력에 덤프합니"
-"다."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
+msgstr "디렉터리 아래의 모든 항목에 대한 XML 표현을 재귀적으로 표준 출력에 덤프합니다."
 
-# FIXME: set them relative 의미는?
 #: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"지정한 파일에서 XML 표현을 읽어들여서, 어떤 디렉터리에 대해 상대적인 값으로 "
-"만듭니다."
+msgstr "지정한 파일에서 XML 표현을 읽어들여서, 어떤 디렉터리에 대해 상대적인 값으로 만듭니다."
 
 #: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
@@ -1687,8 +1577,7 @@ msgstr "기본 소스의 이름을 얻습니다"
 
 #: ../mateconf/mateconftool.c:268
 msgid "Shut down mateconfd. DON'T USE THIS OPTION WITHOUT GOOD REASON."
-msgstr ""
-"mateconfd를 셧다운합니다. 그럴만한 이유가 없다면 이 옵션을 사용하지 마십시오."
+msgstr "mateconfd를 셧다운합니다. 그럴만한 이유가 없다면 이 옵션을 사용하지 마십시오."
 
 #: ../mateconf/mateconftool.c:277
 msgid "Return 0 if mateconfd is running, 2 if not."
@@ -1696,18 +1585,15 @@ msgstr "mateconfd가 돌아가고 있으면 0 아니면 2를 돌려줍니다."
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
-msgstr ""
-"설정 서버(mateconfd)를 실행합니다. (보통의 경우 필요할 때 자동으로 실행됩니다)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
+msgstr "설정 서버(mateconfd)를 실행합니다. (보통의 경우 필요할 때 자동으로 실행됩니다)"
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"설정할 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유일하다면 "
-"줄여서 써도 상관없습니다."
+msgstr "설정할 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유일하다면 줄여서 써도 상관없습니다."
 
 #: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
@@ -1729,29 +1615,24 @@ msgstr "리스트 키에서 인덱스 번호에 해당하는 항목을 얻어 �
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"설정할 리스트 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유일"
-"하다면 줄여서 써도 상관없습니다."
+msgstr "설정할 리스트 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유일하다면 줄여서 써도 상관없습니다."
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"설정할 car 쌍의 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유"
-"일하다면 줄여서 써도 상관없습니다."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "설정할 car 쌍의 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유일하다면 줄여서 써도 상관없습니다."
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"설정할 cdr 쌍의 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유"
-"일하다면 줄여서 써도 상관없습니다."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "설정할 cdr 쌍의 값의 타입, 혹은 스키마가 설명하는 값의 타입을 지정합니다. 유일하다면 줄여서 써도 상관없습니다."
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1771,56 +1652,42 @@ msgstr "<소스>"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
-msgstr ""
-"서버를 무시하고, 설정 데이터베이스를 직접 접근합니다. mateconfd가 실행되면 안 됩"
-"니다."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
+msgstr "서버를 무시하고, 설정 데이터베이스를 직접 접근합니다. mateconfd가 실행되면 안 됩니다."
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"명령행에서 스키마 파일을 데이터베이스에 설치합니다. MATECONF_CONFIG_SOURCE 환경 "
-"변수가 기본값이 아닌 설정 소스로 지정하거나, 기본값을 사용하려면 빈 문자열로 "
-"설정해야 합니다."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "명령행에서 스키마 파일을 데이터베이스에 설치합니다. MATECONF_CONFIG_SOURCE 환경 변수가 기본값이 아닌 설정 소스로 지정하거나, 기본값을 사용하려면 빈 문자열로 설정해야 합니다."
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"명령행에서 스키마 파일을 데이터베이스에서 지웁니다. MATECONF_CONFIG_SOURCE 환경 "
-"변수를 기본값이 아닌 설정 소스로 설정하거나, 기본값을 사용하려면 빈 문자열로 "
-"설정해야 합니다."
+msgstr "명령행에서 스키마 파일을 데이터베이스에서 지웁니다. MATECONF_CONFIG_SOURCE 환경 변수를 기본값이 아닌 설정 소스로 설정하거나, 기본값을 사용하려면 빈 문자열로 설정해야 합니다."
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"명령행에서 여러가지 타입의 많은 값들의 설정 및 설정 해제를 반복하는 테스트를 "
-"수행합니다."
+msgstr "명령행에서 여러가지 타입의 많은 값들의 설정 및 설정 해제를 반복하는 테스트를 수행합니다."
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"명령행에서 디렉터리 내의 많은 값들의 설정 및 설정 해제를 반복하는 테스트를 수"
-"행합니다."
+msgstr "명령행에서 디렉터리 내의 많은 값들의 설정 및 설정 해제를 반복하는 테스트를 수행합니다."
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"스키마를 설정하고 동기화합니다. --short-desc, --long-desc, --owner, --type과 "
-"함께 씁니다."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "스키마를 설정하고 동기화합니다. --short-desc, --long-desc, --owner, --type과 함께 씁니다."
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1847,7 +1714,8 @@ msgid "Get the name of the schema applied to this key"
 msgstr "이 키에 적용된 스키마의 이름을 얻습니다"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
 msgstr "스키마 이름을 적용한 키 다음에 오는 스키마의 이름을 얻습니다"
 
 #: ../mateconf/mateconftool.c:499
@@ -1962,18 +1830,14 @@ msgstr "--get 혹은 --set에서 --all-dirs를 쓸 수 없습니다\n"
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list는 --get, --set, --unset, --all-entries, --all-dirs, --"
-"search-key와 함께 쓸 수 없습니다\n"
+msgstr "--recursive-list는 --get, --set, --unset, --all-entries, --all-dirs, --search-key와 함께 쓸 수 없습니다\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set-schema는 --get, --set, --unset, --all-entries, --all-dirs, --search-key"
-"와 함께 쓸 수 없습니다\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set-schema는 --get, --set, --unset, --all-entries, --all-dirs, --search-key와 함께 쓸 수 없습니다\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -1988,14 +1852,13 @@ msgstr "값을 설정할 때 타입을 지정해야 합니다\n"
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--ignore-schema-defaults 옵션은 --get, --all-entries, --dump, --recursive-"
-"list, --get-list-size 혹은 --get-list-element 옵션을 쓸 때만 적용됩니다\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--ignore-schema-defaults 옵션은 --get, --all-entries, --dump, --recursive-list, --get-list-size 혹은 --get-list-element 옵션을 쓸 때만 적용됩니다\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -2004,10 +1867,9 @@ msgstr "%s 옵션은 이 옵션 단독으로 써야 합니다.\n"
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
-msgstr ""
-"--direct 옵션을 사용할 때는 --config-source로 설정 소스를 지정해야 합니다\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
+msgstr "--direct 옵션을 사용할 때는 --config-source로 설정 소스를 지정해야 합니다\n"
 
 #: ../mateconf/mateconftool.c:859
 #, c-format
@@ -2016,18 +1878,16 @@ msgstr "MateConf를 초기화하는데 실패했습니다: %s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL이 설정되었으므로, 스키마를 설치하지 않"
-"습니다\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL이 설정되었으므로, 스키마를 설치하지 않습니다\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL이 설정되었으므로, 스키마를 지우지 않"
-"습니다\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL이 설정되었으므로, 스키마를 지우지 않습니다\n"
 
 #: ../mateconf/mateconftool.c:907
 #, c-format
@@ -2039,604 +1899,571 @@ msgstr "MATECONF_CONFIG_SOURCE 환경변수의 값을 설정하십시오\n"
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "설정 소스에 접근하는데 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "끝마치는데 오류가 발생했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "재귀적으로 열거하려면 한 개 이상의 디렉터리를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "`%s' 내의 항목들을 나열하는데 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(값이 없습니다)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "찾을 키 패턴을 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "찾을 키 PCRE 정규식을 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "정규식 컴파일에 실패: %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "덤프할 한 개 이상의 디렉터리를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "설정 서버(mateconfd)를 생성할 수가 없습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "얻어낼 키나 키들을 지정하여야합니다\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "타입: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "List 타입: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car 타입: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr 타입: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "기본 값: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "설정 해제"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "소유자: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "간단한 설명: %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "상세한 설명: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "`%s'에 대한 값이 설정하지 않았습니다\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "`%s'에대한 값을 얻는데 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "`%s'타입을 인식할 수가 없습니다\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "바꿀 키/값을 인자로 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "키에 대한 값이 설정하지 않았습니다: `%s'\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "값으로서 스키마를 사용할 수는 없습니다\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "리스트 값을 설정할 때 내장된 리스트타입을 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "쌍의 값을 설정할 때 내장된 car-타입과 cdr-타입을 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "오류: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "값을 설정하는데 오류가 발생했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "동기화에 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "한 개 이상의 키를 인수로 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "%s 키에 대한 값이 없습니다\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "boolean 값이 아닙니다: %s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "타입을 얻어낼 키를 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "크기를 알아볼 키를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "%s 키는 리스트가 아닙니다.\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "리스트 항목을 얻어 낼 키를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "리스트 인덱스를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "리스트 인덱스는 음수 값이 되면 안 됩니다.\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "리스트 인덱스 값이 범위를 벗어납니다.\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "명령행에 키나 키들을 지정하여야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "`%s'에 대한 스키마가 없습니다\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "'%s'에 있는 스키마에 문서화 문자열이 저장되어 있지 않습니다\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "`%s'에서 스키마를 얻는데 오류: %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "'%s'에 저장한 스키마가 없습니다\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "'%s'에 있는 값이 스키마가 아닙니다\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
-msgstr ""
-"스키마에 적용할 키의 이름을 지정하기 바로 전에 스키마 이름을 지정해야 합니"
-"다.\n"
+msgstr "스키마에 적용할 키의 이름을 지정하기 바로 전에 스키마 이름을 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
-msgstr ""
-"스키마 이름 '%s'을(를) 키 이름 '%s'과(와) 연결하는데 오류가 발생했습니다: "
-"%s\n"
+msgstr "스키마 이름 '%s'을(를) 키 이름 '%s'과(와) 연결하는데 오류가 발생했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "스키마를 적용 해제할 키를 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "'%s'에서 스키마 이름을 지우는데 오류: %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "키(스키마 이름)를 유일한 인자로 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "List 타입은 기본타입(문자열, 정수, 실수, 참/거짓)이어야합니다\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "Pair car 타입은 기본타입(문자열, 정수, 실수, 참/거짓)이어야합니다\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "Pair cdr 타입은 기본타입(문자열, 정수, 실수, 참/거짓)이어야합니다\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "값을 설정하는데 오류가 발생했습니다: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "동기화에 실패했습니다: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr "키/값 쌍을 얻어낼 한 개 이상의 디렉터리를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "설정 해제할 한 개 이상의 키를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "`%s'을(를) 설정 해제하는데 오류: %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "재귀적으로 값 해제할 때 한 개 이상의 키를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "\"%s\"의 재귀적으로 값 해제하는 중에 실패: %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr "하위 디렉터리를 얻어낼 한 개 이상의 디렉터리를 지정해야 합니다.\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "디렉터리들를 읽어오는데 실패: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "경고: <pair>에는 <car>와 <cdr>가 모두 들어 있어야 합니다\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
-msgstr ""
-"경고: <value> 아래에 있는 스키마에 대한 키가 (%s) 정의되었습니다 - 무시합니"
-"다\n"
+msgstr "경고: <value> 아래에 있는 스키마에 대한 키가 (%s) 정의되었습니다 - 무시합니다\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "경고: <value> 아래에 자식 노드가 최소한 하나 있어야 합니다\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "경고: <%s>노드를 해석할 수 없습니다\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "경고: int 값 '%s'을(를) 파싱하는데 실패했습니다\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "경고: float 값 `%s'을(를) 파싱하는데 실패했습니다\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "경고: string 값 `%s'을(를) 파싱하는데 실패했습니다\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "경고: boolean 값 `%s'을(를) 파싱하는데 실패했습니다\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "경고: 스키마 `%s'에 키 `%s'을(를) 할당하는데 오류가 생겼습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "경고: 스키마(%s)에 부적절하거나 빠진 타입이 있습니다\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "경고: 스키마(%s)에 부적절하거나 빠진 list_type이 있습니다\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
-msgstr ""
-"경고: 스키마에 대한 기본값 `%s'을(를) 구문 분석하는데 실패했습니다 (%s)\n"
+msgstr "경고: 스키마에 대한 기본값 `%s'을(를) 구문 분석하는데 실패했습니다 (%s)\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
-msgstr ""
-"경고: 스키마에 대한 car_type 혹은 cdr_type이 잘못되었거나 빠졌습니다 (%s)\n"
+msgstr "경고: 스키마에 대한 car_type 혹은 cdr_type이 잘못되었거나 빠졌습니다 (%s)\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "경고: 스키마에대한 기본값을 설정할 수는 없습니다\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "경고: mateconftool 내부 오류, 인식할 수 없는 MateConfValueType\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "경고: 타입 이름 `%s'을(를) 파싱하는데 실패했습니다\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"경고: list_type은 정수,실수, 문자열 또는 bool일 수가 있습니다. `%s'은(는) 안"
-"됩니다.\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgstr "경고: list_type은 정수,실수, 문자열 또는 bool일 수가 있습니다. `%s'은(는) 안됩니다.\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"경고: car_type은 정수,실수, 문자열 또는 bool일 수가 있습니다. `%s'은(는) 안됩"
-"니다.\n"
+msgstr "경고: car_type은 정수,실수, 문자열 또는 bool일 수가 있습니다. `%s'은(는) 안됩니다.\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"경고: cdr_type은 정수,실수, 문자열 또는 bool일 수가 있습니다. `%s'은(는) 안됩"
-"니다.\n"
+msgstr "경고: cdr_type은 정수,실수, 문자열 또는 bool일 수가 있습니다. `%s'은(는) 안됩니다.\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "경고: <applyto>노드가 비여있습니다"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "경고: <schema>아래에서 <%s>노드는 해석할 수 없습니다\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "경고: list 타입의 스키마에서 <list_type>을 지정하지 않았습니다\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "경고: pair 타입의 스키마에서 <car_type>을 지정하지 않았습니다\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "경고: pair 타입의 스키마에서 <cdr_type>을 지정하지 않았습니다\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
 msgstr "경고: <locale> 노드에 `name=\"locale\"' 속성이 없습니다. 무시합니다\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"경고: 로캘 `%s'에 대하여 <locale> 노드가 여러 개 있습니다, 맨 처음을 제외하"
-"고 무시합니다\n"
+msgstr "경고: 로캘 `%s'에 대하여 <locale> 노드가 여러 개 있습니다, 맨 처음을 제외하고 무시합니다\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "경고: <locale>노드속에 적합하지않는 <%s>노드가 있습니다\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "스키마 `%s'에 키 `%s'을(를) 할당합니다\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "한 <schema>안에는 오직 한개의 <locale>엔트리만을 가지고 있어야합니다\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "경고: 스키마 `%s' 로캘 `%s'의 설치가 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "`%s' 스키마를 `%s' 로캘을 위해 설치했습니다\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "경고: `%s' 스키마를 `%s' 로캘에서 지우는데 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "`%s' 스키마를 `%s' 로캘에서 지웠습니다\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "경고: 스키마에 대한 키를 정의하지 않았습니다\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "경고: <%2$s> 아래에서 <%1$s> 노드는 해석할 수 없습니다\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "`%s'을(를) 여는데 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "`%s' 문서가 비어있지 않습니까?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
-msgstr ""
-"`%s' 문서는 잘못된 루트 노드를 가지고 있습니다 (<%s>, <%s>이(가) 되어야 합니"
-"다)\n"
+msgstr "`%s' 문서는 잘못된 루트 노드를 가지고 있습니다 (<%s>, <%s>이(가) 되어야 합니다)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "문서 `%s'에 맨 위 단계의 <%s> 노드가 없습니다\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "경고: <%2$s> 아래에 있는 노드 <%1$s>을(를) 해석할 수 없습니다\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "설정 데이터를 동기화하는데 에러가 발생했습니다: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "설치할 스키마 파일들을 설정하셔야 합니다\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "중단 키 %s을(를) 설정 해제하는데 실패했습니다: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "중단할 키를 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"키에 잘못된 값을 설정하여 응용 프로그램을 중단하도록 시도합니다:\n"
-"  %s\n"
+msgstr "키에 잘못된 값을 설정하여 응용 프로그램을 중단하도록 시도합니다:\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "중단할 디렉터리를 지정해야 합니다\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"디렉터리의 키에 잘못된 값을 설정하여 응용 프로그램을 중단하도록 시도합니다:\n"
-"  %s\n"
-
-#~ msgid "Could not send message to MateConf daemon: %s"
-#~ msgstr "MateConf 데몬에 메시지를 보낼 수 없습니다: %s"
-
-#~ msgid "daemon gave erroneous reply: %s"
-#~ msgstr "데몬에서 오류가 들어 있는 응답을 했습니다: %s"
+msgstr "디렉터리의 키에 잘못된 값을 설정하여 응용 프로그램을 중단하도록 시도합니다:\n  %s\n"

@@ -1,90 +1,103 @@
-# MateConf'i eesti keele tõlge.
-# Estonian translation of MateConf.
-#
-# Copyright (C) 2005–2010 the Mate Foundation
-# This file is distributed under the same license as the mateconf package.
-#
-# kitt <peroona@hot.ee>, 2005.
-# Ivar Smolin <okul@linux.ee>, 2005–2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Gconf HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mateconf&component=general\n"
-"POT-Creation-Date: 2009-05-06 03:42+0000\n"
-"PO-Revision-Date: 2010-06-27 16:01+0300\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
-"Language-Team: Estonian <mate-et@linux.ee>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Estonian (http://www.transifex.net/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+#: ../backends/evoldap-backend.c:162
 #, c-format
 msgid "Failed to get configuration file path from '%s'"
 msgstr "Tõrge seadistusfaili raja hankimisel '%s'-st"
 
+#: ../backends/evoldap-backend.c:173
 #, c-format
 msgid "Created Evolution/LDAP source using configuration file '%s'"
 msgstr "Evolution/LDAP allikas loodi seadistusfaili '%s' kasutades"
 
+#: ../backends/evoldap-backend.c:447
 #, c-format
 msgid "Unable to parse XML file '%s'"
 msgstr "XML faili '%s' pole võimalik analüüsida"
 
+#: ../backends/evoldap-backend.c:456
 #, c-format
 msgid "Config file '%s' is empty"
 msgstr "Seadistusfail '%s' on tühi"
 
+#: ../backends/evoldap-backend.c:467
 #, c-format
 msgid "Root node of '%s' must be <evoldap>, not <%s>"
 msgstr "`%s' juursõlm peab olema <evoldap>, mitte <%s>"
 
+#: ../backends/evoldap-backend.c:505
 #, c-format
 msgid "No <template> specified in '%s'"
 msgstr "<template> pole '%s' sees määratud"
 
+#: ../backends/evoldap-backend.c:512
 #, c-format
 msgid "No \"filter\" attribute specified on <template> in '%s'"
 msgstr "'%s' sees pole <template> jaoks määratud \"filter\" atribuuti"
 
+#: ../backends/evoldap-backend.c:574
 #, c-format
 msgid "No LDAP server or base DN specified in '%s'"
 msgstr "LDAP server või baas-DN on '%s' poolt kirjeldamata"
 
+#: ../backends/evoldap-backend.c:580
 #, c-format
 msgid "Contacting LDAP server: host '%s', port '%d', base DN '%s'"
 msgstr "Ühendumine LDAP serverisse: host '%s', port '%d', baas-DN '%s'"
 
+#: ../backends/evoldap-backend.c:587
 #, c-format
 msgid "Failed to contact LDAP server: %s"
 msgstr "Tõrge LDAP serveriga ühendumisel: %s"
 
+#: ../backends/evoldap-backend.c:675
 #, c-format
 msgid "Searching for entries using filter: %s"
 msgstr "Kannete otsimine filtri abil: %s"
 
+#: ../backends/evoldap-backend.c:689
 #, c-format
 msgid "Error querying LDAP server: %s"
 msgstr "Viga päringu tegemisel LDAP serverisse: %s"
 
+#: ../backends/evoldap-backend.c:699
 #, c-format
 msgid "Got %d entries using filter: %s"
 msgstr "Filtri abil saadi %d kannet: %s"
 
+#: ../backends/mateconf-merge-tree.c:59
 #, c-format
 msgid "Cannot find directory %s\n"
 msgstr "Kataloogi %s ei leitud\n"
 
+#: ../backends/mateconf-merge-tree.c:75
 #, c-format
 msgid "Error saving MateConf tree to '%s': %s\n"
 msgstr "Viga MateConf puu salvestamisel asukohta '%s': %s\n"
 
+#: ../backends/mateconf-merge-tree.c:101
 #, c-format
 msgid "Usage: %s <dir>\n"
 msgstr "Kasutamine: %s <dir>\n"
 
+#: ../backends/mateconf-merge-tree.c:107
 #, c-format
 msgid ""
 "Usage: %s <dir>\n"
@@ -94,868 +107,1033 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"Kasutamine: %s <kataloog>\n"
-"  Märkekeele taustaprogrammi failisüsteemi hierarhia kokkuliitmine. Näide:\n"
-"  Lähteandmed:\n"
-"    kataloog/%%mateconf.xml\n"
-"        alamkataloog1/%%mateconf.xml\n"
-"        alamkataloog2/%%mateconf.xml\n"
-"  tulemus:\n"
-"    kataloog/%%mateconfi-puu.xml\n"
+msgstr "Kasutamine: %s <kataloog>\n  Märkekeele taustaprogrammi failisüsteemi hierarhia kokkuliitmine. Näide:\n  Lähteandmed:\n    kataloog/%%mateconf.xml\n        alamkataloog1/%%mateconf.xml\n        alamkataloog2/%%mateconf.xml\n  tulemus:\n    kataloog/%%mateconfi-puu.xml\n"
 
+#: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
 msgstr "Märkekeele taustaprogrammimooduli eemaldamine mälust."
 
+#: ../backends/markup-backend.c:226 ../backends/xml-backend.c:288
 #, c-format
 msgid "Couldn't find the XML root directory in the address `%s'"
 msgstr "XML juurkataloogi pole võimalik aadressilt `%s' leida"
 
+#: ../backends/markup-backend.c:283 ../backends/xml-backend.c:343
 #, c-format
 msgid "Could not make directory `%s': %s"
 msgstr "Kataloogi `%s': %s tegemine pole võimalik"
 
+#: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
-msgstr ""
-"Aadressil \"%s\" pole võimalik XML juurkataloogist lugeda või pole sinna "
-"võimalik kirjutada"
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
+msgstr "Aadressil \"%s\" pole võimalik XML juurkataloogist lugeda või pole sinna võimalik kirjutada"
 
+#: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
 #, c-format
 msgid "Directory/file permissions for XML source at root %s are: %o/%o"
 msgstr "Juurikas %s asuva XML-allika faili/kataloogi pääsuõigused: %o/%o"
 
+#: ../backends/markup-backend.c:740 ../backends/xml-backend.c:683
 #, c-format
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"Kataloogi eemaldamise toiming pole enam toetatud, nüüd tuleb kataloogist "
-"lihtsatl kõik väärtused eemaldada"
+msgstr "Kataloogi eemaldamise toiming pole enam toetatud, nüüd tuleb kataloogist lihtsatl kõik väärtused eemaldada"
 
+#: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
 msgid "Could not open lock directory for %s to remove locks: %s\n"
 msgstr "%s lukukataloogi pole lukkude eemaldamiseks võimalik avada: %s\n"
 
+#: ../backends/markup-backend.c:839 ../backends/xml-backend.c:782
 #, c-format
 msgid "Could not remove file %s: %s\n"
 msgstr "Faili %s pole võimalik eemaldada: %s\n"
 
+#: ../backends/markup-backend.c:860
 msgid "Initializing Markup backend module"
 msgstr "Märkekeele taustaprogrammimooduli lähtestamine"
 
+#: ../backends/markup-backend.c:918 ../backends/xml-backend.c:880
 #, c-format
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr ""
 
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "Tõrge seadistusandmete kirjutamisel kettale\n"
 
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "Kataloogi tegemine pole võimalik \"%s\": %s"
 
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "\"%s\" pole võimalik eemaldada: %s\n"
 
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "Tõrge \"%s\" kirjutamisel: %s\n"
 
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "Tõrge faili \"%s\" laadimisel: %s"
 
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "Rida %d  tähemärk %d: %s"
 
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr ""
 
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "`%s' on arusaamatu (oodatud täisarv)"
 
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "Täisarv `%s' on liiga suur või väike"
 
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "`%s' on arusaamatu (oodatud õige või vale)"
 
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "`%s' on arusaamatu (oodatud reaalarv)"
 
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr ""
 
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr ""
 
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr ""
 
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr ""
 
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr ""
 
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr ""
 
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "<local_schema> all on kaks <default> elementi"
 
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "<local_schema> all on kaks <longdesc> elementi"
 
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "Element <%s> pole <%s> all lubatud"
 
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "Toetatud <%s>, kuid praegune element ei oma %s tüüpi"
 
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "Kaks <car> elementi antud samale paarile"
 
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "Kaks <cdr> elementi antud samale paarile"
 
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> omab valet tüüpi %s"
 
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "Toetatud <%s> , kuid praegune <entry> ei oma väärtust"
 
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "Element <%s> ei ole praeguse elemendi sees lubatud"
 
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "Menüüfaili väline element peab olema <mateconf>, mitte aga <%s>"
 
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "Element <%s> ei ole elemendi <%s> sees lubatud"
 
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "Tekst pole elemendi <%s> sees lubatud"
 
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "Tõrge \"%s\" avamisel: %s\n"
 
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "Viga \"%s\" lugemisel: %s\n"
 
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "Faili '%s' kirjutamispuhvrit pole võimalik kettale salvestada: %s"
 
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "Viga faili \"%s\" kirjutamisel: %s"
 
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "Tõrge ajutise faili \"%s\" tõstmisel sihtkohta \"%s\": %s"
 
+#: ../backends/xml-backend.c:239
 msgid "Unloading XML backend module."
 msgstr "XML-i taustaprogrammimooduli väljalaadimine."
 
+#: ../backends/xml-backend.c:618
 #, c-format
 msgid "Error syncing the XML backend directory cache: %s"
 msgstr "Viga XML-i taustaprogrammi kataloogipuhvri sünkroniseerimisel: %s"
 
+#: ../backends/xml-backend.c:809
 msgid "Initializing XML backend module"
 msgstr "XML-i taustaprogrammimooduli lähtestamine"
 
+#: ../backends/xml-cache.c:288
 msgid "Failed to sync XML cache contents to disk"
 msgstr "Tõrge XML puhvri sünkroniseerimisel kettale"
 
+#: ../backends/xml-cache.c:318
 #, c-format
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"Kataloogi `%s' pole võimalik XML-i taustaprogrammi puhvrist kustutada kuna "
-"seda pole suudetud edukalt kettale sünkroniseerida"
+msgstr "Kataloogi `%s' pole võimalik XML-i taustaprogrammi puhvrist kustutada kuna seda pole suudetud edukalt kettale sünkroniseerida"
 
+#: ../backends/xml-dir.c:170
 #, c-format
 msgid "Could not stat `%s': %s"
 msgstr "`%s' kohta pole võimalik teavet hankida: %s"
 
+#: ../backends/xml-dir.c:180
 #, c-format
 msgid "XML filename `%s' is a directory"
 msgstr "XML failinimi `%s' on kataloog"
 
+#: ../backends/xml-dir.c:417 ../backends/xml-dir.c:426
 #, c-format
 msgid "Failed to delete \"%s\": %s"
 msgstr "Tõrge \"%s\" kustutamisel: %s"
 
+#: ../backends/xml-dir.c:472
 #, c-format
 msgid "Failed to write file `%s': %s"
 msgstr "Tõrge faili `%s' kirjutamisel: %s"
 
+#: ../backends/xml-dir.c:486 ../backends/xml-dir.c:522
 #, c-format
 msgid "Failed to set mode on `%s': %s"
 msgstr ""
 
+#: ../backends/xml-dir.c:497
 #, c-format
 msgid "Failed to write XML data to `%s': %s"
 msgstr "Tõrge XML andmete `%s' kirjutamisel: %s"
 
+#: ../backends/xml-dir.c:507 ../backends/xml-dir.c:1291
 #, c-format
 msgid "Failed to close file `%s': %s"
 msgstr "Tõrge faili `%s' sulgemisel: %s"
 
+#: ../backends/xml-dir.c:537 ../backends/xml-dir.c:547
 #, c-format
 msgid "Failed to rename `%s' to `%s': %s"
 msgstr "Tõrge `%s'i ümbernimetamisel `%s'ks: %s"
 
+#: ../backends/xml-dir.c:553
 #, c-format
 msgid "Failed to restore `%s' from `%s': %s"
 msgstr "Tõrge `%s' taastamisel `%s': %s"
 
+#: ../backends/xml-dir.c:565
 #, c-format
 msgid "Failed to delete old file `%s': %s"
 msgstr "Tõrge vana faili `%s' kustutamisel: %s "
 
 #. These are all fatal errors
+#: ../backends/xml-dir.c:991
 #, c-format
 msgid "Failed to stat `%s': %s"
 msgstr "Tõrge `%s' kohta andmete hankimisel: %s"
 
+#: ../backends/xml-dir.c:1165
 #, c-format
 msgid "Duplicate entry `%s' in `%s', ignoring"
 msgstr "Korduv kanne `%s' `%s' sees, seda eiratakse"
 
+#: ../backends/xml-dir.c:1187
 #, c-format
 msgid "Entry with no name in XML file `%s', ignoring"
 msgstr "Nimetu kanne XML failie `%s', seda eiratakse"
 
+#: ../backends/xml-dir.c:1195
 #, c-format
 msgid "A toplevel node in XML file `%s' is <%s> rather than <entry>, ignoring"
 msgstr ""
 
+#: ../backends/xml-dir.c:1283
 #, c-format
 msgid "Failed to create file `%s': %s"
 msgstr "Tõrge faili `%s' loomisel: %s"
 
+#: ../backends/xml-dir.c:1382
 #, c-format
 msgid "Failed to parse XML file \"%s\""
 msgstr "Tõrge XML faili \"%s\" parsimisel"
 
 #. There was an error
+#: ../backends/xml-entry.c:153
 #, c-format
 msgid "Ignoring XML node with name `%s': %s"
 msgstr "XML-sõlme nimega `%s' eiratakse: %s"
 
+#: ../backends/xml-entry.c:329
 #, c-format
 msgid "Ignoring schema name `%s', invalid: %s"
 msgstr "Vigast skeeminime `%s' eiratakse: %s"
 
+#: ../backends/xml-entry.c:377
 #, c-format
 msgid "Ignoring XML node `%s': %s"
 msgstr "XML-sõlme `%s' eiratakse: %s"
 
+#: ../backends/xml-entry.c:730
 #, c-format
 msgid "Failed reading default value for schema: %s"
 msgstr "Tõrge vaikimisi väärtuse lugemisel skeemile: %s"
 
+#: ../backends/xml-entry.c:950
 #, c-format
 msgid "No \"type\" attribute for <%s> node"
 msgstr ""
 
+#: ../backends/xml-entry.c:964
 #, c-format
 msgid "A node has unknown \"type\" attribute `%s', ignoring"
 msgstr "Sõlmel on tundmatu \"type\" atribuut `%s', eiratakse"
 
+#: ../backends/xml-entry.c:979
 msgid "No \"value\" attribute for node"
 msgstr "Sõlmel puudub \"value\" atribuut"
 
+#: ../backends/xml-entry.c:1027 ../backends/xml-entry.c:1103
 #, c-format
 msgid "Didn't understand XML node <%s> inside an XML list node"
 msgstr "XML-i sõlmest <%s> pole võimalik XML-i nimekirjasõlme sees aru saada"
 
+#: ../backends/xml-entry.c:1061
 msgid "Invalid type (list, pair, or unknown) in a list node"
 msgstr "Vigane tüüp (nimekiri, paar või tundmatu) nimekirjasõlmes"
 
+#: ../backends/xml-entry.c:1084
 #, c-format
 msgid "Bad XML node: %s"
 msgstr "Vigane XML-sõlm: %s"
 
+#: ../backends/xml-entry.c:1092
 #, c-format
 msgid "List contains a badly-typed node (%s, should be %s)"
 msgstr "Nimekiri sisaldab vigaselt sisestatud sõlme (%s, peaks aga olema %s)"
 
+#: ../backends/xml-entry.c:1144
 #, c-format
 msgid "Ignoring bad car from XML pair: %s"
 msgstr "Halva car'i XML paarist eiramine: %s"
 
+#: ../backends/xml-entry.c:1153 ../backends/xml-entry.c:1176
 msgid "parsing XML file: lists and pairs may not be placed inside a pair"
 msgstr "XML-faili analüüs: paari sees ei tohi olla nimekirju ja paare"
 
+#: ../backends/xml-entry.c:1166
 #, c-format
 msgid "Ignoring bad cdr from XML pair: %s"
 msgstr "Halva cdr'i XML paarist eiramine: %s"
 
+#: ../backends/xml-entry.c:1185
 #, c-format
 msgid "Didn't understand XML node <%s> inside an XML pair node"
 msgstr ""
 
+#: ../backends/xml-entry.c:1203
 msgid "Didn't find car and cdr for XML pair node"
 msgstr ""
 
+#: ../backends/xml-entry.c:1209
 msgid "Missing cdr from pair of values in XML file"
 msgstr "Puudub cdr väärtuste paarist XML failis"
 
+#: ../backends/xml-entry.c:1216
 msgid "Missing car from pair of values in XML file"
 msgstr "Puudub car väärtuste paarist XML failis"
 
+#: ../backends/xml-entry.c:1221
 msgid "Missing both car and cdr values from pair in XML file"
 msgstr ""
 
-msgid "Change MateConf mandatory values"
-msgstr "MateConf'i kohustuslike väärtuste muutmine"
-
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
 msgid "Change MateConf system values"
 msgstr "MateConf'i süsteemsete väärtuste muutmine"
 
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "MateConf'i kohustuslike väärtuste muutmiseks on vaja vastavaid õigusi"
-
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "MateConf'i süsteemsete väärtuste muutmiseks on vaja vastavaid õigusi"
 
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "MateConf'i kohustuslike väärtuste muutmine"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "MateConf'i kohustuslike väärtuste muutmiseks on vaja vastavaid õigusi"
+
+#: ../mateconf/mateconf-backend.c:62
 #, c-format
 msgid "`%c' is an invalid character in a configuration storage address"
 msgstr "Märk `%c' pole seadistuste salvesti aadressis lubatud"
 
 #. -- end debug only
+#: ../mateconf/mateconf-backend.c:216
 #, c-format
 msgid "No such file `%s'\n"
 msgstr "Faili `%s' pole olemas\n"
 
+#: ../mateconf/mateconf-backend.c:261
 #, c-format
 msgid "Backend `%s' failed to return a vtable\n"
 msgstr "Taustaprogrammil `%s' tekkis vtable väljastamisel tõrge\n"
 
+#: ../mateconf/mateconf-backend.c:276
 #, c-format
 msgid "Backend `%s' missing required vtable member `%s'\n"
 msgstr "Taustaprogrammil `%s' puudub vajalik vtable liige `%s'\n"
 
+#: ../mateconf/mateconf-backend.c:302
 #, c-format
 msgid "Bad address `%s': %s"
 msgstr "Vigane aadress `%s': %s"
 
+#: ../mateconf/mateconf-backend.c:312
 #, c-format
 msgid "Bad address `%s'"
 msgstr "Vigane aadress `%s'"
 
+#: ../mateconf/mateconf-backend.c:337
 msgid "MateConf won't work without dynamic module support (gmodule)"
 msgstr "MateConf pole suuteline ilma dünaamiliste mooduliteta (gmodule) töötama"
 
+#: ../mateconf/mateconf-backend.c:346
 #, c-format
 msgid "Error opening module `%s': %s\n"
 msgstr "Viga mooduli `%s' mooduli avamisel: %s\n"
 
+#: ../mateconf/mateconf-backend.c:357
 #, c-format
 msgid "Error initializing module `%s': %s\n"
 msgstr "Viga mooduli `%s' initialiseerimisel: %s\n"
 
+#: ../mateconf/mateconf-backend.c:388
 #, c-format
 msgid "Couldn't locate backend module for `%s'"
 msgstr "Taustaprogrammi moodulit pole `%s' jaoks võimalik laadida"
 
+#: ../mateconf/mateconf-backend.c:425
 msgid "Failed to shut down backend"
 msgstr "Tõrge taustaprogrammi seiskamisel"
 
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "MateConf Viga: %s\n"
 
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
 msgstr ""
 
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:212
 msgid "Received invalid value in set request"
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:503
 msgid "Received request to drop all cached data"
 msgstr "Vastui võetud korraldus kõigi puhverdatud andmete minemaviskamiseks"
 
+#: ../mateconf/mateconf-database.c:520
 msgid "Received request to sync synchronously"
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:808
 msgid "Fatal error: failed to get object reference for ConfigDatabase"
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:974
 #, c-format
 msgid "Failed to sync one or more sources: %s"
 msgstr "Tõrge ühe või enama allika sünkimisel: %s"
 
+#: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:1154
 #, c-format
 msgid "Listener ID %lu doesn't exist"
 msgstr "Listener ID %lu pole olemas"
 
+#: ../mateconf/mateconf-database.c:1168
 #, c-format
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
 msgstr ""
 
+#: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
 msgid "Error getting value for `%s': %s"
 msgstr "Viga väärtuse `%s' saamisel: %s"
 
+#: ../mateconf/mateconf-database.c:1351
 #, c-format
 msgid "Error setting value for `%s': %s"
 msgstr "Viga väärtuse `%s' seadmisel: %s"
 
+#: ../mateconf/mateconf-database.c:1399
 #, c-format
 msgid "Error unsetting `%s': %s"
 msgstr "Viga `%s' väärtuse eemaldamisel: %s"
 
+#: ../mateconf/mateconf-database.c:1428
 #, c-format
 msgid "Error getting default value for `%s': %s"
 msgstr "Viga `%s' vaikeväärtuse hankimisel: %s"
 
+#: ../mateconf/mateconf-database.c:1486
 #, c-format
 msgid "Error unsetting \"%s\": %s"
 msgstr "Viga \"%s\" väärtuse eemaldamisel: %s"
 
+#: ../mateconf/mateconf-database.c:1517
 #, c-format
 msgid "Error getting new value for \"%s\": %s"
 msgstr "Viga uue väärtuse \"%s\" saamisel: %s"
 
+#: ../mateconf/mateconf-database.c:1572
 #, c-format
 msgid "Error checking existence of `%s': %s"
 msgstr "Viga `%s' olemasolu kontrollimisel: %s"
 
+#: ../mateconf/mateconf-database.c:1596
 #, c-format
 msgid "Error removing directory \"%s\": %s"
 msgstr "Viga kataloogi \"%s\" eemaldamisel: %s"
 
+#: ../mateconf/mateconf-database.c:1623
 #, c-format
 msgid "Failed to get all entries in `%s': %s"
 msgstr "Tõrge kõikide sissekannete saamisel `%s'-st: %s"
 
+#: ../mateconf/mateconf-database.c:1649
 #, c-format
 msgid "Error listing dirs in `%s': %s"
 msgstr "Viga `%s' kataloogide järjestamisel: %s"
 
+#: ../mateconf/mateconf-database.c:1670
 #, c-format
 msgid "Error setting schema for `%s': %s"
 msgstr "Viga `%s' jaoks skeemi määramisel: %s"
 
+#: ../mateconf/mateconf-error.c:26
 msgid "Success"
 msgstr "Korras"
 
+#: ../mateconf/mateconf-error.c:27
 msgid "Failed"
 msgstr "Tõrge"
 
+#: ../mateconf/mateconf-error.c:28
 msgid "Configuration server couldn't be contacted"
 msgstr "Seadistusteserveriga pole võimalik ühendust saada"
 
+#: ../mateconf/mateconf-error.c:29
 msgid "Permission denied"
 msgstr "Juurdepääs keelatud"
 
+#: ../mateconf/mateconf-error.c:30
 msgid "Couldn't resolve address for configuration source"
 msgstr "Seadistuste allika aadressi pole võimalik lahendada"
 
+#: ../mateconf/mateconf-error.c:31
 msgid "Bad key or directory name"
 msgstr "Vigane võtme või kataloogi nimi"
 
+#: ../mateconf/mateconf-error.c:32
 msgid "Parse error"
 msgstr "Töötlemise viga"
 
+#: ../mateconf/mateconf-error.c:33
 msgid "Corrupt data in configuration source database"
 msgstr "Seadistuste allika andmebaasis on rikutud andmed"
 
+#: ../mateconf/mateconf-error.c:34
 msgid "Type mismatch"
 msgstr "Tüübid ei ühildu"
 
+#: ../mateconf/mateconf-error.c:35
 msgid "Key operation on directory"
 msgstr "Võtme operatsioon kataloogile"
 
+#: ../mateconf/mateconf-error.c:36
 msgid "Directory operation on key"
 msgstr "Kataloogi operatsioon võtmele"
 
+#: ../mateconf/mateconf-error.c:37
 msgid "Can't overwrite existing read-only value"
 msgstr "Kirjutamiskaitsega väärtuse ülekirjutamine pole võimalik"
 
+#: ../mateconf/mateconf-error.c:38
 msgid "Object Activation Framework error"
 msgstr "Objektiaktiveerimise raamistiku viga"
 
+#: ../mateconf/mateconf-error.c:39
 msgid "Operation not allowed without configuration server"
 msgstr "Operatsioon keelatud seadistusserverita"
 
+#: ../mateconf/mateconf-error.c:40
 msgid "Failed to get a lock"
 msgstr "Tõrge lukustuse hankimisel"
 
+#: ../mateconf/mateconf-error.c:41
 msgid "No database available to save your configuration"
 msgstr "Andmebaasi pole seadistuse salvestamiseks saadaval"
 
+#: ../mateconf/mateconf-internals.c:94
 #, c-format
 msgid "No '/' in key \"%s\""
 msgstr "'/' puudub võtmes \"%s\""
 
+#: ../mateconf/mateconf-internals.c:182
 #, c-format
 msgid "Invalid UTF-8 in string value in '%s'"
 msgstr "Vigane UTF-8 stringiväärtuses asukohas '%s'"
 
+#: ../mateconf/mateconf-internals.c:241
 msgid "Couldn't interpret CORBA value for list element"
 msgstr "CORBA väärtust pole loendielemendi jaoks võimalik interpreteerida"
 
+#: ../mateconf/mateconf-internals.c:243
 #, c-format
 msgid "Incorrect type for list element in %s"
 msgstr "Vigane tüüp %s sees oleva loendi elemendile"
 
+#: ../mateconf/mateconf-internals.c:256
 msgid "Received list from mateconfd with a bad list type"
 msgstr ""
 
+#: ../mateconf/mateconf-internals.c:437
 msgid "Failed to convert object to IOR"
 msgstr "Tõrge objekti teisendamisel IOR-iks"
 
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "Vigane UTF-8 skeemi lokaadis"
 
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "Vigane UTF-8 skeemi lühikirjelduses"
 
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "Vigane UTF-8 skeemi kirjelduses"
 
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "Vigane UTF-8 skeemi omanikus"
 
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "Tõrge asukohafaili `%s' avamisel: %s\n"
 
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "`%s' allika lisamine\n"
 
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "Lugemisfiga failil `%s': %s\n"
 
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
+#: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "Tekst sisaldab vigast UTF-8"
 
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "Oodatud loend, saadi %s"
 
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "Oodatud loend %s-sid, saadi loend %s-sid"
 
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "Oodatud paar, saadi %s"
 
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
 msgstr "Oodatud (%s,%s) paar, saadi paar ühe või mõlema puuduva väärtusega"
 
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr ""
 
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr ""
 
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr ""
 
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "Kodeeritud väärtus pole UTF-8 kodeeringus"
 
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "Ajutist faili '%s' pole võimalik lukustada: %s"
 
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "Faili '%s' pole võimalik luua, tõenäoliselt on see juba olemas"
 
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "Tõrge '%s' loomisel või avamisel"
 
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"Tõrge '%s' lukustamisel: arvatavasti on mõni teine protsess juba selle "
-"lukustanud või on sinu operatsioonisüsteemil NFS-tugi valesti seadistatud (%"
-"s)"
+msgstr "Tõrge '%s' lukustamisel: arvatavasti on mõni teine protsess juba selle lukustanud või on sinu operatsioonisüsteemil NFS-tugi valesti seadistatud (%s)"
 
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "Tõrge '%s' eemaldamisel: %s"
 
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "Ei tööta aktiivse seansi all"
 
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "Tõrge seansiga ühenduse saamisel: %s"
 
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
-msgid "Could not send message to MateConf daemon: %s"
-msgstr "MateConf-deemonile pole võimalik sõnumit saata: %s"
+msgid "GetIOR failed: %s"
+msgstr ""
 
-#, c-format
-msgid "daemon gave erroneous reply: %s"
-msgstr "deemonilt saabus vigane vastus: %s"
-
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
-msgstr ""
-"ORB-iga pole võimalik olemasolevate mateconfd objektiviitade lahendamiseks "
-"ühendust saada"
+msgstr "ORB-iga pole võimalik olemasolevate mateconfd objektiviitade lahendamiseks ühendust saada"
 
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "Tõrge '%s' IOR-i teisendamisel objektiviiteks"
 
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "kataloogi `%s' pole võimalik luua: %s"
 
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "Faili `%s' kirjutamine pole võimalik: %s"
 
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr ""
 
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr ""
 
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "Tõrge lukufaili `%s' eemaldamisel: %s"
 
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "Tõrge faili '%s' puhastamisel: %s"
 
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "Tõrge lukukataloogi `%s' eemaldamisel: %s"
 
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "Serveri pingimise viga: %s"
 
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
 
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "ei ükski"
 
+#: ../mateconf/mateconf-sanity-check.c:49
 msgid "- Sanity checks for MateConf"
 msgstr ""
 
+#: ../mateconf/mateconf-sanity-check.c:58 ../mateconf/mateconftool.c:639
 #, c-format
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Viga võtmete parsimisel: %s.\n"
-"Käsureavõtmete täieliku nimekirja vaatamiseks käivita '%s --help'.\n"
+msgstr "Viga võtmete parsimisel: %s.\nKäsureavõtmete täieliku nimekirja vaatamiseks käivita '%s --help'.\n"
 
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"Palun võta järgneva probleemi lahendamiseks ühendust oma süsteemiülemaga:\n"
-"Faili \"%s\" pole võimalik avada või luua. See näitab, et viga võib olla "
-"Sinule kuuluvates seadistustes - paljud programmid tahavad Sinu "
-"kodukataloogi faile kirjutada. Viga oli \"%s\" (veanr = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "Palun võta järgneva probleemi lahendamiseks ühendust oma süsteemiülemaga:\nFaili \"%s\" pole võimalik avada või luua. See näitab, et viga võib olla Sinule kuuluvates seadistustes - paljud programmid tahavad Sinu kodukataloogi faile kirjutada. Viga oli \"%s\" (veanr = %d)."
 
+#: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"Palun võta järgneva probleemi lahendamiseks ühendust oma süsteemiülemaga:\n"
-"Faili \"%s\" pole võimalik lukustada. See näitab, et viga võib olla Sinu "
-"operatsioonisüsteemi seadistustes. Kui su kodukataloog on külge haagitud NFS-"
-"kataloogina, siis võivad vea põhjustada nii kliendi kui serveri seadistused. "
-"Vaata rpc.statd ja rpc.lockd dokumentatsiooni. Üldjuhul põhjustab vea "
-"asjaolu, et \"nfslock\" teenus on keelatud. kodukataloogi faile kirjutada. "
-"Viga oli \"%s\" (veanr = %d)."
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "Palun võta järgneva probleemi lahendamiseks ühendust oma süsteemiülemaga:\nFaili \"%s\" pole võimalik lukustada. See näitab, et viga võib olla Sinu operatsioonisüsteemi seadistustes. Kui su kodukataloog on külge haagitud NFS-kataloogina, siis võivad vea põhjustada nii kliendi kui serveri seadistused. Vaata rpc.statd ja rpc.lockd dokumentatsiooni. Üldjuhul põhjustab vea asjaolu, et \"nfslock\" teenus on keelatud. kodukataloogi faile kirjutada. Viga oli \"%s\" (veanr = %d)."
 
+#: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
 msgid "Can't remove file %s: %s\n"
 msgstr "Faili %s pole võimalik eemaldada: %s\n"
 
+#: ../mateconf/mateconf-sanity-check.c:235
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
 msgstr ""
 
+#: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
 msgstr "Viga faili lugemisel:"
 
+#: ../mateconf/mateconf-sanity-check.c:261
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"Palun võta järgneva probleemi lahendamiseks ühendust oma süsteemiülemaga:\n"
-"Aadressi \"%s\" pole võimalik seadistusfailis \"%s\" lahendada: %s"
+msgstr "Palun võta järgneva probleemi lahendamiseks ühendust oma süsteemiülemaga:\nAadressi \"%s\" pole võimalik seadistusfailis \"%s\" lahendada: %s"
 
+#: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
 msgstr ""
 
+#: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
 msgstr "_Logi välja"
 
+#: ../mateconf/mateconf-sanity-check.c:345
 msgid "_Continue"
 msgstr "_Jätka"
 
+#: ../mateconf/mateconf-sanity-check.c:358
 #, c-format
 msgid "%s Continue (y/n)?"
 msgstr "%s jätka (y/n)?"
 
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "Skeemis on vigane UTF-8"
 
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
 msgstr ""
 
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
 "elements"
 msgstr ""
 
+#: ../mateconf/mateconf-sources.c:374
 #, c-format
 msgid "Failed to load source \"%s\": %s"
 msgstr "Tõrge allika \"%s\" laadimisel: %s"
 
+#: ../mateconf/mateconf-sources.c:414
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
-msgstr ""
-"Aadress \"%s\" lahendati positsioonil %d kirjutatavaks seadistuste allikaks"
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
+msgstr "Aadress \"%s\" lahendati positsioonil %d kirjutatavaks seadistuste allikaks"
 
+#: ../mateconf/mateconf-sources.c:420
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
-msgstr ""
-"Aadress \"%s\" lahendati positsioonil %d ainult lugemist võimaldavaks "
-"seadistuste allikaks"
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
+msgstr "Aadress \"%s\" lahendati positsioonil %d ainult lugemist võimaldavaks seadistuste allikaks"
 
+#: ../mateconf/mateconf-sources.c:427
 #, c-format
 msgid ""
 "Resolved address \"%s\" to a partially writable configuration source at "
 "position %d"
-msgstr ""
-"Aadress \"%s\" lahendati positsioonil %d osaliselt kirjutatavaks seadistuste "
-"allikaks"
+msgstr "Aadress \"%s\" lahendati positsioonil %d osaliselt kirjutatavaks seadistuste allikaks"
 
+#: ../mateconf/mateconf-sources.c:436
 msgid ""
 "None of the resolved addresses are writable; saving configuration settings "
 "will not be possible"
-msgstr ""
-"Lahendatud aadressidest pole ükski kirjutatav; sätete salvestamine pole "
-"võimalik"
+msgstr "Lahendatud aadressidest pole ükski kirjutatav; sätete salvestamine pole võimalik"
 
+#: ../mateconf/mateconf-sources.c:690
 #, c-format
 msgid "Schema `%s' specified for `%s' stores a non-schema value"
 msgstr ""
 
+#: ../mateconf/mateconf-sources.c:752
 msgid "The '/' name can only be a directory, not a key"
 msgstr "'/' nimi võib olla ainult kataloog, mitte võti"
 
+#: ../mateconf/mateconf-sources.c:794
 #, c-format
 msgid ""
 "Value for `%s' set in a read-only source at the front of your configuration "
 "path"
 msgstr ""
 
+#: ../mateconf/mateconf-sources.c:806
 #, c-format
 msgid ""
 "Unable to store a value at key '%s', as the configuration server has no "
@@ -966,1125 +1144,1326 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
 msgstr ""
 
+#: ../mateconf/mateconf-sources.c:1610
 #, c-format
 msgid "Error finding metainfo: %s"
 msgstr "Viga metainfo leidmisel: %s"
 
+#: ../mateconf/mateconf-sources.c:1679
 #, c-format
 msgid "Error getting metainfo: %s"
 msgstr "Viga metainfo saamisel: %s"
 
+#: ../mateconf/mateconf-sources.c:1703
 #, c-format
 msgid "Key `%s' listed as schema for key `%s' actually stores type `%s'"
 msgstr ""
 
+#: ../mateconf/mateconf-value.c:262
 #, c-format
 msgid "Didn't understand `%s' (list must start with a '[')"
 msgstr "Arusaamatu `%s' (loend peab algama '[' sümboliga)"
 
+#: ../mateconf/mateconf-value.c:275
 #, c-format
 msgid "Didn't understand `%s' (list must end with a ']')"
 msgstr "Arusaamatu `%s' (loend peab lõppema ']' sümboliga)"
 
+#: ../mateconf/mateconf-value.c:326
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ']' found inside list)"
 msgstr ""
 
+#: ../mateconf/mateconf-value.c:357 ../mateconf/mateconf-value.c:518
 #, c-format
 msgid "Didn't understand `%s' (extra trailing characters)"
 msgstr ""
 
+#: ../mateconf/mateconf-value.c:404
 #, c-format
 msgid "Didn't understand `%s' (pair must start with a '(')"
 msgstr "Arusaamatu `%s' (paar peab algama '(' sümboliga)"
 
+#: ../mateconf/mateconf-value.c:417
 #, c-format
 msgid "Didn't understand `%s' (pair must end with a ')')"
 msgstr "Arusaamatu `%s' (paar peab lõppema ')' sümboliga)"
 
+#: ../mateconf/mateconf-value.c:447 ../mateconf/mateconf-value.c:533
 #, c-format
 msgid "Didn't understand `%s' (wrong number of elements)"
 msgstr "Arusaamatu `%s' (vale elementide arv)"
 
+#: ../mateconf/mateconf-value.c:487
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ')' found inside pair)"
 msgstr ""
 
+#: ../mateconf/mateconf.c:95
 msgid "Key is NULL"
 msgstr "Võti on NULL"
 
+#: ../mateconf/mateconf.c:102
 #, c-format
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
 
+#: ../mateconf/mateconf.c:418
 #, c-format
 msgid "Server couldn't resolve the address `%s'"
 msgstr "Server ei suutnud lahendada aadressi `%s'"
 
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
 msgstr "Kohalikule seadete allikale meeldetuletuste lisamine pole võimalik"
 
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
 msgstr "Tõrge kliendi lisamisel serveri nimekirja, CORBA viga: %s"
 
+#: ../mateconf/mateconf.c:2704
 msgid "Must begin with a slash '/'"
 msgstr "Peab algama kaldkriipsuga '/'"
 
+#: ../mateconf/mateconf.c:2726
 msgid "Can't have two slashes '/' in a row"
 msgstr "Kaks kaldkriipsu '/' ei tohi järjest olla"
 
+#: ../mateconf/mateconf.c:2728
 msgid "Can't have a period '.' right after a slash '/'"
 msgstr "Punkt '.' ei tohi kohe pärast kaldkriipsu '/' olla"
 
+#: ../mateconf/mateconf.c:2748
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
 msgstr "'\\%o' pole ASCII-märk ja see pole võtmenimedes lubatud"
 
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "`%c' on lubamatu sümbol võtme/kataloogi nimedes"
 
+#: ../mateconf/mateconf.c:2772
 msgid "Key/directory may not end with a slash '/'"
 msgstr "Võti/kataloogi ei tohi lõppeda kaldkriipsuga '/'"
 
+#: ../mateconf/mateconf.c:3143
 #, c-format
 msgid "Failure shutting down configuration server: %s"
 msgstr "Tõrge seadistusteserveri peatamisel: %s"
 
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "Oodatud ujukomaarv, saadi %s"
 
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "Oodatud täisarv, saadi %s"
 
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "Oodatud string, saadi %s"
 
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "Oodatud tõeväärtus, saadi %s"
 
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "Oodatud schema, saadi %s"
 
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "CORBA viga: %s"
 
+#: ../mateconf/mateconfd.c:336
 msgid "Shutdown request received"
 msgstr "Sulgemise soov vastu võetud"
 
+#: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"mateconfd on kompileeritud silumiseks; proovitakse laadida mateconf.path'i "
-"lähtekataloogist"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "mateconfd on kompileeritud silumiseks; proovitakse laadida mateconf.path'i lähtekataloogist"
 
+#: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
-msgstr ""
-"Seadistusfaile ei leitud. Proovitakse kasutada seadistuste vaikimisi allikat "
-"`%s'"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
+msgstr "Seadistusfaile ei leitud. Proovitakse kasutada seadistuste vaikimisi allikat `%s'"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
+#: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:409
 #, c-format
 msgid "Error loading some configuration sources: %s"
 msgstr "Viga mõnede seadistusallikate laadimisel: %s"
 
+#: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"Seadistuste allika aadressi ei lahendatud edukalt. Seadistuste andmeid pole "
-"võimalik laadida ega salvestada"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "Seadistuste allika aadressi ei lahendatud edukalt. Seadistuste andmeid pole võimalik laadida ega salvestada"
 
+#: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"Kirjutatavate seadistuste allikate aadressi ei lahendatud edukalt, mõningaid "
-"muudetud seadistusi ei pruugi saada salvestada"
+msgstr "Kirjutatavate seadistuste allikate aadressi ei lahendatud edukalt, mõningaid muudetud seadistusi ei pruugi saada salvestada"
 
+#: ../mateconf/mateconfd.c:603
 #, c-format
 msgid "Could not connect to session bus: %s"
 msgstr "Seansisiiniga pole võimalik ühendust saada: %s"
 
+#: ../mateconf/mateconfd.c:625
 #, c-format
 msgid "Failed to get bus name for daemon, exiting: %s"
 msgstr "Deemonile pole võimalik siininime hankida, lõpetamine: %s"
 
+#: ../mateconf/mateconfd.c:706
 #, c-format
 msgid "Could not connect to system bus: %s"
 msgstr "Süsteemse siiniga pole võimalik ühendust saada: %s"
 
+#: ../mateconf/mateconfd.c:842
 #, c-format
 msgid "starting (version %s), pid %u user '%s'"
 msgstr "käivitamine (versioon %s), pid %u kasutaja '%s'"
 
+#: ../mateconf/mateconfd.c:890
 msgid "Failed to get object reference for ConfigServer"
 msgstr "Tõrge ConfigServer'i jaoks objektiviite hankimisel"
 
+#: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:965
 #, c-format
 msgid "Error releasing lockfile: %s"
 msgstr "Viga lukufaili vabastamisel: %s"
 
+#: ../mateconf/mateconfd.c:973
 msgid "Exiting"
 msgstr "Väljumine"
 
+#: ../mateconf/mateconfd.c:991
 msgid "SIGHUP received, reloading all databases"
 msgstr "Vastu võetud signaal SIGHUP, kõikide andmebaaside uuestilaadimine"
 
+#: ../mateconf/mateconfd.c:1008
 msgid "MateConf server is not in use, shutting down."
 msgstr "MateConf server pole kasutusel ja suletakse."
 
+#: ../mateconf/mateconfd.c:1334
 #, c-format
 msgid "Error obtaining new value for `%s': %s"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:1478
 #, c-format
 msgid "Returning exception: %s"
 msgstr "Erandväärtuse tagastamine: %s"
 
+#: ../mateconf/mateconfd.c:1584
 #, c-format
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
-msgstr ""
-"Tõrge mateconfd logifaili sulgemisel; andmed võivad olla valesti salvestatud (%"
-"s)"
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
+msgstr "Tõrge mateconfd logifaili sulgemisel; andmed võivad olla valesti salvestatud (%s)"
 
+#: ../mateconf/mateconfd.c:1681
 #, c-format
 msgid "Could not open saved state file '%s' for writing: %s"
 msgstr "Salvestatud olekufaili '%s' pole võimalik kirjutamiseks avada: %s"
 
+#: ../mateconf/mateconfd.c:1695
 #, c-format
 msgid "Could not write saved state file '%s' fd: %d: %s"
 msgstr "Salvestatud olekufaili '%s' pole võimalik kirjutada, fd: %d: %s"
 
+#: ../mateconf/mateconfd.c:1704
 #, c-format
 msgid "Could not flush saved state file '%s' to disk: %s"
-msgstr ""
-"Salvestatud olekufaili '%s' kirjutamispuhvrit pole võimalik kettale "
-"kirjutada: %s"
+msgstr "Salvestatud olekufaili '%s' kirjutamispuhvrit pole võimalik kettale kirjutada: %s"
 
+#: ../mateconf/mateconfd.c:1711
 #, c-format
 msgid "Failed to close new saved state file '%s': %s"
 msgstr "Uut salvestatud olekufaili '%s' pole võimalik sulgeda: %s"
 
+#: ../mateconf/mateconfd.c:1725
 #, c-format
 msgid "Could not move aside old saved state file '%s': %s"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:1735
 #, c-format
 msgid "Failed to move new saved state file into place: %s"
 msgstr "Tõrge uue salvestatud olekufaili lõppasukohale tõstmisel: %s"
 
+#: ../mateconf/mateconfd.c:1744
 #, c-format
 msgid ""
 "Failed to restore original saved state file that had been moved to '%s': %s"
 msgstr "Tõrge algse salvestatud olekufaili taastamisel asukohast '%s': %s"
 
+#: ../mateconf/mateconfd.c:2223
 #, c-format
 msgid ""
 "Unable to restore a listener on address '%s', couldn't resolve the database"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:2259
 #, c-format
 msgid "Error reading saved state file: %s"
 msgstr "Viga salvestatud oleku faili lugemisel: %s"
 
+#: ../mateconf/mateconfd.c:2309
 #, c-format
 msgid "Unable to open saved state file '%s': %s"
 msgstr "Salvestatud oleku faili '%s' pole võimalik avada: %s"
 
+#: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
 msgid "Failed to get IOR for client: %s"
 msgstr "Tõrge IOR hankimisel kliendile: %s"
 
+#: ../mateconf/mateconfd.c:2471
 #, c-format
 msgid "Failed to open saved state file: %s"
 msgstr "Tõrge salvestatud olekufaili avamisel: %s"
 
+#: ../mateconf/mateconfd.c:2484
 #, c-format
 msgid "Failed to write client add to saved state file: %s"
 msgstr "Tõrge kliendi lisamise kirjutamisel olekufaili: %s"
 
-# pärast kliendi lisamist fflush() funktsiooni tõrge
+#: ../mateconf/mateconfd.c:2492
 #, c-format
 msgid "Failed to flush client add to saved state file: %s"
 msgstr ""
 
+#: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
-msgstr ""
-"Võtmele väärtuse andmine ja sünkroniseerimine. Kasutatakse võtmega --type."
+msgstr "Võtmele väärtuse andmine ja sünkroniseerimine. Kasutatakse võtmega --type."
 
+#: ../mateconf/mateconftool.c:102
 msgid "Print the value of a key to standard output."
 msgstr "Võtme väärtuse printimine standardväljundisse."
 
+#: ../mateconf/mateconftool.c:112
 msgid "Unset the keys on the command line"
 msgstr "Võtmete väärtuste eemaldamine käsurealt"
 
+#: ../mateconf/mateconftool.c:121
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
 "command line"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:130
 msgid "Toggles a boolean key."
 msgstr "Tõeväärtuse pööramine vastupidiseks."
 
+#: ../mateconf/mateconftool.c:139
 msgid "Print all key/value pairs in a directory."
 msgstr "Kataloogi kõigi võti/väärtus paaride printimine."
 
+#: ../mateconf/mateconftool.c:148
 msgid "Print all subdirectories in a directory."
 msgstr "Kataloogi kõigi alamkataloogide printimine."
 
+#: ../mateconf/mateconftool.c:157
 msgid "Print all subdirectories and entries under a directory, recursively."
-msgstr ""
-"Kõigi alamkataloogide ja neis leiduvate kirjete rekursiivne printimine."
+msgstr "Kõigi alamkataloogide ja neis leiduvate kirjete rekursiivne printimine."
 
+#: ../mateconf/mateconftool.c:166 ../mateconf/mateconftool.c:175
 msgid "Search for a key, recursively."
 msgstr "Võtme otsimine rekursiivselt."
 
+#: ../mateconf/mateconftool.c:184
 msgid "Get the short doc string for a key"
 msgstr "Võtme jaoks lühikese doc stringi hankimine"
 
+#: ../mateconf/mateconftool.c:193
 msgid "Get the long doc string for a key"
 msgstr "Võtme jaoks pika doc stringi hankimine"
 
+#: ../mateconf/mateconftool.c:202
 msgid "Return 0 if the directory exists, 2 if it does not."
 msgstr "Kataloogi olemasolul tagastatakse 0, vastasel juhul 2."
 
+#: ../mateconf/mateconftool.c:211
 msgid "Ignore schema defaults when reading values."
 msgstr "Väärtuse lugemisel skeemi vaikeväärtuste eiramine."
 
+#: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
-msgstr ""
-"Kõigi kataloogis olevate kirjete rekursiivne XML-kirjelduse väljastamine "
-"standardväljundisse."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
+msgstr "Kõigi kataloogis olevate kirjete rekursiivne XML-kirjelduse väljastamine standardväljundisse."
 
+#: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"Väärtuste laadimine XML-kirjelduse failist ja rakendamine määratud "
-"kataloogile ning selle all olevatele kataloogidele."
+msgstr "Väärtuste laadimine XML-kirjelduse failist ja rakendamine määratud kataloogile ning selle all olevatele kataloogidele."
 
+#: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:259
 msgid "Get the name of the default source"
 msgstr "Vaikimisi allika nime hankimine"
 
+#: ../mateconf/mateconftool.c:268
 msgid "Shut down mateconfd. DON'T USE THIS OPTION WITHOUT GOOD REASON."
 msgstr "Gconfd sulgemine. HEA PÕHJUSE PUUDUMISEL ÄRA KASUTA SEDA VALIKUT."
 
+#: ../mateconf/mateconftool.c:277
 msgid "Return 0 if mateconfd is running, 2 if not."
 msgstr "Kui Gconfd töötab, siis tagastatakse 0, vastasel juhul 2."
 
+#: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
-msgstr ""
-"Konfiguratsiooniserveri (mateconfd) käivitamine. (Tavaliselt toimub see "
-"vajaduse korral automaatselt.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
+msgstr "Konfiguratsiooniserveri (mateconfd) käivitamine. (Tavaliselt toimub see vajaduse korral automaatselt.)"
 
+#: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
 msgstr "täisarv|tõeväärtus|ujukomaarv|string|nimekiri|paar"
 
+#: ../mateconf/mateconftool.c:310
 msgid "Print the data type of a key to standard output."
 msgstr "Võtme andmetüübi printimine standardväljundisse."
 
+#: ../mateconf/mateconftool.c:319
 msgid "Get the number of elements in a list key."
 msgstr "Loendi võtmes olevate kirjete arvu hankimine."
 
+#: ../mateconf/mateconftool.c:328
 msgid "Get a specific element from a list key, numerically indexed."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:337
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "täisarv|tõeväärtus|ujukomaarv|string"
 
+#: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
 msgstr "Paigaldatava skeemifaili määratlemine"
 
+#: ../mateconf/mateconftool.c:371
 msgid "FILENAME"
 msgstr "FAILINIMI"
 
+#: ../mateconf/mateconftool.c:379
 msgid "Specify a configuration source to use rather than the default path"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:380
 msgid "SOURCE"
 msgstr "ALLIKAS"
 
+#: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
 msgstr ""
 
+#: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"Skeemi määramine ja sünkroniseerimine. Kasutatakse võtmetega --short-desc, --"
-"long-desc, --owner, ja --type."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "Skeemi määramine ja sünkroniseerimine. Kasutatakse võtmetega --short-desc, --long-desc, --owner, ja --type."
 
+#: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
 msgstr "Skeemile lisatava poolerealise kirjelduse määramine."
 
+#: ../mateconf/mateconftool.c:455 ../mateconf/mateconftool.c:464
 msgid "DESCRIPTION"
 msgstr "KIRJELDUS"
 
+#: ../mateconf/mateconftool.c:463
 msgid "Specify a several-line description to go in a schema."
 msgstr "Skeemile lisatava mõnerealise kirjelduse määramine."
 
+#: ../mateconf/mateconftool.c:472
 msgid "Specify the owner of a schema"
 msgstr "Skeemi omaniku täpsustamine"
 
+#: ../mateconf/mateconftool.c:473
 msgid "OWNER"
 msgstr "OMANIK"
 
+#: ../mateconf/mateconftool.c:481
 msgid "Get the name of the schema applied to this key"
 msgstr "Sellele võtmele rakenduva skeemi nime hankimine"
 
-msgid "Specify the schema name followed by the key to apply the schema name to"
-msgstr ""
-"Skeemi rakendamine määratud võtmele (võtme nimi määratakse skeemi nime järel)"
+#: ../mateconf/mateconftool.c:490
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
+msgstr "Skeemi rakendamine määratud võtmele (võtme nimi määratakse skeemi nime järel)"
 
+#: ../mateconf/mateconftool.c:499
 msgid "Remove any schema name applied to the given keys"
 msgstr "Kõigi määratud võtmetele rakenduvate skeemide eemaldamine"
 
+#: ../mateconf/mateconftool.c:514
 msgid "Print version"
 msgstr "Versiooni printimine"
 
+#: ../mateconf/mateconftool.c:523
 msgid "[FILE...]|[KEY...]|[DIR...]"
 msgstr "[FAIL...]|[VÕTI...]|[KATALOOG...]"
 
+#: ../mateconf/mateconftool.c:585
 msgid "- Tool to manipulate a MateConf configuration"
 msgstr "- MateConf seadistustega manipuleerimise tööriist"
 
+#: ../mateconf/mateconftool.c:590
 msgid "Client options:"
 msgstr "Kliendi valikud:"
 
+#: ../mateconf/mateconftool.c:590
 msgid "Show client options"
 msgstr "Kliendi valikute näitamine"
 
+#: ../mateconf/mateconftool.c:595
 msgid "Key type options:"
 msgstr "Võtme liigi valikud:"
 
+#: ../mateconf/mateconftool.c:595
 msgid "Show key type options"
 msgstr "Võtme liigi valikute näitamine"
 
+#: ../mateconf/mateconftool.c:600
 msgid "Load/Save options:"
 msgstr "Valikute laadimine/salvestamine:"
 
+#: ../mateconf/mateconftool.c:600
 msgid "Show load/save options"
 msgstr "Laadimise/salvestamise valikute näitamine"
 
+#: ../mateconf/mateconftool.c:605
 msgid "Server options:"
 msgstr "Serveri valikud:"
 
+#: ../mateconf/mateconftool.c:605
 msgid "Show server options"
 msgstr "Serveri valikute näitamine"
 
+#: ../mateconf/mateconftool.c:610
 msgid "Installation options:"
 msgstr "Paigaldusvalikud:"
 
+#: ../mateconf/mateconftool.c:610
 msgid "Show installation options"
 msgstr "Paigaldusvalikute näitamine"
 
+#: ../mateconf/mateconftool.c:615
 msgid "Test options:"
 msgstr "Testvalikud:"
 
+#: ../mateconf/mateconftool.c:615
 msgid "Show test options"
 msgstr "Testvalikute näitamine"
 
+#: ../mateconf/mateconftool.c:620
 msgid "Schema options:"
 msgstr "Skeemi valikud:"
 
+#: ../mateconf/mateconftool.c:620
 msgid "Show schema options"
 msgstr "Skeemi valikute näitamine"
 
+#: ../mateconf/mateconftool.c:629
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr "Käsureavõtmete täieliku nimekirja jaoks käivita '%s --help'.\n"
 
+#: ../mateconf/mateconftool.c:657
 #, c-format
 msgid "Can't get and set/unset simultaneously\n"
 msgstr "Korraga pole võimalik väärtust hankida ja määrata/kustutada\n"
 
+#: ../mateconf/mateconftool.c:667
 #, c-format
 msgid "Can't set and get/unset simultaneously\n"
 msgstr "Korraga pole võimalik väärtust määrata ja hankida/kustutada\n"
 
+#: ../mateconf/mateconftool.c:674
 #, c-format
 msgid "Can't get type and set/unset simultaneously\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:682
 #, c-format
 msgid "Can't toggle and get/set/unset simultaneously\n"
 msgstr "Korraga pole võimalik väärtust hankida ja määrata/kustutada\n"
 
+#: ../mateconf/mateconftool.c:693
 #, c-format
 msgid "Can't use --all-entries with --get or --set\n"
-msgstr ""
-"Võtit --all-entries pole võimalik koos võtmetega --get või --set kasutada\n"
+msgstr "Võtit --all-entries pole võimalik koos võtmetega --get või --set kasutada\n"
 
+#: ../mateconf/mateconftool.c:704
 #, c-format
 msgid "Can't use --all-dirs with --get or --set\n"
-msgstr ""
-"Võtit --all-dirs pole võimalik koos võtmetega --get või --set kasutada\n"
+msgstr "Võtit --all-dirs pole võimalik koos võtmetega --get või --set kasutada\n"
 
+#: ../mateconf/mateconftool.c:718
 #, c-format
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"Võtit --recursive-list ei tohiks kasutada koos võtmetega --get, --set, --"
-"unset, --all-entries, --all-dirs või --search-key\n"
+msgstr "Võtit --recursive-list ei tohiks kasutada koos võtmetega --get, --set, --unset, --all-entries, --all-dirs või --search-key\n"
 
+#: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"Võtit --set_schema ei tohiks kasutada koos võtmetega --get, --set, --unset, "
-"--all-entries, --all-dirs või --search-key\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "Võtit --set_schema ei tohiks kasutada koos võtmetega --get, --set, --unset, --all-entries, --all-dirs või --search-key\n"
 
+#: ../mateconf/mateconftool.c:738
 #, c-format
 msgid "Value type is only relevant when setting a value\n"
 msgstr "Väärtuse tüüp on asjakohane ainult väärtuse seadmisel\n"
 
+#: ../mateconf/mateconftool.c:744
 #, c-format
 msgid "Must specify a type when setting a value\n"
 msgstr "Väärtuse seadmisel tuleb määratleda ka tüüp\n"
 
+#: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--ignore-schema-defaults on asjakohane ainult võtmetega --get, --all-"
-"entries, --dump, --recursive-list, --get-list-size või --get-list-element\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--ignore-schema-defaults on asjakohane ainult võtmetega --get, --all-entries, --dump, --recursive-list, --get-list-size või --get-list-element\n"
 
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
 msgstr "Valik %s peab olema kasutuses iseenda poolt.\n"
 
+#: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:859
 #, c-format
 msgid "Failed to init MateConf: %s\n"
 msgstr "Tõrge MateConf'i lähtestamisel: %s\n"
 
-#, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL on seatud, skeeme ei paigaldata\n"
-
+#: ../mateconf/mateconftool.c:887
 #, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL on seatud, skeeme ei paigaldata\n"
+
+#: ../mateconf/mateconftool.c:894
+#, c-format
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL on seatud, skeeme ei eemaldata\n"
 
+#: ../mateconf/mateconftool.c:907
 #, c-format
 msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
 msgstr "Keskkonnamuutuja MATECONF_CONFIG_SOURCE peab olema seatud\n"
 
+#: ../mateconf/mateconftool.c:962
 #, c-format
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "Tõrge seadistusallika(te)le ligipääsul: %s\n"
 
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "Sulgemise viga: %s\n"
 
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "Rekursiivse loetelu jaoks tuleb kirjeldada vähemalt üks kataloog.\n"
 
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "Tõrge `%s' sees olevate kirjete loetelu kuvamisel: %s\n"
 
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(väärtus määramata)"
 
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "Pead määrama otsingu võtmemustri.\n"
 
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "Pead määrama otsingu PCRE regulaaravaldise.\n"
 
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "Viga regulaaravaldise kompileerimisel: %s\n"
 
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "Dump'iks vajalik ühe või enama kataloogi täpsustamine.\n"
 
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "Tõrge seadistusteserveri (mateconfd) loomisel: %s\n"
 
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "Pead määrama hangitava(d) võtme(d)\n"
 
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "Tüüp: %s\n"
 
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "Nimekirja tüüp: %s\n"
 
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car tüüp: %s\n"
 
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr tüüp: %s\n"
 
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "Vaikimisi väärtus: %s\n"
 
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "Määramata"
 
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "Omanik: %s\n"
 
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "Lühike kirjaldus: %s\n"
 
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "Pikk kirjeldus: %s\n"
 
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "`%s' väärtus on määramata\n"
 
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "Tõrge `%s' jaoks väärtuse hankimisel:%s\n"
 
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "Arusaamatu tüüp `%s'\n"
 
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "Võtmele `%s' pole määratud väärtust\n"
 
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "Skeemi määramine väärtuseks pole võimalik\n"
 
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2108
 #, c-format
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "Viga: %s\n"
 
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "Viga väärtuse määramisel: %s\n"
 
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "Viga sünkimisel: %s\n"
 
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "Argumendiks tuleb määrata vähemalt üks võti\n"
 
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "Võtmele %s ei leitud väärtust\n"
 
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "Pole tõeväärtuse tüüpi väärtus: %s\n"
 
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "Ühe või enama võtme täpsustamine tüübi jaoks vajalik\n"
 
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "Võti %s pole nimekiri.\n"
 
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "Nimekirja indeksi täpsustamine vajalik.\n"
 
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "Nimekirja indeks peab olema positiivne.\n"
 
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "Nimekirja indeks on väljaspool rajasid.\n"
 
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "Vajalik ühe või enama võtme täpsustamine käsureal\n"
 
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "`%s' jaoks pole teada schema väärtust\n"
 
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "Doc stringe pole schema hoiul kohas '%s\"\n"
 
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "Viga '%s' juurest schema: %s\n"
 
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "Ühtki skeemi pole hoiul '%s\"\n"
 
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "Väärtus '%s' juures pole skeem\n"
 
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "Viga skeeminime '%s' sidumisel võtme '%s' nimega: %s\n"
 
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "Viga skeemi nime eemaldamisel kohast '%s': %s\n"
 
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "Vajalik võtme (skeemi nime) täpsustamine ainsa argumendina\n"
 
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "Nimekirja tüüp peab olema lihtne tüüp: string, int, float or bool\n"
 
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "Car paari tüüp peab olema lihtne tüüp: string, int, float or bool\n"
 
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "Cdr paari tüüp peab olema lihtne tüüp: string, int, float or bool\n"
 
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "Viga väärtuse määramisel: %s"
 
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "Viga sünkroniseerimisel: %s"
 
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "Vähemalt üks võti tuleb määrata väärtuste eemaldamiseks.\n"
 
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "Viga `%s' väärtusel eemaldamisel: %s\n"
 
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
-msgstr ""
-"Väärtuste rekursiivseks eemaldamiseks tuleb määratleda vähemalt üks võti.\n"
+msgstr "Väärtuste rekursiivseks eemaldamiseks tuleb määratleda vähemalt üks võti.\n"
 
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "Tõrge \"%s\" väärtuse rekursiivsel eemaldamisel: %s\n"
 
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr "Pead määrama ühe või enama kataloogi, mille alt alamkatalooge saada.\n"
 
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "Viga kataloogide järjestamisel: %s\n"
 
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "HOIATUS: <pair> sees peavad olema kirjeldatud nii <car> kui ka <cdr>\n"
 
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "HOIATUS: <value> all peab olema alamsõlm\n"
 
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "HOIATUS: sõlm <%s> on mõistetamatu\n"
 
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "HOIATUS: Tõrge täisarvulise väärtuse `%s' parsimisel\n"
 
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "HOIATUS: Tõrge ujukomaväärtuse `%s' parsimisel\n"
 
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "HOIATUS: Tõrge stringiväärtuse `%s' parsimisel\n"
 
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "HOIATUS: Tõrge tõeväärtuse `%s' parsimisel\n"
 
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "HOIATUS: tõrge skeemi `%s' sidumisel võtmega `%s': %s\n"
 
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "HOIATUS: Skeemile pole võimalik vaikimisi väärtust seada\n"
 
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "HOIATUS: mateconftool' sisemine viga, tundmatu MateConfValueType\n"
 
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "HOIATUS: tõrge tüübimine `%s' parsimisel\n"
 
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "HOIATUS: tühi <applyto> sõlm"
 
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "HOIATUS: <schema> all olev sõlm <%s> on mõistetamatu\n"
 
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
-msgstr ""
-"HOIATUS: sõlm <locale> pole sama `name=\"locale\"' atribuudiga, eiratakse\n"
+msgstr "HOIATUS: sõlm <locale> pole sama `name=\"locale\"' atribuudiga, eiratakse\n"
 
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"HOIATUS: lokaadi `%s' kohta on mitu <locale> sõlme, kõiki peale esimese "
-"eiratakse\n"
+msgstr "HOIATUS: lokaadi `%s' kohta on mitu <locale> sõlme, kõiki peale esimese eiratakse\n"
 
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "HOIATUS: <locale> sõlme all on vigane sõlm <%s>\n"
 
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "Sul peab <schema> sees olema vähemalt üks <locale> kanne\n"
 
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "HOIATUS: tõrge skeemi `%s' (lokaat `%s') paigaldamisel: %s\n"
 
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "Lokaadile `%2$s' paigaldati skeem `%1$s'\n"
 
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
-msgstr ""
-"HOIATUS: tõrge paigaldatud skeemi `%s' (lokaat `%s') eemaldamisel: %s\n"
+msgstr "HOIATUS: tõrge paigaldatud skeemi `%s' (lokaat `%s') eemaldamisel: %s\n"
 
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "Lokaadilt `%2$s' eemaldati skeem `%1$s'\n"
 
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "HOIATUS: skeemile pole võtit määratud\n"
 
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "HOIATUS: <%2$s> all olev sõlm <%1$s> on mõistetamatu\n"
 
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "Tõrge `%s' avamisel: %s\n"
 
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "Dokument `%s' on tühi?\n"
 
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
-msgstr ""
-"Dokumendi `%s' ülemise taseme sõlm on vale (<%s>, aga peaks olema <%s>\n"
+msgstr "Dokumendi `%s' ülemise taseme sõlm on vale (<%s>, aga peaks olema <%s>\n"
 
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "Dokumendil `%s' puudub ülemise taseme sõlm <%s>\n"
 
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "HOIATUS: <%2$s> all olev sõlm <%1$s> on mõistetamatu\n"
 
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "Viga seadistusandmete sünkroniseerimisel: %s"
 
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "Mõningate skeemifailide täpsustamine vajalik, et installida\n"
 
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "Mõningate võtmete täpsustamine vajalik, et katkestada\n"
 
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
 msgstr ""
 
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "Mõningate kataloogide täpsustamine vajalik, et katkestada\n"
 
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
 msgstr ""
-
-#~ msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-#~ msgstr "Atribuuti \"%s\" on kasutatud kaks korda sama elemendi <%s> korral"
-
-#~ msgid "mateconftool or other non-mateconfd process has the lock file '%s'"
-#~ msgstr ""
-#~ "mateconftool või mõni muu mitte-mateconfd protsess on faili '%s' lukustanud"
-
-#~ msgid "Failed to unlink lock file %s: %s\n"
-#~ msgstr "Tõrge lukufaili %s lahtiühendamisel: %s\n"
-
-#~ msgid "Failed to stat %s: %s"
-#~ msgstr "Tõrge %s kohta andmete hankimisel: %s"
-
-#~ msgid "Failed to launch configuration server: %s\n"
-#~ msgstr "Tõrge seadistusserveri startimisel: %s\n"
-
-#~ msgid "Failed to open %s: %s"
-#~ msgstr "Tõrge %s avamisel: %s"
-
-#~ msgid "Owner of %s is not the current user"
-#~ msgstr "%s omanik pole praegune kasutaja"
-
-#~ msgid "Bad permissions %lo on directory %s"
-#~ msgstr "Vigased pääsuõigused %lo kataloogil %s"
-
-#~ msgid "Failed to create %s: %s"
-#~ msgstr "Tõrge %s loomisel: %s"
-
-#~ msgid "Directory %s has a problem, mateconfd can't use it"
-#~ msgstr "Kataloogiga %s on probleem, mateconfd ei saa seda kasutada"
-
-#~ msgid "Received signal %d. Please report a MateConf bug."
-#~ msgstr "Võeti vastu signaal %d. Palun teavita arendajaid MateConf'i veast."

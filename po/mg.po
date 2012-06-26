@@ -1,86 +1,83 @@
-# MALAGASY TRANSLATION OF MATECONF.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Thierry Randrianiriana <thierry@isvtec.com>, 2007.
-# Fano Rajaonarisoa <fano@isvtec.com>, 2006.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: MATECONF VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 03:21+0000\n"
-"PO-Revision-Date: 2007-03-06 13:50+0300\n"
-"Last-Translator: Thierry Randrianiriana <randrianiriana@gmail.com>\n"
-"Language-Team: MALAGASY <i18n-malagasy-mate@gna.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: mg\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: ../backends/evoldap-backend.c:158
+#: ../backends/evoldap-backend.c:162
 #, c-format
 msgid "Failed to get configuration file path from '%s'"
 msgstr "Tsy nahazo ny sori-dàlan'ny raki-kirakira tanatin'ny '%s'"
 
-#: ../backends/evoldap-backend.c:169
+#: ../backends/evoldap-backend.c:173
 #, c-format
 msgid "Created Evolution/LDAP source using configuration file '%s'"
-msgstr ""
-"Nahaforona ny loharano Evolution/LDAP tamin'ny alalan'ny raki-kirakira '%s'"
+msgstr "Nahaforona ny loharano Evolution/LDAP tamin'ny alalan'ny raki-kirakira '%s'"
 
-#: ../backends/evoldap-backend.c:445
+#: ../backends/evoldap-backend.c:447
 #, c-format
 msgid "Unable to parse XML file '%s'"
 msgstr "Tsy afaka nizarazara ny rakitra XML '%s'"
 
-#: ../backends/evoldap-backend.c:454
+#: ../backends/evoldap-backend.c:456
 #, c-format
 msgid "Config file '%s' is empty"
 msgstr "Foana ny raki-kirakira '%s'"
 
-#: ../backends/evoldap-backend.c:465
+#: ../backends/evoldap-backend.c:467
 #, c-format
 msgid "Root node of '%s' must be <evoldap>, not <%s>"
 msgstr "Tsy maintsy <evoldap> ny node fototry ny '%s', fa tsy <%s>"
 
-#: ../backends/evoldap-backend.c:503
+#: ../backends/evoldap-backend.c:505
 #, c-format
 msgid "No <template> specified in '%s'"
 msgstr "Tsy misy <template> voafaritra ao anatin'ny '%s'"
 
-#: ../backends/evoldap-backend.c:510
+#: ../backends/evoldap-backend.c:512
 #, c-format
 msgid "No \"filter\" attribute specified on <template> in '%s'"
-msgstr ""
-"Tsy misy marika manokana \"filter\" voafaritra amin'ny <template> ao "
-"anatin'ny '%s'"
+msgstr "Tsy misy marika manokana \"filter\" voafaritra amin'ny <template> ao anatin'ny '%s'"
 
-#: ../backends/evoldap-backend.c:571
+#: ../backends/evoldap-backend.c:574
 #, c-format
 msgid "No LDAP server or base DN specified in '%s'"
 msgstr "Tsy misy mpizara LDAP na DN fototra voafaritra ao anatin'ny '%s'"
 
-#: ../backends/evoldap-backend.c:577
+#: ../backends/evoldap-backend.c:580
 #, c-format
 msgid "Contacting LDAP server: host '%s', port '%d', base DN '%s'"
-msgstr ""
-"Mifandray amin'ny mpizara LDAP: mpampiantrano '%s', irika '%d', DN fototra '%"
-"s'"
+msgstr "Mifandray amin'ny mpizara LDAP: mpampiantrano '%s', irika '%d', DN fototra '%s'"
 
-#: ../backends/evoldap-backend.c:583
+#: ../backends/evoldap-backend.c:587
 #, c-format
 msgid "Failed to contact LDAP server: %s"
 msgstr "Tsy afaka nifandray tamin'ny mpizara LDAP: %s"
 
-#: ../backends/evoldap-backend.c:670
+#: ../backends/evoldap-backend.c:675
 #, c-format
 msgid "Searching for entries using filter: %s"
 msgstr "Mikaroka laza ahitana ny sivana: %s"
 
-#: ../backends/evoldap-backend.c:683
+#: ../backends/evoldap-backend.c:689
 #, c-format
 msgid "Error querying LDAP server: %s"
 msgstr "Nisy olana teo am-panontaniana ny mpizara LDAP: %s"
 
-#: ../backends/evoldap-backend.c:693
+#: ../backends/evoldap-backend.c:699
 #, c-format
 msgid "Got %d entries using filter: %s"
 msgstr "Nahita laza %d mampiasa ny sivana: %s"
@@ -110,255 +107,231 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"Fampiasa: %s <dir>\n"
-"  Mampiray ambaratongan-drafi-drakitra toy ny:\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  amin'ny:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "Fampiasa: %s <dir>\n  Mampiray ambaratongan-drafi-drakitra toy ny:\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  amin'ny:\n    dir/%%mateconf-tree.xml\n"
 
-#: ../backends/markup-backend.c:164
+#: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
 msgstr "Manala ny singa mpiorin'ny backend amin'ny fanampin-teny."
 
-#: ../backends/markup-backend.c:227 ../backends/xml-backend.c:288
+#: ../backends/markup-backend.c:226 ../backends/xml-backend.c:288
 #, c-format
 msgid "Couldn't find the XML root directory in the address `%s'"
 msgstr "Tsy hita tanatin'ny adiresy `%s' ny lahatahiry fototr'ilay XML"
 
-#: ../backends/markup-backend.c:284 ../backends/xml-backend.c:343
+#: ../backends/markup-backend.c:283 ../backends/xml-backend.c:343
 #, c-format
 msgid "Could not make directory `%s': %s"
 msgstr "Tsy afaka namorona ny lahatahiry `%s': %s"
 
-#: ../backends/markup-backend.c:391 ../backends/xml-backend.c:442
+#: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
-msgstr ""
-"Tsy afaka mamaky na manoratra amin'ny  lahatahiry fototr'ilay XML amin'ny "
-"adiresy \"%s\""
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
+msgstr "Tsy afaka mamaky na manoratra amin'ny  lahatahiry fototr'ilay XML amin'ny adiresy \"%s\""
 
-#: ../backends/markup-backend.c:402 ../backends/xml-backend.c:452
+#: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
 #, c-format
 msgid "Directory/file permissions for XML source at root %s are: %o/%o"
-msgstr ""
-"Ireo fahazoan-dàlan'ny lahatahiry/rakitra ho an'ny loharano XML anatin'ny "
-"faka %s: %o/%o"
+msgstr "Ireo fahazoan-dàlan'ny lahatahiry/rakitra ho an'ny loharano XML anatin'ny faka %s: %o/%o"
 
-#: ../backends/markup-backend.c:741 ../backends/xml-backend.c:683
+#: ../backends/markup-backend.c:740 ../backends/xml-backend.c:683
+#, c-format
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"Tsy raisina an-tànana intsony ny asa famafàna lahatahiry. Fafao fotsiny ny "
-"sanda rehetra anatin'ilay lahatahiry "
+msgstr "Tsy raisina an-tànana intsony ny asa famafàna lahatahiry. Fafao fotsiny ny sanda rehetra anatin'ilay lahatahiry "
 
-#: ../backends/markup-backend.c:827 ../backends/xml-backend.c:769
+#: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
 msgid "Could not open lock directory for %s to remove locks: %s\n"
-msgstr ""
-"Tsy afaka nanokatra ny lahatahirin'ny %s misy ny hidy ahafahana mamaha azy "
-"ireo: %s\n"
+msgstr "Tsy afaka nanokatra ny lahatahirin'ny %s misy ny hidy ahafahana mamaha azy ireo: %s\n"
 
-#: ../backends/markup-backend.c:840 ../backends/xml-backend.c:782
+#: ../backends/markup-backend.c:839 ../backends/xml-backend.c:782
 #, c-format
 msgid "Could not remove file %s: %s\n"
 msgstr "Tsy afaka namafa ny rakitra %s: %s\n"
 
-#: ../backends/markup-backend.c:861
+#: ../backends/markup-backend.c:860
 msgid "Initializing Markup backend module"
 msgstr "Manomboka ny singa mpiorin'ny backend amin'ny fanampin-teny"
 
-#: ../backends/markup-backend.c:938 ../backends/xml-backend.c:880
+#: ../backends/markup-backend.c:918 ../backends/xml-backend.c:880
 #, c-format
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "Tsy nahavita namaha ny hidy amin'ny lahatahiry XML \"%s\": %s"
 
-#: ../backends/markup-tree.c:397
+#: ../backends/markup-tree.c:438
+#, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "Tsy nahavita nanoratra lazan-kirakira tamin'ny kapila\n"
 
-#: ../backends/markup-tree.c:920 ../backends/xml-dir.c:1274
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "Tsy afaka namorona ny lahatahiry \"%s\": %s"
 
-#: ../backends/markup-tree.c:960 ../backends/markup-tree.c:967
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "Tsy afaka namafa ny \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:1168
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "Tsy nahavita nanoratra ny \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:1376
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "Tsy nahavita naka ny rakitra \"%s\": %s"
 
-#: ../backends/markup-tree.c:1968
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "Andalana %d marika %d: %s"
 
-#: ../backends/markup-tree.c:2187
-#, c-format
-msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-msgstr ""
-"Miverina indroa ny marika manokana \"%s\" ao anatin'ny singantaharo <%s> "
-
-#: ../backends/markup-tree.c:2204 ../backends/markup-tree.c:2228
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
-msgstr ""
-"Tsy mety ny marika manokana \"%s\" amin'ny <%s> ao anatin'izao seha-kevitra "
-"izao"
+msgstr "Tsy mety ny marika manokana \"%s\" amin'ny <%s> ao anatin'izao seha-kevitra izao"
 
-#: ../backends/markup-tree.c:2253 ../mateconf/mateconf-value.c:109
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "Tsy mazava ny `%s' (isa feno no nantenaina)"
 
-#: ../backends/markup-tree.c:2260 ../mateconf/mateconf-value.c:119
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "Lehibe na kely loatra ny isa feno `%s'"
 
-#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:184
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "Tsy mazava ny `%s' (marina na diso no nantenaina)"
 
-#: ../backends/markup-tree.c:2316 ../mateconf/mateconf-value.c:140
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "Tsy mazava ny `%s' (isa tena izy no nantenaina)"
 
-#: ../backends/markup-tree.c:2386 ../backends/markup-tree.c:2415
-#: ../backends/markup-tree.c:2455 ../backends/markup-tree.c:2479
-#: ../backends/markup-tree.c:2487 ../backends/markup-tree.c:2542
-#: ../backends/markup-tree.c:2607 ../backends/markup-tree.c:2719
-#: ../backends/markup-tree.c:2787 ../backends/markup-tree.c:2845
-#: ../backends/markup-tree.c:2995
+#: ../backends/markup-tree.c:2430
+#, c-format
+msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
+msgstr "Sanda tsy fantatra \"%s\" ho an'ny marika manokana \"%s\" amin'ny singan-taharo <%s>"
+
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "Tsy misy marika manokana \"%s\" amin'ny singantaharo <%s>"
 
-#: ../backends/markup-tree.c:2395
-#, c-format
-msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
-msgstr ""
-"Sanda tsy fantatra \"%s\" ho an'ny marika manokana \"%s\" amin'ny singan-"
-"taharo <%s>"
-
-#: ../backends/markup-tree.c:2429
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "ltype \"%s\" tsy ekena ny amin'ny <%s>"
 
-#: ../backends/markup-tree.c:2509
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "first-element type \"%s\" tsy ekena ao amin'ny <%s>"
 
-#: ../backends/markup-tree.c:2523
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "cdr_type \"%s\" tsy ekena ao amin'ny <%s>"
 
-#: ../backends/markup-tree.c:2559
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "list_type \"%s\" tsy ekena ao amin'ny <%s>"
 
-#: ../backends/markup-tree.c:2926
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "Singantaharo <default> roa eo ambanina <local_schema> iray"
 
-#: ../backends/markup-tree.c:2941
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "<longdesc> roa eo ambanina <local_schema> iray"
 
-#: ../backends/markup-tree.c:2948
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "Ny singantaharo <%s> dia tsy afaka apetraka ambanin'ny <%s>"
 
-#: ../backends/markup-tree.c:2973 ../backends/markup-tree.c:3078
-#: ../backends/markup-tree.c:3132 ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "Nomena ny <%s> saingy tsy manana karazana %s io singantaharo io"
 
-#: ../backends/markup-tree.c:3056
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "Singantaharo <car> roa nomena ho ana roroa tokana"
 
-#: ../backends/markup-tree.c:3070
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "Singantaharo <cdr> roa nomena ho ana roroa tokana"
 
-#: ../backends/markup-tree.c:3124
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "Manana karazana %s diso ny <li>"
 
-#: ../backends/markup-tree.c:3155
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "Nomena ny <%s> saingy tsy manana sandra ny <entry> reny"
 
-#: ../backends/markup-tree.c:3196 ../backends/markup-tree.c:3219
-#: ../backends/markup-tree.c:3241 ../backends/markup-tree.c:3258
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "Tsy afaka apetraka anatin'io singantaharo io ny singantaharo <%s>"
 
-#: ../backends/markup-tree.c:3290
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
-msgstr ""
-"Tsy maintsy <mateconf> fa tsy <%s> ny singantaharo ivelany indrindra ao amin'ny "
-"raki-tolotra"
+msgstr "Tsy maintsy <mateconf> fa tsy <%s> ny singantaharo ivelany indrindra ao amin'ny raki-tolotra"
 
-#: ../backends/markup-tree.c:3310 ../backends/markup-tree.c:3332
-#: ../backends/markup-tree.c:3337
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "Ny singantaharo <%s> dia tsy afaka apetraka anatina singantaharo <%s>"
 
-#: ../backends/markup-tree.c:3481
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "Tsy azo asiana soratra anatin'ny singantaharo <%s>"
 
-#: ../backends/markup-tree.c:3598 ../backends/markup-tree.c:4377
-#: ../backends/markup-tree.c:4395
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "Tsy nahasokatra ny \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:3628
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "Nisy olana teo am-pamakiana ny \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:4482
+#: ../backends/markup-tree.c:4516
+#, c-format
+msgid "Could not flush file '%s' to disk: %s"
+msgstr ""
+
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "Nisy olana teo am-pandikana ny rakitra \"%s\": %s"
 
-#: ../backends/markup-tree.c:4494
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
-msgstr ""
-"Tsy nahavita namindra ny rakitra vonjimaika \"%s\" anatin'ny toerany "
-"raikitra \"%s\": %s"
+msgstr "Tsy nahavita namindra ny rakitra vonjimaika \"%s\" anatin'ny toerany raikitra \"%s\": %s"
 
 #: ../backends/xml-backend.c:239
 msgid "Unloading XML backend module."
@@ -373,18 +346,16 @@ msgstr "Nisy olana teo am-pandasirana ny cachen'ny lahatahirin'ny backend: %s"
 msgid "Initializing XML backend module"
 msgstr "Manomboka ny singa mpiorin'ny backend XML"
 
-#: ../backends/xml-cache.c:286
+#: ../backends/xml-cache.c:288
 msgid "Failed to sync XML cache contents to disk"
 msgstr "Tsy nahavita nandasitra ny mpiatin'ny cache XML tamin'ny kapila"
 
-#: ../backends/xml-cache.c:316
+#: ../backends/xml-cache.c:318
 #, c-format
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"Tsy nety nofafàna tanatin'ny cachen'ny backend XML ny lahatahiry `%s', "
-"satria tsy voalasitra tsara tamin'ny kapila ilay izy"
+msgstr "Tsy nety nofafàna tanatin'ny cachen'ny backend XML ny lahatahiry `%s', satria tsy voalasitra tsara tamin'ny kapila ilay izy"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -416,7 +387,7 @@ msgstr "Tsy nahavita namaritra ny fomba amin'ny `%s': %s"
 msgid "Failed to write XML data to `%s': %s"
 msgstr "Tsy afaka nanoratra data XML tamin'ny `%s': %s"
 
-#: ../backends/xml-dir.c:507 ../backends/xml-dir.c:1298
+#: ../backends/xml-dir.c:507 ../backends/xml-dir.c:1291
 #, c-format
 msgid "Failed to close file `%s': %s"
 msgstr "Tsy nahavita nanidy `%s': %s"
@@ -437,132 +408,140 @@ msgid "Failed to delete old file `%s': %s"
 msgstr "Tsy nahavita namafa ny rakitra `%s' taloha: %s"
 
 #. These are all fatal errors
-#: ../backends/xml-dir.c:997
+#: ../backends/xml-dir.c:991
 #, c-format
 msgid "Failed to stat `%s': %s"
 msgstr "Tsy nahazoana rehana ny `%s': %s"
 
-#: ../backends/xml-dir.c:1171
+#: ../backends/xml-dir.c:1165
 #, c-format
 msgid "Duplicate entry `%s' in `%s', ignoring"
 msgstr "Toeran'anarana `%s' sosona ao amin'ny `%s', tsy raharahaina"
 
-#: ../backends/xml-dir.c:1193
+#: ../backends/xml-dir.c:1187
 #, c-format
 msgid "Entry with no name in XML file `%s', ignoring"
-msgstr ""
-"Toeran'anarana tsy misy anarana ao amin'ny rakitra XML `%s', tsy raharahaina"
+msgstr "Toeran'anarana tsy misy anarana ao amin'ny rakitra XML `%s', tsy raharahaina"
 
-#: ../backends/xml-dir.c:1201
+#: ../backends/xml-dir.c:1195
 #, c-format
 msgid "A toplevel node in XML file `%s' is <%s> rather than <entry>, ignoring"
-msgstr ""
-"<%s> fa tsy <entry> ny node fototra anatin'ny rakitra XML `%s', tsy "
-"raharahaina"
+msgstr "<%s> fa tsy <entry> ny node fototra anatin'ny rakitra XML `%s', tsy raharahaina"
 
-#: ../backends/xml-dir.c:1290
+#: ../backends/xml-dir.c:1283
 #, c-format
 msgid "Failed to create file `%s': %s"
 msgstr "Tsy nahaforona ny rakitra `%s': %s"
 
-#: ../backends/xml-dir.c:1389
+#: ../backends/xml-dir.c:1382
 #, c-format
 msgid "Failed to parse XML file \"%s\""
 msgstr "Tsy nahavita nizarazara ny rakitra XML \"%s\""
 
 #. There was an error
-#: ../backends/xml-entry.c:154
+#: ../backends/xml-entry.c:153
 #, c-format
 msgid "Ignoring XML node with name `%s': %s"
 msgstr "Tsy raharahaina ny node XML mitondra ny anarana `%s': %s"
 
-#: ../backends/xml-entry.c:332
+#: ../backends/xml-entry.c:329
 #, c-format
 msgid "Ignoring schema name `%s', invalid: %s"
 msgstr "Tsy raharahaina ny anarana drafitra `%s', tsy mitombina: %s"
 
-#: ../backends/xml-entry.c:380
+#: ../backends/xml-entry.c:377
 #, c-format
 msgid "Ignoring XML node `%s': %s"
 msgstr "Tsy raharahaina ny node XML `%s': %s"
 
-#: ../backends/xml-entry.c:732
+#: ../backends/xml-entry.c:730
 #, c-format
 msgid "Failed reading default value for schema: %s"
 msgstr "Tsy nahavaky ny sanda lasitr'ilay drafitra: %s"
 
-#: ../backends/xml-entry.c:952
+#: ../backends/xml-entry.c:950
 #, c-format
 msgid "No \"type\" attribute for <%s> node"
 msgstr "Tsy misy marika manokana \"type\" ho an'ny node <%s>"
 
-#: ../backends/xml-entry.c:966
+#: ../backends/xml-entry.c:964
 #, c-format
 msgid "A node has unknown \"type\" attribute `%s', ignoring"
-msgstr ""
-"Misy node manana marika manokana \"type\" tsy fantatra `%s', tsy raharahaina"
+msgstr "Misy node manana marika manokana \"type\" tsy fantatra `%s', tsy raharahaina"
 
-#: ../backends/xml-entry.c:981
+#: ../backends/xml-entry.c:979
 msgid "No \"value\" attribute for node"
 msgstr "Tsy misy marika manokana \"value\" ho an'ilay node"
 
-#: ../backends/xml-entry.c:1029 ../backends/xml-entry.c:1105
+#: ../backends/xml-entry.c:1027 ../backends/xml-entry.c:1103
 #, c-format
 msgid "Didn't understand XML node <%s> inside an XML list node"
 msgstr "Tsy mazava ny node XML <%s> anatina node-na lisitra XML"
 
-#: ../backends/xml-entry.c:1063
+#: ../backends/xml-entry.c:1061
 msgid "Invalid type (list, pair, or unknown) in a list node"
-msgstr ""
-"Misy karazana (lisitra, roroa, na tsy fantatra) tsy mitombina anatina node-"
-"na lisitra"
+msgstr "Misy karazana (lisitra, roroa, na tsy fantatra) tsy mitombina anatina node-na lisitra"
 
-#: ../backends/xml-entry.c:1086
+#: ../backends/xml-entry.c:1084
 #, c-format
 msgid "Bad XML node: %s"
 msgstr "Node XML diso: %s"
 
-#: ../backends/xml-entry.c:1094
+#: ../backends/xml-entry.c:1092
 #, c-format
 msgid "List contains a badly-typed node (%s, should be %s)"
 msgstr "Misy node tsy voasoratra tsara anatin'ilay lisitra (%s, tokony ho %s)"
 
-#: ../backends/xml-entry.c:1146
+#: ../backends/xml-entry.c:1144
 #, c-format
 msgid "Ignoring bad car from XML pair: %s"
 msgstr "Tsy raharahaina ny car diso avy amin'ilay roroa XML: %s "
 
-#: ../backends/xml-entry.c:1155 ../backends/xml-entry.c:1178
+#: ../backends/xml-entry.c:1153 ../backends/xml-entry.c:1176
 msgid "parsing XML file: lists and pairs may not be placed inside a pair"
-msgstr ""
-"mizarazara ilay rakitra XML: tsy mety atao anatina roroa tokana ny lisitra "
-"sy ny roroa"
+msgstr "mizarazara ilay rakitra XML: tsy mety atao anatina roroa tokana ny lisitra sy ny roroa"
 
-#: ../backends/xml-entry.c:1168
+#: ../backends/xml-entry.c:1166
 #, c-format
 msgid "Ignoring bad cdr from XML pair: %s"
 msgstr "Tsy raharahaina ny cdr diso avy amin'ny roroa XML: %s"
 
-#: ../backends/xml-entry.c:1187
+#: ../backends/xml-entry.c:1185
 #, c-format
 msgid "Didn't understand XML node <%s> inside an XML pair node"
 msgstr "Tsy mazava ny node XML <%s> anatina noden-droroa XML"
 
-#: ../backends/xml-entry.c:1205
+#: ../backends/xml-entry.c:1203
 msgid "Didn't find car and cdr for XML pair node"
 msgstr "Tsy hita ny car sy ny cdr ho an'ny noden-droroa XML"
 
-#: ../backends/xml-entry.c:1211
+#: ../backends/xml-entry.c:1209
 msgid "Missing cdr from pair of values in XML file"
 msgstr "cdr tsy ao anatin'ny roroan-tsanda ao amin'ilay rakitra XML"
 
-#: ../backends/xml-entry.c:1218
+#: ../backends/xml-entry.c:1216
 msgid "Missing car from pair of values in XML file"
 msgstr "car tsy ao anatin'ny roroan-tsanda ao amin'ilay rakitra XML"
 
-#: ../backends/xml-entry.c:1223
+#: ../backends/xml-entry.c:1221
 msgid "Missing both car and cdr values from pair in XML file"
 msgstr "car sy cdr tsy ao anatin'ny roroan-tsanda ao amin'ilay rakitra XML"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
+msgid "Change MateConf system values"
+msgstr ""
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
+msgid "Privileges are required to change MateConf system values"
+msgstr ""
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr ""
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr ""
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -577,8 +556,8 @@ msgstr "Tsy misy izany rakitra `%s' izany\n"
 
 #: ../mateconf/mateconf-backend.c:261
 #, c-format
-msgid "Backend `%s' failed return a vtable\n"
-msgstr "Tsy nahaverina vtable ny backend `%s'\n"
+msgid "Backend `%s' failed to return a vtable\n"
+msgstr ""
 
 #: ../mateconf/mateconf-backend.c:276
 #, c-format
@@ -597,9 +576,7 @@ msgstr "Adiresy diso `%s'"
 
 #: ../mateconf/mateconf-backend.c:337
 msgid "MateConf won't work without dynamic module support (gmodule)"
-msgstr ""
-"Tsy afaka miasa ny MateConf raha tsy misy fandraisana an-tànana singa mpiorina "
-"mihetsiketsika (gmodule)"
+msgstr "Tsy afaka miasa ny MateConf raha tsy misy fandraisana an-tànana singa mpiorina mihetsiketsika (gmodule)"
 
 #: ../mateconf/mateconf-backend.c:346
 #, c-format
@@ -620,633 +597,543 @@ msgstr "Tsy afaka namaritra ny toeran'ny singa mpiorin'ny backend an'ny `%s'"
 msgid "Failed to shut down backend"
 msgstr "Tsy nahavita nanajanona ilay backend"
 
-#: ../mateconf/mateconf-client.c:344 ../mateconf/mateconf-client.c:362
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "Tsy fetezana MateConf: %s\n"
 
-#: ../mateconf/mateconf-client.c:912
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
-msgstr ""
-"Fampilazana MateConf: tsy nahomby ny fandaharana ny roroa anatin'ny `%s': %s"
+msgstr "Fampilazana MateConf: tsy nahomby ny fandaharana ny roroa anatin'ny `%s': %s"
 
-#: ../mateconf/mateconf-client.c:1197
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr "`%s' no nantenaina `%s' no azo ho an'ny famaha %s"
 
-#: ../mateconf/mateconf-database.c:211
-#, fuzzy
+#: ../mateconf/mateconf-database.c:212
 msgid "Received invalid value in set request"
-msgstr "Nahazo sanda tsy ekena anatin'ny fangatahana famaritana"
-
-#: ../mateconf/mateconf-database.c:219
-#, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
 msgstr ""
-"Tsy mazava ilay sanda CORBA azo tanatin'ny fangatahana famaritana ho an'ny "
-"famaha `%s'"
 
-#: ../mateconf/mateconf-database.c:502
+#: ../mateconf/mateconf-database.c:220
+#, c-format
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
+msgstr "Tsy mazava ilay sanda CORBA azo tanatin'ny fangatahana famaritana ho an'ny famaha `%s'"
+
+#: ../mateconf/mateconf-database.c:503
 msgid "Received request to drop all cached data"
 msgstr "Nahazo fangatahana fanariana ny data natao tanatin'ny cache rehetra"
 
-#: ../mateconf/mateconf-database.c:519
+#: ../mateconf/mateconf-database.c:520
 msgid "Received request to sync synchronously"
 msgstr "Nahazo fangatahana fandasirana miaraka"
 
-#: ../mateconf/mateconf-database.c:807
+#: ../mateconf/mateconf-database.c:808
 msgid "Fatal error: failed to get object reference for ConfigDatabase"
-msgstr ""
-"Tsy fetezana mitera-pahavoazana: tsy nahazo ny zavatra mifandraika amin'ilay "
-"zavatra ho an'ny ConfigDatabase"
+msgstr "Tsy fetezana mitera-pahavoazana: tsy nahazo ny zavatra mifandraika amin'ilay zavatra ho an'ny ConfigDatabase"
 
-#: ../mateconf/mateconf-database.c:973
+#: ../mateconf/mateconf-database.c:974
 #, c-format
 msgid "Failed to sync one or more sources: %s"
 msgstr "Tsy nahalasitra loharano iray na maromaro: %s"
 
-#: ../mateconf/mateconf-database.c:1046
+#: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
-msgstr ""
-"Nisy olana teo am-pakana sanda vaovao ho an'ny `%s' taorian'ny "
-"fampahafantarana fanovana avy amin'ny backend `%s': %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
+msgstr "Nisy olana teo am-pakana sanda vaovao ho an'ny `%s' taorian'ny fampahafantarana fanovana avy amin'ny backend `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1119
+#: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s);will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
 msgstr ""
-"Tsy nahavita nadrakitra ny fampidirana ny mpihaino %s (%s). Tsy ho "
-"tafaverina io mpihaino io rehefa averina alefa ny mateconfd, izay hiteraka "
-"fampahafantarana fanovana kirakira tsy azo antoka."
 
-#: ../mateconf/mateconf-database.c:1153
+#: ../mateconf/mateconf-database.c:1154
 #, c-format
 msgid "Listener ID %lu doesn't exist"
 msgstr "Tsy misy ny IDn'ny mpihaino %lu"
 
-#: ../mateconf/mateconf-database.c:1167
+#: ../mateconf/mateconf-database.c:1168
 #, c-format
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"Tsy nahavita nandrakitra ny fanalana ny mpihaino ao anatin'ny raki-tatitra "
-"(mety tsy hitera-pahavoazana; mety hahatonga ilay fampahafantarana hiseho "
-"indraindray): %s"
+msgstr "Tsy nahavita nandrakitra ny fanalana ny mpihaino ao anatin'ny raki-tatitra (mety tsy hitera-pahavoazana; mety hahatonga ilay fampahafantarana hiseho indraindray): %s"
 
-#: ../mateconf/mateconf-database.c:1299 ../mateconf/mateconf-sources.c:1697
+#: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
 msgid "Error getting value for `%s': %s"
 msgstr "Nisy olana teo am-pakana ny sandan'ny `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1349
+#: ../mateconf/mateconf-database.c:1351
 #, c-format
 msgid "Error setting value for `%s': %s"
 msgstr "Nisy olana teo am-pakana ny sandan'ny `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1397
+#: ../mateconf/mateconf-database.c:1399
 #, c-format
 msgid "Error unsetting `%s': %s"
 msgstr "Nisy olana teo am-panafoanana ny `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1426
+#: ../mateconf/mateconf-database.c:1428
 #, c-format
 msgid "Error getting default value for `%s': %s"
 msgstr "Nisy olana teo am-pakana ny sanda lasitry ny `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1484
+#: ../mateconf/mateconf-database.c:1486
 #, c-format
 msgid "Error unsetting \"%s\": %s"
 msgstr "Nisy olana teo am-panafoanana ny \"%s\": %s"
 
-#: ../mateconf/mateconf-database.c:1515
+#: ../mateconf/mateconf-database.c:1517
 #, c-format
 msgid "Error getting new value for \"%s\": %s"
 msgstr "Nisy olana teo am-pakana sanda vaovao ho an'ny \"%s\": %s"
 
-#: ../mateconf/mateconf-database.c:1570
+#: ../mateconf/mateconf-database.c:1572
 #, c-format
 msgid "Error checking existence of `%s': %s"
 msgstr "Nisy olana teo am-panamarinana ny fisian'ny `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1594
+#: ../mateconf/mateconf-database.c:1596
 #, c-format
 msgid "Error removing directory \"%s\": %s"
 msgstr "Nisy olana teo am-pamafana ny lahatahiry \"%s\": %s"
 
-#: ../mateconf/mateconf-database.c:1621
+#: ../mateconf/mateconf-database.c:1623
 #, c-format
 msgid "Failed to get all entries in `%s': %s"
 msgstr "Tsy nahazo ireo anarana rehetra tanatin'ny `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1647
+#: ../mateconf/mateconf-database.c:1649
 #, c-format
 msgid "Error listing dirs in `%s': %s"
 msgstr "Nisy olana teo am-pandaharana ireo lahatahiry anatin'ny `%s': %s"
 
-#: ../mateconf/mateconf-database.c:1668
+#: ../mateconf/mateconf-database.c:1670
 #, c-format
 msgid "Error setting schema for `%s': %s"
 msgstr "Nisy olana teo am-pamaritana ny drafitry ny `%s': %s"
 
-#: ../mateconf/mateconf-error.c:25
+#: ../mateconf/mateconf-error.c:26
 msgid "Success"
 msgstr "Nahomby"
 
-#: ../mateconf/mateconf-error.c:26
+#: ../mateconf/mateconf-error.c:27
 msgid "Failed"
 msgstr "Tsy nahomby"
 
-#: ../mateconf/mateconf-error.c:27
+#: ../mateconf/mateconf-error.c:28
 msgid "Configuration server couldn't be contacted"
 msgstr "Tsy afaka nifandray tamin'ny mpizara kirakira"
 
-#: ../mateconf/mateconf-error.c:28
+#: ../mateconf/mateconf-error.c:29
 msgid "Permission denied"
 msgstr "Nolavina ilay fahazoan-dàlana"
 
-#: ../mateconf/mateconf-error.c:29
+#: ../mateconf/mateconf-error.c:30
 msgid "Couldn't resolve address for configuration source"
 msgstr "Tsy afaka namaha ny olana amin'ny adiresin'ny loharanon-kirakira"
 
-#: ../mateconf/mateconf-error.c:30
+#: ../mateconf/mateconf-error.c:31
 msgid "Bad key or directory name"
 msgstr "Famaha na anaran-dahatahiry diso"
 
-#: ../mateconf/mateconf-error.c:31
+#: ../mateconf/mateconf-error.c:32
 msgid "Parse error"
 msgstr "Tsy fetezan'ny fizarazarana"
 
-#: ../mateconf/mateconf-error.c:32
+#: ../mateconf/mateconf-error.c:33
 msgid "Corrupt data in configuration source database"
 msgstr "Data simba ao anatin'ny soratra fototry ny loharanon-kirakira"
 
-#: ../mateconf/mateconf-error.c:33
+#: ../mateconf/mateconf-error.c:34
 msgid "Type mismatch"
 msgstr "Tsy fifanarahan'ny karazana"
 
-#: ../mateconf/mateconf-error.c:34
+#: ../mateconf/mateconf-error.c:35
 msgid "Key operation on directory"
 msgstr "Asan'ny famaha amin'ny lahatahiry"
 
-#: ../mateconf/mateconf-error.c:35
+#: ../mateconf/mateconf-error.c:36
 msgid "Directory operation on key"
 msgstr "Asan'ny lahatahiry amin'ny famaha"
 
-#: ../mateconf/mateconf-error.c:36
+#: ../mateconf/mateconf-error.c:37
 msgid "Can't overwrite existing read-only value"
 msgstr "Tsy afaka manindry ny sanda vakiana fotsiny misy"
 
-#: ../mateconf/mateconf-error.c:37
+#: ../mateconf/mateconf-error.c:38
 msgid "Object Activation Framework error"
 msgstr "Tsy fetezan'ny Object Activation Framework"
 
-#: ../mateconf/mateconf-error.c:38
+#: ../mateconf/mateconf-error.c:39
 msgid "Operation not allowed without configuration server"
 msgstr "Tsy afaka tanterahana io asa io raha tsy misy mpizara kirakira"
 
-#: ../mateconf/mateconf-error.c:39
+#: ../mateconf/mateconf-error.c:40
 msgid "Failed to get a lock"
 msgstr "Tsy nahazo hidy"
 
-#: ../mateconf/mateconf-error.c:40
+#: ../mateconf/mateconf-error.c:41
 msgid "No database available to save your configuration"
 msgstr "Tsy misy soratra fototra afaka andraiketana ny kirakiranao"
 
-#: ../mateconf/mateconf-internals.c:91
+#: ../mateconf/mateconf-internals.c:94
 #, c-format
 msgid "No '/' in key \"%s\""
 msgstr "Tsy misy '/' anatin'ny famaha \"%s\""
 
-#: ../mateconf/mateconf-internals.c:203
+#: ../mateconf/mateconf-internals.c:182
 #, c-format
 msgid "Invalid UTF-8 in string value in '%s'"
 msgstr "UTF-8 tsy ekena anatin'ny sandan-daha-daza ao amin'ny '%s'"
 
-#: ../mateconf/mateconf-internals.c:262
+#: ../mateconf/mateconf-internals.c:241
 msgid "Couldn't interpret CORBA value for list element"
-msgstr ""
-"Tsy afaka nandika ny sanda CORBA ho an'ilay singantaharo anaty lisitra mba "
-"ho azo"
+msgstr "Tsy afaka nandika ny sanda CORBA ho an'ilay singantaharo anaty lisitra mba ho azo"
 
-#: ../mateconf/mateconf-internals.c:264
+#: ../mateconf/mateconf-internals.c:243
 #, c-format
 msgid "Incorrect type for list element in %s"
 msgstr "Diso ny karazan'ny singantaharo anatin'ny %s"
 
-#: ../mateconf/mateconf-internals.c:277
+#: ../mateconf/mateconf-internals.c:256
 msgid "Received list from mateconfd with a bad list type"
 msgstr "Nahazo lisitra diso karazana avy amin'ny mateconfd"
 
-#: ../mateconf/mateconf-internals.c:458
+#: ../mateconf/mateconf-internals.c:437
 msgid "Failed to convert object to IOR"
 msgstr "Tsy nahavita namadika ilay zavatra ho IOR"
 
-#: ../mateconf/mateconf-internals.c:595
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "UTF-8 tsy ekena ao anatin'ny toerana'ny drafitra"
 
-#: ../mateconf/mateconf-internals.c:603
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "UTF-8 tsy ekena ao anatin'ny fanoritsoritana fohifohy ny drafitra"
 
-#: ../mateconf/mateconf-internals.c:611
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "UTF-8 tsy ekena ao anatin'ny fanoritsoritana lava ny drafitra"
 
-#: ../mateconf/mateconf-internals.c:619
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "UTF-8 tsy ekena ao anatin'ny tompon'ilay drafitra"
 
-#: ../mateconf/mateconf-internals.c:864
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "Tsy afaka nanokatra ny rakitr'ilay sori-dàlana `%s': %s\n"
 
-#: ../mateconf/mateconf-internals.c:920
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "Mampiditra ny loharano `%s'\n"
 
-#: ../mateconf/mateconf-internals.c:935
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "Tsy fetezan'ny famakiana amin'ny rakitra `%s': %s\n"
 
-#: ../mateconf/mateconf-internals.c:1268 ../mateconf/mateconf-internals.c:1334
-#: ../mateconf/mateconf-value.c:153 ../mateconf/mateconf-value.c:252
-#: ../mateconf/mateconf-value.c:394 ../mateconf/mateconf-value.c:1667
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
+#: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
+#, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "Misy UTF tsy ekena ilay lahabolana"
 
-#: ../mateconf/mateconf-internals.c:1419
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "Lisitra no nantenaina, %s no azo"
 
-#: ../mateconf/mateconf-internals.c:1429
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "Ny lisitry ny %s no nantenaina, ny lisitry ny %s no azo"
 
-#: ../mateconf/mateconf-internals.c:1557
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "Roroa no nantenaina, %s no azo"
 
-#: ../mateconf/mateconf-internals.c:1571
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
-msgstr ""
-"Roroa (%s,%s) no nantenaina, roroa tsy misy ny sanda iray na izy roa no azo"
+msgstr "Roroa (%s,%s) no nantenaina, roroa tsy misy ny sanda iray na izy roa no azo"
 
-#: ../mateconf/mateconf-internals.c:1587
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "Roroa karazana (%s,%s) no nantenaina, karazana (%s,%s) no azo"
 
-#: ../mateconf/mateconf-internals.c:1703
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
-msgstr ""
-"Tsy miantomboka amin'ny farango sosona ilay laha-daza tokony voafarango"
+msgstr "Tsy miantomboka amin'ny farango sosona ilay laha-daza tokony voafarango"
 
-#: ../mateconf/mateconf-internals.c:1764
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "Tsy mifarana amin'ny farango sosona ilay laha-daza tokony voafarango"
 
-#: ../mateconf/mateconf-internals.c:1882
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "Tsy UTF-8 ekena ilay sanda voafango"
 
-#: ../mateconf/mateconf-internals.c:2366
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "Tsy afaka nangeja ny rakitra vonjimaika '%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2393
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "Tsy afaka namorona ny rakitra '%s': mety efa misy angamba izy io"
 
-#: ../mateconf/mateconf-internals.c:2461
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "Tsy nahaforona na nahasokatra ny '%s'"
 
-#: ../mateconf/mateconf-internals.c:2471
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"Tsy nahavita nangeja ny '%s': mety niantefa tamin'ny asa hafa ilay hidy, na "
-"ratsy kirakitra ny fangejana rakitra NFS amin'ny rafitrao (%s)"
+msgstr "Tsy nahavita nangeja ny '%s': mety niantefa tamin'ny asa hafa ilay hidy, na ratsy kirakitra ny fangejana rakitra NFS amin'ny rafitrao (%s)"
 
-#: ../mateconf/mateconf-internals.c:2491
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "Tsy nahavita namafa ny '%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2515
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
-msgid "IOR file '%s' not opened successfully, no mateconfd located: %s"
+msgid "Not running within active session"
 msgstr ""
-"Tsy voasokatra tsara ny rakitra IOR '%s', na tsy hita toerana ny mateconfd: %s"
 
-#: ../mateconf/mateconf-internals.c:2545
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
-msgid "mateconftool or other non-mateconfd process has the lock file '%s'"
-msgstr "Any amin'ny mateconftool na asa tsy mateconfd hafa ilay rakitry ny hidy '%s'"
+msgid "Failed to get connection to session: %s"
+msgstr ""
 
-#: ../mateconf/mateconf-internals.c:2562
+#: ../mateconf/mateconf-internals.c:2481
+#, c-format
+msgid "GetIOR failed: %s"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:2518
+#, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
-msgstr ""
-"tsy afaka nifandray tamin'ny ODB mba hamahana ny zavatra mifandraika amin'ny "
-"mateconfd misy"
+msgstr "tsy afaka nifandray tamin'ny ODB mba hamahana ny zavatra mifandraika amin'ny mateconfd misy"
 
-#: ../mateconf/mateconf-internals.c:2572
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "Tsy nahavita namadika ny IOR '%s' ho tara-javatra "
 
-#: ../mateconf/mateconf-internals.c:2624
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "Tsy afaka namorona ny lahatahiry `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "Tsy afaka mandika amin'ny rakitra `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2722
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "Tsy manana ilay hidy amin'ny `%s' izahay, nefa tokony hahazo"
 
-#: ../mateconf/mateconf-internals.c:2745
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "Tsy nahavita nampifandray ny '%s' tamin'ny '%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2757
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "Tsy nahavita namafa ny rakitry ny hidy `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2780
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "Tsy afaka nanafoana ny rakitra \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2796
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "Tsy nahavita namafa ny lahatahirin'ny hidy `%s': %s"
 
-#: ../mateconf/mateconf-internals.c:2838
-#, c-format
-msgid "Failed to unlink lock file %s: %s\n"
-msgstr "Tsy nahavita nampisaraka ny rakitra %s: %s\n"
-
-#: ../mateconf/mateconf-internals.c:2992 ../mateconf/mateconfd.c:570
-#, c-format
-msgid "Failed to stat %s: %s"
-msgstr "Tsy nahazoana rehana ny %s:%s"
-
-#: ../mateconf/mateconf-internals.c:3014
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "Tsy fetezan'ny pingn'ny mpizara: %s"
 
-#: ../mateconf/mateconf-internals.c:3039
-#, c-format
-msgid "Failed to create pipe for communicating with spawned mateconf daemon: %s\n"
-msgstr ""
-"Tsy nahavita namorona fantsona hifandraisana amin'ny mateconf daemon "
-"noforonina: %s\n"
-
-#: ../mateconf/mateconf-internals.c:3063
-#, c-format
-msgid "Failed to launch configuration server: %s\n"
-msgstr "Tsy nahavita nandefa ny mpizara kirakira: %s\n"
-
-#: ../mateconf/mateconf-internals.c:3088
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://www.gnome.org/projects/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"Tsy nahavita nifandray tamin'ny mpizara kirakira. Mety niofo angamba ny hidy "
-"NFS noho ny fijanonan'ny rafitra tampoka, na mety mila mampandeha ny "
-"fifandraisana TCP/IP ho an'ny MateCORBA ianao. Jereo amin'ny http://www.mate."
-"org/projects/mateconf/ for information. (Antsipiriany - %s)"
 
-#: ../mateconf/mateconf-internals.c:3089
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "tsy misy"
 
-#: ../mateconf/mateconf-sanity-check.c:46
+#: ../mateconf/mateconf-sanity-check.c:49
 msgid "- Sanity checks for MateConf"
 msgstr "- Fanamarinana ny fahatomombanan'ny MateConf"
 
-#: ../mateconf/mateconf-sanity-check.c:55 ../mateconf/mateconftool.c:592
+#: ../mateconf/mateconf-sanity-check.c:58 ../mateconf/mateconftool.c:639
 #, c-format
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Nisy olana teo am-pizarazara ireo safidy: %s.\n"
-"Alefaso ny '%s --help' hanehoana ny lisitry ireo safidin-dazam-baiko misy.\n"
+msgstr "Nisy olana teo am-pizarazara ireo safidy: %s.\nAlefaso ny '%s --help' hanehoana ny lisitry ireo safidin-dazam-baiko misy.\n"
 
-#: ../mateconf/mateconf-sanity-check.c:126 ../mateconf/mateconf-sanity-check.c:151
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\n"
-"Tsy afaka nanokatra na namorona ny rakitra \"%s\"; izany dia midika fa mety "
-"misy olana ny kirakiranao, nefa maro ny rindranasa mila mamorona rakitra ao "
-"amin'ny lahatahirin'ny fandraisanao. Ilay olana: \"%s\" (errno = %d)."
-
-#: ../mateconf/mateconf-sanity-check.c:165
-#, c-format
-msgid ""
-"Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\n"
-"Tsy afaka nangeja ny rakitra \"%s\". Izany dia midika fa mety misy olana ny "
-"kirakiran'ny rafitrao. Raha toa ka nakarina tamin'ny alalan'ny NFS ny "
-"lahatahirin'ny fandraisanao, dia tsy voakirakira araka ny tokony ho izy "
-"izany ny mpivatsy na ny mpizara. Jereo ny loharanon-kevitra mikasika ny rpc."
-"statd sy ny rpc.lockd. Ny antony matetika mahatonga io olana io dia ny tsy "
-"fiasan'ny \"nfslock\". Ilay olana: \"%s\" (errno = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\nTsy afaka nanokatra na namorona ny rakitra \"%s\"; izany dia midika fa mety misy olana ny kirakiranao, nefa maro ny rindranasa mila mamorona rakitra ao amin'ny lahatahirin'ny fandraisanao. Ilay olana: \"%s\" (errno = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:182
+#, c-format
+msgid ""
+"Please contact your system administrator to resolve the following problem:\n"
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\nTsy afaka nangeja ny rakitra \"%s\". Izany dia midika fa mety misy olana ny kirakiran'ny rafitrao. Raha toa ka nakarina tamin'ny alalan'ny NFS ny lahatahirin'ny fandraisanao, dia tsy voakirakira araka ny tokony ho izy izany ny mpivatsy na ny mpizara. Jereo ny loharanon-kevitra mikasika ny rpc.statd sy ny rpc.lockd. Ny antony matetika mahatonga io olana io dia ny tsy fiasan'ny \"nfslock\". Ilay olana: \"%s\" (errno = %d)."
+
+#: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
 msgid "Can't remove file %s: %s\n"
 msgstr "Tsy afaka namafa ny rakitra %s: %s\n"
 
-#: ../mateconf/mateconf-sanity-check.c:218
+#: ../mateconf/mateconf-sanity-check.c:235
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\n"
-"Tsy misy loharanon-kirakira ao anatin'ny raki-kirakira \"%s\". Tsy hety "
-"raiketina noho izany ireo safidy manokana sy ireo fandrindrana maro hafa. %s%"
-"s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\nTsy misy loharanon-kirakira ao anatin'ny raki-kirakira \"%s\". Tsy hety raiketina noho izany ireo safidy manokana sy ireo fandrindrana maro hafa. %s%s"
 
-#: ../mateconf/mateconf-sanity-check.c:221
+#: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
 msgstr "Nisy olana teo am-pamakiana ilay rakitra:"
 
-#: ../mateconf/mateconf-sanity-check.c:244
+#: ../mateconf/mateconf-sanity-check.c:261
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\n"
-"Tsy afaka namaha ny olana mifandraika amin'ny adiresy \"%s\" ao amin'ilay "
-"raki-kirakira \"%s\": %s"
+msgstr "Ilazao ny mpitantana ny rafitrao mba hamaha ireto olana manaraka ireto:\nTsy afaka namaha ny olana mifandraika amin'ny adiresy \"%s\" ao amin'ilay raki-kirakira \"%s\": %s"
 
-#: ../mateconf/mateconf-sanity-check.c:305
+#: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"Misy mampiasa izao ireo rakitra misy ny safidy manokanao.\n"
-"\n"
-"Mety tafiditra anaty session iray avy amin'ny solosaina iray angamba ianao, "
-"nefa ampiasain'ilay session iray hafa ny rakitra misy ny safidinao "
-"manokana.\n"
-"\n"
-"Afaka manohy mampiasa ity session ity ianao, nefa mety hiteraka olana (izay "
-"mandalo fotsiny) amin'ny rindran'ny safidy manokana amin'ilay session iray "
-"hafa izany.\n"
-"\n"
-"Hanohy ihany ianao?"
+msgstr "Misy mampiasa izao ireo rakitra misy ny safidy manokanao.\n\nMety tafiditra anaty session iray avy amin'ny solosaina iray angamba ianao, nefa ampiasain'ilay session iray hafa ny rakitra misy ny safidinao manokana.\n\nAfaka manohy mampiasa ity session ity ianao, nefa mety hiteraka olana (izay mandalo fotsiny) amin'ny rindran'ny safidy manokana amin'ilay session iray hafa izany.\n\nHanohy ihany ianao?"
 
-#: ../mateconf/mateconf-sanity-check.c:326
+#: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
 msgstr "_Hivoaka"
 
-#: ../mateconf/mateconf-sanity-check.c:328
+#: ../mateconf/mateconf-sanity-check.c:345
 msgid "_Continue"
 msgstr "_Hanohy"
 
-#: ../mateconf/mateconf-sanity-check.c:341
+#: ../mateconf/mateconf-sanity-check.c:358
 #, c-format
 msgid "%s Continue (y/n)?"
 msgstr "Hanohy ny %s (y/n)?"
 
-#: ../mateconf/mateconf-schema.c:217 ../mateconf/mateconf-schema.c:225
-#: ../mateconf/mateconf-schema.c:233 ../mateconf/mateconf-schema.c:241
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
+#, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "Misy UTF-8 tsy ekena ao amin'ilay drafitra"
 
-#: ../mateconf/mateconf-schema.c:250
+#: ../mateconf/mateconf-schema.c:262
+#, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
-msgstr ""
-"Manome ny lisitr'ireo karazana ilay drafitra fa tsy manome ny karazan'ireo "
-"singantaharo anatin'ilay lisitra"
+msgstr "Manome ny lisitr'ireo karazana ilay drafitra fa tsy manome ny karazan'ireo singantaharo anatin'ilay lisitra"
 
-#: ../mateconf/mateconf-schema.c:260
+#: ../mateconf/mateconf-schema.c:272
+#, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
 "elements"
-msgstr ""
-"Manome ny roroan'ny karazana ilay drafitra fa tsy manome ny karazan'ireo "
-"singantaharo car/cdr"
+msgstr "Manome ny roroan'ny karazana ilay drafitra fa tsy manome ny karazan'ireo singantaharo car/cdr"
 
-#: ../mateconf/mateconf-sources.c:371
+#: ../mateconf/mateconf-sources.c:374
 #, c-format
 msgid "Failed to load source \"%s\": %s"
 msgstr "Tsy nahazo ny loharano \"%s\": %s"
 
-#: ../mateconf/mateconf-sources.c:411
+#: ../mateconf/mateconf-sources.c:414
+#, c-format
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
+msgstr "Voavaha ny olan'ny adiresy \"%s\": nalefa tany amina loharanon-kirakira azo anoratana eo amin'ny teboka %d"
+
+#: ../mateconf/mateconf-sources.c:420
+#, c-format
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
+msgstr "Voavaha ny olan'ny adiresy \"%s\": nalefa tany amina loharanon-kirakira vakiana fotsiny eo amin'ny teboka %d"
+
+#: ../mateconf/mateconf-sources.c:427
 #, c-format
 msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
+"Resolved address \"%s\" to a partially writable configuration source at "
+"position %d"
 msgstr ""
-"Voavaha ny olan'ny adiresy \"%s\": nalefa tany amina loharanon-kirakira azo "
-"anoratana eo amin'ny teboka %d"
 
-#: ../mateconf/mateconf-sources.c:417
-#, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
-msgstr ""
-"Voavaha ny olan'ny adiresy \"%s\": nalefa tany amina loharanon-kirakira "
-"vakiana fotsiny eo amin'ny teboka %d"
-
-#: ../mateconf/mateconf-sources.c:424
-#, c-format
-msgid ""
-"Resolved address \"%s\" to a partially writable config source at position %d"
-msgstr ""
-"Voavaha ny olan'ny adiresy \"%s\": nalefa tany amin'ny loharanon-kirakira "
-"azo anoratana amin'ny ampahany eo amin'ny teboka %d"
-
-#: ../mateconf/mateconf-sources.c:433
+#: ../mateconf/mateconf-sources.c:436
 msgid ""
 "None of the resolved addresses are writable; saving configuration settings "
 "will not be possible"
-msgstr ""
-"Tsy misy azo anoratana ireo adiresy voavaha olana. Tsy hety noho izany ny "
-"fandraiketana ireo kirakira"
+msgstr "Tsy misy azo anoratana ireo adiresy voavaha olana. Tsy hety noho izany ny fandraiketana ireo kirakira"
 
-#: ../mateconf/mateconf-sources.c:650
+#: ../mateconf/mateconf-sources.c:690
 #, c-format
 msgid "Schema `%s' specified for `%s' stores a non-schema value"
-msgstr ""
-"Ny drafitra `%s' voafaritra ho an'ny `%s' dia mitahiry sanda tsy sahaza "
-"drafitra"
+msgstr "Ny drafitra `%s' voafaritra ho an'ny `%s' dia mitahiry sanda tsy sahaza drafitra"
 
-#: ../mateconf/mateconf-sources.c:712
+#: ../mateconf/mateconf-sources.c:752
 msgid "The '/' name can only be a directory, not a key"
 msgstr "Anaran-dahatahiry ny anarana '/' fa tsy famaha"
 
-#: ../mateconf/mateconf-sources.c:754
+#: ../mateconf/mateconf-sources.c:794
 #, c-format
 msgid ""
 "Value for `%s' set in a read-only source at the front of your configuration "
 "path"
-msgstr ""
-"Voafaritra anaty loharano vakiana fotsiny amin'ny fiantombohan'ny sori-"
-"dàlan'ny kirakiranao ny sandan'ny `%s'"
+msgstr "Voafaritra anaty loharano vakiana fotsiny amin'ny fiantombohan'ny sori-dàlan'ny kirakiranao ny sandan'ny `%s'"
 
-#: ../mateconf/mateconf-sources.c:766
+#: ../mateconf/mateconf-sources.c:806
 #, c-format
 msgid ""
 "Unable to store a value at key '%s', as the configuration server has no "
@@ -1257,1424 +1144,1326 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"Tsy nahavita nandraikitra sanda tamin'ny famaha '%s' noho ny tsy fisian'ny "
-"soratra fototra azo anoratana ao amin'ny mpizaraa kirakira. Maro ny antony "
-"matetika mahatonga izany: 1) tsy misy soratra fototra na tsy hita ny rakitry "
-"ny sori-dàlan'ny kirakira %s/path 2) nisy asa mateconfd roa voaforona tsy nahy "
-"3) ratsy kirakira ny rafitra iasanao hany ka tsy miasa amin'ny lahatahiry "
-"fandraisanao ny fangejana rakitra, na 4) nijanona tampoka ny milin'ny "
-"mpivatsy NFS-nao ka tsy nahavita nampilaza ilay mpizara tamin'ny reboot hoe "
-"tokony havela ireo hidin-drakitra. Mety hahavaha ny olana ny fivoahana, "
-"famonoana izay rehetra mitovy amin'ny mateconfd, ary fidirana indray raha toa "
-"ka misy asa mateconfd roa mitranga (na nisy roa tamin'ny fotoana nadefasana "
-"ilay faharoa). Raha toa ka lany daty ny hidinao, dia fafao ny  ~/.mateconf*/"
-"*lock. Ny mety ho fototry ny olana angamba dia ny fanandramanao indray "
-"nampiasa ny MateConf avy amina milina roa, nefa mbola ny nihatra ny "
-"kirakiran'ny MateCORBA izay misakana fifandraisana CORBA avy lavitra - ataovy ao "
-"anatin'ny /etc/matecorbarc ny \"ORBIIOPIPv4=1\". Tahaka ny mahazatra, dia vakio "
-"ny raki-tatitra user.* hahafantarana ireo olana sedrain'ny mateconfd. Tsy "
-"tokony hisy afa-tsy mateconfd iray isaka ny lahatahiry fandraisana, ary tsy "
-"maintsy manana raki-pangejana iray ao amin'ny ~/.mateconfd ary raki-pangejana "
-"maromaro ao anatin'ny toerana fandraiketana tsirairay avy toy ny ~/.mateconf "
-"izy io"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "Tsy nahavita nandraikitra sanda tamin'ny famaha '%s' noho ny tsy fisian'ny soratra fototra azo anoratana ao amin'ny mpizaraa kirakira. Maro ny antony matetika mahatonga izany: 1) tsy misy soratra fototra na tsy hita ny rakitry ny sori-dàlan'ny kirakira %s/path 2) nisy asa mateconfd roa voaforona tsy nahy 3) ratsy kirakira ny rafitra iasanao hany ka tsy miasa amin'ny lahatahiry fandraisanao ny fangejana rakitra, na 4) nijanona tampoka ny milin'ny mpivatsy NFS-nao ka tsy nahavita nampilaza ilay mpizara tamin'ny reboot hoe tokony havela ireo hidin-drakitra. Mety hahavaha ny olana ny fivoahana, famonoana izay rehetra mitovy amin'ny mateconfd, ary fidirana indray raha toa ka misy asa mateconfd roa mitranga (na nisy roa tamin'ny fotoana nadefasana ilay faharoa). Raha toa ka lany daty ny hidinao, dia fafao ny  ~/.mateconf*/*lock. Ny mety ho fototry ny olana angamba dia ny fanandramanao indray nampiasa ny MateConf avy amina milina roa, nefa mbola ny nihatra ny kirakiran'ny MateCORBA izay misakana fifandraisana CORBA avy lavitra - ataovy ao anatin'ny /etc/matecorbarc ny \"ORBIIOPIPv4=1\". Tahaka ny mahazatra, dia vakio ny raki-tatitra user.* hahafantarana ireo olana sedrain'ny mateconfd. Tsy tokony hisy afa-tsy mateconfd iray isaka ny lahatahiry fandraisana, ary tsy maintsy manana raki-pangejana iray ao amin'ny ~/.mateconfd ary raki-pangejana maromaro ao anatin'ny toerana fandraiketana tsirairay avy toy ny ~/.mateconf izy io"
 
-#: ../mateconf/mateconf-sources.c:1570
+#: ../mateconf/mateconf-sources.c:1610
 #, c-format
 msgid "Error finding metainfo: %s"
 msgstr "Nisy olana teo am-pikarohana ny metainfo: %s"
 
-#: ../mateconf/mateconf-sources.c:1639
+#: ../mateconf/mateconf-sources.c:1679
 #, c-format
 msgid "Error getting metainfo: %s"
 msgstr "Nisy olana teo am-pakana ny metainfo: %s"
 
-#: ../mateconf/mateconf-sources.c:1663
+#: ../mateconf/mateconf-sources.c:1703
 #, c-format
 msgid "Key `%s' listed as schema for key `%s' actually stores type `%s'"
-msgstr ""
-"Ny famaha `%s' voalaza fa drafitry ny famaha `%s' dia mitahiry karazana `%s'"
+msgstr "Ny famaha `%s' voalaza fa drafitry ny famaha `%s' dia mitahiry karazana `%s'"
 
-#: ../mateconf/mateconf-value.c:260
+#: ../mateconf/mateconf-value.c:262
 #, c-format
 msgid "Didn't understand `%s' (list must start with a '[')"
 msgstr "Tsy mazava ny `%s' (tsy maintsy manomboka amin'ny '[' ilay lisitra)"
 
-#: ../mateconf/mateconf-value.c:273
+#: ../mateconf/mateconf-value.c:275
 #, c-format
 msgid "Didn't understand `%s' (list must end with a ']')"
 msgstr "Tsy mazava ny `%s' (tsy maintsy miafara amin'ny ']' ilay lisitra)"
 
-#: ../mateconf/mateconf-value.c:324
+#: ../mateconf/mateconf-value.c:326
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ']' found inside list)"
 msgstr "Tsy mazava ny `%s' (nisy ']' nihoatra tao anatin'ilay lisitra) "
 
-#: ../mateconf/mateconf-value.c:355 ../mateconf/mateconf-value.c:516
+#: ../mateconf/mateconf-value.c:357 ../mateconf/mateconf-value.c:518
 #, c-format
 msgid "Didn't understand `%s' (extra trailing characters)"
 msgstr "Tsy mazava ny `%s' (misy marika mamarana mihoatra)"
 
-#: ../mateconf/mateconf-value.c:402
+#: ../mateconf/mateconf-value.c:404
 #, c-format
 msgid "Didn't understand `%s' (pair must start with a '(')"
 msgstr "Tsy mazava ny `%s' (tsy maintsy manomboka amin'ny '(' ireo roroa)"
 
-#: ../mateconf/mateconf-value.c:415
+#: ../mateconf/mateconf-value.c:417
 #, c-format
 msgid "Didn't understand `%s' (pair must end with a ')')"
 msgstr "Tsy mazava ny `%s' (tsy maintsy miafara amin'ny ')' ireo roroa)"
 
-#: ../mateconf/mateconf-value.c:445 ../mateconf/mateconf-value.c:531
+#: ../mateconf/mateconf-value.c:447 ../mateconf/mateconf-value.c:533
 #, c-format
 msgid "Didn't understand `%s' (wrong number of elements)"
 msgstr "Tsy mazava ny `%s' (isan-tsingantaharo diso)"
 
-#: ../mateconf/mateconf-value.c:485
+#: ../mateconf/mateconf-value.c:487
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ')' found inside pair)"
 msgstr "Tsy mazava ny `%s' (nisy ')' nihoatra tao anatin'ilay roroa)"
 
-#: ../mateconf/mateconf.c:57
-#, c-format
-msgid "Key \"%s\" is NULL"
-msgstr "NULL ny famaha \"%s\""
+#: ../mateconf/mateconf.c:95
+msgid "Key is NULL"
+msgstr ""
 
-#: ../mateconf/mateconf.c:64
+#: ../mateconf/mateconf.c:102
 #, c-format
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
 
-#: ../mateconf/mateconf.c:383
+#: ../mateconf/mateconf.c:418
 #, c-format
 msgid "Server couldn't resolve the address `%s'"
 msgstr "Tsy voavahan'ilay mpizara ny olan'ny adiresy `%s'"
 
-#: ../mateconf/mateconf.c:761
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
-msgstr ""
-"Tsy afaka mampiditra fampahafantarana anatina loharanon-kirakira an-toerana"
+msgstr "Tsy afaka mampiditra fampahafantarana anatina loharanon-kirakira an-toerana"
 
-#: ../mateconf/mateconf.c:2224
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
+msgstr "Tsy nahomby ny fampidirana ilay mpivatsy anatin'ny lisitry ny mpizara. Tsy fetezana CORBA: %s"
+
+#: ../mateconf/mateconf.c:2704
+msgid "Must begin with a slash '/'"
 msgstr ""
-"Tsy nahomby ny fampidirana ilay mpivatsy anatin'ny lisitry ny mpizara. Tsy "
-"fetezana CORBA: %s"
 
-#: ../mateconf/mateconf.c:2589
-msgid "Must begin with a slash (/)"
-msgstr "Tsy maintsy manomboka amina bara (/)"
+#: ../mateconf/mateconf.c:2726
+msgid "Can't have two slashes '/' in a row"
+msgstr ""
 
-#: ../mateconf/mateconf.c:2611
-msgid "Can't have two slashes (/) in a row"
-msgstr "Tsy azo asiana bara (/) roa amin'ny laharana iray"
+#: ../mateconf/mateconf.c:2728
+msgid "Can't have a period '.' right after a slash '/'"
+msgstr ""
 
-#: ../mateconf/mateconf.c:2613
-msgid "Can't have a period (.) right after a slash (/)"
-msgstr "Tsy azo asiana teboka (.) afaran'ny bara (/) iray"
-
-#: ../mateconf/mateconf.c:2632
+#: ../mateconf/mateconf.c:2748
 #, c-format
-msgid "'%c' is not an ASCII character, so isn't allowed in key names"
-msgstr "Tsy marika ASCII ny '%c', noho izany tsy azo atao anaty anaram-pamaha"
+msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
+msgstr ""
 
-#: ../mateconf/mateconf.c:2642
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "Tsy ekena atao anaty anaram-pamaha/lahatahiry ny marika '%c'"
 
-#: ../mateconf/mateconf.c:2656
-msgid "Key/directory may not end with a slash (/)"
-msgstr "Tsy afaka miafara amin'ny bara (/) ny famaha/lahatahiry"
+#: ../mateconf/mateconf.c:2772
+msgid "Key/directory may not end with a slash '/'"
+msgstr ""
 
-#: ../mateconf/mateconf.c:3027
+#: ../mateconf/mateconf.c:3143
 #, c-format
-msgid "Failure shutting down config server: %s"
-msgstr "Tsy nahavita nanajanona ny mpizara kirakira: %s"
+msgid "Failure shutting down configuration server: %s"
+msgstr ""
 
-#: ../mateconf/mateconf.c:3088
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "Float no nantenaina, %s no azo"
 
-#: ../mateconf/mateconf.c:3123
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "Isa feno no nantenaina, %s no azo"
 
-#: ../mateconf/mateconf.c:3158
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "Laha-daza no nantenaina, %s no azo"
 
-#: ../mateconf/mateconf.c:3192
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "Boleanina no nantenaina, %s no azo"
 
-#: ../mateconf/mateconf.c:3225
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "Drafitra no nantenaina, %s no aza"
 
-#: ../mateconf/mateconf.c:3564
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "Tsy fetezana CORBA: %s"
 
-#: ../mateconf/mateconfd.c:302
+#: ../mateconf/mateconfd.c:336
 msgid "Shutdown request received"
 msgstr "Nahazo fangatahana fanajanonana"
 
-#: ../mateconf/mateconfd.c:334
+#: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"Navadika niaraka tamin'ny debugging ny mateconfd; manandrana maka ny mateconf.path "
-"ao amin'ny lahatahiry iaingana"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "Navadika niaraka tamin'ny debugging ny mateconfd; manandrana maka ny mateconf.path ao amin'ny lahatahiry iaingana"
 
-#: ../mateconf/mateconfd.c:354
+#: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found, trying to use the default config source `%s'"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
 msgstr ""
-"Tsy nahita raki-kirakira; manandrana mampiasa ny loharanon-kirakira lasitra `"
-"%s'"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
-#: ../mateconf/mateconfd.c:362
+#. 
+#: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
-"No configuration sources in the source path, configuration won't be saved; "
+"No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
 msgstr ""
-"Tsy misy loharanon-kirakira ao anatin'ny sori-dàlan'ny loharano; tsy "
-"horaiketina ilay kirakira; ovay ny %s%s"
 
-#: ../mateconf/mateconfd.c:375
+#: ../mateconf/mateconfd.c:409
 #, c-format
-msgid "Error loading some config sources: %s"
-msgstr "Nisy olana teo am-pakana ny loharanon-kirakira sasany: %s"
-
-#: ../mateconf/mateconfd.c:387
-msgid ""
-"No config source addresses successfully resolved, can't load or store config "
-"data"
+msgid "Error loading some configuration sources: %s"
 msgstr ""
-"Tsy misy adiresin-doharanon-kirakira voavadika; tsy afaka maka na "
-"mandraikitra lazan-kirakira"
 
-#: ../mateconf/mateconfd.c:404
+#: ../mateconf/mateconfd.c:421
 msgid ""
-"No writable config sources successfully resolved, may not be able to save "
-"some configuration changes"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
 msgstr ""
-"Tsy misy loharanon-kirakira azo anoratana voavadika; mety tsy afaka "
-"handraikitra ny fanovan-kirakira sasany"
 
-#: ../mateconf/mateconfd.c:433
-#, c-format
-msgid "Received signal %d, dumping core. Please report a MateConf bug."
-msgstr "Nahazo fambara %d; manafoana ny core. Manaova tatitra kilema MateConf."
-
-#: ../mateconf/mateconfd.c:439
-#, c-format
-msgid "Received signal %d. Please report a MateConf bug."
-msgstr "Nahazo fambara %d. Manaova tatitra kilema MateConf."
-
-#: ../mateconf/mateconfd.c:459
-#, c-format
+#: ../mateconf/mateconfd.c:438
 msgid ""
-"Received signal %d, shutting down abnormally. Please file a MateConf bug report."
+"No writable configuration sources successfully resolved. May be unable to "
+"save some configuration changes"
 msgstr ""
-"Nahazo fambara %d; nijanona tamin'ny fomba tsy nampoizina. Manaova tatitra "
-"kilema MateConf."
 
-#: ../mateconf/mateconfd.c:475
+#: ../mateconf/mateconfd.c:603
 #, c-format
-msgid "Received signal %d, shutting down cleanly"
-msgstr "Nahazo fambara %d; nijanona araka ny tokony ho izy"
+msgid "Could not connect to session bus: %s"
+msgstr ""
 
-#: ../mateconf/mateconfd.c:563
+#: ../mateconf/mateconfd.c:625
 #, c-format
-msgid "Failed to open %s: %s"
-msgstr "Tsy nahasokatra ny %s: %s"
+msgid "Failed to get bus name for daemon, exiting: %s"
+msgstr ""
 
-#: ../mateconf/mateconfd.c:579
+#: ../mateconf/mateconfd.c:706
 #, c-format
-msgid "Owner of %s is not the current user"
-msgstr "Tsy ny mpampiasa izao no tompon'ny %s"
+msgid "Could not connect to system bus: %s"
+msgstr ""
 
-#: ../mateconf/mateconfd.c:587
-#, c-format
-msgid "Bad permissions %lo on directory %s"
-msgstr "Fahazoan-dàlana %lo diso amin'ny lahatahiry %s"
-
-#. openlog() does not copy logname - what total brokenness.
-#. So we free it at the end of main()
-#: ../mateconf/mateconfd.c:679
+#: ../mateconf/mateconfd.c:842
 #, c-format
 msgid "starting (version %s), pid %u user '%s'"
 msgstr "Miantomboka (kinova %s), pid %u mpampiasa '%s'"
 
-#: ../mateconf/mateconfd.c:736
+#: ../mateconf/mateconfd.c:890
 msgid "Failed to get object reference for ConfigServer"
 msgstr "Tsy nahazo ny tara-javatra ho an'ny ConfigServer"
 
-#: ../mateconf/mateconfd.c:749
-#, c-format
-msgid "Failed to create %s: %s"
-msgstr "Tsy nahaforona ny %s: %s"
-
-#: ../mateconf/mateconfd.c:756
-#, c-format
-msgid "Directory %s has a problem, mateconfd can't use it"
-msgstr "Misy olana ny lahatahiry %s. Tsy afaka mampiasa io ny mateconfd"
-
-#: ../mateconf/mateconfd.c:788
+#: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
-msgstr ""
-"Tsy nahavita nanoratra octet tamin'ny mpanori-drakitry ny fantsona %d mba "
-"hahafahan'ilay rindranasa mpivatsy miandry: %s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
+msgstr "Tsy nahavita nanoratra octet tamin'ny mpanori-drakitry ny fantsona %d mba hahafahan'ilay rindranasa mpivatsy miandry: %s"
 
-#: ../mateconf/mateconfd.c:798
-#, c-format
-msgid "Failed to get lock for daemon, exiting: %s"
-msgstr "Tsy nahazo hidy ho an'ny daemon; hijanona: %s"
-
-#: ../mateconf/mateconfd.c:836
+#: ../mateconf/mateconfd.c:965
 #, c-format
 msgid "Error releasing lockfile: %s"
 msgstr "Nisy olana teo am-pamahana ny raki-pangejana: %s"
 
-#: ../mateconf/mateconfd.c:844
+#: ../mateconf/mateconfd.c:973
 msgid "Exiting"
 msgstr "Hijanona"
 
-#: ../mateconf/mateconfd.c:869
+#: ../mateconf/mateconfd.c:991
 msgid "SIGHUP received, reloading all databases"
 msgstr "Nahazo SIGHUP; mamerina maka ny soratra fototra rehetra"
 
-#: ../mateconf/mateconfd.c:886
+#: ../mateconf/mateconfd.c:1008
 msgid "MateConf server is not in use, shutting down."
 msgstr "Tsy ampiasaina ny mpizara MateConf; hijanona."
 
-#: ../mateconf/mateconfd.c:1212
+#: ../mateconf/mateconfd.c:1334
 #, c-format
 msgid "Error obtaining new value for `%s': %s"
 msgstr "Nisy olana teo am-pakana sanda vaovao ho an'ny `%s': %s"
 
-#: ../mateconf/mateconfd.c:1340
+#: ../mateconf/mateconfd.c:1478
 #, c-format
 msgid "Returning exception: %s"
 msgstr "Mamerina fanavahana: %s"
 
-#: ../mateconf/mateconfd.c:1446
+#: ../mateconf/mateconfd.c:1584
 #, c-format
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"Tsy nahasokatra ny raki-tatitry ny mateconfd; tsy ho afaka hamerina ireo "
-"mpihaino rehefa voahidy ny mateconfd (%s)"
+msgstr "Tsy nahasokatra ny raki-tatitry ny mateconfd; tsy ho afaka hamerina ireo mpihaino rehefa voahidy ny mateconfd (%s)"
 
-#: ../mateconf/mateconfd.c:1481
+#: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
-msgstr ""
-"Tsy nahavita nanidy ny raki-tatitry ny mateconfd; mety tsy voaraikitra araka ny "
-"tokony ho izy ireo data (%s)"
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
+msgstr "Tsy nahavita nanidy ny raki-tatitry ny mateconfd; mety tsy voaraikitra araka ny tokony ho izy ireo data (%s)"
 
-#: ../mateconf/mateconfd.c:1543
+#: ../mateconf/mateconfd.c:1681
 #, c-format
 msgid "Could not open saved state file '%s' for writing: %s"
 msgstr "Tsy afaka nanokatra ny raki-toetra voaraikitra '%s' mba hanoratana: %s"
 
-#: ../mateconf/mateconfd.c:1557
+#: ../mateconf/mateconfd.c:1695
 #, c-format
 msgid "Could not write saved state file '%s' fd: %d: %s"
 msgstr "Tsy afaka nanoratra tamin'ny raki-toetra voaraikitra '%s' fd: %d: %s"
 
-#: ../mateconf/mateconfd.c:1566
+#: ../mateconf/mateconfd.c:1704
+#, c-format
+msgid "Could not flush saved state file '%s' to disk: %s"
+msgstr ""
+
+#: ../mateconf/mateconfd.c:1711
 #, c-format
 msgid "Failed to close new saved state file '%s': %s"
 msgstr "Tsy nahavita nanidy ny raki-toetra vaovao '%s': %s"
 
-#: ../mateconf/mateconfd.c:1580
+#: ../mateconf/mateconfd.c:1725
 #, c-format
 msgid "Could not move aside old saved state file '%s': %s"
 msgstr "Tsy afaka nanilika ny raki-toetra voaraikitra taloha '%s': %s"
 
-#: ../mateconf/mateconfd.c:1590
+#: ../mateconf/mateconfd.c:1735
 #, c-format
-msgid "Failed to move new save state file into place: %s"
+msgid "Failed to move new saved state file into place: %s"
 msgstr ""
-"Tsy afaka namindra ilay raki-toetra voaraikitra vaovao teo amin'ny toerany: %"
-"s"
 
-#: ../mateconf/mateconfd.c:1599
+#: ../mateconf/mateconfd.c:1744
 #, c-format
 msgid ""
 "Failed to restore original saved state file that had been moved to '%s': %s"
-msgstr ""
-"Tsy afaka namerina ilay raki-toetra voaraikitra fototra izay nafindrana teo "
-"amin'ny '%s': %s"
+msgstr "Tsy afaka namerina ilay raki-toetra voaraikitra fototra izay nafindrana teo amin'ny '%s': %s"
 
-#: ../mateconf/mateconfd.c:2078
+#: ../mateconf/mateconfd.c:2223
 #, c-format
 msgid ""
 "Unable to restore a listener on address '%s', couldn't resolve the database"
-msgstr ""
-"Tsy nahavita namerina mpihaino iray amin'ny adiresy '%s'; tsy afaka namadika "
-"ilay soratra fototra"
+msgstr "Tsy nahavita namerina mpihaino iray amin'ny adiresy '%s'; tsy afaka namadika ilay soratra fototra"
 
-#: ../mateconf/mateconfd.c:2114
+#: ../mateconf/mateconfd.c:2259
 #, c-format
 msgid "Error reading saved state file: %s"
 msgstr "Nisy olana teo am-pamakiana ilay raki-toetra voaraikitra: %s"
 
-#: ../mateconf/mateconfd.c:2164
+#: ../mateconf/mateconfd.c:2309
 #, c-format
 msgid "Unable to open saved state file '%s': %s"
 msgstr "Tsy afaka nanokatra ny raki-toetra voaraikitra '%s': %s"
 
-#: ../mateconf/mateconfd.c:2283
+#: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Tsy nahavita nadrakitra ny fampidirana ilay mpihaino tamin'ny raki-tatitry "
-"ny mateconfd; tsy ho voaverina io mpihaino io rehefa mijanona ny mateconfd (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Tsy nahavita nadrakitra ny fampidirana ilay mpihaino tamin'ny raki-tatitry ny mateconfd; tsy ho voaverina io mpihaino io rehefa mijanona ny mateconfd (%s)"
 
-#: ../mateconf/mateconfd.c:2288
+#: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Tsy nahavita nadrakitra ny fanalana ilay mpihaino tamin'ny raki-tatitry ny "
-"mateconfd; mety voaverina tsy nahy io mpihaino io rehefa mijanona ny mateconfd (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Tsy nahavita nadrakitra ny fanalana ilay mpihaino tamin'ny raki-tatitry ny mateconfd; mety voaverina tsy nahy io mpihaino io rehefa mijanona ny mateconfd (%s)"
 
-#: ../mateconf/mateconfd.c:2311 ../mateconf/mateconfd.c:2485
+#: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
 msgid "Failed to get IOR for client: %s"
 msgstr "Tsy nahazo IOR ho an'ilay mpivatsy: %s"
 
-#: ../mateconf/mateconfd.c:2326
+#: ../mateconf/mateconfd.c:2471
 #, c-format
 msgid "Failed to open saved state file: %s"
 msgstr "Tsy nahasokatra ilay raki-toetra voaraikitra: %s"
 
-#: ../mateconf/mateconfd.c:2339
+#: ../mateconf/mateconfd.c:2484
 #, c-format
 msgid "Failed to write client add to saved state file: %s"
-msgstr ""
-"Tsy nahavita nanoratra ilay fampidirana mpivatsy tamin'ny raki-toetra "
-"voaraikitra: %s"
+msgstr "Tsy nahavita nanoratra ilay fampidirana mpivatsy tamin'ny raki-toetra voaraikitra: %s"
 
-#: ../mateconf/mateconfd.c:2347
+#: ../mateconf/mateconfd.c:2492
 #, c-format
 msgid "Failed to flush client add to saved state file: %s"
-msgstr ""
-"Tsy nahavita nanesotra ny fampidirana mpivatsy tanatin'ilay raki-toetra "
-"voaraikitra: %s"
+msgstr "Tsy nahavita nanesotra ny fampidirana mpivatsy tanatin'ilay raki-toetra voaraikitra: %s"
 
-#: ../mateconf/mateconfd.c:2446
+#: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
-msgstr ""
-"Nisy mpivatsy nanala ny tenany tanatin'ny mpizara MateConf rehefa tsy "
-"nampidirina."
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
+msgstr "Nisy mpivatsy nanala ny tenany tanatin'ny mpizara MateConf rehefa tsy nampidirina."
 
-#: ../mateconf/mateconftool.c:89
+#: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
-msgstr ""
-"Manome sanda famaha iray ary mandasitra. Ampiasaina miaraka amin'ny --type."
+msgstr "Manome sanda famaha iray ary mandasitra. Ampiasaina miaraka amin'ny --type."
 
-#: ../mateconf/mateconftool.c:98
+#: ../mateconf/mateconftool.c:102
 msgid "Print the value of a key to standard output."
 msgstr "Manonta ny sandan'ny famaha iray amina mpandray tsotra."
 
-#: ../mateconf/mateconftool.c:108
+#: ../mateconf/mateconftool.c:112
 msgid "Unset the keys on the command line"
 msgstr "Manafoana ireo famaha amin'ilay lazam-baiko"
 
-#: ../mateconf/mateconftool.c:117
+#: ../mateconf/mateconftool.c:121
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
 "command line"
-msgstr ""
-"Tsy mitsahatra ny manafoana ireo famaha rehetra amin'ny na ambanin'ny "
-"anaran'ny famaha/lahatahiry amin'ny lazam-baiko"
+msgstr "Tsy mitsahatra ny manafoana ireo famaha rehetra amin'ny na ambanin'ny anaran'ny famaha/lahatahiry amin'ny lazam-baiko"
 
-#: ../mateconf/mateconftool.c:126
+#: ../mateconf/mateconftool.c:130
+msgid "Toggles a boolean key."
+msgstr ""
+
+#: ../mateconf/mateconftool.c:139
 msgid "Print all key/value pairs in a directory."
 msgstr "Manonta ireo roroam-pamaha/sanda rehetra anaty lahatahiry."
 
-#: ../mateconf/mateconftool.c:135
+#: ../mateconf/mateconftool.c:148
 msgid "Print all subdirectories in a directory."
 msgstr "Manonta ireo zana-dahatahiry rehetra anaty lahatahiry."
 
-#: ../mateconf/mateconftool.c:144
+#: ../mateconf/mateconftool.c:157
 msgid "Print all subdirectories and entries under a directory, recursively."
-msgstr ""
-"Tsy mitsaha-manonta ireo zana-dahatahiry sy fidirana rehetra ambanina "
-"lahatahiry."
+msgstr "Tsy mitsaha-manonta ireo zana-dahatahiry sy fidirana rehetra ambanina lahatahiry."
 
-#: ../mateconf/mateconftool.c:153
+#: ../mateconf/mateconftool.c:166 ../mateconf/mateconftool.c:175
+msgid "Search for a key, recursively."
+msgstr ""
+
+#: ../mateconf/mateconftool.c:184
 msgid "Get the short doc string for a key"
 msgstr "Maka ny laha-dazan-doharanon-kevitra fohy ho an'ny famaha"
 
-#: ../mateconf/mateconftool.c:162
+#: ../mateconf/mateconftool.c:193
 msgid "Get the long doc string for a key"
 msgstr "Maka ny laha-dazan-doharanon-kevitra lava ho an'ny famaha"
 
-#: ../mateconf/mateconftool.c:171
+#: ../mateconf/mateconftool.c:202
 msgid "Return 0 if the directory exists, 2 if it does not."
 msgstr "Mamerina 0 raha misy ilay lahatahiry, 2 raha toa ka tsy misy ilay izy."
 
-#: ../mateconf/mateconftool.c:180
+#: ../mateconf/mateconftool.c:211
 msgid "Ignore schema defaults when reading values."
 msgstr "Tsy mandraharaha ny sanda lasitr'ilay drafitra rehefa mamaky sanda."
 
-#: ../mateconf/mateconftool.c:195
+#: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
-msgstr ""
-"Tsy mitsaha-maneho ny soritsoritra XML ireo fidirana rehetra ambany "
-"lahatahiry amina mpandray tsotra."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
+msgstr "Tsy mitsaha-maneho ny soritsoritra XML ireo fidirana rehetra ambany lahatahiry amina mpandray tsotra."
 
-#: ../mateconf/mateconftool.c:204
+#: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"Maka soritsori-tsanda XML avy ao amin'ny rakitra voafaritra ary mamaritra "
-"azy ireo mifanaraka amina lahatahiry iray."
+msgstr "Maka soritsori-tsanda XML avy ao amin'ny rakitra voafaritra ary mamaritra azy ireo mifanaraka amina lahatahiry iray."
 
-#: ../mateconf/mateconftool.c:213
+#: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
 msgstr "Manala amboaran-tsanda voasoritra anatina rakitra XML."
 
-#: ../mateconf/mateconftool.c:228
+#: ../mateconf/mateconftool.c:259
 msgid "Get the name of the default source"
 msgstr "Maka ny anaran'ilay loharano lasitra"
 
-#: ../mateconf/mateconftool.c:237
+#: ../mateconf/mateconftool.c:268
 msgid "Shut down mateconfd. DON'T USE THIS OPTION WITHOUT GOOD REASON."
 msgstr "Manajanona ny mateconfd. AZA MAMPIASA ITY SAFIDY ITY TSY AMIN'ANTONY."
 
-#: ../mateconf/mateconftool.c:246
+#: ../mateconf/mateconftool.c:277
 msgid "Return 0 if mateconfd is running, 2 if not."
 msgstr "Mamerina 0 raha mandeha ny mateconfd, 2 raha tsia."
 
-#: ../mateconf/mateconftool.c:255
+#: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the config server (mateconfd). (Normally happens automatically when "
-"needed.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
 msgstr ""
-"Mandefa ilay mpizara kirakira (mateconfd). (Tokony handeha hoazy rehefa ilaina.)"
 
-#: ../mateconf/mateconftool.c:270
+#: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"Milaza ny karazan'ilay sanda faritana na ny karazan'ilay sanda "
-"soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
+msgstr "Milaza ny karazan'ilay sanda faritana na ny karazan'ilay sanda soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
 
-#: ../mateconf/mateconftool.c:271
+#: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
 msgstr "int|bool|float|string|list|pair"
 
-#: ../mateconf/mateconftool.c:279
+#: ../mateconf/mateconftool.c:310
 msgid "Print the data type of a key to standard output."
 msgstr "Manonta ny karazan-dazan'ny famaha iray amina mpandray tsotra."
 
-#: ../mateconf/mateconftool.c:288
+#: ../mateconf/mateconftool.c:319
 msgid "Get the number of elements in a list key."
 msgstr "Maka ny isan'ny singantaharo anatina famaha nalahatra."
 
-#: ../mateconf/mateconftool.c:297
+#: ../mateconf/mateconftool.c:328
 msgid "Get a specific element from a list key, numerically indexed."
 msgstr "Maka singantaharo voafaritra ao anaty famaha voalahatra araka isa."
 
-#: ../mateconf/mateconftool.c:306
+#: ../mateconf/mateconftool.c:337
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"Milaza ny karazan'ilay sanda nalahatra faritana na ny karazan'ilay sanda "
-"soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
+msgstr "Milaza ny karazan'ilay sanda nalahatra faritana na ny karazan'ilay sanda soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
 
-#: ../mateconf/mateconftool.c:307 ../mateconf/mateconftool.c:316 ../mateconf/mateconftool.c:325
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
-#: ../mateconf/mateconftool.c:315
+#: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Milaza ny karazan'ilay sandan'ny roroa car faritana na ny karazan'ilay sanda "
-"soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Milaza ny karazan'ilay sandan'ny roroa car faritana na ny karazan'ilay sanda soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
 
-#: ../mateconf/mateconftool.c:324
+#: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Milaza ny karazan'ilay sandan'ny roroa cdr faritana na ny karazan'ilay sanda "
-"soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Milaza ny karazan'ilay sandan'ny roroa cdr faritana na ny karazan'ilay sanda soritsoritan'ny drafitra iray. Fanafohezan-teny tokana OK."
 
-#: ../mateconf/mateconftool.c:339
+#: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
 msgstr "Mamarita raki-drafitra hapetraka"
 
-#: ../mateconf/mateconftool.c:340
+#: ../mateconf/mateconftool.c:371
 msgid "FILENAME"
 msgstr "ANARAN-DRAKITRA"
 
-#: ../mateconf/mateconftool.c:348
+#: ../mateconf/mateconftool.c:379
 msgid "Specify a configuration source to use rather than the default path"
 msgstr "Manome loharanon-kirakira ampiasaina fa tsy sori-dàlana lasitra"
 
-#: ../mateconf/mateconftool.c:349
+#: ../mateconf/mateconftool.c:380
 msgid "SOURCE"
 msgstr "LOHARANO"
 
-#: ../mateconf/mateconftool.c:357
+#: ../mateconf/mateconftool.c:388
 msgid ""
-"Access the config database directly, bypassing server. Requires that mateconfd "
-"is not running."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
 msgstr ""
-"Tafiditra mivantana any amin'ny soratra fototry ny fikirakirana, tsy mandalo "
-"mpizara. Ilaina tsy mandeha ny mateconfd amin'izany."
 
-#: ../mateconf/mateconftool.c:366
+#: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
-"config source or set to the empty string to use the default."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
 msgstr ""
-"Mametraka raki-drafitra amin'ny lazam-baiko araka ny tokony ho izy ao "
-"anatin'ny soratra fototra. Tokony ho voafaritra amina loharanon-kirakira tsy "
-"lasitra na voafaritra amin'ilay laha-daza foana hahafahana mampiasa ilay "
-"lasitra ny teny miovan'ny tontolo MATECONF_CONFIG_SOURCE."
 
-#: ../mateconf/mateconftool.c:375
+#: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
-"config source or set to the empty string to use the default."
+"configuration source or set to the empty string to use the default."
 msgstr ""
-"Manesotra araka ny tokony ho izy raki-drafitra amin'ny lazam-baiko tao "
-"anatin'ny soratra fototra. Tokony ho voafaritra amina loharanon-kirakira tsy "
-"lasitra na voafaritra amin'ilay laha-daza foana hahafahana mampiasa ilay "
-"lasitra ny teny miovan'ny tontolo MATECONF_CONFIG_SOURCE."
 
-#: ../mateconf/mateconftool.c:390
+#: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"Misedra rindranasa iray amin'ny alalan'ny famaritana sy fanafoanana amboaran-"
-"tsanda tsy mitovy karazana ho ana famaha amin'ilay lazam-baiko."
+msgstr "Misedra rindranasa iray amin'ny alalan'ny famaritana sy fanafoanana amboaran-tsanda tsy mitovy karazana ho ana famaha amin'ilay lazam-baiko."
 
-#: ../mateconf/mateconftool.c:399
+#: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"Misedra rindranasa iray amin'ny alalan'ny famaritana sy fanafoanana amboaram-"
-"pamaha anatin'ireo lahatahiry amin'ilay lazam-baiko."
+msgstr "Misedra rindranasa iray amin'ny alalan'ny famaritana sy fanafoanana amboaram-pamaha anatin'ireo lahatahiry amin'ilay lazam-baiko."
 
-#: ../mateconf/mateconftool.c:414
+#: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"Mamaritra drafitra iray ary mandasitra. Ampiasaina miaraka amin'ny --short-"
-"desc, --long-desc, --owner, ary --type."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "Mamaritra drafitra iray ary mandasitra. Ampiasaina miaraka amin'ny --short-desc, --long-desc, --owner, ary --type."
 
-#: ../mateconf/mateconftool.c:423
+#: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
 msgstr "Manome soritsoritra fohy (atsasak'andalana) atao anaty drafitra iray."
 
-#: ../mateconf/mateconftool.c:424 ../mateconf/mateconftool.c:433
+#: ../mateconf/mateconftool.c:455 ../mateconf/mateconftool.c:464
 msgid "DESCRIPTION"
 msgstr "SORITSORITRA"
 
-#: ../mateconf/mateconftool.c:432
+#: ../mateconf/mateconftool.c:463
 msgid "Specify a several-line description to go in a schema."
 msgstr "Manome soritsoritra mahafeno andalana maro atao anaty drafitra iray."
 
-#: ../mateconf/mateconftool.c:441
+#: ../mateconf/mateconftool.c:472
 msgid "Specify the owner of a schema"
 msgstr "Mamaritra ny tompon'ny drafitra iray"
 
-#: ../mateconf/mateconftool.c:442
+#: ../mateconf/mateconftool.c:473
 msgid "OWNER"
 msgstr "TOMPONY"
 
-#: ../mateconf/mateconftool.c:450
+#: ../mateconf/mateconftool.c:481
 msgid "Get the name of the schema applied to this key"
 msgstr "Maka ny anaran'ilay drafitra ampiharina amin'ity famaha ity"
 
-#: ../mateconf/mateconftool.c:459
-msgid "Specify the schema name followed by the key to apply the schema name to"
-msgstr ""
-"Manome ny anaran'ilay drafitra arahin'ilay famaha anomezana ilay anaran-"
-"drafitra"
+#: ../mateconf/mateconftool.c:490
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
+msgstr "Manome ny anaran'ilay drafitra arahin'ilay famaha anomezana ilay anaran-drafitra"
 
-#: ../mateconf/mateconftool.c:468
+#: ../mateconf/mateconftool.c:499
 msgid "Remove any schema name applied to the given keys"
 msgstr "Manesotra izay anaran-drafitra nomena ireo famaha voafaritra"
 
-#: ../mateconf/mateconftool.c:483
+#: ../mateconf/mateconftool.c:514
 msgid "Print version"
 msgstr "Karazana natonta"
 
-#: ../mateconf/mateconftool.c:492
+#: ../mateconf/mateconftool.c:523
 msgid "[FILE...]|[KEY...]|[DIR...]"
 msgstr "[RAKITRA...]|[FAMAHA...]|[LAHATAHIRY...]"
 
-#: ../mateconf/mateconftool.c:548
+#: ../mateconf/mateconftool.c:585
 msgid "- Tool to manipulate a MateConf configuration"
 msgstr "- Fitaovana handrindrana kirakira MateConf"
 
-#: ../mateconf/mateconftool.c:550
-msgid "Client options"
-msgstr "Safidy momba ny mpivatsy"
+#: ../mateconf/mateconftool.c:590
+msgid "Client options:"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:550
+#: ../mateconf/mateconftool.c:590
 msgid "Show client options"
 msgstr "Maneho ireo safidy momba ny mpivatsy"
 
-#: ../mateconf/mateconftool.c:554
-msgid "Key type options"
-msgstr "Safidy momba ny karazam-pamaha"
+#: ../mateconf/mateconftool.c:595
+msgid "Key type options:"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:554
+#: ../mateconf/mateconftool.c:595
 msgid "Show key type options"
 msgstr "Maneho ireo safidy momba ny karazam-pamaha"
 
-#: ../mateconf/mateconftool.c:558
-msgid "Load/Save options"
-msgstr "Safidy momba ny Fakana/Fandraiketana"
+#: ../mateconf/mateconftool.c:600
+msgid "Load/Save options:"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:558
+#: ../mateconf/mateconftool.c:600
 msgid "Show load/save options"
 msgstr "Maneho ireo safidy momba ny fakana/fandraiketana"
 
-#: ../mateconf/mateconftool.c:562
-msgid "Server options"
-msgstr "Safidy momba ny mpizara"
+#: ../mateconf/mateconftool.c:605
+msgid "Server options:"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:562
+#: ../mateconf/mateconftool.c:605
 msgid "Show server options"
 msgstr "Maneho ireo safidy momba ny mpizara"
 
-#: ../mateconf/mateconftool.c:566
-msgid "Installation options"
-msgstr "Safidy momba ny fametrahana"
+#: ../mateconf/mateconftool.c:610
+msgid "Installation options:"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:566
+#: ../mateconf/mateconftool.c:610
 msgid "Show installation options"
 msgstr "Maneho ireo safidy momba ny fametrahana"
 
-#: ../mateconf/mateconftool.c:570
-msgid "Test options"
-msgstr "Safidy momba ny fitsapana"
+#: ../mateconf/mateconftool.c:615
+msgid "Test options:"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:570
+#: ../mateconf/mateconftool.c:615
 msgid "Show test options"
 msgstr "Maneho ireo safidy momba ny fitsapana"
 
-#: ../mateconf/mateconftool.c:574
-msgid "Schema options"
-msgstr "Safidy momba ny drafitra "
+#: ../mateconf/mateconftool.c:620
+msgid "Schema options:"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:574
+#: ../mateconf/mateconftool.c:620
 msgid "Show schema options"
 msgstr "Maneho ireo safidy momba ny drafitra"
 
-#: ../mateconf/mateconftool.c:582
+#: ../mateconf/mateconftool.c:629
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Alefaso ny '%s --help' ahitana ireo safidin-dazam-baiko misy rehetra.\n"
+msgstr "Alefaso ny '%s --help' ahitana ireo safidin-dazam-baiko misy rehetra.\n"
 
-#: ../mateconf/mateconftool.c:610
+#: ../mateconf/mateconftool.c:657
+#, c-format
 msgid "Can't get and set/unset simultaneously\n"
 msgstr "Tsy afaka maka ary mamaritra/manafoana indray miantaona\n"
 
-#: ../mateconf/mateconftool.c:620
+#: ../mateconf/mateconftool.c:667
+#, c-format
 msgid "Can't set and get/unset simultaneously\n"
 msgstr "Tsy afaka mamarita ary maka/manafoana indray miantaona\n"
 
-#: ../mateconf/mateconftool.c:627
+#: ../mateconf/mateconftool.c:674
+#, c-format
 msgid "Can't get type and set/unset simultaneously\n"
 msgstr "Tsy afaka maka ny karazana ary mamaritra/manafoana indray miantaona\n"
 
-#: ../mateconf/mateconftool.c:638
+#: ../mateconf/mateconftool.c:682
+#, c-format
+msgid "Can't toggle and get/set/unset simultaneously\n"
+msgstr ""
+
+#: ../mateconf/mateconftool.c:693
+#, c-format
 msgid "Can't use --all-entries with --get or --set\n"
 msgstr "Tsy afaka mampiasa ny --all-entries miaraka amin'ny --get na --set\n"
 
-#: ../mateconf/mateconftool.c:649
+#: ../mateconf/mateconftool.c:704
+#, c-format
 msgid "Can't use --all-dirs with --get or --set\n"
 msgstr "Tsy afaka mampiasa ny --all-dirs miaraka amin'ny --get na --set\n"
 
-#: ../mateconf/mateconftool.c:662
+#: ../mateconf/mateconftool.c:718
+#, c-format
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
-"entries, or --all-dirs\n"
+"entries, --all-dirs, or --search-key\n"
 msgstr ""
-"Tsy tokony hampiasaina miaraka amin'ny --get, --set, --unset, --all-entries, "
-"na --all-dirs ny --recursive-list\n"
 
-#: ../mateconf/mateconftool.c:675
+#: ../mateconf/mateconftool.c:732
+#, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
 msgstr ""
-"Tsy tokony hampiasaina miaraka amin'ny --get, --set, --unset, --all-entries, "
-"--all-dirs ny --set_schema\n"
 
-#: ../mateconf/mateconftool.c:681
+#: ../mateconf/mateconftool.c:738
+#, c-format
 msgid "Value type is only relevant when setting a value\n"
 msgstr "Tsy mitombina ny karazan'ny sanda raha tsy mamaritra sanda\n"
 
-#: ../mateconf/mateconftool.c:687
+#: ../mateconf/mateconftool.c:744
+#, c-format
 msgid "Must specify a type when setting a value\n"
 msgstr "Tsy maintsy milaza karazana rehefa mamaritra sanda\n"
 
-#: ../mateconf/mateconftool.c:695
+#: ../mateconf/mateconftool.c:752
+#, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"Tsy mitombina ny --ignore-schema-defaults raha tsy miaraka amin'ny --get, --"
-"all-entries, --dump, --recursive-list, --get-list-size na --get-list-"
-"element\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "Tsy mitombina ny --ignore-schema-defaults raha tsy miaraka amin'ny --get, --all-entries, --dump, --recursive-list, --get-list-size na --get-list-element\n"
 
-#: ../mateconf/mateconftool.c:707 ../mateconf/mateconftool.c:720 ../mateconf/mateconftool.c:733
-#: ../mateconf/mateconftool.c:747 ../mateconf/mateconftool.c:760 ../mateconf/mateconftool.c:773
-#: ../mateconf/mateconftool.c:787
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
 msgstr "Tsy maintsy ampiasaina mitoka ny safidy %s.\n"
 
-#: ../mateconf/mateconftool.c:796
+#: ../mateconf/mateconftool.c:853
+#, c-format
 msgid ""
-"You must specify a config source with --config-source when using --direct\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
 msgstr ""
-"Tsy maintsy milaza loharanon-kirakira miaraka amin'ny --config-source ianao "
-"rehefa mampiasa --direct\n"
 
-#: ../mateconf/mateconftool.c:802
+#: ../mateconf/mateconftool.c:859
 #, c-format
 msgid "Failed to init MateConf: %s\n"
 msgstr "Tsy nahavita nanomboka ny MateConf: %s\n"
 
-#: ../mateconf/mateconftool.c:830
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-msgstr ""
-"Voafaritra ny MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL; tsy mametraka ireo "
-"drafitra\n"
-
-#: ../mateconf/mateconftool.c:837
+#: ../mateconf/mateconftool.c:887
+#, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
-msgstr ""
-"Voafaritra ny MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL; tsy manesotra ireo "
-"drafitra\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "Voafaritra ny MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL; tsy mametraka ireo drafitra\n"
 
-#: ../mateconf/mateconftool.c:850
+#: ../mateconf/mateconftool.c:894
+#, c-format
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
+msgstr "Voafaritra ny MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL; tsy manesotra ireo drafitra\n"
+
+#: ../mateconf/mateconftool.c:907
+#, c-format
 msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
 msgstr "Tsy maintsy faritana ny teny miovan'ny tontolo MATECONF_CONFIG_SOURCE\n"
 
-#: ../mateconf/mateconftool.c:885
+#: ../mateconf/mateconftool.c:962
 #, c-format
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "Tsy nahavita nampiasa ny loharanon-kirakira: %s\n"
 
-#: ../mateconf/mateconftool.c:1163
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "Tsy fetezana teo am-pijanonana: %s\n"
 
-#: ../mateconf/mateconftool.c:1206
+#: ../mateconf/mateconftool.c:1316
+#, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "Tsy maintsy milaza lahatahiry iray na maromaro halahatra foana.\n"
 
-#: ../mateconf/mateconftool.c:1258
-msgid "Must specify one or more directories to dump.\n"
-msgstr "Tsy maintsy milaza lahatahiry iray na maromaro haseho.\n"
-
-#: ../mateconf/mateconftool.c:1300 ../mateconf/mateconftool.c:1566
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "Tsy nahavita nandahatra ireo fidirana ao amin'ny `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:1319
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(tsy misy sanda voafaritra)"
 
-#: ../mateconf/mateconftool.c:1625
+#: ../mateconf/mateconftool.c:1444
 #, c-format
-msgid "Failed to spawn the config server (mateconfd): %s\n"
-msgstr "Tsy nahaforona ilay mpizara kirakira (mateconfd): %s\n"
+msgid "Must specify a key pattern to search for.\n"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:1654
+#: ../mateconf/mateconftool.c:1463
+#, c-format
+msgid "Must specify a PCRE regex to search for.\n"
+msgstr ""
+
+#: ../mateconf/mateconftool.c:1470
+#, c-format
+msgid "Error compiling regex: %s\n"
+msgstr ""
+
+#: ../mateconf/mateconftool.c:1513
+#, c-format
+msgid "Must specify one or more directories to dump.\n"
+msgstr "Tsy maintsy milaza lahatahiry iray na maromaro haseho.\n"
+
+#: ../mateconf/mateconftool.c:1880
+#, c-format
+msgid "Failed to spawn the configuration server (mateconfd): %s\n"
+msgstr ""
+
+#: ../mateconf/mateconftool.c:1909
+#, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "Tsy maintsy milaza famaha iray na maromaro halaina\n"
 
-#: ../mateconf/mateconftool.c:1689
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "Karazana: %s\n"
 
-#: ../mateconf/mateconftool.c:1690
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "Karazan'ilay lisitra: %s\n"
 
-#: ../mateconf/mateconftool.c:1691
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Karazan'ilay Car: %s\n"
 
-#: ../mateconf/mateconftool.c:1692
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Karazan'ilay Cdr: %s\n"
 
-#: ../mateconf/mateconftool.c:1697
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "Sanda lasitra: %s\n"
 
-#: ../mateconf/mateconftool.c:1697 ../mateconf/mateconftool.c:1699
-#: ../mateconf/mateconftool.c:1700 ../mateconf/mateconftool.c:1701
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "Nofoanana"
 
-#: ../mateconf/mateconftool.c:1699
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "Tompony: %s\n"
 
-#: ../mateconf/mateconftool.c:1700
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "Soritsoritra fohifohy: %s\n"
 
-#: ../mateconf/mateconftool.c:1701
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "Soritsoritra lava: %s\n"
 
-#: ../mateconf/mateconftool.c:1710 ../mateconf/mateconftool.c:1934
-#: ../mateconf/mateconftool.c:1968 ../mateconf/mateconftool.c:2013
-#: ../mateconf/mateconftool.c:2158
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "Tsy misy sanda voafaritra ho an'ny `%s'\n"
 
-#: ../mateconf/mateconftool.c:1714 ../mateconf/mateconftool.c:1938
-#: ../mateconf/mateconftool.c:1972 ../mateconf/mateconftool.c:2017
-#: ../mateconf/mateconftool.c:2162
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "Tsy nahazo sanda ho an'ny `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:1757 ../mateconf/mateconftool.c:1769
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "Tsy mazava ny karazana `%s'\n"
 
-#: ../mateconf/mateconftool.c:1781
+#: ../mateconf/mateconftool.c:2036
+#, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "Tsy manome famaha/sanda safidy atao tondriky\n"
 
-#: ../mateconf/mateconftool.c:1801
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "Tsy misy sanda voafaritra ho an'ny famaha: `%s'\n"
 
-#: ../mateconf/mateconftool.c:1829
+#: ../mateconf/mateconftool.c:2084
+#, c-format
 msgid "Cannot set schema as value\n"
 msgstr "Tsy afaka mamaritra io drafitra io ho sanda\n"
 
-#: ../mateconf/mateconftool.c:1839
+#: ../mateconf/mateconftool.c:2094
+#, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
-msgstr ""
-"Tsy maintsy milaza list-type primitif ianao rehefa manamboatra lisitra\n"
+msgstr "Tsy maintsy milaza list-type primitif ianao rehefa manamboatra lisitra\n"
 
-#: ../mateconf/mateconftool.c:1853
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
-msgstr ""
-"Tsy maintsy milaza car-type sy cdr-type ianao rehefa manamboatra roroa\n"
+#: ../mateconf/mateconftool.c:2108
+#, c-format
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgstr "Tsy maintsy milaza car-type sy cdr-type ianao rehefa manamboatra roroa\n"
 
-#: ../mateconf/mateconftool.c:1868
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "Tsy fetezana: %s\n"
 
-#: ../mateconf/mateconftool.c:1881 ../mateconf/mateconftool.c:2913
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "Nisy olana teo am-pamaritana ilay sanda: %s\n"
 
-#: ../mateconf/mateconftool.c:1899
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "Nisy olana teo am-pandasirana: %s\n"
 
-#: ../mateconf/mateconftool.c:1914
-msgid "Must specify a key or keys to get type\n"
+#: ../mateconf/mateconftool.c:2169
+#, c-format
+msgid "Must specify one or more keys as arguments\n"
 msgstr ""
-"Tsy maintsy manome famaha iray na maromaro ianao hahazoana ny karazana\n"
 
-#: ../mateconf/mateconftool.c:1958
+#: ../mateconf/mateconftool.c:2185
+#, c-format
+msgid "No value found for key %s\n"
+msgstr ""
+
+#: ../mateconf/mateconftool.c:2191
+#, c-format
+msgid "Not a boolean value: %s\n"
+msgstr ""
+
+#: ../mateconf/mateconftool.c:2222
+#, c-format
+msgid "Must specify a key or keys to get type\n"
+msgstr "Tsy maintsy manome famaha iray na maromaro ianao hahazoana ny karazana\n"
+
+#: ../mateconf/mateconftool.c:2266
+#, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "Tsy maintsy manome famaha ianao hahitana ny habeny.\n"
 
-#: ../mateconf/mateconftool.c:1983 ../mateconf/mateconftool.c:2028
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "Tsy lisitra ny famaha %s.\n"
 
-#: ../mateconf/mateconftool.c:2003
+#: ../mateconf/mateconftool.c:2311
+#, c-format
 msgid "Must specify a key from which to get list element.\n"
-msgstr ""
-"Tsy maintsy manome famaha iray ianao angalana ireo singantaharon'ilay "
-"lisitra.\n"
+msgstr "Tsy maintsy manome famaha iray ianao angalana ireo singantaharon'ilay lisitra.\n"
 
-#: ../mateconf/mateconftool.c:2034
+#: ../mateconf/mateconftool.c:2342
+#, c-format
 msgid "Must specify list index.\n"
 msgstr "Tsy maintsy manome ny fizahan-takilan'ilay lisitra ianao.\n"
 
-#: ../mateconf/mateconftool.c:2041
+#: ../mateconf/mateconftool.c:2349
+#, c-format
 msgid "List index must be non-negative.\n"
 msgstr "Tsy azo atao négatif ilay fizahan-takila.\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2358
+#, c-format
 msgid "List index is out of bounds.\n"
 msgstr "Tsy mety io fizahan-takila io;\n"
 
-#: ../mateconf/mateconftool.c:2076
+#: ../mateconf/mateconftool.c:2384
+#, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "Tsy maintsy manome famaha iray na maromaro amin'ny lazam-baiko ianao\n"
 
-#: ../mateconf/mateconftool.c:2096
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "Tsy misy drafitra fantatra ho an'ny `%s'\n"
 
-#: ../mateconf/mateconftool.c:2129
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
-msgstr ""
-"Tsy misy laha-dazan-doharanon-kevitra voatahiry ao anatin'ny drafitra "
-"amin'ny '%s'\n"
+msgstr "Tsy misy laha-dazan-doharanon-kevitra voatahiry ao anatin'ny drafitra amin'ny '%s'\n"
 
-#: ../mateconf/mateconftool.c:2134
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "Nisy olana teo am-pakana drafitra amin'ny '%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2141
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "Tsy misy drafitra voatahiry amin'ny '%s'\n"
 
-#: ../mateconf/mateconftool.c:2144
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "Tsy drafitra ny sanda amin'ny '%s'\n"
 
-#: ../mateconf/mateconftool.c:2200
+#: ../mateconf/mateconftool.c:2508
+#, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
-msgstr ""
-"Tsy maintsy manome anaran-drafitra arahin'ilay anaram-pamaha omena azy "
-"ianao\n"
+msgstr "Tsy maintsy manome anaran-drafitra arahin'ilay anaram-pamaha omena azy ianao\n"
 
-#: ../mateconf/mateconftool.c:2207
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
-msgstr ""
-"Nisy olana teo am-pampifandraisana ny anaran-drafitra '%s' amin'ny anaram-"
-"pamaha '%s': %s\n"
+msgstr "Nisy olana teo am-pampifandraisana ny anaran-drafitra '%s' amin'ny anaram-pamaha '%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2225
+#: ../mateconf/mateconftool.c:2533
+#, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "Tsy maintsy manome famaha ianao hanafoana ilay drafitra tao\n"
 
-#: ../mateconf/mateconftool.c:2235
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "Nisy olana teo am-pamafana ilay anaran-drafitra tao amin'ny '%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2568
+#, c-format
 msgid "Must specify key (schema name) as the only argument\n"
-msgstr ""
-"Tsy maintsy manome famaha (anaran-drafitra) hatao tondriky tokana ianao\n"
+msgstr "Tsy maintsy manome famaha (anaran-drafitra) hatao tondriky tokana ianao\n"
 
-#: ../mateconf/mateconftool.c:2302
+#: ../mateconf/mateconftool.c:2610
+#, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Tsy maintsy primitif ny karazan'ilay lisitra: string, int, float na bool\n"
+msgstr "Tsy maintsy primitif ny karazan'ilay lisitra: string, int, float na bool\n"
 
-#: ../mateconf/mateconftool.c:2322
+#: ../mateconf/mateconftool.c:2630
+#, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Tsy maintsy primitif ny karazan'ny car an'ilay roroa: string, int, float na "
-"bool\n"
+msgstr "Tsy maintsy primitif ny karazan'ny car an'ilay roroa: string, int, float na bool\n"
 
-#: ../mateconf/mateconftool.c:2342
+#: ../mateconf/mateconftool.c:2650
+#, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Tsy maintsy primitif ny karazan'ny cdr an'ilay roroa: string, int, float na "
-"bool\n"
+msgstr "Tsy maintsy primitif ny karazan'ny cdr an'ilay roroa: string, int, float na bool\n"
 
-#: ../mateconf/mateconftool.c:2357
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "Nisy olana teo am-pamaritana ilay sanda: %s"
 
-#: ../mateconf/mateconftool.c:2371
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "Nisy olana teo am-pandasirana: %s"
 
-#: ../mateconf/mateconftool.c:2386
+#: ../mateconf/mateconftool.c:2694
+#, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
-msgstr ""
-"Tsy maintsy milaza lahatahiry iray na maromaro angalana ireo roroam-pamaha/"
-"sanda ianao.\n"
+msgstr "Tsy maintsy milaza lahatahiry iray na maromaro angalana ireo roroam-pamaha/sanda ianao.\n"
 
-#: ../mateconf/mateconftool.c:2400
+#: ../mateconf/mateconftool.c:2708
+#, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "Tsy maintsy manome famaha iray na maromaro hofoanana ianao.\n"
 
-#: ../mateconf/mateconftool.c:2411
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "Nisy olana teo am-panafoanana ny `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2739
+#, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "Tsy maintsy manome famaha iray na maromaro hofoanana foana ianao.\n"
 
-#: ../mateconf/mateconftool.c:2445
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "Nisy olana teo am-panafoana ny \"%s\" foana: %s\n"
 
-#: ../mateconf/mateconftool.c:2465
+#: ../mateconf/mateconftool.c:2773
+#, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
-msgstr ""
-"Tsy maintsy milaza lahatahiry iray na maromaro hangalana ireo zana-"
-"dahatahiry ianao.\n"
+msgstr "Tsy maintsy milaza lahatahiry iray na maromaro hangalana ireo zana-dahatahiry ianao.\n"
 
-#: ../mateconf/mateconftool.c:2499
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "Nisy olana teo am-pandaharana ireo lahatahiry: %s\n"
 
-#: ../mateconf/mateconftool.c:2635
+#: ../mateconf/mateconftool.c:2943
+#, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
-msgstr ""
-"FAMPILAZANA: tsy maintsy manome <car> sy <cdr> iray avy ianao anaty <pair> "
-"iray\n"
+msgstr "FAMPILAZANA: tsy maintsy manome <car> sy <cdr> iray avy ianao anaty <pair> iray\n"
 
-#: ../mateconf/mateconftool.c:2662
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
-msgstr ""
-"FAMPILAZANA: famaha voafaritra (%s) ho ana drafitra ambanina <value> - tsy "
-"raharahaina\n"
+msgstr "FAMPILAZANA: famaha voafaritra (%s) ho ana drafitra ambanina <value> - tsy raharahaina\n"
 
-#: ../mateconf/mateconftool.c:2695
+#: ../mateconf/mateconftool.c:3003
+#, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "FAMPILAZANA: tsy maintsy misy zanaka node ambanin'ny <value>\n"
 
-#: ../mateconf/mateconftool.c:2701
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "FAMPILAZANA: tsy mazava ny node <%s>\n"
 
-#: ../mateconf/mateconftool.c:2719
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "FAMPILAZANA: Tsy nahavita nizarazara ny sandan'ny isa feno `%s'\n"
 
-#: ../mateconf/mateconftool.c:2740
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "FAMPILAZANA: Tsy nahavita nizarazara ny sandan'ny float `%s'\n"
 
-#: ../mateconf/mateconftool.c:2762
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "FAMPILAZANA: Tsy nahavita nizarazara ny sandan-daza `%s'\n"
 
-#: ../mateconf/mateconftool.c:2783
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "FAMPILAZANA: Tsy nahavita nizarazaera ny sanda boleanina `%s'\n"
 
-#: ../mateconf/mateconftool.c:2892 ../mateconf/mateconftool.c:3434
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
-msgstr ""
-"FAMPILAZANA: tsy nahavita nampifandray ny drafitra `%s' amin'ny famaha `%s': "
-"%s\n"
+msgstr "FAMPILAZANA: tsy nahavita nampifandray ny drafitra `%s' amin'ny famaha `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:3007
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "FAMPILAZANA: karazana diso na tsy misy ho an'ny drafitra (%s)\n"
 
-#: ../mateconf/mateconftool.c:3016
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "FAMPILAZANA: list_type diso na tsy misy ho an'ny drafitra (%s)\n"
 
-#: ../mateconf/mateconftool.c:3027 ../mateconf/mateconftool.c:3057
-#: ../mateconf/mateconftool.c:3086
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
-msgstr ""
-"FAMPILAZANA: Tsy nahavita nizarazara ny sanda lasitra `%s' ho an'ny drafitra "
-"(%s)\n"
+msgstr "FAMPILAZANA: Tsy nahavita nizarazara ny sanda lasitra `%s' ho an'ny drafitra (%s)\n"
 
-#: ../mateconf/mateconftool.c:3045
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
-msgstr ""
-"FAMPILAZANA: car_type na cdr_type diso na tsy misy ho an'ny drafitra (%s)\n"
+msgstr "FAMPILAZANA: car_type na cdr_type diso na tsy misy ho an'ny drafitra (%s)\n"
 
-#: ../mateconf/mateconftool.c:3070
+#: ../mateconf/mateconftool.c:3379
+#, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "FAMPILAZANA: Tsy afaka manome sanda lasitra drafitra ianao\n"
 
-#: ../mateconf/mateconftool.c:3099
+#: ../mateconf/mateconftool.c:3408
+#, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
-msgstr ""
-"FAMPILAZANA: tsy fetezanan'ny mateconftool anaty, MateConfValueType tsy fantatra\n"
+msgstr "FAMPILAZANA: tsy fetezanan'ny mateconftool anaty, MateConfValueType tsy fantatra\n"
 
-#: ../mateconf/mateconftool.c:3147 ../mateconf/mateconftool.c:3168
-#: ../mateconf/mateconftool.c:3189 ../mateconf/mateconftool.c:3210
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "FAMPILAZANA: tsy nahavita nizarazara ny anaran-karazana `%s'\n"
 
-#: ../mateconf/mateconftool.c:3164
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"FAMPILAZANA: int, float, string na bool ihany no mety atao list_type fa tsy `"
-"%s'\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgstr "FAMPILAZANA: int, float, string na bool ihany no mety atao list_type fa tsy `%s'\n"
 
-#: ../mateconf/mateconftool.c:3185
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"FAMPILAZANA: int, float, string na bool ihany no mety atao car_type fa tsy `%"
-"s'\n"
+msgstr "FAMPILAZANA: int, float, string na bool ihany no mety atao car_type fa tsy `%s'\n"
 
-#: ../mateconf/mateconftool.c:3206
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"FAMPILAZANA: int, float, string na bool ihany no mety atao cdr_type fa tsy `%"
-"s'\n"
+msgstr "FAMPILAZANA: int, float, string na bool ihany no mety atao cdr_type fa tsy `%s'\n"
 
-#: ../mateconf/mateconftool.c:3246
+#: ../mateconf/mateconftool.c:3555
+#, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "FAMPILAZANA: node <applyto> foana"
 
-#: ../mateconf/mateconftool.c:3249 ../mateconf/mateconftool.c:3507
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "FAMPILAZANA: tsy mazava ny node <%s> eo ambanin'ny <schema>\n"
 
-#: ../mateconf/mateconftool.c:3260
+#: ../mateconf/mateconftool.c:3578
+#, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
-msgstr ""
-"FAMPILAZANA: tsy misy <list_type> voafaritra ho an'ny drafitr'ilay lisitry "
-"ny karazana\n"
+msgstr "FAMPILAZANA: tsy misy <list_type> voafaritra ho an'ny drafitr'ilay lisitry ny karazana\n"
 
-#: ../mateconf/mateconftool.c:3266
+#: ../mateconf/mateconftool.c:3584
+#, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
-msgstr ""
-"FAMPILAZANA: tsy misy <car_type> voafaritra ho an'ny drafitr'ilay roroan-"
-"karazana\n"
+msgstr "FAMPILAZANA: tsy misy <car_type> voafaritra ho an'ny drafitr'ilay roroan-karazana\n"
 
-#: ../mateconf/mateconftool.c:3272
+#: ../mateconf/mateconftool.c:3590
+#, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
-msgstr ""
-"FAMPILAZANA: tsy misy <cdr_type> voafaritra  ho an'ny drafitr'ilay roroan-"
-"karazana\n"
+msgstr "FAMPILAZANA: tsy misy <cdr_type> voafaritra  ho an'ny drafitr'ilay roroan-karazana\n"
 
-#: ../mateconf/mateconftool.c:3301
+#: ../mateconf/mateconftool.c:3619
+#, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
-msgstr ""
-"FAMPILAZANA: tsy manana marika manokana `name=\"locale\"' ny node <locale>, "
-"tsy raharahaina\n"
+msgstr "FAMPILAZANA: tsy manana marika manokana `name=\"locale\"' ny node <locale>, tsy raharahaina\n"
 
-#: ../mateconf/mateconftool.c:3307
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"FAMPILAZANA: node <locale> maro ho an'ny toerana `%s', tsy raharahaina izay "
-"taorian'ny voalohany\n"
+msgstr "FAMPILAZANA: node <locale> maro ho an'ny toerana `%s', tsy raharahaina izay taorian'ny voalohany\n"
 
-#: ../mateconf/mateconftool.c:3405
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "FAMPILAZANA: node <%s> diso anatina node <locale>\n"
 
-#: ../mateconf/mateconftool.c:3442
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "Drafitra `%s' voafatotra amin'ny famaha `%s'\n"
 
-#: ../mateconf/mateconftool.c:3516
-msgid "You must have at least one <locale> entry in a <schema>\n"
-msgstr ""
-"Tsy maintsy manana fidirana <locale> iray ianao farafahakeliny ao anaty "
-"<schema> iray\n"
-
-#: ../mateconf/mateconftool.c:3551
+#: ../mateconf/mateconftool.c:3840
 #, c-format
-msgid "WARNING: failed to install schema `%s' locale `%s': %s\n"
-msgstr ""
-"FAMPILAZANA: tsy nahavita nametraka ny drafitra `%s' toerana `%s': %s\n"
+msgid "You must have at least one <locale> entry in a <schema>\n"
+msgstr "Tsy maintsy manana fidirana <locale> iray ianao farafahakeliny ao anaty <schema> iray\n"
 
-#: ../mateconf/mateconftool.c:3559
+#: ../mateconf/mateconftool.c:3875
+#, c-format
+msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
+msgstr ""
+
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "Voapetraka ny drafitra `%s' ho an'ny toerana `%s'\n"
 
-#: ../mateconf/mateconftool.c:3569
+#: ../mateconf/mateconftool.c:3893
 #, c-format
-msgid "WARNING: failed to uninstall schema `%s' locale `%s': %s\n"
+msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr ""
-"FAMPILAZANA: tsy nahavita nanesotra ny drafitra `%s' toerana `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:3577
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "Ny drafitra `%s' dia voaesotra tanatin'ny toerana `%s'\n"
 
-#: ../mateconf/mateconftool.c:3615
+#: ../mateconf/mateconftool.c:3939
+#, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "FAMPILAZANA: tsy misy famaha voafaritra ho an'ilay drafitra\n"
 
-#: ../mateconf/mateconftool.c:3656
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "FAMPILAZANA: tsy mazava ny node <%s> eo ambanin'ny <%s>\n"
 
-#: ../mateconf/mateconftool.c:3688
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "Tsy nahasokatra ny `%s': %s\n"
 
-#: ../mateconf/mateconftool.c:3695
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "Foana ny tahirin-kevitra `%s'?\n"
 
-#: ../mateconf/mateconftool.c:3707
-#, fuzzy, c-format
+#: ../mateconf/mateconftool.c:4031
+#, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
 msgstr ""
-"Diso ny karazan'ny node fototry ny tahirin-kevitra `%s' (<%s>, tokony ho <%"
-"s>)\n"
 
-#: ../mateconf/mateconftool.c:3720
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "Tsy manana node fototra <%s> ny tahirin-kevitra `%s'\n"
 
-#: ../mateconf/mateconftool.c:3734
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "FAMPILAZANA: tsy mazava ny node <%s> eo ambanin'ny <%s>\n"
 
-#: ../mateconf/mateconftool.c:3755
+#: ../mateconf/mateconftool.c:4079
 #, c-format
-msgid "Error syncing config data: %s"
-msgstr "Nisy olana teo am-pandasirana ny lazan-kirakira: %s"
+msgid "Error syncing configuration data: %s"
+msgstr ""
 
-#: ../mateconf/mateconftool.c:3769
+#: ../mateconf/mateconftool.c:4095
+#, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "Tsy maintsy milaza raki-drafitra hapetraka ianao\n"
 
-#: ../mateconf/mateconftool.c:3796
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:3816
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "Tsy nahavita nanafoana ny famaha fanimbana %s: %s\n"
 
-#: ../mateconf/mateconftool.c:3942
+#: ../mateconf/mateconftool.c:4269
+#, c-format
 msgid "Must specify some keys to break\n"
 msgstr "Tsy maintsy milaza famaha ho simbana ianao\n"
 
-#: ../mateconf/mateconftool.c:3948
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"Manandrana manimba ny rindranasanao amin'ny alalan'ny fanomezana sanda diso "
-"an'ilay famaha:\n"
-" %s\n"
+msgstr "Manandrana manimba ny rindranasanao amin'ny alalan'ny fanomezana sanda diso an'ilay famaha:\n %s\n"
 
-#: ../mateconf/mateconftool.c:3966
+#: ../mateconf/mateconftool.c:4293
+#, c-format
 msgid "Must specify some directories to break\n"
 msgstr "Tsy maintsy milaza lahatahiry ho simbana ianao\n"
 
-#: ../mateconf/mateconftool.c:3985
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"Manandrana manimba ny rindranasanao amin'ny alalan'ny fanomezana sanda diso an'ireo famaha ao amin'ilay lahatahiry:\n"
-" %s\n"
+msgstr "Manandrana manimba ny rindranasanao amin'ny alalan'ny fanomezana sanda diso an'ireo famaha ao amin'ilay lahatahiry:\n %s\n"

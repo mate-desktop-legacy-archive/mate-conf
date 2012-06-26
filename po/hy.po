@@ -1,19 +1,21 @@
-# Translation of mateconf to Armenian
-# This file is distributed under the same license as the mateconf package.
-# Copyright (C) 2010, Artyom Karhanyan
-# Artyom Karhanyan <artiomkarhanyan@yahoo.com>
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mateconf.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-27 10:56+0500\n"
-"PO-Revision-Date: 2010-08-27 11:12+0400\n"
-"Last-Translator: Nune <nune@instigatedesign.com>\n"
-"Language-Team:  <norik@freenet.am>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
@@ -105,57 +107,45 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"Օգտագործումը․ %s <dir>\n"
-"  Միավորել նշված տիպի ֆայլերի հիերարխիան․ \n"
-"     պանակ/%%mateconf.xml\n"
-"        ենթապանակ1/%%mateconf.xml\n"
-"        ենթապանակ2/%%mateconf.xml\n"
-"  դեպի․\n"
-"    պանակ/%%mateconf-tree.xml\n"
+msgstr "Օգտագործումը․ %s <dir>\n  Միավորել նշված տիպի ֆայլերի հիերարխիան․ \n     պանակ/%%mateconf.xml\n        ենթապանակ1/%%mateconf.xml\n        ենթապանակ2/%%mateconf.xml\n  դեպի․\n    պանակ/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
 msgstr "Բեռնաթափվում է տեքստի նշման սերվերային մոդուլը։"
 
-#: ../backends/markup-backend.c:226
-#: ../backends/xml-backend.c:288
+#: ../backends/markup-backend.c:226 ../backends/xml-backend.c:288
 #, c-format
 msgid "Couldn't find the XML root directory in the address `%s'"
 msgstr "Չէ հաջողվել գտնել XML արմատային պանակը \"%s\" հասցեում"
 
-#: ../backends/markup-backend.c:283
-#: ../backends/xml-backend.c:343
+#: ../backends/markup-backend.c:283 ../backends/xml-backend.c:343
 #, c-format
 msgid "Could not make directory `%s': %s"
 msgstr "Չհաջողվեց ստեղծել \"%s\" պանակ․ %s "
 
-#: ../backends/markup-backend.c:390
-#: ../backends/xml-backend.c:442
+#: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
 msgid "Can't read from or write to the XML root directory in the address \"%s\""
 msgstr "Հնարավոր չէ կարդալ կամ գրել \"%s\" հասցեով XML արմատային պանակում"
 
-#: ../backends/markup-backend.c:401
-#: ../backends/xml-backend.c:452
+#: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
 #, c-format
 msgid "Directory/file permissions for XML source at root %s are: %o/%o"
 msgstr "\"%s\" արմատով XML աղբյուրի Պանակի/ֆայլի թույլտվություններն են․ %o/%o"
 
-#: ../backends/markup-backend.c:740
-#: ../backends/xml-backend.c:683
+#: ../backends/markup-backend.c:740 ../backends/xml-backend.c:683
 #, c-format
-msgid "Remove directory operation is no longer supported, just remove all the values in the directory"
+msgid ""
+"Remove directory operation is no longer supported, just remove all the "
+"values in the directory"
 msgstr "Պանակի ջնջման գործողությունն այլևս ապահովված չէ, պարզապես ջնջեք պանակի մեջ եղած բոլոր արժեքները"
 
-#: ../backends/markup-backend.c:826
-#: ../backends/xml-backend.c:769
+#: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
 msgid "Could not open lock directory for %s to remove locks: %s\n"
 msgstr "Արգելափակումները ջնջելու համար չի հաջողվել բացել արգելափակման պանակը \"%s\"-ի համար․ %s\n"
 
-#: ../backends/markup-backend.c:839
-#: ../backends/xml-backend.c:782
+#: ../backends/markup-backend.c:839 ../backends/xml-backend.c:782
 #, c-format
 msgid "Could not remove file %s: %s\n"
 msgstr "Չի հաջողվել ջնջել %s ֆայլը․ %s\n"
@@ -164,200 +154,181 @@ msgstr "Չի հաջողվել ջնջել %s ֆայլը․ %s\n"
 msgid "Initializing Markup backend module"
 msgstr "Սկզբնաարժեքավորել նշման backend մոդուլը"
 
-#: ../backends/markup-backend.c:918
-#: ../backends/xml-backend.c:880
+#: ../backends/markup-backend.c:918 ../backends/xml-backend.c:880
 #, c-format
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "Ձախողում \"%s\" XML պանակի ապարգելափակման ժամանակ․ %s"
 
-#: ../backends/markup-tree.c:437
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "Ձախողում սկավառակի վրա կոնֆիգուրացիոն տվյալններ գրելիս\n"
 
-#: ../backends/markup-tree.c:960
-#: ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "Չի հաջողվել ստեղծել \"%s\" պանակ․ %s"
 
-#: ../backends/markup-tree.c:1000
-#: ../backends/markup-tree.c:1007
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "Չի հաջողվել ջնջել \"%s\"․ %s\n"
 
-#: ../backends/markup-tree.c:1208
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "Ձախողում \"%s\"-ը գրելու ժամանակ․ %s\n"
 
-#: ../backends/markup-tree.c:1416
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "Ձախողում \"%s\" ֆայլը բեռնելու ժամանակ․ %s"
 
-#: ../backends/markup-tree.c:2006
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "Տող %d, գրանշան %d․ %s"
 
-#: ../backends/markup-tree.c:2234
-#: ../backends/markup-tree.c:2255
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "\"%s\" ատրիբուտը անվավեր է այս համատեքստի <%s> տարրում"
 
-#: ../backends/markup-tree.c:2280
-#: ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "\"%s\"-ը անհասկանալի է (սպասվում էր ամբողջ թիվ)"
 
-#: ../backends/markup-tree.c:2287
-#: ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "Ամբողջ \"%s\"-ը շատ մեծ է կամ շատ փոքր"
 
-#: ../backends/markup-tree.c:2319
-#: ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "\"%s\"-ը անհասկանալի է (սպասվում էր ճիշտ կամ սխալ)"
 
-#: ../backends/markup-tree.c:2343
-#: ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "\"%s\"-ը անհասկանալի է (սպասվում էր իրական թիվ)"
 
-#: ../backends/markup-tree.c:2423
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "Անհայտ արժեք \"%s\" \"%s\" ատրիբուտի <%s> տարրի համար"
 
-#: ../backends/markup-tree.c:2443
-#: ../backends/markup-tree.c:2483
-#: ../backends/markup-tree.c:2507
-#: ../backends/markup-tree.c:2515
-#: ../backends/markup-tree.c:2570
-#: ../backends/markup-tree.c:2635
-#: ../backends/markup-tree.c:2747
-#: ../backends/markup-tree.c:2815
-#: ../backends/markup-tree.c:2873
-#: ../backends/markup-tree.c:3023
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "\"%s\" ատրիբուտ չկա <%s> տարրում"
 
-#: ../backends/markup-tree.c:2457
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "\"%s\" տիպը <%s>-ի համար անվավեր է"
 
-#: ../backends/markup-tree.c:2537
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "Առաջին տարրի <%s> տիպը անվավեր է \"%s\"-ի համար"
 
-#: ../backends/markup-tree.c:2551
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "\"%s\" արժեքի տիպը անվավեր է <%s>-ի համար"
 
-#: ../backends/markup-tree.c:2587
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "\"%s\" ցուցակի տիպը անվավեր է <%s>-ի համար"
 
-#: ../backends/markup-tree.c:2954
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "Երկու <default> տարրեր գտնվում են <local_schema>-ի հանգույցում"
 
-#: ../backends/markup-tree.c:2969
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "Երկու <longdesc> տարրեր գտնվում են <local_schema>-ի հանգույցում"
 
-#: ../backends/markup-tree.c:2976
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "<%s> տարրը չի կարող գտնվել <%s>-ի հանգույցում"
 
-#: ../backends/markup-tree.c:3001
-#: ../backends/markup-tree.c:3106
-#: ../backends/markup-tree.c:3160
-#: ../backends/markup-tree.c:3211
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s>-ը օգտագործվում է, բայց ընթացիկ տարրը չունի \"%s\" տիպ"
 
-#: ../backends/markup-tree.c:3084
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "Երկու <car> տարրեր ստեղծված են միևնույն զույգի համար"
 
-#: ../backends/markup-tree.c:3098
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "Երկու <cdr> տարրեր տրված են միևնույն զույգի համար"
 
-#: ../backends/markup-tree.c:3152
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li>-ն ունի սխալ տիպ \"%s\""
 
-#: ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "Օգտագործվում է <%s> տարրը, բայց ծնող <entry> տարրը արժեք չունի"
 
-#: ../backends/markup-tree.c:3224
-#: ../backends/markup-tree.c:3247
-#: ../backends/markup-tree.c:3269
-#: ../backends/markup-tree.c:3286
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "<%s> տարրը չի կարող գտնվել ընթացիկ տարրում"
 
-#: ../backends/markup-tree.c:3318
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "Մենյուի ֆայլում ամենաարտաքին տարրը պետք է լինի <mateconf>, ոչ թե <%s>"
 
-#: ../backends/markup-tree.c:3338
-#: ../backends/markup-tree.c:3360
-#: ../backends/markup-tree.c:3365
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "<%s> տարրը չի կարող գտնվել <%s> տարրի ներսում"
 
-#: ../backends/markup-tree.c:3509
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "Տեքստը չի կարող գտնվել <%s> տարրում"
 
-#: ../backends/markup-tree.c:3625
-#: ../backends/markup-tree.c:4391
-#: ../backends/markup-tree.c:4410
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "Ձաղողում \"%s\" -ը բացելիս․ %s\n"
 
-#: ../backends/markup-tree.c:3655
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "Սխալ \"%s\"-ը կարդալիս․ %s\n"
 
-#: ../backends/markup-tree.c:4485
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "Չհաջողվեց \"%s\" ֆայլը գցել սկավառակի վրա․ %s"
 
-#: ../backends/markup-tree.c:4504
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "Սխալ \"%s\" ֆայլում գրելիս․ %s"
 
-#: ../backends/markup-tree.c:4533
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "Ձախողում ժամանակավոր \"%s\" ֆայլը վերջնական \"%s\" վայրը տեղափողելիս․ %s"
@@ -381,7 +352,9 @@ msgstr "Ձախողում XML-ի քեշ հիշողության պարունակո
 
 #: ../backends/xml-cache.c:318
 #, c-format
-msgid "Unable to remove directory `%s' from the XML backend cache, because it has not been successfully synced to disk"
+msgid ""
+"Unable to remove directory `%s' from the XML backend cache, because it has "
+"not been successfully synced to disk"
 msgstr "Հնարավոր չէ ջնջել \"%s\" պանակը սերվերային XML մոդուլի քեշ հիշողությունից, որովհետև այն հաջողությամբ չի սինխրոնիզացվել սկավառակի հետ"
 
 #: ../backends/xml-dir.c:170
@@ -394,8 +367,7 @@ msgstr "Չհաջողվեց \"%s\"-ի համար կատարել stat գործող
 msgid "XML filename `%s' is a directory"
 msgstr "\"%s\" անունով XML ֆայլը պանակ է"
 
-#: ../backends/xml-dir.c:417
-#: ../backends/xml-dir.c:426
+#: ../backends/xml-dir.c:417 ../backends/xml-dir.c:426
 #, c-format
 msgid "Failed to delete \"%s\": %s"
 msgstr "Ձախողում \"%s\" ջնջելիս․ %s"
@@ -405,8 +377,7 @@ msgstr "Ձախողում \"%s\" ջնջելիս․ %s"
 msgid "Failed to write file `%s': %s"
 msgstr "Ձախողում \"%s\" ֆայլը գրելիս․ %s"
 
-#: ../backends/xml-dir.c:486
-#: ../backends/xml-dir.c:522
+#: ../backends/xml-dir.c:486 ../backends/xml-dir.c:522
 #, c-format
 msgid "Failed to set mode on `%s': %s"
 msgstr "Ձախողում \"%s\"-ում ռեժիմ տեղադրելիս․ %s"
@@ -416,14 +387,12 @@ msgstr "Ձախողում \"%s\"-ում ռեժիմ տեղադրելիս․ %s"
 msgid "Failed to write XML data to `%s': %s"
 msgstr "Ձախողում \"%s\"-ում XML տվյալներ գրելիս․ %s"
 
-#: ../backends/xml-dir.c:507
-#: ../backends/xml-dir.c:1291
+#: ../backends/xml-dir.c:507 ../backends/xml-dir.c:1291
 #, c-format
 msgid "Failed to close file `%s': %s"
 msgstr "Ձախողում \"%s\" ֆայլը փակելիս․ %s"
 
-#: ../backends/xml-dir.c:537
-#: ../backends/xml-dir.c:547
+#: ../backends/xml-dir.c:537 ../backends/xml-dir.c:547
 #, c-format
 msgid "Failed to rename `%s' to `%s': %s"
 msgstr "Ձախողում \"%s\" -ը \"%s\" -ով վերանվանելիս․ %s"
@@ -504,8 +473,7 @@ msgstr "Հանգույցը ունի անհայտ \"type\" \"%s\" ատրիբու�
 msgid "No \"value\" attribute for node"
 msgstr "Հանգույցի համար գոյություն չունի \"value\" ատրիբուտ"
 
-#: ../backends/xml-entry.c:1027
-#: ../backends/xml-entry.c:1103
+#: ../backends/xml-entry.c:1027 ../backends/xml-entry.c:1103
 #, c-format
 msgid "Didn't understand XML node <%s> inside an XML list node"
 msgstr "Անհասկանալի <%s> XML հանգույց XML ցուցակի հանգույցում"
@@ -529,8 +497,7 @@ msgstr "Ցուցակը պարունակում է սխալ հանգույց (%s, 
 msgid "Ignoring bad car from XML pair: %s"
 msgstr " XML զույգի համար անտեսվում է սխալ բալանին․ %s"
 
-#: ../backends/xml-entry.c:1153
-#: ../backends/xml-entry.c:1176
+#: ../backends/xml-entry.c:1153 ../backends/xml-entry.c:1176
 msgid "parsing XML file: lists and pairs may not be placed inside a pair"
 msgstr "Վերլուծվում է XML ֆայլը․ ցուցակները և զույգերը չեն կարող տեղադրվել զույգում"
 
@@ -561,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "XML ֆայլում զույգի համար բացակայում է և՛ car բանալին, և՛ cdr արժեքը"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "Փոխել MateConf-ի պարտադիր արժեքները"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "Փոխել MateConf համակարգի արժեքները"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "MateConf-ի պարտադիր արժեքները փոփոխելու համար պահանջվում են արտոնյալ իրավունքներ"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "MateConf-ի համակարգային արժեքները փոփոխելու համար պահանջվում են արտոնյալ իրավունքներ"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "Փոխել MateConf-ի պարտադիր արժեքները"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "MateConf-ի պարտադիր արժեքները փոփոխելու համար պահանջվում են արտոնյալ իրավունքներ"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -630,18 +597,17 @@ msgstr "Չհաջողվեց \"%s\"-ի համար գտնել սերվերային 
 msgid "Failed to shut down backend"
 msgstr "Ձախողում սերվերային մոդուլը անջատելիս"
 
-#: ../mateconf/mateconf-client.c:346
-#: ../mateconf/mateconf-client.c:364
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "MateConf համակարգի սխալ․ %s\n"
 
-#: ../mateconf/mateconf-client.c:940
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
 msgstr "MateConf համակարգի զգուշացում․ \"%s\"-ում տեղի է ունեցել զույգերի թվարկման սխալ․ %s "
 
-#: ../mateconf/mateconf-client.c:1244
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr "Սպասվում էր \"%s\", ստացվել է \"%s\", \"%s\" բանալու համար"
@@ -652,7 +618,8 @@ msgstr "Ստացվել է անթույլատրելի արժեք տեղադրմա
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
 msgstr "Չհաջողվեց հասկանալ CORBA արժեքի իմաստը, որը ստացվել էր \"%s\" տեղադրման բանալու հարցման արդյունքում"
 
 #: ../mateconf/mateconf-database.c:503
@@ -674,12 +641,17 @@ msgstr "Ձախողում մեկ կամ ավել աղբյուրների սինխ�
 
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
-msgid "Error obtaining new value for `%s' after change notification from backend `%s': %s"
+msgid ""
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
 msgstr "Սխալ՝ \"%s\"-ի համար նոր արժեք ստանալիս, \"%s\" մոդուլային սերվերից ծանուցումը փոխելուց հետո․ %s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
-msgid "Failed to log addition of listener %s (%s); will not be able to restore this listener on mateconfd restart, resulting in unreliable notification of configuration changes."
+msgid ""
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
+"configuration changes."
 msgstr "Ձախողում՝ %s հաղորդագրությունը ստացողի գրանցման ժամանակ (%s); անհնար կլինի վերականգնել այս օգտագործողին mateconfd-ն վերագործարկելու ժամանակ; արդյունքում կստացվի կոնֆիգուրացիոն փոփոխությունների ոչ հուսալի ծանուցում"
 
 #: ../mateconf/mateconf-database.c:1154
@@ -689,11 +661,12 @@ msgstr "Ընդունողի %lu ID-ն գոյություն չունի"
 
 #: ../mateconf/mateconf-database.c:1168
 #, c-format
-msgid "Failed to log removal of listener to logfile (most likely harmless, may result in a notification weirdly reappearing): %s"
+msgid ""
+"Failed to log removal of listener to logfile (most likely harmless, may "
+"result in a notification weirdly reappearing): %s"
 msgstr "Ձախողում՝ հաղորդագրություն ստացողին ջնջելու գրանցման ժամանակ(հիմնականում անվնաս է, արդյունքում հանարավոր է նորից հայտնվի ծանուցումը)․ %s"
 
-#: ../mateconf/mateconf-database.c:1301
-#: ../mateconf/mateconf-sources.c:1737
+#: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
 msgid "Error getting value for `%s': %s"
 msgstr "Սխալ \"%s\"-ի համար արժեք ստանալիս․ %s"
@@ -839,180 +812,187 @@ msgstr "mateconfd-ից ստացվել է սխալ ցուցակի տիպ"
 msgid "Failed to convert object to IOR"
 msgstr "Ձախողում օբյեկտը IOR-ի փոխարկելիս"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "UTF-8 հաջորդականությունը սխեմայի տեղադրության համար անթույլատրելի"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "UTF-8 հաջորդականությունը սխեմայի կարճ նկարագրությունում անթույլատրելի"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "UTF-8 հաջորդականությունը սխեմայի մանրամասն նկարագրությունում անթույլատրելի"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "UTF-8 հաջորդականությունը սխեման տնօրինողի համար անթույլատրելի"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "Չհաջողվեց բացել \"%s\" ճանապարհի ֆայլը․ %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "Ավելացվում է \"%s\" աղբյուրը\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "\"%s\" ֆայլը կարդալու սխալ․ %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188
-#: ../mateconf/mateconf-internals.c:1254
-#: ../mateconf/mateconf-value.c:155
-#: ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396
-#: ../mateconf/mateconf-value.c:1692
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
+#: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "Տեքստը պարունակում է անթույլատրելի UTF-8 հաջորդականություն"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "Սպասվում է ցուցակ, ստացվել է \"%s\""
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "Սպասվում է \"%s\" -երի ցուցակ, ստացվել է \"%s\" -երի ցուցակ"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "Սպասվում է զույգ, ստացվել է \"%s\""
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
 msgstr "Սպասվում էր (%s,%s) զույգ, ստացվել է զույգ, որտեղ բացակայում է արժեքներից մեկը կամ երկուսն էլ"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "Սպասվում էր (%s,%s) տիպի զույգ, ստացվել է (%s,%s) տիպի"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "Չակերտներում գտնվող տողը չի սկսվում չակերտով"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "Չակերտներում գտնվող տողը չի վերջանում չակերտով"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "Կոդավորված արժեքը թույլատրելի չէ UTF-8 հաջորդականության համար"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "Չհաջողվեց արգելափակել \"%s\" ժամանակավոր ֆայլը․ %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "Չհաջողվեց ստեղծել \"%s\" ֆայլը, որովհետև հնարավոր է այն արդեն գոյություն ունի"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "Չհաջողվեց ստեղծել կամ բացել \"%s\""
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
-msgid "Failed to lock '%s': probably another process has the lock, or your operating system has NFS file locking misconfigured (%s)"
+msgid ""
+"Failed to lock '%s': probably another process has the lock, or your "
+"operating system has NFS file locking misconfigured (%s)"
 msgstr "Ձախողում \"%s\" -ը արգելափակելիս․ հնարավոր է այն արգելափակել է այլ պրոցեսի կողմից, կամ օպերացիոն համակարգում ֆայլային NFS արգելափակումը կոնֆիգուրացված չէ (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "Չհաջողվեց ջնջել \"%s\"․ %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "Չի գործարկվել ընթացիկ սեսիայում"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "Չհաջողվեց կապվել սեսիային․ %s"
 
-#: ../mateconf/mateconf-internals.c:2472
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
 msgid "GetIOR failed: %s"
 msgstr "GetIOR ձախողվեց․ %s"
 
-#: ../mateconf/mateconf-internals.c:2509
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
 msgstr "Չհաջողվեց կապվել ORB-ի հետ mateconfd օբյեկտի վրա գոյություն ունեցող հղումը որոշելու համար"
 
-#: ../mateconf/mateconf-internals.c:2521
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "Ձախողում IOR \"%s\"-ը օբյեկտի վրա հղման փոխարկելիս"
 
-#: ../mateconf/mateconf-internals.c:2548
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "Չհաջողվեց ստեղծել \"%s\" պանակ․ %s"
 
-#: ../mateconf/mateconf-internals.c:2605
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "Չհաջողվեց գրել \"%s\" ֆայլում․ %s"
 
-#: ../mateconf/mateconf-internals.c:2646
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "Բացակայում է արգելափակումը \"%s\"-ի վրա, չնայած այն պետք է լիներ"
 
-#: ../mateconf/mateconf-internals.c:2669
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "Ձախողում \"%s\"-ը \"%s\"-ի հետ կապելիս․ %s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "Ձախողում \"%s\" արգելափակման ֆայլը ջնջելիս․ %s"
 
-#: ../mateconf/mateconf-internals.c:2704
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "Ձախողում \"%s\" ֆայլը մաքրելիս․ %s"
 
-#: ../mateconf/mateconf-internals.c:2720
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "Ձախողում \"%s\" պանակի արգելափակումը հանելիս․ %s"
 
-#: ../mateconf/mateconf-internals.c:2858
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "Սերվերի հասանելիության ստուգման սխալ․ %s"
 
-#: ../mateconf/mateconf-internals.c:2877
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
-msgid "Failed to contact configuration server; some possible causes are that you need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due to a system crash. See http://projects.gnome.org/mateconf/ for information. (Details - %s)"
-msgstr "Չհաջողվեց կապվել կոնֆիգուրացիոն սերվերի հետ; հնարավոր է անհրաժեշտ լինի միացնել TCP/IP ցանցային հնարավորությունները MateCORBA-ի համար, կամ մնացել են հին NFS արգելափակումներ համակարգի աշխատանքի ոչ ճիշտ ավարտվելու պատճառով։ Ինֆորմացիա ստանալու համար այցելեք http://www.gnome.org/projects/mateconf/։ (Մանրամասն - %s)"
+msgid ""
+"Failed to contact configuration server; some possible causes are that you "
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
+msgstr ""
 
-#: ../mateconf/mateconf-internals.c:2878
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "չկա"
 
@@ -1020,15 +1000,12 @@ msgstr "չկա"
 msgid "- Sanity checks for MateConf"
 msgstr "- MateConf-ի տվյալների ճշտության ստուգում"
 
-#: ../mateconf/mateconf-sanity-check.c:58
-#: ../mateconf/mateconftool.c:639
+#: ../mateconf/mateconf-sanity-check.c:58 ../mateconf/mateconftool.c:639
 #, c-format
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Սխալ տվյալների ընտրանքները վերլուծելիս․ %s։\n"
-"Գործարկեք \"%s --help\", հրամանային տողի թույլատրելի ընտրանքների ամբողջ ցուցակը տեսնելու համար։\n"
+msgstr "Սխալ տվյալների ընտրանքները վերլուծելիս․ %s։\nԳործարկեք \"%s --help\", հրամանային տողի թույլատրելի ընտրանքների ամբողջ ցուցակը տեսնելու համար։\n"
 
 #: ../mateconf/mateconf-sanity-check.c:143
 #: ../mateconf/mateconf-sanity-check.c:168
@@ -1036,18 +1013,14 @@ msgstr ""
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"Կապվեք ձեր ցանանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\n"
-"Չհաջողվեց բացել կամ ստեղծել \"%s\" ֆայլը։ Սա նշանակում է, որ հնարավոր է խնդիրներ կան կոնֆիգուրացիայի հետ կապված, քանի որ շատ ծրագրերի համար կարող է պահանջվել ստեղծել ֆայլ ձեր տնային պանակում։ Տեղի ունեցած սխալ - \"%s\" (errno = %d)։"
+msgstr "Կապվեք ձեր ցանանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\nՉհաջողվեց բացել կամ ստեղծել \"%s\" ֆայլը։ Սա նշանակում է, որ հնարավոր է խնդիրներ կան կոնֆիգուրացիայի հետ կապված, քանի որ շատ ծրագրերի համար կարող է պահանջվել ստեղծել ֆայլ ձեր տնային պանակում։ Տեղի ունեցած սխալ - \"%s\" (errno = %d)։"
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
-msgstr ""
-"Կապվեք ձեր ցանանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\n"
-"Չհաջողվեց արգելափակել \"%s\" ֆայլը, սա նշանակում է, հնարավոր կան խնդիրներ ձեր օպերացիոն համակարգի կոնֆիգուրացիայի հետ։ Եթե ունեք NFS-ով տեղադրված տնային պանակ, հնարավոր է կամ սերվերի, կամ կլիենտի կոնֆիգուրացիան սխալ է։ Նայել rpc.statd և rpc.lockd փաստաթղթերում։ Ընդհանուր դեպքում հնարավոր է սխալը առաջացել է, \"nfslock\" սերվերի անջատված լինելու պատճառով։ Սխալը՝ \"%s\" (errno = %d)։"
+msgstr "Կապվեք ձեր ցանանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\nՉհաջողվեց արգելափակել \"%s\" ֆայլը, սա նշանակում է, հնարավոր կան խնդիրներ ձեր օպերացիոն համակարգի կոնֆիգուրացիայի հետ։ Եթե ունեք NFS-ով տեղադրված տնային պանակ, հնարավոր է կամ սերվերի, կամ կլիենտի կոնֆիգուրացիան սխալ է։ Նայել rpc.statd և rpc.lockd փաստաթղթերում։ Ընդհանուր դեպքում հնարավոր է սխալը առաջացել է, \"nfslock\" սերվերի անջատված լինելու պատճառով։ Սխալը՝ \"%s\" (errno = %d)։"
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1059,9 +1032,7 @@ msgstr "Հնարավոր չէ ջնջել \"%s\" ֆայլը. %s\n"
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
-msgstr ""
-"Կապվեք ձեր ցանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\n"
-"\"%s\" ֆայլում չկա կոնֆիգուրացիոն աղբյուր։ Դա նշանակում է, որ նախընտրությունները և այլ պարամետրեր չեն պահպանվի։ %s%s"
+msgstr "Կապվեք ձեր ցանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\n\"%s\" ֆայլում չկա կոնֆիգուրացիոն աղբյուր։ Դա նշանակում է, որ նախընտրությունները և այլ պարամետրեր չեն պահպանվի։ %s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1072,9 +1043,7 @@ msgstr "Սխալ՝ ֆայլը կարդալիս․"
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"Կապվեք ձեր ցանանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\n"
-"Չհաջողվեց որոշել \"%s\" հասցեն \"%s\" կոնֆիգուրացիոն ֆայլում․ %s"
+msgstr "Կապվեք ձեր ցանանցային ադմինիստրատորի հետ այս խնդրի լուծման համար․\nՉհաջողվեց որոշել \"%s\" հասցեն \"%s\" կոնֆիգուրացիոն ֆայլում․ %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
@@ -1085,14 +1054,7 @@ msgid ""
 "You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"Ձեր նախընտրությունների պարամետրերի ֆայլերը ներկայումս օգտագործվում են։\n"
-"\n"
-"Հնարավոր է դուք սեսիա մտել եք ուրիշ համակարգչից և այլ սեսիա օգտագործում է այդ նախընտրությունների պարամետրերի ֆայլերը։\n"
-"\n"
-"Դուք կարող եք աշխատել ընթացիկ սեսիայում, բայց դա կարող է ժամանակավոր խնդիրներ առաջացնել նախընտրությունների պարամետրերի հետ կապված մյուս սեսիայում։\n"
-"\n"
-"Ու՞զում եք շարունակել։"
+msgstr "Ձեր նախընտրությունների պարամետրերի ֆայլերը ներկայումս օգտագործվում են։\n\nՀնարավոր է դուք սեսիա մտել եք ուրիշ համակարգչից և այլ սեսիա օգտագործում է այդ նախընտրությունների պարամետրերի ֆայլերը։\n\nԴուք կարող եք աշխատել ընթացիկ սեսիայում, բայց դա կարող է ժամանակավոր խնդիրներ առաջացնել նախընտրությունների պարամետրերի հետ կապված մյուս սեսիայում։\n\nՈւ՞զում եք շարունակել։"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1107,22 +1069,24 @@ msgstr "_Շարունակել"
 msgid "%s Continue (y/n)?"
 msgstr "%s Շարունակե՞լ (այո/nչ)"
 
-#: ../mateconf/mateconf-schema.c:211
-#: ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227
-#: ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "Սխեման պարունակում է անթույլատրելի UTF-8 հաջորդականություն"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
-msgid "Schema specifies type list but doesn't specify the type of the list elements"
+msgid ""
+"Schema specifies type list but doesn't specify the type of the list elements"
 msgstr "Սխեման սահմանում է ցուցակի տիպը, բայց չի սահմանում ցուցակի տարրերի տիպը"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
-msgid "Schema specifies type pair but doesn't specify the type of the car/cdr elements"
+msgid ""
+"Schema specifies type pair but doesn't specify the type of the car/cdr "
+"elements"
 msgstr "Սխեման սահմանում է զույգի տիպը, բայց չի սահմանում բանալու կամ արժեքի տիպերը"
 
 #: ../mateconf/mateconf-sources.c:374
@@ -1142,11 +1106,15 @@ msgstr "Ճշտվել է \"%s\" հասցեն միայն կարդալու համա
 
 #: ../mateconf/mateconf-sources.c:427
 #, c-format
-msgid "Resolved address \"%s\" to a partially writable configuration source at position %d"
+msgid ""
+"Resolved address \"%s\" to a partially writable configuration source at "
+"position %d"
 msgstr "Ճշտվել է \"%s\" հասցեն՝ մասամբ գրվող կոնֆիգուրացիոն աղբյուրի %d դիրքում"
 
 #: ../mateconf/mateconf-sources.c:436
-msgid "None of the resolved addresses are writable; saving configuration settings will not be possible"
+msgid ""
+"None of the resolved addresses are writable; saving configuration settings "
+"will not be possible"
 msgstr "Ոչ մի որոշված հասցե չի հանդիսանում գրվող, կոնֆիգուրացիայի պարամետրերը հիշել հնարավոր չէ"
 
 #: ../mateconf/mateconf-sources.c:690
@@ -1160,12 +1128,30 @@ msgstr "\"/\" անունը կարող է լինել միայն պանակ, բա�
 
 #: ../mateconf/mateconf-sources.c:794
 #, c-format
-msgid "Value for `%s' set in a read-only source at the front of your configuration path"
+msgid ""
+"Value for `%s' set in a read-only source at the front of your configuration "
+"path"
 msgstr "\"%s\"-ի համար արժեքը տեղադրված է միայն կարդալու համար նախատեսված աղբյուր ֆայլում, կոնֆիգուրացիայի ճանապարհի սկզբում"
 
 #: ../mateconf/mateconf-sources.c:806
 #, c-format
-msgid "Unable to store a value at key '%s', as the configuration server has no writable databases. There are some common causes of this problem: 1) your configuration path file %s/path doesn't contain any databases or wasn't found 2) somehow we mistakenly created two mateconfd processes 3) your operating system is misconfigured so NFS file locking doesn't work in your home directory or 4) your NFS client machine crashed and didn't properly notify the server on reboot that file locks should be dropped. If you have two mateconfd processes (or had two at the time the second was launched), logging out, killing all copies of mateconfd, and logging back in may help. If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that you attempted to use MateConf from two machines at once, and MateCORBA still has its default configuration that prevents remote CORBA connections - put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for details on problems mateconfd encountered. There can only be one mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles in individual storage locations such as ~/.mateconf"
+msgid ""
+"Unable to store a value at key '%s', as the configuration server has no "
+"writable databases. There are some common causes of this problem: 1) your "
+"configuration path file %s/path doesn't contain any databases or wasn't "
+"found 2) somehow we mistakenly created two mateconfd processes 3) your "
+"operating system is misconfigured so NFS file locking doesn't work in your "
+"home directory or 4) your NFS client machine crashed and didn't properly "
+"notify the server on reboot that file locks should be dropped. If you have "
+"two mateconfd processes (or had two at the time the second was launched), "
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
 msgstr "Հնարավոր չե պահել \"%s\" բանալու արժեքը, քանի որ կոնֆիգուրացիոն սերվերը չունի տվյալների բազա, որի մեջ կարելի է գրել։ Կան մի քանի ընդհանուր պատճառներ, որոնք ստեղծում են այս պրոբլեմը․ 1) %s/path կոնֆիգուրացիոն ճանապարհի ձեր ֆայլը չի պարունակում տվյալների բազա կամ չի հայտնաբերվել 2) սխալմամբ ստեղծվել է երկու mateconfd պրոցես 3) ձեր օպերացիոն համակարգը սխալ է կոնֆիգուրացված, այդպիսով NFS ֆայլերի արգելափակումը չի աշխատում տնային պանակում կամ 4) ձեր հաճախորդային NFS գործիքը խափանվել է, և սերվերը վերաբեռնելիս ճիշտ չի տեղեկացնում, որ ֆայլերի արգելափակումը պետք է դադարեցվի։ Եթե աշխատեցվել են երկու mateconfd պրոցես (կամ եղել է երկուսը երկրորդը աշխատացնելիս), ավարտեք աշխատանքը, ջնջեք բոլոր mateconfd կրկնօրինակները և նորից մուտք գործեք։ Եթե մնացել են հին արգելապակումներ, ջնջեք ~/.mateconf*/*lock։ Հնարավոր է խնդիրը MateConf-ը միաժամանակ երկու մեքենաներից աշխատացնելու պատճառով է, և MateCORBA-ը դեռ լռելյայն կազմաձևով է, որը կանխում է CORBA կապերը - տեղադրեք \"ORBIIOPIPv4=1\" /etc/matecorbarc-ում։ Ինչպես միշտ ստուգեք user.* mateconfd սխալների համակարգային մատյաններում։ Կարող է լինել միայն մեկ mateconfd պրոցես յուրաքանչյուր տնային պանակում և այն պետք է տնօրինի արգելափակման ֆայլը ~/.mateconfd-ում, նաև արգելափակման ֆայլերը անհատական պահոցներում, ինչպես ~/.mateconf -ում"
 
 #: ../mateconf/mateconf-sources.c:1610
@@ -1198,8 +1184,7 @@ msgstr "Անհասկանալի է \"%s\" արժեքը (ցուցակը պետք �
 msgid "Didn't understand `%s' (extra unescaped ']' found inside list)"
 msgstr "Անհասկանալի է \"%s\" արժեքը (ցուցակում հայտնաբերվել է ավելորդ ']')"
 
-#: ../mateconf/mateconf-value.c:357
-#: ../mateconf/mateconf-value.c:518
+#: ../mateconf/mateconf-value.c:357 ../mateconf/mateconf-value.c:518
 #, c-format
 msgid "Didn't understand `%s' (extra trailing characters)"
 msgstr "Անհասկանալի է \"%s\" արժեքը (ավելորդ պոչային նիշեր)"
@@ -1214,8 +1199,7 @@ msgstr "Անհասկանալի է \"%s\" արժեքը (զույգը պետք է 
 msgid "Didn't understand `%s' (pair must end with a ')')"
 msgstr "Անհասկանալի է \"%s\" արժեքը (զույգը պետք է ավարտվի ')'-ով)"
 
-#: ../mateconf/mateconf-value.c:447
-#: ../mateconf/mateconf-value.c:533
+#: ../mateconf/mateconf-value.c:447 ../mateconf/mateconf-value.c:533
 #, c-format
 msgid "Didn't understand `%s' (wrong number of elements)"
 msgstr "Անհասկանալի է \"%s\" արժեքը (տարրերի քանակի սխալ)"
@@ -1239,72 +1223,72 @@ msgstr "\"%s\"․ %s"
 msgid "Server couldn't resolve the address `%s'"
 msgstr "Սերվերը չկարողացավ վերլուծել \"%s\" հասցեն"
 
-#: ../mateconf/mateconf.c:819
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
 msgstr "Հնարավոր չէ ավելացնել տեղեկացումներ լոկալ կոնֆիգուրացիոն աղբյուրին"
 
-#: ../mateconf/mateconf.c:2269
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
 msgstr "Ձախողում կլիենտին սերվերների ցուցակում ավելացնելիս, CORBA սխալ․ %s"
 
-#: ../mateconf/mateconf.c:2641
+#: ../mateconf/mateconf.c:2704
 msgid "Must begin with a slash '/'"
 msgstr "Պետք է սկսվի բաժանման շեղգծով \"/\""
 
-#: ../mateconf/mateconf.c:2663
+#: ../mateconf/mateconf.c:2726
 msgid "Can't have two slashes '/' in a row"
 msgstr "Հնարավոր չէ տողում լինի երկու \"/\" նիշ"
 
-#: ../mateconf/mateconf.c:2665
+#: ../mateconf/mateconf.c:2728
 msgid "Can't have a period '.' right after a slash '/'"
 msgstr "Հնարավոր չէ լինեն \".\" կետեր \"/\" նիշից հետո"
 
-#: ../mateconf/mateconf.c:2685
+#: ../mateconf/mateconf.c:2748
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
 msgstr "\"\\%o\" չի հանդիսանում ASCII գրանիշ և այն չի թույլատրվում բանալու անվան մեջ"
 
-#: ../mateconf/mateconf.c:2695
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "\"%c\" հանդիսանում է անթույլատրելի նիշ բանալու/պանակի անվան մեջ"
 
-#: ../mateconf/mateconf.c:2709
+#: ../mateconf/mateconf.c:2772
 msgid "Key/directory may not end with a slash '/'"
 msgstr "Բանալին/պանակը չեն կարող ավարտվել \"/\" նիշով"
 
-#: ../mateconf/mateconf.c:3080
+#: ../mateconf/mateconf.c:3143
 #, c-format
 msgid "Failure shutting down configuration server: %s"
 msgstr "Ձաղողում կոնֆիգուրացիոն սերվերն անջատելիս․ %s"
 
-#: ../mateconf/mateconf.c:3141
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "Սպասվում էր սահող կետով արժեք, ստացվել է %s"
 
-#: ../mateconf/mateconf.c:3176
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "Սպասվում էր ամբողջ արժեք, ստացվել է %s"
 
-#: ../mateconf/mateconf.c:3211
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "Սպասվում էր տող, ստացվել է %s"
 
-#: ../mateconf/mateconf.c:3245
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "Սպասվում էր տրամաբանական արժեք, ստացվել է %s"
 
-#: ../mateconf/mateconf.c:3278
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "Սպասվում էր սխեմա, ստացվել է %s"
 
-#: ../mateconf/mateconf.c:3617
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "CORBA սխալ․ %s"
@@ -1314,20 +1298,26 @@ msgid "Shutdown request received"
 msgstr "Ստացվել է անջատելու հարցում"
 
 #: ../mateconf/mateconfd.c:368
-msgid "mateconfd compiled with debugging; trying to load mateconf.path from the source directory"
+msgid ""
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
 msgstr "mateconfd -ն կազմարկվել է վրիպազերծումով; փորձեք բեռնել mateconf.path-ը աղբյուր պանակից"
 
 #: ../mateconf/mateconfd.c:388
 #, c-format
-msgid "No configuration files found. Trying to use the default configuration source `%s'"
+msgid ""
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
 msgstr "Կոնֆիգուրացիոն ֆայլեր չեն հայտնաբերվել։ Փորձում է օգտագործել \"%s\" լռելյայն կոնֆիգուրացիոն աղբյուրը"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
 #: ../mateconf/mateconfd.c:396
 #, c-format
-msgid "No configuration sources in the source path. Configuration won't be saved; edit %s%s"
+msgid ""
+"No configuration sources in the source path. Configuration won't be saved; "
+"edit %s%s"
 msgstr "Աղբյուրների ուղու վրա չկան կոնֆիգուրացիոն աղբյուրներ։ Կոնֆիգուրացիան չի պահպանվի; խմբագրեք %s%s"
 
 #: ../mateconf/mateconfd.c:409
@@ -1336,11 +1326,15 @@ msgid "Error loading some configuration sources: %s"
 msgstr "Սխալ որոշ կոնֆիգուրացիոն աղբյուրներ բեռնելիս․ %s"
 
 #: ../mateconf/mateconfd.c:421
-msgid "No configuration source addresses successfully resolved. Can't load or store configuration data"
+msgid ""
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
 msgstr "Կոնֆիգուրացիոն աղբյուրի հասցեն չի հայտնաբերվել։ Հնարավոր չէ բեռնել կամ պահպանել կոնֆիգուրացիոն տվյալները"
 
 #: ../mateconf/mateconfd.c:438
-msgid "No writable configuration sources successfully resolved. May be unable to save some configuration changes"
+msgid ""
+"No writable configuration sources successfully resolved. May be unable to "
+"save some configuration changes"
 msgstr "Չհաջողվեց որոշել ոչ մի գրելի կոնֆիգուրացիոն աղբյուր։ Հնարավոր է կոնֆիգուրացիայի որոշ փոփոխություններ չպահպանվեն"
 
 #: ../mateconf/mateconfd.c:603
@@ -1369,7 +1363,9 @@ msgstr "Ձախողում ConfigServer-ի համար օբյեկտի վրա հղո
 
 #: ../mateconf/mateconfd.c:919
 #, c-format
-msgid "Failed to write byte to pipe file descriptor %d so client program may hang: %s"
+msgid ""
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
 msgstr "Ձախողում %d դեսկրիպտորով ֆայլում բայթ գրելիս, կլիենտի ծրագիրը կարող է կախվել․ %s"
 
 #: ../mateconf/mateconfd.c:965
@@ -1401,12 +1397,16 @@ msgstr "Վերադարձվում է բացառություն․ %s"
 
 #: ../mateconf/mateconfd.c:1584
 #, c-format
-msgid "Failed to open mateconfd logfile; won't be able to restore listeners after mateconfd shutdown (%s)"
+msgid ""
+"Failed to open mateconfd logfile; won't be able to restore listeners after "
+"mateconfd shutdown (%s)"
 msgstr "Ձախողում mateconfd գրանցումների ֆայլը բացելիս․ անհնար կլինի վերականգնել հաղորդագրություն ստացողին mateconfd - ն անջատելուց հետո (%s)"
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
-msgid "Failed to close mateconfd logfile; data may not have been properly saved (%s)"
+msgid ""
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
 msgstr "Ձախողում գրանցումների ֆայլը փակելիս; հնարավոր է տվյալները սխալ պահվեն (%s)"
 
 #: ../mateconf/mateconfd.c:1681
@@ -1441,12 +1441,14 @@ msgstr "Չհաջողվեց պահպանված վիճակի նոր ֆայլը տ�
 
 #: ../mateconf/mateconfd.c:1744
 #, c-format
-msgid "Failed to restore original saved state file that had been moved to '%s': %s"
+msgid ""
+"Failed to restore original saved state file that had been moved to '%s': %s"
 msgstr "Չհաջողվեց վերականգնել պահպանված վիճակի օրիգինալ ֆայլը, որը տեղափոխվել էր \"%s\"․ %s"
 
 #: ../mateconf/mateconfd.c:2223
 #, c-format
-msgid "Unable to restore a listener on address '%s', couldn't resolve the database"
+msgid ""
+"Unable to restore a listener on address '%s', couldn't resolve the database"
 msgstr "Հնարավոր չէ վերականգնել հաղորդագրություններ ստացողին \"%s\" հասցեում, հնարավոր չէ որոշել տվյալների բազան"
 
 #: ../mateconf/mateconfd.c:2259
@@ -1461,16 +1463,19 @@ msgstr "Հնարավոր չէ բացել պահպանված վիճակի \"%s\" 
 
 #: ../mateconf/mateconfd.c:2428
 #, c-format
-msgid "Failed to log addition of listener to mateconfd logfile; won't be able to re-add the listener if mateconfd exits or shuts down (%s)"
+msgid ""
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
 msgstr "Ձախողում mateconfd գրանցումների ֆայլում հաղորդագրություններ ստացող ավելացնելիս; հնարավոր չի լինի հաղորդագրություններ ստացող կրկին ավելացնել, եթե gcofd -ն ավարտվի կամ դադարեցվի (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
-msgid "Failed to log removal of listener to mateconfd logfile; might erroneously re-add the listener if mateconfd exits or shuts down (%s)"
+msgid ""
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
 msgstr "Ձախողում mateconfd գրանցումների ֆայլում հաղորդագրություններ ստացողին ջնջելիս; հնարավոր է կլիենտը սխալմամբ է կրկին ավելացվել, եթե gcofd - ն ավարտվել է կամ դադարեցվել (%s)"
 
-#: ../mateconf/mateconfd.c:2456
-#: ../mateconf/mateconfd.c:2630
+#: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
 msgid "Failed to get IOR for client: %s"
 msgstr "Ձախողում կլիենտի համար IOR ստանալիս․ %s"
@@ -1491,7 +1496,9 @@ msgid "Failed to flush client add to saved state file: %s"
 msgstr "Ձախողում պահպանված վիճակի ֆայլում կլիենտ ավելացնելը հաստատելիս․ %s"
 
 #: ../mateconf/mateconfd.c:2591
-msgid "Some client removed itself from the MateConf server when it hadn't been added."
+msgid ""
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
 msgstr "Ինչ որ կլիենտ ջնջել է իրեն MateConf սերվերից, երբ այն ավելացված չի եղել"
 
 #: ../mateconf/mateconftool.c:93
@@ -1507,7 +1514,9 @@ msgid "Unset the keys on the command line"
 msgstr "Հրամանային տողում բանալու տեղադրումը չեղյալ համարել"
 
 #: ../mateconf/mateconftool.c:121
-msgid "Recursively unset all keys at or below the key/directory names on the command line"
+msgid ""
+"Recursively unset all keys at or below the key/directory names on the "
+"command line"
 msgstr "Հրամանային տողում ռեկուրսիվ ձևով չեղյալ համարել բոլոր բանալիների և ներդրված բանալի/պանակ տեղադրումները"
 
 #: ../mateconf/mateconftool.c:130
@@ -1526,8 +1535,7 @@ msgstr "Տպել պանակի բոլոր ենթապանակները"
 msgid "Print all subdirectories and entries under a directory, recursively."
 msgstr "Ռեկուրսիվ տպել բոլոր ենթապանակները և պանակի տարրերը"
 
-#: ../mateconf/mateconftool.c:166
-#: ../mateconf/mateconftool.c:175
+#: ../mateconf/mateconftool.c:166 ../mateconf/mateconftool.c:175
 msgid "Search for a key, recursively."
 msgstr "Բանալու ռեկուրսիվ որոնում"
 
@@ -1548,11 +1556,15 @@ msgid "Ignore schema defaults when reading values."
 msgstr "Արժեքները կարդալիս անտեսվում է սխեմայի լռելյայն արժեքները"
 
 #: ../mateconf/mateconftool.c:226
-msgid "Dump to standard output an XML description of all entries under a directory, recursively."
+msgid ""
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
 msgstr "Ռեկուրսիվ դուրս բերել պանակի բոլոր տարրերի նկարագրությունը XML ֆորմատով"
 
 #: ../mateconf/mateconftool.c:235
-msgid "Load from the specified file an XML description of values and set them relative to a directory."
+msgid ""
+"Load from the specified file an XML description of values and set them "
+"relative to a directory."
 msgstr "Նշված ֆայլից XML ֆորմատով բեռնել տարրերի նկարագրությունը և դրանք տեղադրել պանակի նկատմամբ։"
 
 #: ../mateconf/mateconftool.c:244
@@ -1572,11 +1584,15 @@ msgid "Return 0 if mateconfd is running, 2 if not."
 msgstr "Վերադարձնում է 0, եթե mateconfd-ն աշխատում է, 2՝ հակառակ դեպքում։"
 
 #: ../mateconf/mateconftool.c:286
-msgid "Launch the configuration server (mateconfd). (Normally happens automatically when needed.)"
+msgid ""
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
 msgstr "Աշխատեցնել (mateconfd) կոնֆիգուրացին սերվերը։ (Սովորաբար, եթե հարկավոր է, սերվերն աշխատանքը սկսում է ավտոմատ)։"
 
 #: ../mateconf/mateconftool.c:301
-msgid "Specify the type of the value being set, or the type of the value a schema describes. Unique abbreviations OK."
+msgid ""
+"Specify the type of the value being set, or the type of the value a schema "
+"describes. Unique abbreviations OK."
 msgstr "Ցույց տալ տեղադրվող արժեքի տիպը կամ սխեման նկարագրող արժեքի տիպը։ Հարմար են նաև ունիկալ հապավումների տեսքով։"
 
 #: ../mateconf/mateconftool.c:302
@@ -1596,21 +1612,26 @@ msgid "Get a specific element from a list key, numerically indexed."
 msgstr "Բանալու ցուցակից ըստ համարի ստանալ որոշակի տարր"
 
 #: ../mateconf/mateconftool.c:337
-msgid "Specify the type of the list value being set, or the type of the value a schema describes. Unique abbreviations OK."
+msgid ""
+"Specify the type of the list value being set, or the type of the value a "
+"schema describes. Unique abbreviations OK."
 msgstr "Սահմանել տեղադրվող ցուցակի արժեքի տիպը կամ սխեման նկարգրող արժեքի տիպը։ Հարմար են նաև ունիկալ հապավումների տեսքով։"
 
-#: ../mateconf/mateconftool.c:338
-#: ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
 #: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "ամբողջ|տրամաբանական|սահող կետով|տող"
 
 #: ../mateconf/mateconftool.c:346
-msgid "Specify the type of the car pair value being set, or the type of the value a schema describes. Unique abbreviations OK."
+msgid ""
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
 msgstr "Նշել տեղադրվող զույգի բանալու արժեքի տիպը կամ սխեման նկարագրող արժեքի տիպը։ Հարմար են նաև ունիկալ հապավումների տեսքով։"
 
 #: ../mateconf/mateconftool.c:355
-msgid "Specify the type of the cdr pair value being set, or the type of the value a schema describes. Unique abbreviations OK."
+msgid ""
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
 msgstr "Նշել տեղադրվող զույգի արժեքի տիպը կամ սխեման նկարագրող արժեքի տիպը։ Հարմար են նաև ունիկալ հապավումների տեսքով։"
 
 #: ../mateconf/mateconftool.c:370
@@ -1630,35 +1651,49 @@ msgid "SOURCE"
 msgstr "ԱՂԲՅՈՒՐ"
 
 #: ../mateconf/mateconftool.c:388
-msgid "Bypass server, and access the configuration database directly. Requires that mateconfd is not running."
+msgid ""
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
 msgstr "Կոնֆիգուրացիոն տվյալների բազային դիմել ուղիղ ձևով, շրջանցելով սերվերը։ Հարկավոր է, որ mateconfd-ն չաշխատի։"
 
 #: ../mateconf/mateconftool.c:397
-msgid "Properly installs schema files on the command line into the database. Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment variable, or set set the variable to an empty string to use the default configuration source."
+msgid ""
+"Properly installs schema files on the command line into the database. "
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
 msgstr "Պատշաճ կերպով տեղադրել հրամանային տողում տրված սխեմայի ֆայլերը տվյալների բազայում։ Նշել պատվիրված կոնֆիգուրացիոն աղբյուրը միջավայրային փոփոխական MATECONF_CONFIG_SOURCE-ում կամ փոփոխականի արժեքը դրեք դատարկ տող՝ լռելյայն կոնֆիգուրացիոն աղբյուրն օգտագործելու համար։"
 
 #: ../mateconf/mateconftool.c:406
-msgid "Properly uninstalls schema files on the command line from the database. MATECONF_CONFIG_SOURCE environment variable should be set to a non-default configuration source or set to the empty string to use the default."
+msgid ""
+"Properly uninstalls schema files on the command line from the database. "
+"MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
+"configuration source or set to the empty string to use the default."
 msgstr "Պատշաճ կերպով ջնջել հրամանային տողում տրված սխեմայի ֆայլերը տվյալների բազայից։ MATECONF_CONFIG_SOURCE միջավայրային փոփոխականը պետք է սասահմանվի որպես ոչ լռելյայն կոնֆիգուրացիոն աղբյուր կամ մնա դատարկ տող՝ լռելյայն արժեքն օգտագործելու համար։"
 
 #: ../mateconf/mateconftool.c:421
-msgid "Torture-test an application by setting and unsetting a bunch of values of different types for keys on the command line."
+msgid ""
+"Torture-test an application by setting and unsetting a bunch of values of "
+"different types for keys on the command line."
 msgstr "Լրջորեն թեստավորել աշխատածրագիրը՝ հրամանային տողում մեծ քանակությամբ տարբեր տիպերի բանալիների արժեքներ տեղադրելով և ջնջելով։"
 
 #: ../mateconf/mateconftool.c:430
-msgid "Torture-test an application by setting and unsetting a bunch of keys inside the directories on the command line."
+msgid ""
+"Torture-test an application by setting and unsetting a bunch of keys inside "
+"the directories on the command line."
 msgstr "Լրջորեն թեստավորել աշխատածրագիրը՝ հրամանային տողում պանակների ներսում մեծ քանակությամբ տարբեր տիպերի բանալիների արժեքներ տեղադրելով և ջնջելով։"
 
 #: ../mateconf/mateconftool.c:445
-msgid "Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --type."
+msgid ""
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
 msgstr "Տեղադրել սխեման և սինխրոնացնել։ Օգտագործվում է --short-desc-ի, --long-desc-ի, --owner-ի, և --type-ի հետ։"
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
 msgstr "Նշել սխեմայի կարճ նկարագրությունը։"
 
-#: ../mateconf/mateconftool.c:455
-#: ../mateconf/mateconftool.c:464
+#: ../mateconf/mateconftool.c:455 ../mateconf/mateconftool.c:464
 msgid "DESCRIPTION"
 msgstr "ՆԿԱՐԱԳՐՈՒԹՅՈՒՆ"
 
@@ -1679,7 +1714,8 @@ msgid "Get the name of the schema applied to this key"
 msgstr "Ստանալ այս բանալու համար կիրառված սխեմայի անունը"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
 msgstr "Նշել սխեմայի անունը և բանալին, որի համար պետք է կիրառվի սխեման"
 
 #: ../mateconf/mateconftool.c:499
@@ -1791,12 +1827,16 @@ msgstr "Հնարավոր չէ --all-dirs -ը օգտագործել --get -ի կա
 
 #: ../mateconf/mateconftool.c:718
 #, c-format
-msgid "--recursive-list should not be used with --get, --set, --unset, --all-entries, --all-dirs, or --search-key\n"
+msgid ""
+"--recursive-list should not be used with --get, --set, --unset, --all-"
+"entries, --all-dirs, or --search-key\n"
 msgstr "--recursive-list չի կարող օգտագործվել --get, --set, --unset, --all-entries, --all-dirs կամ --search-key -ի հետ\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
-msgid "--set_schema should not be used with --get, --set, --unset, --all-entries, --all-dirs, or --search-key\n"
+msgid ""
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
 msgstr "--set_schema չի կարող օգտագործվել --get, --set, --unset, --all-entries, --all-dirs կամ --search-key -ի հետ\n"
 
 #: ../mateconf/mateconftool.c:738
@@ -1811,15 +1851,14 @@ msgstr "Անհրաժեշտ է նշել տիպը, երբ տեղադրվում է 
 
 #: ../mateconf/mateconftool.c:752
 #, c-format
-msgid "--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, --recursive-list, --get-list-size or --get-list-element\n"
+msgid ""
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
 msgstr "--ignore-schema-defaults իմաստ ունի միայն --get, --all-entries, --dump, --recursive-list, --get-list-size կամ --get-list-element - ի հետ\n"
 
-#: ../mateconf/mateconftool.c:764
-#: ../mateconf/mateconftool.c:777
-#: ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804
-#: ../mateconf/mateconftool.c:817
-#: ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -1827,7 +1866,9 @@ msgstr "%s ընտրանքը պետք է օգտագործվի ինքուրույ�
 
 #: ../mateconf/mateconftool.c:853
 #, c-format
-msgid "You must specify a configuration source with --config-source when using --direct\n"
+msgid ""
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
 msgstr "Անհրաժեշտ է նշել կոնֆիգուրացիոն աղբյուրը --config-source -ով, երբ օգտագործվում է --direct -ը\n"
 
 #: ../mateconf/mateconftool.c:859
@@ -1837,12 +1878,15 @@ msgstr "Ձախողում MateConf -ը սկզբնաարժեքավորելիս․ 
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL միջավայրային փոփոխականը սահմանված է, սխեման չի տեղադրվում\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL միջավայրային փոփոխականը սահմանված է, սխեման չի ջնջվում\n"
 
 #: ../mateconf/mateconftool.c:907
@@ -1855,593 +1899,571 @@ msgstr "Պետք է տեղադրել MATECONF_CONFIG_SOURCE միջավայրայ
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "Ձախողում կոնֆիգուրացիոն աղբյուր(ներ)ին դիմելիս․ %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "Անջատման սխալ.%s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "Պահանջվում է նշել մեկ կամ մի քանի պանակ ռեկուրսիվ ցուցակի համար։\n"
 
-#: ../mateconf/mateconftool.c:1355
-#: ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "Ձախողում \"%s\" -ում գրառումները թվարկելիս․ %s\n"
 
-#: ../mateconf/mateconftool.c:1375
-#: ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(արժեք տեղադրված չէ)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "Անհրաժեշտ է նշել բանալու նմուշը, որի համար կատարվում է որոնումը։\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "Անհրաժեշտ է նշել PCRE բանալու նմուշը, որի համար կատարվում է որոնումը։\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "Ռեգուլյար արտահայտության կազմարկման սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "Պահանջվում է նշել մեկ կամ մի քանի պանակ դուրս բերման համար։\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "Ձախողում (mateconfd) կոնֆիգուրացիոն սերվերը գործարկելիս․ %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "Պահանջվում է նշել ստացման համար անհրաժեշտ բանալի կամ բանալիներ\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "Տիպ․ %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "Ցուցակի տիպ․ %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Բանալու տիպ․ %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Արժեքի տիպ․ %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "Լռելյայն արժեք․ %s\n"
 
-#: ../mateconf/mateconftool.c:1946
-#: ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "Հեռացնել"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "Սեփականատեր․ %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "Կարճ նկարագրություն․ %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "Մանրամասն նկարագրություն․ %s\n"
 
-#: ../mateconf/mateconftool.c:1959
-#: ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270
-#: ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "\"%s\"-ի համար արժեք տեղադրված չէ\n"
 
-#: ../mateconf/mateconftool.c:1963
-#: ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274
-#: ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "Ձախողում \"%s\"-ի արժեքը ստանալիս․ %s\n"
 
-#: ../mateconf/mateconftool.c:2006
-#: ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "Անհասկանալի \"%s\" տիպ\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "Անհրաժեշտ է որպես արգումենտ նշել այլընտրանքային բանալիները/արժեքները\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "Բանալու համար արժեք տեղադրված չէ․ \"%s\" \n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "Հնարավոր չէ սխեման տեղադրել որպես արժեք\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "Ցուցակ տեղադրելիս պահանջվում է նշել պարզ ցուցակի տիպ\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
 msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "Զույգ տեղադրելիս պահանջվում է նշել պարզ բանալու տիպ և արժեք\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "Սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2130
-#: ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "Արժեքի տեղադրման սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "Սինխրոնիզացման սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "Արգումենտում անհրաժեշտ է նշել մեկ կամ մի քանի բանալիներ\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "Չի գտնվել %s բանալու արժեքը \n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "Արժեքը տրամաբանական տիպի չէ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "Տիպն ստանալու համար անհրաժեշտ է նշել բանալին կամ բանալիները\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "Չափն ստանալու համար անհրաժեշտ է նշել բանալին։\n"
 
-#: ../mateconf/mateconftool.c:2285
-#: ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "%s բանալին ցուցակ չի հանդիսանում:\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "Անհրաժեշտ է նշել բանալին, որից կստացվի ցուցակի տարրը:\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "Անհրաժեշտ է նշել ինդեքսը ցուցակում\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "Ցուցակում ինդեքսը պետք է լինի ոչ բացասական։\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "Ցուցակում ինդեքսը սահմաններից դուրս է։\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "Անհրաժեշտ է նշել բանալի կամ բանալիներ հրամանային տողում\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "\"%s\"-ի համար սխեմա հայտնի չէ\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "Սխեմայում բացակայում է \"%s\"-ի նկարագրությունը\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "\"%s\"-ի վերաբերյալ սխեմա ստանալու սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "\"%s\"-ի վերաբերյալ սխեման բացակայում է\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "\"%s\"-ի վերաբերյալ արժեքը սխեմա չի հանդիսանում\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr "Անհրաժեշտ է նշել սխեմայի և բանալու անունը, որի նկատմամբ պետք է կիրառել սխեման\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "\"%s\" սխեմայի անունը \"%s\" բանալու անվան հետ ասոցացման սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "Անհրաժեշտ է նշել բանալիներ սխեմայի կիրառումը չեղյալ համարելու համար\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "\"%s\" -ից սխեմայի անվան ջնջելու սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "Անհրաժեշտ է նշել բանալի(սխեմայի անուն) որպես միակ արգումենտ\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "Ցուցակի տիպը պետք է լինի հասարակ տիպ․ տող, ամբողջ, սահող կետով, կամ տրամաբանական\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "Բանալու զույգի տիպը պետք է լինի հասարակ տիպ․ տող, ամբողջ, սահող կետով, կամ տրամաբանական \n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "Զույգի արժեքի տիպը պետք է լինի հասարակ տիպ․ տող, ամբողջ, սահող կետով, կամ տրամաբանական\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "Արժեքի տեղադրման սխալ․ %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "Սինխրոնիզացիայի սխալ․ %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr "Անհրաժեշտ է նշել մեկ կամ մի քանի պանակներ, որտեղից կարելի է ստանալ բանալի/արժեք զույգը։\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "Անհրաժեշտ է նշել մեկ կամ մի քանի բանալիներ ջնջելու համար։\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "\"%s\" -ը ջնջելու սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "Անհրաժեշտ է նշել մեկ կամ մի քանի բանալիներ ռեկուրսիվ ջնջելու համար։\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "Ձախողում \"%s\"-ը ռեկուրսիվ ջնջելիս․ %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr "Անհրաժեշտ է նշել մեկ կամ մի քանի պանակներ, որոնցից ստացվում են ենթապանակներ\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "Պանակների թվարկման սխալ․ %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <pair> տիպի տարրի համար պետք է որոշված լինեն <car> և <cdr>\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ նշված (%s) բանալին <value> հանգույցում գտնվող սխեմայի համար - անտեսվում է\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Պահանջում է գոնե մեկ ժառանգ հանգույցի ներկայություն <value> - ում\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <%s> հանգույցը անհասկանալի է\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Ձախողում \"%s\" ամբողջ տիպի արժեքը վերլուծելիս\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Ձախողում \"%s\" սահող կետով տիպի արժեքը վերլուծելիս\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Ձախողում \"%s\" տողային տիպի արժեքը վերլուծելիս\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Ձախողում \"%s\" տրամաբանական տիպի արժեքը վերլուծելիս\n"
 
-#: ../mateconf/mateconftool.c:3194
-#: ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ չհաջողվեց \"%s\" սխեման ասոցացնել \"%s\" բանալու հետ․ %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ հայտնաբերվել է անթույլատրելի կամ սխալ տիպ (%s) սխեմայի համար\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ հայտնաբերվել է անթույլատրելի կամ սխալ ցուցակի տիպ (%s) սխեմայի համար\n"
 
-#: ../mateconf/mateconftool.c:3329
-#: ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Ձախողում \"%s\" լռելյայն արժեքը (%s) սխեմայի համար վերլուծելիս\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ հայտնաբերվել է անթույլատրելի կամ գոյություն չունեցող բանալու կամ արժեքի տիպ (%s) սխեմայի համար\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Դուք չեք կարող սահմանել սխեմայի համար լռելյայն արժեք\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ տեղի է ունեցել mateconftool-ի ներքին սխալ, անհայտ MateConfValueType տիպ\n"
 
-#: ../mateconf/mateconftool.c:3449
-#: ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491
-#: ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Ձախողում տիպի \"%s\" անունը վերլուծելիս\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
 msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ ցուցակի տիպը կարող է լինել միայն ամբողջ, սահող կետով, տող, տրամաբանական կամ կարող է չլինել \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ բանալու տիպը կարող է լինել միայն ամբողջ, սահող կետով, տող կամ տրամաբանական և կարող է չլինել \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ արժեքի տիպը կարող է լինել միայն ամբողջ, սահող կետով, տող կամ տրամաբանական և կարող է չլինել \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <applyto> դատարկ հանգույց"
 
-#: ../mateconf/mateconftool.c:3551
-#: ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <%s> հանգույցը անհասկանալի է <schema> հանգույցում\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ գոյություն չունի <list_type> հանգույցը «ցուցակ» տիպի սխեմայի համար\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ գույություն չունի <car_type> հանգույց «զույգ» տիպի սխեմայի համար\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ գույություն չունի <cdr_type> հանգույցը «զույգ» տիպի սխեմայի համար\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <locale> հանգույցը չունի \"name=\"locale\"\" ատրիբուտ, անտեսվում է\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
-msgid "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
+msgid ""
+"WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ հայտնաբերվել է մի քանի <locale> հանգույց \"%s\" լոկալի համար, առաջինից հետո բոլորը անտեսվում են\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <%s> հանգույցը անթույլատրելի է <locale> հանգույցում\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "\"%s\" սխեման ամրացված է \"%s\" բանալուն\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "Պետք է գոյություն ունենա գոնե մեկ <locale> հանգույց <schema>-ում\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ ձախողում \"%s\" սխեման տեղադրելիս \"%s\" լոկալում․ %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "Տեղադրված է \"%s\" սխեման \"%s\" լոկալի համար\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ ձախողում \"%s\" սխեման ջնջելիս \"%s\" լոկալում․ %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "Ջնջված է \"%s\" սխեման \"%s\" լոկալից \n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Նշված չի բանալին սխեմայի համար\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <%s> հանգույցը անհասկանալի է <%s> հանգույցում\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "Ձախողում \"%s\" բացելիս․ %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "\"%s\" փաստաթուղթը դատա՞րկ է․\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
 msgstr "\"%s\" փաստաթուղթը ունի արմատային հանգույցի սխալ տիպ (<%s>, պետք է լիներ <%s>)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "\"%s\" փաստաթուղթը չունի վերին մակարդակի <%s> հանգույց\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "ԶԳՈՒՇԱՑՈՒՄ․ <%s> հանգույցը անհասկանալի է <%s> հանգույցում\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "Կոնֆիգուրացիոն տվյալների սինխրոնիզացիայի սխալ․ %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "Անհրաժեշտ է տեղադրման համար ցույց տալ սխեմայի մի քանի ֆայլ\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "Ձախողում %s բանալու վնասված արժեքը հանելիս․ %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "Պահանջվում է նշել որոշ բանալիներ դրանց հետ աշխատելու համար\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"Ձեր աշխատածրագրի աշխատանքը խախտելու փորձ, բանալու համար ոչ ճիշտ արժեք տեղադրելու միջոցով․\n"
-"  %s\n"
+msgstr "Ձեր աշխատածրագրի աշխատանքը խախտելու փորձ, բանալու համար ոչ ճիշտ արժեք տեղադրելու միջոցով․\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "Պահանջվում է նշել որոշ պանակներ դրանց հետ աշխատելու համար\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"Կատարվում է փորձ ձեր աշխատածրագրի աշխատանքը խախտելու համար, պանակում բանալու համար ոչ ճիշտ արժեք տեղադրելու միջոցով․\n"
-"  %s\n"
-
+msgstr "Կատարվում է փորձ ձեր աշխատածրագրի աշխատանքը խախտելու համար, պանակում բանալու համար ոչ ճիշտ արժեք տեղադրելու միջոցով․\n  %s\n"

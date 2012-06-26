@@ -1,38 +1,21 @@
-# Danish translation of MateConf.
-# Copyright (C) 1999-2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mateconf package.
-# Kenneth Christiansen <kenneth@ripen.dk>, 1999-2000.
-# Keld Simonsen <keld@dkuug.dk>, 2000-2001.
-# Ole Laursen <olau@hardworking.dk>, 2001 - 2004, 06.
-# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004 - 2005.
-# Kenneth Nielsen <k.nielsen81@gmail.com>, 2007.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2008.
-#
-# Konventioner:
-#
-#   backend -> bagende
-#   entry -> post
-#   notification -> underrettelse
-#   schema -> skema
-#   set -> sætte (dårligt, bør nok ændres)
-#
-# Hvor string, bool, int osv. optræder direkte som typer, er de i
-# øjeblikket ikke oversat (måske skal det ændres? - test sammenhængen en
-# eller anden dag).
-#
-# Jeg har gennemgået hele filen (14/4-2007) for at sikre at der bruges ' -> " konsekvent
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: MateConf\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-19 17:34+0200\n"
-"PO-Revision-Date: 2010-09-18 17:49+0200\n"
-"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Danish (http://www.transifex.net/projects/p/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
@@ -124,21 +107,12 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"Brug: %s <mappe>\n"
-"  Forener et opmærket bagendefilhierarki som:\n"
-"    dir/%%mateconf.xml\n"
-"        undermappe1/%%mateconf.xml\n"
-"        undermappe2/%%mateconf.xml\n"
-"  til:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "Brug: %s <mappe>\n  Forener et opmærket bagendefilhierarki som:\n    dir/%%mateconf.xml\n        undermappe1/%%mateconf.xml\n        undermappe2/%%mateconf.xml\n  til:\n    dir/%%mateconf-tree.xml\n"
 
-#
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
 msgstr "Fjerner tekst-opmærknings-bagendemodulet fra hukommelsen."
 
-# første %s er databasetypen
 #: ../backends/markup-backend.c:226 ../backends/xml-backend.c:288
 #, c-format
 msgid "Couldn't find the XML root directory in the address `%s'"
@@ -151,8 +125,7 @@ msgstr "Kunne ikke oprette mappen \"%s\": %s"
 
 #: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
 msgstr "Kunne ikke læse fra eller skrive til XML-rodmappe adressen \"%s\""
 
 #: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
@@ -165,9 +138,7 @@ msgstr "Mappe-/filrettigheder for XML-kilde ved roden %s er %o/%o"
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"Fjernelse af mappe er ikke længere understøttet, fjern blot alle værdier i "
-"mappen"
+msgstr "Fjernelse af mappe er ikke længere understøttet, fjern blot alle værdier i mappen"
 
 #: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
@@ -188,180 +159,179 @@ msgstr "Klargører opmærknings-bagendemodul"
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "Kunne ikke opgive lås på XML-mappen \"%s\": %s"
 
-#: ../backends/markup-tree.c:437
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "Kunne ikke skrive nogle konfigurationsdata på disk\n"
 
-#: ../backends/markup-tree.c:960 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "Kunne ikke oprette mappen \"%s\": %s"
 
-#: ../backends/markup-tree.c:1000 ../backends/markup-tree.c:1007
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "Kunne ikke slette filen \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:1208
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "Kunne ikke slette \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:1416
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "Kunne ikke indlæse filen \"%s\": %s"
 
-#: ../backends/markup-tree.c:2006
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "Linje %d tegn %d: %s"
 
-#: ../backends/markup-tree.c:2234 ../backends/markup-tree.c:2255
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "Attribut \"%s\" kan ikke bruges på <%s>-element i denne sammenhæng"
 
-#: ../backends/markup-tree.c:2280 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "Forstod ikke \"%s\" (forventede heltal)"
 
-#: ../backends/markup-tree.c:2287 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "Heltal \"%s\" er for stort eller lille"
 
-#: ../backends/markup-tree.c:2319 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "Forstod ikke \"%s\" (forventede sand eller falsk)"
 
-#: ../backends/markup-tree.c:2343 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "Forstod ikke \"%s\" (forventet kommatal)"
 
-#: ../backends/markup-tree.c:2423
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "Værdien \"%s\" for \"%s\" attributten på elementet <%s> er ukendt"
 
-#: ../backends/markup-tree.c:2443 ../backends/markup-tree.c:2483
-#: ../backends/markup-tree.c:2507 ../backends/markup-tree.c:2515
-#: ../backends/markup-tree.c:2570 ../backends/markup-tree.c:2635
-#: ../backends/markup-tree.c:2747 ../backends/markup-tree.c:2815
-#: ../backends/markup-tree.c:2873 ../backends/markup-tree.c:3023
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "Ingen \"%s\" attribut på element <%s>"
 
-#: ../backends/markup-tree.c:2457
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "Ugyldig ltype \"%s\" på <%s>"
 
-#: ../backends/markup-tree.c:2537
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "Ugyldig type på første element \"%s\" på <%s>"
 
-#: ../backends/markup-tree.c:2551
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "Ugyldig cdr_type \"%s\" på <%s>"
 
-#: ../backends/markup-tree.c:2587
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "Ugyldig list_type \"%s\" på <%s>"
 
-#: ../backends/markup-tree.c:2954
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "To <default>-elementer under et <local_schema>"
 
-#: ../backends/markup-tree.c:2969
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "To <longdesc>-elementer under et <local_schema>"
 
-#: ../backends/markup-tree.c:2976
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "Element <%s> er ikke tilladt under <%s>"
 
-#: ../backends/markup-tree.c:3001 ../backends/markup-tree.c:3106
-#: ../backends/markup-tree.c:3160 ../backends/markup-tree.c:3211
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s> givet, men nuværende element har ikke typen %s"
 
-#: ../backends/markup-tree.c:3084
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "To <car>-elementer givet for samme par"
 
-#: ../backends/markup-tree.c:3098
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "To <cdr>-elementer givet for samme par"
 
-#: ../backends/markup-tree.c:3152
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> har forkert type %s"
 
-#: ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s> givet men forældre <entry> har ikke en værdi"
 
-#: ../backends/markup-tree.c:3224 ../backends/markup-tree.c:3247
-#: ../backends/markup-tree.c:3269 ../backends/markup-tree.c:3286
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "Element <%s> er ikke tilladt inden i nuværende element"
 
-#: ../backends/markup-tree.c:3318
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "Yderste element i menuen filer skal være <mateconf> ikke <%s>"
 
-#: ../backends/markup-tree.c:3338 ../backends/markup-tree.c:3360
-#: ../backends/markup-tree.c:3365
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "Element <%s> er ikke tilladt inden i et <%s>-element"
 
-#: ../backends/markup-tree.c:3509
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "Ingen tekst er tilladt inden i element <%s>"
 
-#: ../backends/markup-tree.c:3625 ../backends/markup-tree.c:4391
-#: ../backends/markup-tree.c:4410
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "Kunne ikke åbne \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:3655
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "Fejl ved læsning af \"%s\": %s\n"
 
-#: ../backends/markup-tree.c:4485
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "Kunne ikke tømme skrivebuffer for filen \"%s\" til disken: %s"
 
-#: ../backends/markup-tree.c:4504
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "Fejl ved skrivning af fil \"%s\": %s"
 
-#: ../backends/markup-tree.c:4533
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
-msgstr ""
-"Kunne ikke flytte temporær fil \"%s\" til endelig destination \"%s\": %s"
+msgstr "Kunne ikke flytte temporær fil \"%s\" til endelig destination \"%s\": %s"
 
 #: ../backends/xml-backend.c:239
 msgid "Unloading XML backend module."
@@ -385,9 +355,7 @@ msgstr "Fejl ved synkronisering af XML-mellemlageret med disken"
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"Kan ikke fjerne mappen \"%s\" fra XML-bagendemellemlageret fordi den ikke er "
-"synkroniseret med disken"
+msgstr "Kan ikke fjerne mappen \"%s\" fra XML-bagendemellemlageret fordi den ikke er synkroniseret med disken"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -458,8 +426,7 @@ msgstr "Punkt uden navn i XML-fil \"%s\", ignorerer"
 #: ../backends/xml-dir.c:1195
 #, c-format
 msgid "A toplevel node in XML file `%s' is <%s> rather than <entry>, ignoring"
-msgstr ""
-"Topniveau-punkt i XML-filen \"%s\" er <%s> i stedet for <entry>, ignorerer"
+msgstr "Topniveau-punkt i XML-filen \"%s\" er <%s> i stedet for <entry>, ignorerer"
 
 #: ../backends/xml-dir.c:1283
 #, c-format
@@ -561,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "Mangler både car- og cdr-værdier fra par i XML-fil"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "Ændr obligatoriske MateConf-værdier"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "Ændr MateConf-systemværdier"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "Der kræves rettigheder til at ændre obligatoriske MateConf-værdier"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "Der kræves rettigheder til at ændre MateConf-systemværdier"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "Ændr obligatoriske MateConf-værdier"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "Der kræves rettigheder til at ændre obligatoriske MateConf-værdier"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -651,10 +618,9 @@ msgstr "Modtog ugyldig værdi i sæt-forespørgsel"
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
-msgstr ""
-"Kunne ikke forstå CORBA-værdien modtaget i sæt-forespørgsel efter nøglen \"%s"
-"\""
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
+msgstr "Kunne ikke forstå CORBA-værdien modtaget i sæt-forespørgsel efter nøglen \"%s\""
 
 #: ../mateconf/mateconf-database.c:503
 msgid "Received request to drop all cached data"
@@ -676,22 +642,17 @@ msgstr "Det mislykkedes at synkronise af en eller flere kilder: %s"
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
-msgstr ""
-"Fejl ved hentning af ny værdi for \"%s\" efter ændringsunderettelse fra "
-"bagenden \"%s\": %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
+msgstr "Fejl ved hentning af ny værdi for \"%s\" efter ændringsunderettelse fra bagenden \"%s\": %s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"Kunne ikke logge tilføjelse af lytteren %s (%s); vil ikke kunne genoprette "
-"denne lytter ved genstart af mateconfd, noget som vil resultere i upålidelig "
-"underrettelse om konfigurationsændringer."
+msgstr "Kunne ikke logge tilføjelse af lytteren %s (%s); vil ikke kunne genoprette denne lytter ved genstart af mateconfd, noget som vil resultere i upålidelig underrettelse om konfigurationsændringer."
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -703,9 +664,7 @@ msgstr "Lytter-id %lu eksisterer ikke"
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"Kunne ikke logge fjernelse af lytter til logfil (højst sandsynligt harmløst, "
-"kan resultere i at en ændringsunderrettelse genindtræffer på mystisk vis): %s"
+msgstr "Kunne ikke logge fjernelse af lytter til logfil (højst sandsynligt harmløst, kan resultere i at en ændringsunderrettelse genindtræffer på mystisk vis): %s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -853,190 +812,187 @@ msgstr "Modtog liste fra mateconfd med en ugyldig listetype"
 msgid "Failed to convert object to IOR"
 msgstr "Kunne ikke konvertere objekt til IOR"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "Ugyldig UTF-8 i regionaldata i skema"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "Ugyldig UTF-8 i kort beskrivelse i skema"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "Ugyldig UTF-8 i lang beskrivelse i skema"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "Ugyldig UTF-8 i ejer i skema"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "Kunne ikke åbne sti-fil \"%s\": %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "Tilføjer kilde \"%s\"\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "Læsefejl på fil \"%s\": %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1704
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "Tekst indeholder ugyldig UTF-8"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "Forventede liste, fik %s"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "Forventede liste af %s, fik liste af %s"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "Forventede par, fik %s"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
 msgstr "Forventede (%s,%s) par, fik par hvor én eller begge værdier manglede"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "Forventede par af typen (%s,%s) fik typen (%s,%s)"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "Tekst i citationstegn begynder ikke med et citationstegn"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "Tekst i citationstegn slutter ikke med et citationstegn"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "Kodet værdi er ikke gyldig UTF-8"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "Kunne ikke låse midlertidig fil \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "Kunne ikke oprette fil \"%s\", nok fordi den allerede eksisterer"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "Kunne ikke oprette eller åbne \"%s\""
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"Kunne ikke låse \"%s\": sandsynligvis besidder en anden proces låsen, eller "
-"styresystemet har ikke NFS-fillåsning konfigureret korrekt (%s)"
+msgstr "Kunne ikke låse \"%s\": sandsynligvis besidder en anden proces låsen, eller styresystemet har ikke NFS-fillåsning konfigureret korrekt (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "Det mislykkedes at fjerne \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "Kører ikke inden i aktive session"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "Kunne ikke opnå forbindelse til session: %s"
 
-#: ../mateconf/mateconf-internals.c:2472
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
 msgid "GetIOR failed: %s"
 msgstr "GetIOR fejlede: %s"
 
-#: ../mateconf/mateconf-internals.c:2509
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
-msgstr ""
-"kunne ikke kontakte ORB for at løse eksisterende mateconfd objektreference"
+msgstr "kunne ikke kontakte ORB for at løse eksisterende mateconfd objektreference"
 
-#: ../mateconf/mateconf-internals.c:2521
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "Kunne ikke konvertere IOR \"%s\" til en objektreference"
 
-#: ../mateconf/mateconf-internals.c:2548
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "kunne ikke oprette mappen \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2605
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "Kan ikke skrive til filen \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2646
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "Vi har ikke låsen på filen \"%s\", men vi burde have den"
 
-#: ../mateconf/mateconf-internals.c:2669
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "Kunne ikke lænke \"%s\" til \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "Kunne ikke fjerne låsefilen \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2704
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "Kunne ikke rense fil \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2720
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "Kunne ikke frigive låsemappen \"%s\": %s"
 
-#: ../mateconf/mateconf-internals.c:2858
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "Serverpingfejl: %s"
 
-#: ../mateconf/mateconf-internals.c:2877
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"Kunne ikke kontakte konfigurationsserver; nogle mulige årsager er at du skal "
-"aktivere TCP/IP-netværk i MateCORBA, eller at du har gamle NFS-låse pga. et "
-"systemnedbrud. Se http://www.gnome.org/projects/mateconf/ for yderligere "
-"oplysninger (detaljer - %s)."
 
-#: ../mateconf/mateconf-internals.c:2878
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "ingen"
 
@@ -1049,40 +1005,22 @@ msgstr "- Kontrol af MateConf-indstillinger"
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Fejl ved fortolkning af tilvalg: %s.\n"
-"Kør \"%s --help\" for at se en komplet liste over kommandolinje-tilvalg.\n"
+msgstr "Fejl ved fortolkning af tilvalg: %s.\nKør \"%s --help\" for at se en komplet liste over kommandolinje-tilvalg.\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"Kontakt venligst systemadministratoren for at løse det følgende problem:\n"
-"Kunne ikke åbne eller oprette filen \"%s\"; dette indikerer at der kan være "
-"et problem med konfigurationen eftersom mange programmer har brug for at "
-"oprette filer i din hjemmemappe. Fejlen var \"%s\" (fejlkode = %d)."
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "Kontakt venligst systemadministratoren for at løse det følgende problem:\nKunne ikke åbne eller oprette filen \"%s\"; dette indikerer at der kan være et problem med konfigurationen eftersom mange programmer har brug for at oprette filer i din hjemmemappe. Fejlen var \"%s\" (fejlkode = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"Kontakt venligst systemadministratoren for at løse det følgende problem:\n"
-"Kunne ikke skaffe en lås til filen \"%s\"; dette indikerer at der kan være "
-"et problem med konfigurationen af styresystemet. Hvis du har en NFS-monteret "
-"hjemmemappe, kan enten klienten eller serveren være sat forkert op. Se "
-"dokumentation til rpc.statd og rpc.lockd. Ofte skyldes fejlen at tjenesten "
-"\"nfslock\" er blev deaktiveret. Fejlen var \"%s\" (fejlkode = %d)."
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "Kontakt venligst systemadministratoren for at løse det følgende problem:\nKunne ikke skaffe en lås til filen \"%s\"; dette indikerer at der kan være et problem med konfigurationen af styresystemet. Hvis du har en NFS-monteret hjemmemappe, kan enten klienten eller serveren være sat forkert op. Se dokumentation til rpc.statd og rpc.lockd. Ofte skyldes fejlen at tjenesten \"nfslock\" er blev deaktiveret. Fejlen var \"%s\" (fejlkode = %d)."
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1093,12 +1031,8 @@ msgstr "Kan slette filen %s: %s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"Kontakt venligst systemadministratoren for at løse det følgende problem:\n"
-"Ingen konfigurationskilder i konfigurationsfilen \"%s\"; dette betyder at "
-"indstillinger ikke kan gemmes. %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "Kontakt venligst systemadministratoren for at løse det følgende problem:\nIngen konfigurationskilder i konfigurationsfilen \"%s\"; dette betyder at indstillinger ikke kan gemmes. %s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1109,31 +1043,18 @@ msgstr "Fejl ved læsning af filen: "
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"Kontakt venligst systemadministratoren for at løse det følgende problem:\n"
-"Kunne ikke finde adressen \"%s\" i konfigurationsfilen \"%s\": %s"
+msgstr "Kontakt venligst systemadministratoren for at løse det følgende problem:\nKunne ikke finde adressen \"%s\" i konfigurationsfilen \"%s\": %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"De filer som indeholder dine indstillinger, bliver i øjeblikket benyttet.\n"
-"\n"
-"Muligvis er du logget ind på en session fra en anden computer hvor filerne "
-"til indstillinger benyttes.\n"
-"\n"
-"Du kan fortsætte med at bruge den nuværende session, men det kan forårsage "
-"midlertidige problemer med indstillingerne i den anden session.\n"
-"\n"
-"Vil du fortsætte?"
+msgstr "De filer som indeholder dine indstillinger, bliver i øjeblikket benyttet.\n\nMuligvis er du logget ind på en session fra en anden computer hvor filerne til indstillinger benyttes.\n\nDu kan fortsætte med at bruge den nuværende session, men det kan forårsage midlertidige problemer med indstillingerne i den anden session.\n\nVil du fortsætte?"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1148,25 +1069,25 @@ msgstr "_Fortsæt"
 msgid "%s Continue (y/n)?"
 msgstr "%s fortsæt (y/n)?"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "Skema indeholder ugyldig UTF-8"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
 msgstr "Skema angiver typen list, men angiver ikke typen af listelementerne"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
 "elements"
-msgstr ""
-"Skema angiver typen par, men angiver ikke typen af car-/cdr-elementerne"
+msgstr "Skema angiver typen par, men angiver ikke typen af car-/cdr-elementerne"
 
 #: ../mateconf/mateconf-sources.c:374
 #, c-format
@@ -1175,35 +1096,26 @@ msgstr "Kunne ikke indlæse kilden \"%s\": %s"
 
 #: ../mateconf/mateconf-sources.c:414
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
-msgstr ""
-"Bestemte adressen \"%s\" til en skrivbar konfigureringskilde ved position %d"
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
+msgstr "Bestemte adressen \"%s\" til en skrivbar konfigureringskilde ved position %d"
 
 #: ../mateconf/mateconf-sources.c:420
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
-msgstr ""
-"Bestemte adressen \"%s\" til en skrivebeskyttet konfigureringskilde ved "
-"position %d"
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
+msgstr "Bestemte adressen \"%s\" til en skrivebeskyttet konfigureringskilde ved position %d"
 
 #: ../mateconf/mateconf-sources.c:427
 #, c-format
 msgid ""
 "Resolved address \"%s\" to a partially writable configuration source at "
 "position %d"
-msgstr ""
-"Bestemte adressen \"%s\" til en delvist skrivbar konfigureringskilde ved "
-"position %d"
+msgstr "Bestemte adressen \"%s\" til en delvist skrivbar konfigureringskilde ved position %d"
 
 #: ../mateconf/mateconf-sources.c:436
 msgid ""
 "None of the resolved addresses are writable; saving configuration settings "
 "will not be possible"
-msgstr ""
-"Ingen af de fundne adresser er skrivbare; gemning af "
-"konfigurationsindstillinger vil ikke være muligt"
+msgstr "Ingen af de fundne adresser er skrivbare; gemning af konfigurationsindstillinger vil ikke være muligt"
 
 #: ../mateconf/mateconf-sources.c:690
 #, c-format
@@ -1219,9 +1131,7 @@ msgstr "Navnet \"/\" kan kun være en mappe, ikke en nøgle"
 msgid ""
 "Value for `%s' set in a read-only source at the front of your configuration "
 "path"
-msgstr ""
-"Værdi for \"%s\" sat i en skrivebeskyttet kilde i begyndelsen af din "
-"konfigurationssti"
+msgstr "Værdi for \"%s\" sat i en skrivebeskyttet kilde i begyndelsen af din konfigurationssti"
 
 #: ../mateconf/mateconf-sources.c:806
 #, c-format
@@ -1234,31 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"Kunne ikke gemme en værdi ved nøglen \"%s\" fordi konfigurationsserveren "
-"ikke har nogen skrivbare databaser. Der er nogle almindelige årsager til "
-"dette problem: 1) din konfigurationsstifil %s/path indeholder ikke nogen "
-"databaser eller blev ikke fundet, 2) der er ved en fejltagelse blevet "
-"opstartet to mateconfd-processer, 3) dit styresystem er forkert sat op så NFS-"
-"fillåsning ikke virker i din hjemmemappe eller 4) din NFS-klientmaskine gik "
-"ned og gjorde ved opstart igen ikke serveren korrekt opmærksom på at "
-"fillåsene skulle smides væk. Hvis du har to mateconfd-processer (eller havde to "
-"da den anden blev startet), kan det måske hjælpe at logge ud, dræbe alle "
-"kopier af mateconfd og logge ind igen. Måske er problemet at du forsøgte at "
-"bruge MateConf fra to maskiner på samme tid, og MateCORBA stadig har sin forvalgte "
-"konfiguration som forhindrer eksterne CORBA-forbindelser - anbring "
-"\"ORBIIOPIPv4=1\" i /etc/matecorbarc. Tjek som altid user.*-sysloggen for "
-"detaljer om problemer mateconfd stødte på. Der kan kun eksistere én mateconfd pr. "
-"hjemmemappe, og den skal eje en låsefil i ~/.mateconfd og også låsefiler i de "
-"individuelle lagringssteder som ~/.mateconf"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "Kunne ikke gemme en værdi ved nøglen \"%s\" fordi konfigurationsserveren ikke har nogen skrivbare databaser. Der er nogle almindelige årsager til dette problem: 1) din konfigurationsstifil %s/path indeholder ikke nogen databaser eller blev ikke fundet, 2) der er ved en fejltagelse blevet opstartet to mateconfd-processer, 3) dit styresystem er forkert sat op så NFS-fillåsning ikke virker i din hjemmemappe eller 4) din NFS-klientmaskine gik ned og gjorde ved opstart igen ikke serveren korrekt opmærksom på at fillåsene skulle smides væk. Hvis du har to mateconfd-processer (eller havde to da den anden blev startet), kan det måske hjælpe at logge ud, dræbe alle kopier af mateconfd og logge ind igen. Måske er problemet at du forsøgte at bruge MateConf fra to maskiner på samme tid, og MateCORBA stadig har sin forvalgte konfiguration som forhindrer eksterne CORBA-forbindelser - anbring \"ORBIIOPIPv4=1\" i /etc/matecorbarc. Tjek som altid user.*-sysloggen for detaljer om problemer mateconfd stødte på. Der kan kun eksistere én mateconfd pr. hjemmemappe, og den skal eje en låsefil i ~/.mateconfd og også låsefiler i de individuelle lagringssteder som ~/.mateconf"
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1273,8 +1167,7 @@ msgstr "Fejl ved hentning af metainfo: %s"
 #: ../mateconf/mateconf-sources.c:1703
 #, c-format
 msgid "Key `%s' listed as schema for key `%s' actually stores type `%s'"
-msgstr ""
-"Nøglen \"%s\" listet som skema for nøglen \"%s\" lagrer faktisk typen \"%s\""
+msgstr "Nøglen \"%s\" listet som skema for nøglen \"%s\" lagrer faktisk typen \"%s\""
 
 #: ../mateconf/mateconf-value.c:262
 #, c-format
@@ -1332,8 +1225,7 @@ msgstr "Serveren kunne ikke åbne adressen \"%s\""
 
 #: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
-msgstr ""
-"Kan ikke tilføje ændringsunderrettelser til en lokal konfigurationskilde"
+msgstr "Kan ikke tilføje ændringsunderrettelser til en lokal konfigurationskilde"
 
 #: ../mateconf/mateconf.c:2332
 #, c-format
@@ -1407,32 +1299,26 @@ msgstr "Nedlukningsforespørgsel modtaget"
 
 #: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"mateconfd oversat med fejlanalyseinfo; forsøger at hente mateconf.path fra "
-"kildemappen"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "mateconfd oversat med fejlanalyseinfo; forsøger at hente mateconf.path fra kildemappen"
 
 #: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
-msgstr ""
-"Ingen konfigurationsfiler fundet, forsøger at bruge "
-"standardkonfigurationskilden \"%s\""
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
+msgstr "Ingen konfigurationsfiler fundet, forsøger at bruge standardkonfigurationskilden \"%s\""
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
 #: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
-msgstr ""
-"Ingen konfigurationskilder i kildestien, konfigurationen vil ikke blive "
-"gemt; redigér %s%s"
+msgstr "Ingen konfigurationskilder i kildestien, konfigurationen vil ikke blive gemt; redigér %s%s"
 
 #: ../mateconf/mateconfd.c:409
 #, c-format
@@ -1441,19 +1327,15 @@ msgstr "Fejl ved indlæsning af nogle konfigurationskilder: %s"
 
 #: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"Kunne ikke bestemme nogen adresser for konfigurationskilder. Kan ikke hente "
-"eller gemme konfigurationsdata"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "Kunne ikke bestemme nogen adresser for konfigurationskilder. Kan ikke hente eller gemme konfigurationsdata"
 
 #: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"Ingen skrivbare konfigurationskilder fundet. Kan måske ikke gemme dele af "
-"konfigurationsændringerne"
+msgstr "Ingen skrivbare konfigurationskilder fundet. Kan måske ikke gemme dele af konfigurationsændringerne"
 
 #: ../mateconf/mateconfd.c:603
 #, c-format
@@ -1482,11 +1364,9 @@ msgstr "Kunne ikke hente objektreference til ConfigServer"
 #: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
-msgstr ""
-"Kunne ikke skrive byte til kanal-fildeskriptor %d så klientprogramet hænger "
-"muligvis: %s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
+msgstr "Kunne ikke skrive byte til kanal-fildeskriptor %d så klientprogramet hænger muligvis: %s"
 
 #: ../mateconf/mateconfd.c:965
 #, c-format
@@ -1520,14 +1400,13 @@ msgstr "Returnerede undtagelse: %s"
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"Kunne ikke åbne mateconfd-logfil; vil ikke kunne genoprette lyttere efter "
-"nedlukning af mateconfd (%s)"
+msgstr "Kunne ikke åbne mateconfd-logfil; vil ikke kunne genoprette lyttere efter nedlukning af mateconfd (%s)"
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
 msgstr "Kunne ikke lukke mateconfd-logfil; data blev måske ikke gemt rigtigt (%s)"
 
 #: ../mateconf/mateconfd.c:1681
@@ -1564,17 +1443,13 @@ msgstr "Kunne ikke flytte nygemt tilstandsfil på plads: %s"
 #, c-format
 msgid ""
 "Failed to restore original saved state file that had been moved to '%s': %s"
-msgstr ""
-"Kunne ikke genoprette oprindelig tilstandsgemningsfil som er blevet flyttet "
-"til \"%s\": %s"
+msgstr "Kunne ikke genoprette oprindelig tilstandsgemningsfil som er blevet flyttet til \"%s\": %s"
 
 #: ../mateconf/mateconfd.c:2223
 #, c-format
 msgid ""
 "Unable to restore a listener on address '%s', couldn't resolve the database"
-msgstr ""
-"Kunne ikke genoprette en lytter på adressen \"%s\", kunne ikke finde "
-"databasen"
+msgstr "Kunne ikke genoprette en lytter på adressen \"%s\", kunne ikke finde databasen"
 
 #: ../mateconf/mateconfd.c:2259
 #, c-format
@@ -1589,20 +1464,16 @@ msgstr "Kunne ikke åbne tilstandsgemningsfilen \"%s\": %s"
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Kunne ikke logge tilføjelse af lytter til mateconfd-logfilen; vil ikke kunne "
-"tilføje lytteren hvis mateconfd afslutter eller lukker ned (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Kunne ikke logge tilføjelse af lytter til mateconfd-logfilen; vil ikke kunne tilføje lytteren hvis mateconfd afslutter eller lukker ned (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"Kunne ikke logge fjernelse af lytter i mateconfd-logfilen; kan medføre at "
-"lytteren tilføjes igen hvis mateconfd afsluttes eller maskinen lukkes ned (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "Kunne ikke logge fjernelse af lytter i mateconfd-logfilen; kan medføre at lytteren tilføjes igen hvis mateconfd afsluttes eller maskinen lukkes ned (%s)"
 
 #: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
@@ -1626,9 +1497,9 @@ msgstr "Kunne ikke afslutte tilføjelse af klient til tilstandsgemningsfil: %s"
 
 #: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
-msgstr ""
-"En klient fjernede sig selv fra MateConf-serveren da den ikke blev tilføjet."
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
+msgstr "En klient fjernede sig selv fra MateConf-serveren da den ikke blev tilføjet."
 
 #: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
@@ -1646,9 +1517,7 @@ msgstr "Nulstil nøglerne fra kommandolinjen"
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
 "command line"
-msgstr ""
-"Nulstil rekursivt alle nøgler ved eller under nøgle-/mappenavnene i "
-"kommandolinjen"
+msgstr "Nulstil rekursivt alle nøgler ved eller under nøgle-/mappenavnene i kommandolinjen"
 
 #: ../mateconf/mateconftool.c:130
 msgid "Toggles a boolean key."
@@ -1688,19 +1557,15 @@ msgstr "Ignorer schema-standardværdier når værdier læses."
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
-msgstr ""
-"Send en XML-beskrivelse af alle indgange i en mappe til standarduddata, "
-"rekursivt."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
+msgstr "Send en XML-beskrivelse af alle indgange i en mappe til standarduddata, rekursivt."
 
 #: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"Indlæs fra den angivne fil en XML-beskrivelse af værdier og sæt dem relativt "
-"til en mappe."
+msgstr "Indlæs fra den angivne fil en XML-beskrivelse af værdier og sæt dem relativt til en mappe."
 
 #: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
@@ -1720,19 +1585,15 @@ msgstr "Returnér 0 hvis mateconfd kører, 2 hvis ikke."
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
-msgstr ""
-"Start konfigurationsserveren (mateconfd) (sker normalt automatisk når det er "
-"nødvendigt)."
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
+msgstr "Start konfigurationsserveren (mateconfd) (sker normalt automatisk når det er nødvendigt)."
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"Angiv typen af værdien som sættes, eller typen af værdien som et skema "
-"beskriver. Unikke forkortelser er i orden."
+msgstr "Angiv typen af værdien som sættes, eller typen af værdien som et skema beskriver. Unikke forkortelser er i orden."
 
 #: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
@@ -1754,29 +1615,24 @@ msgstr "Hent et specifikt element fra en listenøgle, numerisk indekseret."
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"Angiv typen af listeværdien som sættes, eller typen for værdien som et skema "
-"beskriver. Unikke forkortelser er i orden."
+msgstr "Angiv typen af listeværdien som sættes, eller typen for værdien som et skema beskriver. Unikke forkortelser er i orden."
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Angiv typen af car-værdien for som sættes, eller typen for værdien som et "
-"skema beskriver. Unikke forkortelser er i orden."
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Angiv typen af car-værdien for som sættes, eller typen for værdien som et skema beskriver. Unikke forkortelser er i orden."
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"Angiv typen af cdr-værdien for par som sættes, eller typen for værdien som "
-"et skema beskriver. Unikke forkortelser er i orden."
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "Angiv typen af cdr-værdien for par som sættes, eller typen for værdien som et skema beskriver. Unikke forkortelser er i orden."
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1788,8 +1644,7 @@ msgstr "FILNAVN"
 
 #: ../mateconf/mateconftool.c:379
 msgid "Specify a configuration source to use rather than the default path"
-msgstr ""
-"Angiv en konfigurationskilde som skal bruges i stedet for standard-stien"
+msgstr "Angiv en konfigurationskilde som skal bruges i stedet for standard-stien"
 
 #: ../mateconf/mateconftool.c:380
 msgid "SOURCE"
@@ -1797,58 +1652,42 @@ msgstr "KILDE"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
-msgstr ""
-"Tilgå konfigurationsdatabasen direkte, uden om serveren. Kræver at mateconfd "
-"ikke kører."
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
+msgstr "Tilgå konfigurationsdatabasen direkte, uden om serveren. Kræver at mateconfd ikke kører."
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"Installerer skemafiler fra kommandolinjen i databasen på den rigtige måde. "
-"Angiv en brugertilpasset konfigurationskilde i MATECONF_CONFIG_SOURCE-"
-"miljøvariablen, eller sæt variablen til en tom streng for at bruge "
-"standardkonfigurationskilden."
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "Installerer skemafiler fra kommandolinjen i databasen på den rigtige måde. Angiv en brugertilpasset konfigurationskilde i MATECONF_CONFIG_SOURCE-miljøvariablen, eller sæt variablen til en tom streng for at bruge standardkonfigurationskilden."
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"Afinstallerer skemafiler fra databasen fra kommandolinjen på den rigtige "
-"måde. MATECONF_CONFIG_SOURCE-miljøvariablen skal være sat til noget andet end "
-"standardværdien for konfigurationskilde eller være tom for at "
-"standardværdien skal bruges."
+msgstr "Afinstallerer skemafiler fra databasen fra kommandolinjen på den rigtige måde. MATECONF_CONFIG_SOURCE-miljøvariablen skal være sat til noget andet end standardværdien for konfigurationskilde eller være tom for at standardværdien skal bruges."
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"Udfør en torturprøvning af et program ved at sætte og tømme en række værdier "
-"af forskellige typer for nøgler fra kommandolinjen."
+msgstr "Udfør en torturprøvning af et program ved at sætte og tømme en række værdier af forskellige typer for nøgler fra kommandolinjen."
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"Udfør en torturprøvning af et program ved at sætte og tømme en række nøgler "
-"inde i mapperne fra kommandolinien."
+msgstr "Udfør en torturprøvning af et program ved at sætte og tømme en række nøgler inde i mapperne fra kommandolinien."
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"Sæt et skema og synkroniser. Benyttes med --short-desc, --long-desc, --"
-"owner, og --type."
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "Sæt et skema og synkroniser. Benyttes med --short-desc, --long-desc, --owner, og --type."
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1875,9 +1714,9 @@ msgid "Get the name of the schema applied to this key"
 msgstr "Hent navnet på skemaet som er anvendt på denne nøgle"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
-msgstr ""
-"Angiv skemanavnet efterfulgt af nøglen som skemanavnet skal anvendes på"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
+msgstr "Angiv skemanavnet efterfulgt af nøglen som skemanavnet skal anvendes på"
 
 #: ../mateconf/mateconftool.c:499
 msgid "Remove any schema name applied to the given keys"
@@ -1954,8 +1793,7 @@ msgstr "Vis skematilvalg"
 #: ../mateconf/mateconftool.c:629
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"Kør \"%s --help\" for at se en komplet liste over kommandolinjetilvalg.\n"
+msgstr "Kør \"%s --help\" for at se en komplet liste over kommandolinjetilvalg.\n"
 
 #: ../mateconf/mateconftool.c:657
 #, c-format
@@ -1992,18 +1830,14 @@ msgstr "Kan ikke bruge --all-dirs med --get eller --set\n"
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list bør ikke bruges med --get, --set, --unset, --all-entries, --"
-"all-dirs eller --search-key\n"
+msgstr "--recursive-list bør ikke bruges med --get, --set, --unset, --all-entries, --all-dirs eller --search-key\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set_schema bør ikke bruges med --get, --set, --unset, --all-entries, --all-"
-"dirs eller --search-key\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set_schema bør ikke bruges med --get, --set, --unset, --all-entries, --all-dirs eller --search-key\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -2018,14 +1852,13 @@ msgstr "En type skal angives hvis en værdi skal sættes\n"
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--ignore-schema-defaults er kun relevant med --get, --all-entries, --dump, --"
-"recursive-list, --get-list-size eller --get-list-element\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--ignore-schema-defaults er kun relevant med --get, --all-entries, --dump, --recursive-list, --get-list-size eller --get-list-element\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -2034,11 +1867,9 @@ msgstr "Tilvalget %s skal bruges alene.\n"
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
-msgstr ""
-"Du skal angive en konfigurationskilde med --config-source når du bruger --"
-"direct\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
+msgstr "Du skal angive en konfigurationskilde med --config-source når du bruger --direct\n"
 
 #: ../mateconf/mateconftool.c:859
 #, c-format
@@ -2047,16 +1878,16 @@ msgstr "Kunne ikke starte MateConf: %s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL er sat, installerer ikke skemaer\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL er sat, installerer ikke skemaer\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL er sat, afinstallerer ikke skemaer\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL er sat, afinstallerer ikke skemaer\n"
 
 #: ../mateconf/mateconftool.c:907
 #, c-format
@@ -2068,660 +1899,571 @@ msgstr "Skal sætte MATECONF_CONFIG_SOURCE-miljøvariablen\n"
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "Kunne ikke få adgang til konfigurationskilder: %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "Nedlukningsfejl: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "Du skal angive en eller flere mapper til rekursiv fremvisning.\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "Fejl under visning af poster i \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(ingen værdi sat)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "Du skal angive et nøglemønster der skal søges efter.\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "Du skal angive et regulært PCRE-udtryk, der skal søges efter.\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "Fejl ved kompilering af regulært udtryk: %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "Der skal angives en eller flere mapper der skal dumpes.\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "Fejl under dannelse af konfigurationsserveren (mateconfd): %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "Skal angive nøgle eller nøgler for at få\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "Type: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "Listetype: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car-type: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr-type: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "Standardværdi: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "Nulstil"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "Ejer: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "Kort beskriv.: %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "Lang beskriv.: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "Ingen værdi sat for \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "Kunne ikke få værdi for \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "Forstår ikke typen \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
-msgstr ""
-"Nøgler/værdier skal angives skiftevis som parametre\n"
-"\n"
+msgstr "Nøgler/værdier skal angives skiftevis som parametre\n\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "Ingen værdi sat for nøgle: \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "Kan ikke sætte skema som værdi\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "Når en liste sættes, skal du angive en primitiv listetype\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "Når et par sættes skal du angive en primitiv car-type og cdr-type\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "Fejl: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "Fejl under sætning af værdi: %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "Fejl ved synkronisering: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "Der skal angives en eller flere nøgler som argument\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "Ingen værdi fundet for nøglen: %s\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "Ikke en boolsk værdi: %s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "Skal angive nøgle eller nøgler for at få type\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "Skal angive nøgle eller nøgler for at slå størrelse op.\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "Nøglen %s er ikke en liste.\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "Skal angive en nøgle som liste-element skal hentes fra.\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "Skal antive et listeindeks.\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "Listeindeks må ikke være negativ.\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "Listeindeks er uden for det gyldige interval.\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "Skal angive en eller flere nøgler ved kommandolinjen\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "Intet skema kendt for \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "Ingen dokumentationstekst gemt i skemaet ved \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "Fejl under hentning af skema ved \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "Intet skema gemt ved \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "Værdien ved \"%s\" er ikke et skema\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
-msgstr ""
-"Et skemanavn efterfulgt af nøglenavnet som det skal anvendes på, skal "
-"angives\n"
+msgstr "Et skemanavn efterfulgt af nøglenavnet som det skal anvendes på, skal angives\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
-msgstr ""
-"Fejl ved associering af skemanavnet \"%s\" med nøglenavnet \"%s\": %s\n"
+msgstr "Fejl ved associering af skemanavnet \"%s\" med nøglenavnet \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "Skal angive nøgler at afanvende skema fra\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "Fejl under fjernelse af skemanavn fra \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "Du skal angive nøgle (skemanavn) som eneste parameter\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "Listetype skal være en primitiv type: string, int, float eller bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Parrets car-type skal være en primitiv type: string, int, float eller bool\n"
+msgstr "Parrets car-type skal være en primitiv type: string, int, float eller bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"Parrets cdr-type skal være en primitiv type: string, int, float eller bool\n"
+msgstr "Parrets cdr-type skal være en primitiv type: string, int, float eller bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "Fejl under sætning af værdi: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "Fejl ved synkronisering: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr "Der skal angives en eller flere mapper at hente nøgle/værdi-par fra.\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "Der skal angives en eller flere nøgler som skal nulstilles.\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "Fejl under nulstilling af \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "Du skal angive en eller flere nøgler til rekursiv nulstilling.\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "Fejl under rekursiv nulstilling af \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr "Der skal angives en eller flere mapper til at hente undermapper fra.\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "Fejl ved visning af mapper: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "ADVARSEL: skal angive både en <car> og en <cdr> i et <pair>\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr "ADVARSEL: nøgle angivet (%s) for skema under en <value> - ignorerer\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "ADVARSEL: skal have et underelement under <value>\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "ADVARSEL: elementet <%s> ikke forstået\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "ADVARSEL: kunne ikke fortolke heltalsværdi \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "ADVARSEL: kunne ikke fortolke kommatalsværdi \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "ADVARSEL: kunne ikke fortolke strengværdi \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "ADVARSEL: kunne ikke fortolke boolsk værdi \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "ADVARSEL: kunne ikke associere skema \"%s\" med nøglen \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "ADVARSEL: ugyldig eller manglende type for skema (%s)\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "ADVARSEL: ugyldig eller manglende list_type for skema (%s)\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "ADVARSEL: Kunne ikke fortolke standardværdi \"%s\" for skema (%s)\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
-msgstr ""
-"ADVARSEL: ugyldig eller manglende car_type eller cdr_type for skema (%s)\n"
+msgstr "ADVARSEL: ugyldig eller manglende car_type eller cdr_type for skema (%s)\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "ADVARSEL: Du kan ikke sætte en standardværdi for et skema\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "ADVARSEL: mateconftool, intern fejl, ukendt MateConfValueType\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "ADVARSEL: kunne ikke fortolke typenavn \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"ADVARSEL: list_type kan kun være int, float, string eller bool og ikke \"%s"
-"\"\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgstr "ADVARSEL: list_type kan kun være int, float, string eller bool og ikke \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"ADVARSEL: car_type kan kun være int, float, string eller bool og ikke \"%s"
-"\"\n"
+msgstr "ADVARSEL: car_type kan kun være int, float, string eller bool og ikke \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"ADVARSEL: cdr_type kan kun være int, float, string eller bool og ikke \"%s"
-"\"\n"
+msgstr "ADVARSEL: cdr_type kan kun være int, float, string eller bool og ikke \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "ADVARSEL: tomt <applyto>-element"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "ADVARSEL: elementet <%s> ikke forstået under <skema>\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "ADVARSEL: ingen <list_type> angivet for skema af typen liste\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "ADVARSEL: ingen <car_type> angivet for skema af typen par\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "ADVARSEL: ingen <cdr_type> angivet for skema af typen par\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
-msgstr ""
-"ADVARSEL: <locale>-elementet har ingen \"name=\"locale\"\"-egenskab, "
-"ignorerer\n"
+msgstr "ADVARSEL: <locale>-elementet har ingen \"name=\"locale\"\"-egenskab, ignorerer\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"ADVARSEL: flere <locale>-elementer for regionen \"%s\", ignorerer alle andre "
-"end det første\n"
+msgstr "ADVARSEL: flere <locale>-elementer for regionen \"%s\", ignorerer alle andre end det første\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "ADVARSEL: Ugyldigt element <%s> i et <locale>-element\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "Vedhæftede skema \"%s\" til nøglen \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "Du skal have mindst et <locale> i et <schema>\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "ADVARSEL: Kunne ikke installere skema \"%s\", region \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "Installerede skema \"%s\" for region \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "ADVARSEL: Kunne ikke afinstallere skema \"%s\", region \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "Afinstallerede skema \"%s\" fra region \"%s\"\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "ADVARSEL: ingen nøgle angivet for skema\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "ADVARSEL: elementet <%s> ikke forstået under <%s>\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "Kunne ikke åbne \"%s\": %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "Dokumentet \"%s\" er tomt?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
-msgstr ""
-"Dokumentet \"%s\" har forkert type rod-element (<%s>, skulle være <%s>)\n"
+msgstr "Dokumentet \"%s\" har forkert type rod-element (<%s>, skulle være <%s>)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "Dokument \"%s\" har intet <%s>-element på øverste niveau\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "ADVARSEL: element <%s> under <%s> ikke forstået\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "Fejl ved synkronisering af konfigurationsdata: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "Skal angive nogle skemafiler til installering\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "Kunne ikke nulstille ødelæggelsesnøgle %s: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "Skal angive en eller flere nøgler at ødelægge\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"Forsøger at ødelægge din program ved at sætte forkerte værdier for nøgle:\n"
-"  %s\n"
+msgstr "Forsøger at ødelægge din program ved at sætte forkerte værdier for nøgle:\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "Skal angive nogle mapper som skal ødelægges\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"Forsøger at ødelægge dit program ved at sætte forkerte værdier til nøgler i "
-"mappen:\n"
-"  %s\n"
-
-#~ msgid "Could not send message to MateConf daemon: %s"
-#~ msgstr "Kunne ikke sende besked til MateConf-dæmonen: %s"
-
-#~ msgid "daemon gave erroneous reply: %s"
-#~ msgstr "dæmon gav fejlagtigt svar: %s"
-
-#~ msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-#~ msgstr "Attribut \"%s\" gentaget to gange på det samme <%s>-element"
-
-#~ msgid "IOR file '%s' not opened successfully, no mateconfd located: %s"
-#~ msgstr "IOR-fil \"%s\" ikke åbnet rigtigt, ingen mateconfd fundet: %s"
-
-#~ msgid "mateconftool or other non-mateconfd process has the lock file '%s'"
-#~ msgstr "mateconftool eller anden ikke-mateconfd proces har låsefilen \"%s\""
-
-#~ msgid "Failed to unlink lock file %s: %s\n"
-#~ msgstr "Kunne ikke fjerne låsefilen \"%s\": %s\n"
-
-#~ msgid "Failed to stat %s: %s"
-#~ msgstr "Kunne ikke få oplysninger om \"%s\": %s"
-
-#~ msgid ""
-#~ "Failed to create pipe for communicating with spawned mateconf daemon: %s\n"
-#~ msgstr ""
-#~ "Kunne ikke oprette kommunikationskanal med opstartet mateconfd-dæmon: %s\n"
-
-#~ msgid "Failed to launch configuration server: %s\n"
-#~ msgstr "Kunne ikke opstarte konfigurationsserver: %s\n"
-
-#~ msgid "Failed to open %s: %s"
-#~ msgstr "Kunne ikke åbne %s: %s"
-
-#~ msgid "Owner of %s is not the current user"
-#~ msgstr "Ejer af %s er ikke den aktuelle bruger"
-
-#~ msgid "Bad permissions %lo on directory %s"
-#~ msgstr "Ugyldige rettigheder %lo for mappen %s"
-
-#~ msgid "Failed to create %s: %s"
-#~ msgstr "Kunne ikke oprette %s: %s"
-
-#~ msgid "Directory %s has a problem, mateconfd can't use it"
-#~ msgstr "Mappen %s har et problem, mateconfd kan ikke bruge det"
-
-#~ msgid "Received signal %d, dumping core. Please report a MateConf bug."
-#~ msgstr ""
-#~ "Modtog signal %d, dumper hukommelsen. Rapportér venligst en MateConf-fejl."
-
-#~ msgid "Received signal %d. Please report a MateConf bug."
-#~ msgstr "Modtog signal %d. Rapportér venligst en MateConf-fejl."
-
-#~ msgid ""
-#~ "Received signal %d, shutting down abnormally. Please file a MateConf bug "
-#~ "report."
-#~ msgstr ""
-#~ "Modtog signal %d, lukker unormalt ned. Rapportér venligst en MateConf-fejl."
-
-#~ msgid "Received signal %d, shutting down cleanly"
-#~ msgstr "Modtog signal %d, lukker pænt ned"
+msgstr "Forsøger at ødelægge dit program ved at sætte forkerte værdier til nøgler i mappen:\n  %s\n"

@@ -1,85 +1,83 @@
-# translation of as.po to Assamese
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008.
-# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: as\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=mateconf&component=general\n"
-"POT-Creation-Date: 2009-05-06 03:42+0000\n"
-"PO-Revision-Date: 2009-08-26 15:38+0530\n"
-"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
-"Language-Team: Assamese <>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
-"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"Language: as\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../backends/evoldap-backend.c:159
+#: ../backends/evoldap-backend.c:162
 #, c-format
 msgid "Failed to get configuration file path from '%s'"
 msgstr "'%s' ৰ পৰা বিন্যাস নথিপত্ৰৰ পাথ পঢ়া নাযায়"
 
-#: ../backends/evoldap-backend.c:170
+#: ../backends/evoldap-backend.c:173
 #, c-format
 msgid "Created Evolution/LDAP source using configuration file '%s'"
 msgstr "'%s' বিন্যাস নথিপত্ৰ প্ৰয়োগ কৰি Evolution/LDAP ৰ উৎস নিৰ্মাণ কৰা হৈছে"
 
-#: ../backends/evoldap-backend.c:444
+#: ../backends/evoldap-backend.c:447
 #, c-format
 msgid "Unable to parse XML file '%s'"
 msgstr "'%s' XML নথিপত্ৰ বিশ্লেষণ কৰা নাযায়"
 
-#: ../backends/evoldap-backend.c:453
+#: ../backends/evoldap-backend.c:456
 #, c-format
 msgid "Config file '%s' is empty"
 msgstr "বিন্যাস নথিপত্ৰ '%s' ৰিক্ত"
 
-#: ../backends/evoldap-backend.c:464
+#: ../backends/evoldap-backend.c:467
 #, c-format
 msgid "Root node of '%s' must be <evoldap>, not <%s>"
 msgstr "'%s' ৰ মূল নোড <%s> ৰ পৰিবৰ্তে <evoldap> হোৱা আৱশ্যক"
 
-#: ../backends/evoldap-backend.c:502
+#: ../backends/evoldap-backend.c:505
 #, c-format
 msgid "No <template> specified in '%s'"
 msgstr "'%s' ত কোনো <template> উল্লিখিত নাই"
 
-#: ../backends/evoldap-backend.c:509
+#: ../backends/evoldap-backend.c:512
 #, c-format
 msgid "No \"filter\" attribute specified on <template> in '%s'"
 msgstr "'%s'-ৰ <template> ৰ ক্ষেত্ৰত কোনো \"filter\" বৈশিষ্ট্য উল্লিখিত নহয়"
 
-#: ../backends/evoldap-backend.c:571
+#: ../backends/evoldap-backend.c:574
 #, c-format
 msgid "No LDAP server or base DN specified in '%s'"
 msgstr "'%s'-ত LDAP সেৱক বা base DN উল্লিখিত নহয়"
 
-#: ../backends/evoldap-backend.c:577
+#: ../backends/evoldap-backend.c:580
 #, c-format
 msgid "Contacting LDAP server: host '%s', port '%d', base DN '%s'"
 msgstr "LDAP সেৱকৰ সৈতে সংযোগ স্থাপন কৰা হৈছে: গৃহস্থ '%s', পোৰ্ট '%d', base DN '%s'"
 
-#: ../backends/evoldap-backend.c:584
+#: ../backends/evoldap-backend.c:587
 #, c-format
 msgid "Failed to contact LDAP server: %s"
 msgstr "LDAP সেৱকৰ সৈতে যোগাযোগ কৰিবলৈ ব্যৰ্থ: %s"
 
-#: ../backends/evoldap-backend.c:672
+#: ../backends/evoldap-backend.c:675
 #, c-format
 msgid "Searching for entries using filter: %s"
 msgstr "চিহ্নিত ফিল্টাৰ প্ৰয়োগ কৰি বিষয়বস্তু অনুসন্ধান: %s"
 
-#: ../backends/evoldap-backend.c:686
+#: ../backends/evoldap-backend.c:689
 #, c-format
 msgid "Error querying LDAP server: %s"
 msgstr "LDAP সেৱক অনুসন্ধানত সমস্যা: %s"
 
-#: ../backends/evoldap-backend.c:696
+#: ../backends/evoldap-backend.c:699
 #, c-format
 msgid "Got %d entries using filter: %s"
 msgstr "ফিল্টাৰ প্ৰয়োগ কৰি %d বস্তু চিনাক্ত কৰা হৈছে: %s"
@@ -109,14 +107,7 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"ব্যৱহাৰপ্ৰণালী: %s <dir>\n"
-"  নিৰ্দিষ্ট বিন্যাসৰ মাৰ্ক-আপ বেক-এন্ড নথিপত্ৰপ্ৰণালী অনুক্ৰম যেনে:\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  একত্ৰিত কৰা হয় নিম্নলিখিত ৰূপত:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "ব্যৱহাৰপ্ৰণালী: %s <dir>\n  নিৰ্দিষ্ট বিন্যাসৰ মাৰ্ক-আপ বেক-এন্ড নথিপত্ৰপ্ৰণালী অনুক্ৰম যেনে:\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  একত্ৰিত কৰা হয় নিম্নলিখিত ৰূপত:\n    dir/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
@@ -147,8 +138,7 @@ msgstr "%s নামক মূল স্থানত অবস্থিত XML �
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"সম্পূৰ্ণ পঞ্জিকা বৰ্তমানে আঁতৰুৱা সম্ভৱ নহয়, প্ৰয়োজনত পঞ্জিকাত অৱস্থিত সকলো বস্তু আঁতৰাওক ।"
+msgstr "সম্পূৰ্ণ পঞ্জিকা বৰ্তমানে আঁতৰুৱা সম্ভৱ নহয়, প্ৰয়োজনত পঞ্জিকাত অৱস্থিত সকলো বস্তু আঁতৰাওক ।"
 
 #: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
@@ -169,176 +159,176 @@ msgstr "মাৰ্ক-আপৰ বেক-এন্ড অংশ আৰম্�
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "XML পঞ্জিকা \"%s\" ৰ লক বাতিল কৰা নাযায়:%s"
 
-#: ../backends/markup-tree.c:400
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "বিন্যাস সংক্ৰান্ত তথ্য ডিস্কত লিখোঁতে ব্যৰ্থ\n"
 
-#: ../backends/markup-tree.c:923 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "\"%s\" পঞ্জিকা নিৰ্মাণ কৰা নাযায়: %s"
 
-#: ../backends/markup-tree.c:963 ../backends/markup-tree.c:970
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "\"%s\" আঁতৰুৱা নাযায়: %s\n"
 
-#: ../backends/markup-tree.c:1171
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "\"%s\" লিখা নাযায়: %s\n"
 
-#: ../backends/markup-tree.c:1379
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "\"%s\" নথিপত্ৰ তুলি লোৱা নাযায়: %s"
 
-#: ../backends/markup-tree.c:1969
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "পংক্তি %d অক্ষৰ %d: %s"
 
-#: ../backends/markup-tree.c:2197 ../backends/markup-tree.c:2218
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "এই ক্ষেত্ৰত <%s> ত \"%s\" বৈশিষ্ট বৈধ নহয়"
 
-#: ../backends/markup-tree.c:2243 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "`%s' বোধগম্য নহয় (পূৰ্ণসংখ্যা মান প্ৰত্যাশিত)"
 
-#: ../backends/markup-tree.c:2250 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "পূৰ্ণসংখ্যা `%s' অত্যাধিক ডাঙৰ বা সৰু"
 
-#: ../backends/markup-tree.c:2282 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "`%s' ৰ মান বোধগম্য নহয় (true বা false প্ৰত্যাশিত)"
 
-#: ../backends/markup-tree.c:2306 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "`%s' ৰ মান বোধগম্য নহয় (প্ৰকৃত সংখ্যা প্ৰত্যাশিত)"
 
-#: ../backends/markup-tree.c:2386
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "অজ্ঞাত মান \"%s\", <%s> বস্তুৰ \"%s\" বৈশিষ্ট্যৰ ক্ষেত্ৰত উল্লিখিত হৈছে"
 
-#: ../backends/markup-tree.c:2406 ../backends/markup-tree.c:2446
-#: ../backends/markup-tree.c:2470 ../backends/markup-tree.c:2478
-#: ../backends/markup-tree.c:2533 ../backends/markup-tree.c:2598
-#: ../backends/markup-tree.c:2710 ../backends/markup-tree.c:2778
-#: ../backends/markup-tree.c:2836 ../backends/markup-tree.c:2986
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "<%s> বস্তুত কোনো \"%s\" বৈশিষ্ট্য উপস্থিত নাই"
 
-#: ../backends/markup-tree.c:2420
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "<%s> ত অবৈধ ltype \"%s\""
 
-#: ../backends/markup-tree.c:2500
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "<%s> ত প্ৰথম-সত্বাৰ অবৈধ ধৰন \"%s\" "
 
-#: ../backends/markup-tree.c:2514
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "<%s> ৰ ক্ষেত্ৰত অবৈধ cdr_type \"%s\""
 
-#: ../backends/markup-tree.c:2550
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "<%s> ৰ ক্ষেত্ৰত অবৈধ list_type \"%s\""
 
-#: ../backends/markup-tree.c:2917
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "<local_schema> ৰ তলত দু <default> বস্তু"
 
-#: ../backends/markup-tree.c:2932
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "<local_schema> ৰ তলত দু <longdesc> বস্তু"
 
-#: ../backends/markup-tree.c:2939
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "<%s> বস্তু <%s> ৰ তলত স্থাপন কৰা নাযাব"
 
-#: ../backends/markup-tree.c:2964 ../backends/markup-tree.c:3069
-#: ../backends/markup-tree.c:3123 ../backends/markup-tree.c:3174
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s> উপলব্ধ হ'লেও বৰ্তমান বস্তু %s প্ৰকৃতিৰ নহয়"
 
-#: ../backends/markup-tree.c:3047
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "একে জোৰাৰ বাবে দুই <car> বস্তু উল্লিখিত হৈছে"
 
-#: ../backends/markup-tree.c:3061
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "একে জোৰাৰ বাবে দুটা <cdr> বস্তু উল্লিখিত হৈছে"
 
-#: ../backends/markup-tree.c:3115
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> ৰ প্ৰকৃতি %s সঠিক নহয়"
 
-#: ../backends/markup-tree.c:3146
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s> উল্লিখিত হ'লেও ঊৰ্ধ্বস্থ <entry> ৰ মান উপস্থিত নাই"
 
-#: ../backends/markup-tree.c:3187 ../backends/markup-tree.c:3210
-#: ../backends/markup-tree.c:3232 ../backends/markup-tree.c:3249
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "বৰ্তমান বস্তুত <%s> বস্তুৰ উপস্থিতি অনুমোদিত নহয়"
 
-#: ../backends/markup-tree.c:3281
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
 msgstr "মেনু নথিপত্ৰৰ সৰ্বাধিক বাহিৰৰ বস্তু  <%s> ৰ পৰিবৰ্তে <mateconf> হোৱা আৱশ্যক"
 
-#: ../backends/markup-tree.c:3301 ../backends/markup-tree.c:3323
-#: ../backends/markup-tree.c:3328
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "<%s> বস্তু <%s> বস্তুত স্থাপন কৰা সম্ভৱ নহয়"
 
-#: ../backends/markup-tree.c:3472
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "<%s> বস্তুত কোনো টেক্সট অন্তৰ্ভুক্ত কৰা নাযাব"
 
-#: ../backends/markup-tree.c:3588 ../backends/markup-tree.c:4354
-#: ../backends/markup-tree.c:4373
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "\"%s\" খুলিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../backends/markup-tree.c:3618
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "\"%s\" পঢ়িবলৈ সমস্যা: %s\n"
 
-#: ../backends/markup-tree.c:4448
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "%s নামক নথিপত্ৰ ডিষ্কলৈ ফ্লাছ কৰা নাযায়: %s"
 
-#: ../backends/markup-tree.c:4467
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "\"%s\" নথিপত্ৰত লিখোঁতে সমস্যা: %s"
 
-#: ../backends/markup-tree.c:4496
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "অস্থায়ী নথিপত্ৰ \"%s\" উদ্দিষ্ট গন্তব্য \"%s\" লৈ স্থানান্তৰ কৰিবলৈ ব্যৰ্থ: %s"
@@ -365,9 +355,7 @@ msgstr "XML কেছেৰ বিষয়বস্তু ডিস্কত স�
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"ডিস্কৰ সৈতে সঠিকৰূপে সুসংগত নোহোৱাৰ ফলত XML বেক-এন্ড কেছেৰ পৰা `%s' পঞ্জিকা আঁতৰুৱা "
-"নাযায়"
+msgstr "ডিস্কৰ সৈতে সঠিকৰূপে সুসংগত নোহোৱাৰ ফলত XML বেক-এন্ড কেছেৰ পৰা `%s' পঞ্জিকা আঁতৰুৱা নাযায়"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -540,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "XML নথিপত্ৰত জোৰা ক্ষেত্ৰত car আৰু cdr উভয় মান অনুপস্থিত"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "MateConf ৰ বাধ্যতামূলক মান সলনি কৰক"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "MateConf প্ৰণালীৰ মান সলনি কৰক"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "MateConf ৰ বাধ্যতামূলক মান সলনি কৰিবলৈ বিশেষ সুবিধাৰ প্ৰয়োজন"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "MateConf প্ৰণালীৰ মান সলনি কৰিবলৈ বিশেষ সুবিধাৰ প্ৰয়োজন"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "MateConf ৰ বাধ্যতামূলক মান সলনি কৰক"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "MateConf ৰ বাধ্যতামূলক মান সলনি কৰিবলৈ বিশেষ সুবিধাৰ প্ৰয়োজন"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -609,17 +597,17 @@ msgstr "`%s'-ৰ বেক-এন্ড অংশৰ অৱস্থান চ�
 msgid "Failed to shut down backend"
 msgstr "বেক-এন্ড বন্ধ কৰিবলৈ ব্যৰ্থ"
 
-#: ../mateconf/mateconf-client.c:346 ../mateconf/mateconf-client.c:364
+#: ../mateconf/mateconf-client.c:353 ../mateconf/mateconf-client.c:371
 #, c-format
 msgid "MateConf Error: %s\n"
 msgstr "MateConf সংক্ৰান্ত সমস্যা: %s\n"
 
-#: ../mateconf/mateconf-client.c:932
+#: ../mateconf/mateconf-client.c:971
 #, c-format
 msgid "MateConf warning: failure listing pairs in `%s': %s"
 msgstr "MateConf ৰ সতৰ্কবাৰ্তা: `%s'-ৰ ক্ষেত্ৰত জোৰাৰ তালিকা নিৰ্মাণত ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-client.c:1234
+#: ../mateconf/mateconf-client.c:1305
 #, c-format
 msgid "Expected `%s' got `%s' for key %s"
 msgstr "প্ৰত্যাশিত `%s', `%s' প্ৰাপ্ত হৈছে %s চাবিৰ বাবে"
@@ -630,7 +618,8 @@ msgstr "মান নিৰ্ধাৰণত অনুৰোধ প্ৰাপ
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
 msgstr "`%s' চাবিৰ মান নিৰ্ধাৰণৰ উদ্দেশ্যে প্ৰাপ্ত CORBA মান বোধগম্য নহয়"
 
 #: ../mateconf/mateconf-database.c:503
@@ -643,8 +632,7 @@ msgstr "সুসংগতৰূপে sync কৰাৰ অনুৰোধ প�
 
 #: ../mateconf/mateconf-database.c:808
 msgid "Fatal error: failed to get object reference for ConfigDatabase"
-msgstr ""
-"গুৰুতৰ ভুল: ConfigDatabase ৰ ক্ষেত্ৰত অবজেক্ট সংক্ৰান্ত নিৰ্দেশক তথ্য প্ৰাপ্ত কৰিবলৈ ব্যৰ্থ"
+msgstr "গুৰুতৰ ভুল: ConfigDatabase ৰ ক্ষেত্ৰত অবজেক্ট সংক্ৰান্ত নিৰ্দেশক তথ্য প্ৰাপ্ত কৰিবলৈ ব্যৰ্থ"
 
 #: ../mateconf/mateconf-database.c:974
 #, c-format
@@ -654,21 +642,17 @@ msgstr "এক বা অধিক উৎসস্থল sync কৰিবলৈ
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
-msgstr ""
-"`%s'-ৰ নতুন মান প্ৰাপ্ত কৰিবলৈ ব্যৰ্থ, `%s' বেক-এন্ডৰ পৰা পৰিবৰ্তনেৰ সূচনা প্ৰাপ্তিৰ "
-"পিছত: %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
+msgstr "`%s'-ৰ নতুন মান প্ৰাপ্ত কৰিবলৈ ব্যৰ্থ, `%s' বেক-এন্ডৰ পৰা পৰিবৰ্তনেৰ সূচনা প্ৰাপ্তিৰ পিছত: %s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"listener %s (%s) যোগ কৰা লগ কৰকঁতে ব্যৰ্থ; এই listener ক mateconfd ৰ পুনৰাৰম্ভত পুনঃ "
-"প্ৰতিষ্ঠা কৰিব নোৱাৰি, যাৰ ফলত বিন্যাসৰ সলনিৰ জাননি নিৰ্ভৰযোগ্য ন'হ'ব ।"
+msgstr "listener %s (%s) যোগ কৰা লগ কৰকঁতে ব্যৰ্থ; এই listener ক mateconfd ৰ পুনৰাৰম্ভত পুনঃ প্ৰতিষ্ঠা কৰিব নোৱাৰি, যাৰ ফলত বিন্যাসৰ সলনিৰ জাননি নিৰ্ভৰযোগ্য ন'হ'ব ।"
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -680,9 +664,7 @@ msgstr "Listener ID %lu নাই"
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"listener ৰ logfile লৈ log removal ত বিফল (অতিসম্ভৱ ধ্বংসকাৰী নহয়, ইয়াৰ ফলত "
-"অস্বাভাৱিকভাবে এটা জাননি ওলাব পাৰে): %s"
+msgstr "listener ৰ logfile লৈ log removal ত বিফল (অতিসম্ভৱ ধ্বংসকাৰী নহয়, ইয়াৰ ফলত অস্বাভাৱিকভাবে এটা জাননি ওলাব পাৰে): %s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -830,196 +812,187 @@ msgstr "mateconfdৰ পৰা প্ৰাপ্ত তালিকাৰ প�
 msgid "Failed to convert object to IOR"
 msgstr "চিহ্নিত অবজেক্ট IOR'এ ৰূপান্তৰ কৰিবলৈ ব্যৰ্থ"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "স্কিমাৰ লোকেইলত অবৈধ UTF-8"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "স্কিমাৰ সংক্ষিপ্ত বৰ্ণনাত অবৈধ UTF-8"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "স্কিমাৰ বিস্তাৰিত বৰ্ণনাত অবৈধ UTF-8"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "স্কিমাৰ উল্লিখিত গৰাকীত অবৈধ UTF-8"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "`%s' নামক পাথ নথিপত্ৰ খুলিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "`%s' উৎস যোগ কৰা হৈছে\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "`%s' নথিপত্ৰ পঢ়িবলৈ সমস্যা: %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1668
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "টেক্সটত অবৈধ UTF-8 উপস্থিত"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "তালিকা প্ৰত্যাশিত, %s প্ৰাপ্ত"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "%s ৰ তালিকা প্ৰত্যাশিত, %s ৰ তালিকা প্ৰাপ্ত"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "জোৰা প্ৰত্যাশিত, %s প্ৰাপ্ত"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
 msgstr "জোৰা (%s,%s) প্ৰত্যাশিত, এক বা একাধিক মান নোহোৱাকে এটা জোৰা প্ৰাপ্ত হৈছে"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
 msgstr "(%s,%s) প্ৰকৃতিৰ জোৰা প্ৰত্যাশিত, (%s,%s) প্ৰকৃতি প্ৰাপ্ত"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "উদ্ধৃত পংক্তিৰ আৰম্ভত উদ্ধৃতি চিহ্ন উপস্থিত নাই"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "উদ্ধৃত পংক্তিৰ শেষত উদ্ধৃতি চিহ্ন উপস্থিত নাই"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "বৈধ UTF-8 মানসহ এনকোড কৰা নহয়"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "অস্থায়ী নথিপত্ৰ '%s' লক কৰিবলৈ ব্যৰ্থ :%s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "'%s' নামক নথিপত্ৰ নিৰ্মাণ কৰিবলৈ ব্যৰ্থ, সম্ভৱত এই নথিপত্ৰ বৰ্তমানে উপস্থিত"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "'%s' নিৰ্মাণ বা খুলিবলৈ ব্যৰ্থ"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"'%s' লক কৰিবলৈ ব্যৰ্থ: সম্ভৱত অন্য কোনো প্ৰক্ৰিয়াৰ দ্বাৰা এ বৰ্তমান লক কৰা বা আপোনাৰ "
-"ব্যৱহৃত কাৰ্য্যকৰপ্ৰণালীৰ NFS নথিপত্ৰ লক ব্যৱস্থ সঠিকৰূপে বিন্যাস কৰা নাই (%s)"
+msgstr "'%s' লক কৰিবলৈ ব্যৰ্থ: সম্ভৱত অন্য কোনো প্ৰক্ৰিয়াৰ দ্বাৰা এ বৰ্তমান লক কৰা বা আপোনাৰ ব্যৱহৃত কাৰ্য্যকৰপ্ৰণালীৰ NFS নথিপত্ৰ লক ব্যৱস্থ সঠিকৰূপে বিন্যাস কৰা নাই (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "'%s' আঁতৰাবলৈ ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "সক্ৰিয় অধিবেশনত চলা নাই"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "অধিবেশনলৈ সংযোগ কৰিব নোৱাৰি: %s"
 
-#: ../mateconf/mateconf-internals.c:2468
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
-#| msgid "Could not send message to mateconf daemon: %s"
-msgid "Could not send message to MateConf daemon: %s"
-msgstr "MateConf ডেমনলৈ সম্বাদ পঠিয়াব নোৱাৰি: %s"
+msgid "GetIOR failed: %s"
+msgstr ""
 
-#: ../mateconf/mateconf-internals.c:2479
-#, c-format
-msgid "daemon gave erroneous reply: %s"
-msgstr "ডেমনে ভুল উত্তৰ দিছে: %s"
-
-#: ../mateconf/mateconf-internals.c:2517
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
-msgstr ""
-"বৰ্তমানে উপস্থিত mateconfd অবজেক্ট ৰেফাৰেঞ্চ্‌ মীমাংসা কৰাৰ উদ্দেশ্যে ORB ৰ সৈতে "
-"যোগাযোগ কৰা নাযায়"
+msgstr "বৰ্তমানে উপস্থিত mateconfd অবজেক্ট ৰেফাৰেঞ্চ্‌ মীমাংসা কৰাৰ উদ্দেশ্যে ORB ৰ সৈতে যোগাযোগ কৰা নাযায়"
 
-#: ../mateconf/mateconf-internals.c:2529
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "IOR '%s'-কে এটা অবজেক্ট ৰেফাৰেঞ্চ্‌ ৰূপে পৰিবৰ্তন কৰিবলৈ ব্যৰ্থ"
 
-#: ../mateconf/mateconf-internals.c:2556
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "`%s' নামক পঞ্জিকা নিৰ্মাণ কৰিবলৈ ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-internals.c:2613
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "`%s' নথিপত্ৰলৈ লিখোঁতে ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-internals.c:2654
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "`%s' নথিপত্ৰত লক অনুপস্থিত, লক থকা উচিত"
 
-#: ../mateconf/mateconf-internals.c:2677
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "'%s' ক '%s' ৰ সৈতে লিঙ্ক কৰিবলৈ ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-internals.c:2689
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "`%s' নামক লক নথিপত্ৰ আঁতৰাওতে ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-internals.c:2712
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "'%s' নথিপত্ৰ পৰিশ্ৰুত কৰিবলৈ ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-internals.c:2728
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "লক পঞ্জিকা `%s' আঁতৰাওতে ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf-internals.c:2866
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "সেৱক ping সংক্ৰান্ত ভুল: %s"
 
-#: ../mateconf/mateconf-internals.c:2885
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"বিন্যাস সেৱকৰ সৈতে যোগাযোগ কৰিবলৈ ব্যৰ্থ; সম্ভাব্য কাৰণ, MateCORBA ৰ বাবে TCP/IP "
-"নেটৱৰ্ক ব্যৱস্থা সক্ৰিয় কৰা নাই বা ব্যৱস্থাপ্ৰণালী ক্ৰেশ কৰা কাৰণে অবচিত NFS লক "
-"উপস্থিত । আৰু জানিবলৈ http://www.gnome.org/projects/mateconf/ চাওক । (বিৱৰণ - %s)"
 
-#: ../mateconf/mateconf-internals.c:2886
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "শূণ্য"
 
@@ -1032,40 +1005,22 @@ msgstr "- MateConf ৰ বাবে যথাৰ্থতা পৰীক্ষ�
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"বিকল্প বিশ্লেষণ কৰিবলৈ সমস্যা: %s.\n"
-"আদেশ শাৰীৰ পৰা ব্যৱহাৰযোগ্য সকলো বিকল্প চাবলৈ '%s --help' প্ৰয়োগ কৰক ।\n"
+msgstr "বিকল্প বিশ্লেষণ কৰিবলৈ সমস্যা: %s.\nআদেশ শাৰীৰ পৰা ব্যৱহাৰযোগ্য সকলো বিকল্প চাবলৈ '%s --help' প্ৰয়োগ কৰক ।\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"নিম্নলিখিত সমস্যা সমাধানে উদ্দেশ্যে অনুগ্ৰহ কৰি ব্যৱস্থাপ্ৰণালী প্ৰশাসকৰ সৈতে যোগাযোগ "
-"কৰক:\n"
-"\"%s\" নামক নথিপত্ৰ খুলিবলৈ বা নিৰ্মাণত ব্যৰ্থ; এইটো ব্যৱস্থাপ্ৰণালীৰ বিন্যাসত কোনো "
-"ধৰনৰ সম্ভাব্য সমস্যাৰ ইঙ্গিত, কাৰণ একধিক প্ৰোগ্ৰামৰ দ্বাৰা আপোনাৰ ব্যক্তিগত (home) "
-"পঞ্জিকাত নথিপত্ৰ নিৰ্মাণৰ প্ৰয়োজন হ'ব । উৎপন্ন সমস্যা হ'ল \"%s\" (errno = %d) ।"
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "নিম্নলিখিত সমস্যা সমাধানে উদ্দেশ্যে অনুগ্ৰহ কৰি ব্যৱস্থাপ্ৰণালী প্ৰশাসকৰ সৈতে যোগাযোগ কৰক:\n\"%s\" নামক নথিপত্ৰ খুলিবলৈ বা নিৰ্মাণত ব্যৰ্থ; এইটো ব্যৱস্থাপ্ৰণালীৰ বিন্যাসত কোনো ধৰনৰ সম্ভাব্য সমস্যাৰ ইঙ্গিত, কাৰণ একধিক প্ৰোগ্ৰামৰ দ্বাৰা আপোনাৰ ব্যক্তিগত (home) পঞ্জিকাত নথিপত্ৰ নিৰ্মাণৰ প্ৰয়োজন হ'ব । উৎপন্ন সমস্যা হ'ল \"%s\" (errno = %d) ।"
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"এই সমস্যাৰ সমাধানৰ কাৰণে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক লগ ধৰক:\n"
-"\"%s\" নথিপত্ৰ লক কৰিব নোৱাৰি; ইয়াৰ মানে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ বিন্যাসত সমস্যা "
-"আছে । আপোনাৰ NFS-mounted ঘৰৰ পঞ্জিকা হ'লে, গ্ৰাহক বা সেৱক ভুলকৈ বিন্যাস কৰা হৈছে "
-"। rpc.statd আৰু rpc.lockd আলেখ্যন চাওক ।এই ভুলৰ সাধাৰণ কাৰণ হ'ল নিষ্ক্ৰিয় "
-"\"nfslock\" সেৱা । ভুল আছিল \"%s\" (errno = %d) ।"
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "এই সমস্যাৰ সমাধানৰ কাৰণে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক লগ ধৰক:\n\"%s\" নথিপত্ৰ লক কৰিব নোৱাৰি; ইয়াৰ মানে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ বিন্যাসত সমস্যা আছে । আপোনাৰ NFS-mounted ঘৰৰ পঞ্জিকা হ'লে, গ্ৰাহক বা সেৱক ভুলকৈ বিন্যাস কৰা হৈছে । rpc.statd আৰু rpc.lockd আলেখ্যন চাওক ।এই ভুলৰ সাধাৰণ কাৰণ হ'ল নিষ্ক্ৰিয় \"nfslock\" সেৱা । ভুল আছিল \"%s\" (errno = %d) ।"
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1076,12 +1031,8 @@ msgstr "%s নথিপত্ৰ আঁতৰাওতে ব্যৰ্থ: %s
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"এই সমস্যাৰ সমাধানৰ কাৰণে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক লগ ধৰক:\n"
-"\"%s\" বিন্যাস নথিপত্ৰ কোনো বিন্যাসৰ উৎস নাই; ইয়াৰ মানে পছন্দ আৰু অন্য  প্ৰতিষ্ঠা "
-"সংৰক্ষিত ন'হ'ব । %s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "এই সমস্যাৰ সমাধানৰ কাৰণে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক লগ ধৰক:\n\"%s\" বিন্যাস নথিপত্ৰ কোনো বিন্যাসৰ উৎস নাই; ইয়াৰ মানে পছন্দ আৰু অন্য  প্ৰতিষ্ঠা সংৰক্ষিত ন'হ'ব । %s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1092,31 +1043,18 @@ msgstr "নথিপত্ৰ পঢ়িবলৈ ভুল: "
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"এই সমস্যাৰ সমাধানৰ কাৰণে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক লগ ধৰক:\n"
-"বিন্যাস নথিপত্ৰ \"%s\" ত ঠিকনা \"%s\" বুজি পোৱা ন'গ'ল: %s"
+msgstr "এই সমস্যাৰ সমাধানৰ কাৰণে আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক লগ ধৰক:\nবিন্যাস নথিপত্ৰ \"%s\" ত ঠিকনা \"%s\" বুজি পোৱা ন'গ'ল: %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"আপোনাৰ পছন্দ থকা নথিপত্ৰ বৰ্ত্তমানে ব্যৱহৃত ।\n"
-"\n"
-"অন্য কম্পিউটাৰৰ পৰা এটা অধিবেশনত আপুনি হয়তো প্ৰৱেশ কৰিছে, আৰু অন্য প্ৰৱেশ অধিবেশনে "
-"আপোনাৰ পছন্দৰ প্ৰতিষ্ঠা নথিপত্ৰ ব্যৱহাৰ কৰিছে ।\n"
-"\n"
-"আপুনি বৰ্ত্তমানৰ অধিবেশন ব্যৱহাৰ কৰিব পাৰে, কিন্তু ইয়াৰ কাৰণে অন্য অধিবেশনত পছন্দৰ "
-"প্ৰতিষ্ঠাত অস্থায়ী সমস্যা হ'ব পাৰে ।\n"
-"\n"
-"আপুনি আগবাঢ়িব বিচাৰে নেকি ?"
+msgstr "আপোনাৰ পছন্দ থকা নথিপত্ৰ বৰ্ত্তমানে ব্যৱহৃত ।\n\nঅন্য কম্পিউটাৰৰ পৰা এটা অধিবেশনত আপুনি হয়তো প্ৰৱেশ কৰিছে, আৰু অন্য প্ৰৱেশ অধিবেশনে আপোনাৰ পছন্দৰ প্ৰতিষ্ঠা নথিপত্ৰ ব্যৱহাৰ কৰিছে ।\n\nআপুনি বৰ্ত্তমানৰ অধিবেশন ব্যৱহাৰ কৰিব পাৰে, কিন্তু ইয়াৰ কাৰণে অন্য অধিবেশনত পছন্দৰ প্ৰতিষ্ঠাত অস্থায়ী সমস্যা হ'ব পাৰে ।\n\nআপুনি আগবাঢ়িব বিচাৰে নেকি ?"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1131,27 +1069,25 @@ msgstr "এৰি যাওক (_C)"
 msgid "%s Continue (y/n)?"
 msgstr "%s এৰি যোৱা হ'ব নেকি (y/n)?"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "স্কিমাত অবৈধ UTF-8 উপস্থিত"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
-msgid "Schema specifies type list but doesn't specify the type of the list elements"
-msgstr ""
-"স্কিমাৰ দ্বাৰা তালিকা নিৰ্দেশিত হ'লেও তালিকাৰ বিষয়বস্তুৰ প্ৰকৃতি সম্পৰ্কে কোনো ইঙ্গিত "
-"দিয়া নহয়"
+msgid ""
+"Schema specifies type list but doesn't specify the type of the list elements"
+msgstr "স্কিমাৰ দ্বাৰা তালিকা নিৰ্দেশিত হ'লেও তালিকাৰ বিষয়বস্তুৰ প্ৰকৃতি সম্পৰ্কে কোনো ইঙ্গিত দিয়া নহয়"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
 "elements"
-msgstr ""
-"স্কিমাৰ দ্বাৰা জোৰা নিৰ্দেশিত হ'লেও car/cdr বস্তুৰ প্ৰকৃতি সম্পৰ্কে কোনো ইঙ্গিত দিয়া "
-"নহয়"
+msgstr "স্কিমাৰ দ্বাৰা জোৰা নিৰ্দেশিত হ'লেও car/cdr বস্তুৰ প্ৰকৃতি সম্পৰ্কে কোনো ইঙ্গিত দিয়া নহয়"
 
 #: ../mateconf/mateconf-sources.c:374
 #, c-format
@@ -1208,30 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"'%s' চাবিত মান ৰাখিব নোৱাৰি, কাৰণ বিন্যাস সেৱকত কোনো লিখিব পৰা তথ্যভঁৰাল নাই । "
-"ইয়াৰ কিছুমান সাধাৰণ কাৰণ আছে: ১) আপোনাৰ বিন্যাস পথৰ নথিপত্ৰ %s/path ত তথ্যভঁৰাল "
-"নাই বা পোৱা ন'গ'ল ২) কিবা ধৰণে আপুনি ভুলকৈ দুটা mateconfd প্ৰক্ৰিয়া আৰম্ভ কৰিলো ৩) "
-"আপোনাৰ কাৰ্য্যকৰপ্ৰণালী ভুলকৈ বিন্যাস কৰা হৈছে যাৰ কাৰণে আপোনাৰ ঘৰৰ পঞ্জিকাত NFS "
-"file locking এ কাম নকৰে বা ৪) আপোনাৰ NFS গ্ৰাহক যন্ত্ৰ ক্ৰেশ্ব কৰিলে আৰু শুদ্ধকৈ "
-"সেৱকক পুনৰাৰম্ভৰ পিছত জাননি নিদিলে যে file locks ক আঁতৰাব লাগে । আপোনাৰ ওচৰত "
-"দুটা mateconfd প্ৰক্ৰিয়া হ'লে (বা দ্বিতীয়টো আৰম্ভ কৰোঁতে আপোনাৰ ওচৰত দুটা থাকিলে), "
-"প্ৰস্থান কৰি, mateconfd ৰ সকলো নকল শেষ কৰি, আৰু পুনঃ প্ৰৱেশ কৰিলে সহায় পাব পাৰে । "
-"আপোনাৰ ওচৰত stale locks থাকিলে, ~/.mateconf*/*lock আঁতৰাওক । হ'ব পাৰে যে আপুনি "
-"একে সময়তে দুটা যন্ত্ৰৰ পৰা MateConf ব্যৱহাৰ কৰিব বিচাৰিলে, আৰু তাৰ অবিকল্পিত বিন্যাসত "
-"MateCORBA এ দূৰৰ CORBA সংযোগৰ অনুমতি নিদিয়ে - /etc/matecorbarc ত \"ORBIIOPIPv4=1\" "
-"দিয়ক । আগৰ দৰে, mateconfd য়ে পোৱা সমস্যাৰ কাৰণে user.* syslog পৰীক্ষা কৰক । "
-"প্ৰত্যেক ঘৰৰ পঞ্জিকাত অকল এটা mateconfd হ'ব পাৰে, আৰু সি ~/.mateconfd ত এটা lockfile  "
-"ৰ গৰাকী হ'ব লাগে আৰু ~/.mateconf ৰ নিচিনা ব্যক্তিগগত ভঁৰালৰ স্থানত lockfiles ৰ গৰাকী "
-"হ'ব লাগে । "
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "'%s' চাবিত মান ৰাখিব নোৱাৰি, কাৰণ বিন্যাস সেৱকত কোনো লিখিব পৰা তথ্যভঁৰাল নাই । ইয়াৰ কিছুমান সাধাৰণ কাৰণ আছে: ১) আপোনাৰ বিন্যাস পথৰ নথিপত্ৰ %s/path ত তথ্যভঁৰাল নাই বা পোৱা ন'গ'ল ২) কিবা ধৰণে আপুনি ভুলকৈ দুটা mateconfd প্ৰক্ৰিয়া আৰম্ভ কৰিলো ৩) আপোনাৰ কাৰ্য্যকৰপ্ৰণালী ভুলকৈ বিন্যাস কৰা হৈছে যাৰ কাৰণে আপোনাৰ ঘৰৰ পঞ্জিকাত NFS file locking এ কাম নকৰে বা ৪) আপোনাৰ NFS গ্ৰাহক যন্ত্ৰ ক্ৰেশ্ব কৰিলে আৰু শুদ্ধকৈ সেৱকক পুনৰাৰম্ভৰ পিছত জাননি নিদিলে যে file locks ক আঁতৰাব লাগে । আপোনাৰ ওচৰত দুটা mateconfd প্ৰক্ৰিয়া হ'লে (বা দ্বিতীয়টো আৰম্ভ কৰোঁতে আপোনাৰ ওচৰত দুটা থাকিলে), প্ৰস্থান কৰি, mateconfd ৰ সকলো নকল শেষ কৰি, আৰু পুনঃ প্ৰৱেশ কৰিলে সহায় পাব পাৰে । আপোনাৰ ওচৰত stale locks থাকিলে, ~/.mateconf*/*lock আঁতৰাওক । হ'ব পাৰে যে আপুনি একে সময়তে দুটা যন্ত্ৰৰ পৰা MateConf ব্যৱহাৰ কৰিব বিচাৰিলে, আৰু তাৰ অবিকল্পিত বিন্যাসত MateCORBA এ দূৰৰ CORBA সংযোগৰ অনুমতি নিদিয়ে - /etc/matecorbarc ত \"ORBIIOPIPv4=1\" দিয়ক । আগৰ দৰে, mateconfd য়ে পোৱা সমস্যাৰ কাৰণে user.* syslog পৰীক্ষা কৰক । প্ৰত্যেক ঘৰৰ পঞ্জিকাত অকল এটা mateconfd হ'ব পাৰে, আৰু সি ~/.mateconfd ত এটা lockfile  ৰ গৰাকী হ'ব লাগে আৰু ~/.mateconf ৰ নিচিনা ব্যক্তিগগত ভঁৰালৰ স্থানত lockfiles ৰ গৰাকী হ'ব লাগে । "
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1246,9 +1167,7 @@ msgstr "metainfo প্ৰাপ্ত কৰিবলৈ সমস্যা: %s
 #: ../mateconf/mateconf-sources.c:1703
 #, c-format
 msgid "Key `%s' listed as schema for key `%s' actually stores type `%s'"
-msgstr ""
-"চাবি `%s' ক চাবি `%s'  ৰ স্কীমা হিচাপে তালিকাভুক্ত কৰা হৈছে কিন্তু আচলতে `%s' ধৰণ "
-"সংৰক্ষণ কৰে"
+msgstr "চাবি `%s' ক চাবি `%s'  ৰ স্কীমা হিচাপে তালিকাভুক্ত কৰা হৈছে কিন্তু আচলতে `%s' ধৰণ সংৰক্ষণ কৰে"
 
 #: ../mateconf/mateconf-value.c:262
 #, c-format
@@ -1299,149 +1218,141 @@ msgstr "চাবি NULL"
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
 
-#: ../mateconf/mateconf.c:423
+#: ../mateconf/mateconf.c:418
 #, c-format
 msgid "Server couldn't resolve the address `%s'"
 msgstr "সেৱকৰ দ্বাৰা `%s' ঠিকনা মীমাংসা কৰা নাযায়"
 
-#: ../mateconf/mateconf.c:801
+#: ../mateconf/mateconf.c:854
 msgid "Can't add notifications to a local configuration source"
 msgstr "স্থানীয় বিন্যাস উৎস ৰ বাবে সূচনাব্যৱস্থা যোগ কৰা নাযায়"
 
-#: ../mateconf/mateconf.c:2251
+#: ../mateconf/mateconf.c:2332
 #, c-format
 msgid "Adding client to server's list failed, CORBA error: %s"
 msgstr "সেৱকৰ তালিকাত গ্ৰাহক যোগ কৰিবলৈ ব্যৰ্থ, CORBA সংক্ৰান্ত সমস্যা: %s"
 
-#: ../mateconf/mateconf.c:2623
+#: ../mateconf/mateconf.c:2704
 msgid "Must begin with a slash '/'"
 msgstr "এটা স্লেছ '/' এৰে আৰম্ভ হ'ব লাগিব"
 
-#: ../mateconf/mateconf.c:2645
+#: ../mateconf/mateconf.c:2726
 msgid "Can't have two slashes '/' in a row"
 msgstr "এটা শাৰীত দুটা স্লেছ '/' হ'ব নোৱাৰে"
 
-#: ../mateconf/mateconf.c:2647
+#: ../mateconf/mateconf.c:2728
 msgid "Can't have a period '.' right after a slash '/'"
 msgstr "এটা স্লেছ '/' ৰ পিছতেই পিৰিয়ড হ'ব নোৱাৰে '.' ।"
 
-#: ../mateconf/mateconf.c:2667
+#: ../mateconf/mateconf.c:2748
 #, c-format
 msgid "'\\%o' is not an ASCII character and thus isn't allowed in key names"
 msgstr "'\\%o' এটা ASCII আখৰ নহয় আৰু সেইকাৰণে তাক চাবিৰ নামত অনুমতি নাই"
 
-#: ../mateconf/mateconf.c:2677
+#: ../mateconf/mateconf.c:2758
 #, c-format
 msgid "`%c' is an invalid character in key/directory names"
 msgstr "চাবি/পঞ্জিকাৰ নামত `%c' অক্ষৰৰ ব্যৱহাৰ বৈধ নহয়"
 
-#: ../mateconf/mateconf.c:2691
+#: ../mateconf/mateconf.c:2772
 msgid "Key/directory may not end with a slash '/'"
 msgstr "চাবি/পঞ্জিকাৰ এটা স্লেছ '/' ত শেষ হ'ব নোৱাৰে"
 
-#: ../mateconf/mateconf.c:3062
+#: ../mateconf/mateconf.c:3143
 #, c-format
 msgid "Failure shutting down configuration server: %s"
 msgstr "বিন্যাস সেৱক বন্ধ কৰকঁতে ব্যৰ্থ: %s"
 
-#: ../mateconf/mateconf.c:3123
+#: ../mateconf/mateconf.c:3204
 #, c-format
 msgid "Expected float, got %s"
 msgstr "float মান প্ৰত্যাশিত, %s প্ৰাপ্ত"
 
-#: ../mateconf/mateconf.c:3158
+#: ../mateconf/mateconf.c:3239
 #, c-format
 msgid "Expected int, got %s"
 msgstr "int মান প্ৰত্যাশিত, %s প্ৰাপ্ত"
 
-#: ../mateconf/mateconf.c:3193
+#: ../mateconf/mateconf.c:3274
 #, c-format
 msgid "Expected string, got %s"
 msgstr "string মান প্ৰত্যাশিত, %s প্ৰাপ্ত"
 
-#: ../mateconf/mateconf.c:3227
+#: ../mateconf/mateconf.c:3308
 #, c-format
 msgid "Expected bool, got %s"
 msgstr "bool মান প্ৰত্যাশিত, %s প্ৰাপ্ত"
 
-#: ../mateconf/mateconf.c:3260
+#: ../mateconf/mateconf.c:3355
 #, c-format
 msgid "Expected schema, got %s"
 msgstr "schema মান প্ৰত্যাশিত, %s প্ৰাপ্ত"
 
-#: ../mateconf/mateconf.c:3599
+#: ../mateconf/mateconf.c:3758
 #, c-format
 msgid "CORBA error: %s"
 msgstr "CORBA সংক্ৰান্ত ভুল: %s"
 
-#: ../mateconf/mateconfd.c:308
+#: ../mateconf/mateconfd.c:336
 msgid "Shutdown request received"
 msgstr "বন্ধ কৰাৰ অনুৰোধ প্ৰাপ্ত হৈছে"
 
-#: ../mateconf/mateconfd.c:340
+#: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"ডিবাগ ব্যৱস্থা সহ mateconfd কম্পাইল কৰা হৈছে; উৎস পঞ্জিকাৰ পৰা mateconf.path তুলি লোৱাৰ "
-"প্ৰচেষ্টা কৰা হৈছে"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "ডিবাগ ব্যৱস্থা সহ mateconfd কম্পাইল কৰা হৈছে; উৎস পঞ্জিকাৰ পৰা mateconf.path তুলি লোৱাৰ প্ৰচেষ্টা কৰা হৈছে"
 
-#: ../mateconf/mateconfd.c:360
+#: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
-msgstr ""
-"কোনো বিন্যাস নথিপত্ৰ নাই । অবিকল্পিত বিন্যাসৰ উৎস `%s' ব্যৱহাৰ কৰিবলৈ চেষ্টা কৰা "
-"হৈছে"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
+msgstr "কোনো বিন্যাস নথিপত্ৰ নাই । অবিকল্পিত বিন্যাসৰ উৎস `%s' ব্যৱহাৰ কৰিবলৈ চেষ্টা কৰা হৈছে"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
-#: ../mateconf/mateconfd.c:368
+#. 
+#: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
 msgstr "উৎসৰ পথৰ কোনো বিন্যাসৰ উৎস নাই । বিন্যাস ৰক্ষা কৰা ন'হ'ব; %s%s সম্পাদন কৰক"
 
-#: ../mateconf/mateconfd.c:381
+#: ../mateconf/mateconfd.c:409
 #, c-format
 msgid "Error loading some configuration sources: %s"
 msgstr "কিছুমান বিন্যাসৰ উৎস তুলি লওঁতে ভুল: %s"
 
-#: ../mateconf/mateconfd.c:393
+#: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"কোনো বিন্যাস উৎসৰ ঠিকনা ঠিককে মীমাংসা কৰা হোৱা নাই । বিন্যাসৰ তথ্য তুলিব পৰা ৰা "
-"ৰক্ষা কৰা নাযায়"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "কোনো বিন্যাস উৎসৰ ঠিকনা ঠিককে মীমাংসা কৰা হোৱা নাই । বিন্যাসৰ তথ্য তুলিব পৰা ৰা ৰক্ষা কৰা নাযায়"
 
-#: ../mateconf/mateconfd.c:410
+#: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"কোনো লিখিব পৰা বিন্যাসৰ উৎস ঠিককে মীমাংসা কৰা হোৱা নাই । বিন্যাসৰ তথ্য তুলিব পৰা "
-"ৰা ৰক্ষা কৰা নাযায়"
+msgstr "কোনো লিখিব পৰা বিন্যাসৰ উৎস ঠিককে মীমাংসা কৰা হোৱা নাই । বিন্যাসৰ তথ্য তুলিব পৰা ৰা ৰক্ষা কৰা নাযায়"
 
-#: ../mateconf/mateconfd.c:591
+#: ../mateconf/mateconfd.c:603
 #, c-format
 msgid "Could not connect to session bus: %s"
 msgstr "session bus লৈ সংযোগ কৰিব নোৱাৰি: %s"
 
-#: ../mateconf/mateconfd.c:613
+#: ../mateconf/mateconfd.c:625
 #, c-format
 msgid "Failed to get bus name for daemon, exiting: %s"
 msgstr "ডেমেনৰ বাবে bus ৰ নাম পাবলৈ ব্যৰ্থ, প্ৰস্থান কৰা হ'ব: %s"
 
-#: ../mateconf/mateconfd.c:694
+#: ../mateconf/mateconfd.c:706
 #, c-format
 msgid "Could not connect to system bus: %s"
 msgstr "session bus লৈ সংযোগ কৰিব নোৱাৰি: %s"
 
-#: ../mateconf/mateconfd.c:830
+#: ../mateconf/mateconfd.c:842
 #, c-format
 msgid "starting (version %s), pid %u user '%s'"
 msgstr "আৰম্ভ কৰা হৈছে (সংস্কৰণ %s), pid %u user '%s'"
@@ -1453,11 +1364,9 @@ msgstr "ConfigServer ৰ ক্ষেত্ৰত অবজেক্ট ৰে�
 #: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
-msgstr ""
-"Pipe file descriptor %d ত বাইট লিখোঁতে ব্যৰ্থ যাৰ ফলত গ্ৰাহক প্ৰোগ্ৰাম বন্ধ হোৱাৰ "
-"সম্ভাবনা: %s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
+msgstr "Pipe file descriptor %d ত বাইট লিখোঁতে ব্যৰ্থ যাৰ ফলত গ্ৰাহক প্ৰোগ্ৰাম বন্ধ হোৱাৰ সম্ভাবনা: %s"
 
 #: ../mateconf/mateconfd.c:965
 #, c-format
@@ -1491,13 +1400,13 @@ msgstr "exception উৎপন্ন হৈছে: %s"
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"mateconfd লগ-নথিপত্ৰ খুলিবলৈ ব্যৰ্থ; mateconfd বন্ধ কৰাৰ পিছত listeners ৰ উদ্ধাৰ কৰা "
-"সম্ভৱ নহয় (%s)"
+msgstr "mateconfd লগ-নথিপত্ৰ খুলিবলৈ ব্যৰ্থ; mateconfd বন্ধ কৰাৰ পিছত listeners ৰ উদ্ধাৰ কৰা সম্ভৱ নহয় (%s)"
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
-msgid "Failed to close mateconfd logfile; data may not have been properly saved (%s)"
+msgid ""
+"Failed to close mateconfd logfile; data may not have been properly saved "
+"(%s)"
 msgstr "mateconfd লগ নথিপত্ৰ বন্ধ কৰিবলৈ ব্যৰ্থ; সম্ভৱত তথ্য সঠিকভাবে সংৰক্ষিত নহয় (%s)"
 
 #: ../mateconf/mateconfd.c:1681
@@ -1532,12 +1441,14 @@ msgstr "নতুন সংৰক্ষিত state নথিপত্ৰক স
 
 #: ../mateconf/mateconfd.c:1744
 #, c-format
-msgid "Failed to restore original saved state file that had been moved to '%s': %s"
+msgid ""
+"Failed to restore original saved state file that had been moved to '%s': %s"
 msgstr "'%s'-এ স্থানান্তৰিত পূৰ্বে সংৰক্ষিত state নথিপত্ৰ পুনৰুদ্ধাৰ কৰিবলৈ ব্যৰ্থ: %s"
 
 #: ../mateconf/mateconfd.c:2223
 #, c-format
-msgid "Unable to restore a listener on address '%s', couldn't resolve the database"
+msgid ""
+"Unable to restore a listener on address '%s', couldn't resolve the database"
 msgstr "'%s' ঠিকনাত listener ক পুনঃ স্থাপন কৰিবলৈ ব্যৰ্থ, তথ্যভঁৰাল মীমাংসা কৰা নাযায়"
 
 #: ../mateconf/mateconfd.c:2259
@@ -1553,20 +1464,16 @@ msgstr "সংৰক্ষিত state নথিপত্ৰ '%s' খুলি�
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"mateconfd logfile ত listener ৰ লগ যোগ কৰিবলৈ বিফল; mateconfd য়ে প্ৰস্থান কৰিলে বা "
-"বন্ধ হ'লে listener ক পুনঃ যোগ কৰিব নোৱাৰি (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "mateconfd logfile ত listener ৰ লগ যোগ কৰিবলৈ বিফল; mateconfd য়ে প্ৰস্থান কৰিলে বা বন্ধ হ'লে listener ক পুনঃ যোগ কৰিব নোৱাৰি (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"mateconfd logfile ত listener ৰ লগ আঁতৰাবলৈ বিফল; mateconfd য়ে প্ৰস্থান কৰিলে বা বন্ধ "
-"হ'লে listener ক ভুলকৈ পুনঃ যোগ কৰিব (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "mateconfd logfile ত listener ৰ লগ আঁতৰাবলৈ বিফল; mateconfd য়ে প্ৰস্থান কৰিলে বা বন্ধ হ'লে listener ক ভুলকৈ পুনঃ যোগ কৰিব (%s)"
 
 #: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
@@ -1589,7 +1496,9 @@ msgid "Failed to flush client add to saved state file: %s"
 msgstr "সংৰক্ষিত state নথিপত্ৰলৈ গ্ৰাহক যোগ কৰা flush কৰিবলৈ বিফল: %s"
 
 #: ../mateconf/mateconfd.c:2591
-msgid "Some client removed itself from the MateConf server when it hadn't been added."
+msgid ""
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
 msgstr "MateConf সেৱকৰ যোগ কৰাৰ সময় কোনো গ্ৰাহকে নিজকে অপসাৰণ কৰিছে ।"
 
 #: ../mateconf/mateconftool.c:93
@@ -1648,17 +1557,15 @@ msgstr "মান পঢ়াৰ সময় স্কীমাৰ অবিকল�
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
 msgstr "এটা পঞ্জিকাৰ সকলো নিবেশৰ XML বৰ্ণনা ৰিকাৰ্ছিভভাবে মানপ্ৰাপ্ত নিৰ্গমত ডাম্প কৰক । "
 
 #: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"এটা নিৰ্দিষ্ট নথিপত্ৰৰ পৰা মানসমূহৰ XML বৰ্ণনা তুলি এটা পঞ্জিকাৰ আপেক্ষিকভাবে "
-"নিৰ্ধাৰণ কৰক ।"
+msgstr "এটা নিৰ্দিষ্ট নথিপত্ৰৰ পৰা মানসমূহৰ XML বৰ্ণনা তুলি এটা পঞ্জিকাৰ আপেক্ষিকভাবে নিৰ্ধাৰণ কৰক ।"
 
 #: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
@@ -1678,17 +1585,15 @@ msgstr "mateconfd চলি থাকিলে ০ দিব, নাথাকি
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
 msgstr "বিন্যাস সেৱক (mateconfd) আৰম্ভ কৰক । (সাধাৰণতে প্ৰয়োজন হ'লে নিজেই আৰম্ভ হয় ।)"
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"প্ৰয়োগকৃত মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ সংক্ষিপ্ত কৰি "
-"উল্লেখ কৰাটোও ঠিক হ'ব ।"
+msgstr "প্ৰয়োগকৃত মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ সংক্ষিপ্ত কৰি উল্লেখ কৰাটোও ঠিক হ'ব ।"
 
 #: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
@@ -1710,29 +1615,24 @@ msgstr "তালিকা চাবিৰ পৰা এটা নিৰ্দ�
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"প্ৰয়োগকৃত তালিকাৰ মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ "
-"সংক্ষিপ্ত কৰি উল্লেখ কৰাটোও ঠিক ।"
+msgstr "প্ৰয়োগকৃত তালিকাৰ মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ সংক্ষিপ্ত কৰি উল্লেখ কৰাটোও ঠিক ।"
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"প্ৰয়োগকৃত car জোড়া মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ "
-"সংক্ষিপ্ত কৰি উল্লেখ কৰাটোও ঠিক ।"
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "প্ৰয়োগকৃত car জোড়া মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ সংক্ষিপ্ত কৰি উল্লেখ কৰাটোও ঠিক ।"
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"প্ৰয়োগকৃত cdr জোড়া মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ "
-"সংক্ষিপ্ত কৰি উল্লেখ কৰাটোও ঠিক ।"
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "প্ৰয়োগকৃত cdr জোড়া মানৰ, বা স্কীমা দ্বাৰা বৰ্ণনাকৃত মানৰ ধৰন নিৰ্দিষ্ট কৰক । শব্দ সংক্ষিপ্ত কৰি উল্লেখ কৰাটোও ঠিক ।"
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1752,56 +1652,42 @@ msgstr "উৎস"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
-msgstr ""
-"সেৱক আওকাণ কৰক, আৰু পোনেপোনে বিন্যাস তথ্যভঁৰাল অভিগম কৰক । ইয়াৰ প্ৰয়োজন হ'ল "
-"mateconfd চলিব নালাগে ।"
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
+msgstr "সেৱক আওকাণ কৰক, আৰু পোনেপোনে বিন্যাস তথ্যভঁৰাল অভিগম কৰক । ইয়াৰ প্ৰয়োজন হ'ল mateconfd চলিব নালাগে ।"
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"তথ্যভঁৰালত স্কীমা নথিপত্ৰক আদেশ শাৰীৰ পৰা শুদ্ধকৈ সংস্থাপন কৰে ।MATECONF_CONFIG_SOURCE "
-"পৰিবেশ চলকক এটা নিজৰ পছন্দৰ বিন্যাস উৎসলৈ নিৰ্ধাৰণ কৰিব লাগে বা ৰিক্ত স্ট্ৰিঙক "
-"অবিকল্পিত বিন্যাস উৎস ব্যৱহাৰ কৰিবলৈ ক'ব লাগে ।"
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "তথ্যভঁৰালত স্কীমা নথিপত্ৰক আদেশ শাৰীৰ পৰা শুদ্ধকৈ সংস্থাপন কৰে ।MATECONF_CONFIG_SOURCE পৰিবেশ চলকক এটা নিজৰ পছন্দৰ বিন্যাস উৎসলৈ নিৰ্ধাৰণ কৰিব লাগে বা ৰিক্ত স্ট্ৰিঙক অবিকল্পিত বিন্যাস উৎস ব্যৱহাৰ কৰিবলৈ ক'ব লাগে ।"
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"তথ্যভঁৰালৰ পৰা স্কীমা নথিপত্ৰক আদেশ শাৰীৰ পৰা শুদ্ধকৈ আঁতৰাই ।MATECONF_CONFIG_SOURCE "
-"পৰিবেশ চলকক এটা অবিকল্পিত নোহোৱা বিন্যাস উৎসলৈ নিৰ্ধাৰণ কৰিব লাগে বা ৰিক্ত "
-"স্ট্ৰিংক অবিকল্পিত ব্যৱহাৰ কৰিবলৈ ক'ব লাগে ।"
+msgstr "তথ্যভঁৰালৰ পৰা স্কীমা নথিপত্ৰক আদেশ শাৰীৰ পৰা শুদ্ধকৈ আঁতৰাই ।MATECONF_CONFIG_SOURCE পৰিবেশ চলকক এটা অবিকল্পিত নোহোৱা বিন্যাস উৎসলৈ নিৰ্ধাৰণ কৰিব লাগে বা ৰিক্ত স্ট্ৰিংক অবিকল্পিত ব্যৱহাৰ কৰিবলৈ ক'ব লাগে ।"
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"আদেশ শাৰীত চাবিৰ বাবে বিভিন্ন ধৰনৰ মান নিৰ্ধাৰণ আৰু আনসেট কৰি এটা অনুপ্ৰয়োগৰ অগ্নি-"
-"পৰীক্ষা কৰক ।"
+msgstr "আদেশ শাৰীত চাবিৰ বাবে বিভিন্ন ধৰনৰ মান নিৰ্ধাৰণ আৰু আনসেট কৰি এটা অনুপ্ৰয়োগৰ অগ্নি-পৰীক্ষা কৰক ।"
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"আদেশ লাইনৰ পৰা পঞ্জিকাৰ ভিতৰৰ অনেক চাবি নিৰ্ধাৰণ আৰু আনসেট কৰি এটা অনুপ্ৰয়োগৰ "
-"অগ্নি-পৰীক্ষা কৰক ।"
+msgstr "আদেশ লাইনৰ পৰা পঞ্জিকাৰ ভিতৰৰ অনেক চাবি নিৰ্ধাৰণ আৰু আনসেট কৰি এটা অনুপ্ৰয়োগৰ অগ্নি-পৰীক্ষা কৰক ।"
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"এটা স্কীমা নিৰ্ধাৰণ কৰক আৰু সিঙ্ক কৰক । --short-desc, --long-desc, --owner, আৰু --"
-"type ৰ সৈতে ব্যৱহাৰ কৰক ।"
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "এটা স্কীমা নিৰ্ধাৰণ কৰক আৰু সিঙ্ক কৰক । --short-desc, --long-desc, --owner, আৰু --type ৰ সৈতে ব্যৱহাৰ কৰক ।"
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1828,10 +1714,9 @@ msgid "Get the name of the schema applied to this key"
 msgstr "এই চাবিত প্ৰয়োগকৃত স্কীমাৰ নাম পঢ়ক"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
-msgstr ""
-"প্ৰথমে স্কীমাৰ নাম আৰু তাৰ পিছত চাবি যাৰ ওপৰত স্কীমা নাম প্ৰযোজ্য হ'ব তাক উল্লেখ "
-"কৰক ।"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
+msgstr "প্ৰথমে স্কীমাৰ নাম আৰু তাৰ পিছত চাবি যাৰ ওপৰত স্কীমা নাম প্ৰযোজ্য হ'ব তাক উল্লেখ কৰক ।"
 
 #: ../mateconf/mateconftool.c:499
 msgid "Remove any schema name applied to the given keys"
@@ -1945,18 +1830,14 @@ msgstr "--all-dirs বিকল্পৰ সৈতে --get বা --set ব্�
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list ক --get, --set, --unset, --all-entries, --all-dirs, বা --"
-"search-key ৰ লগত ব্যৱহাৰ কৰিব নালাগে\n"
+msgstr "--recursive-list ক --get, --set, --unset, --all-entries, --all-dirs, বা --search-key ৰ লগত ব্যৱহাৰ কৰিব নালাগে\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set_schema ক --get, --set, --unset, --all-entries, --all-dirs, বা --search-"
-"key ৰ লগত ব্যৱহাৰ কৰিব নালাগে\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set_schema ক --get, --set, --unset, --all-entries, --all-dirs, বা --search-key ৰ লগত ব্যৱহাৰ কৰিব নালাগে\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -1971,14 +1852,13 @@ msgstr "মান নিৰ্ধাৰণৰ সময় প্ৰকৃতি �
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"--get, --all-entries, --dump, --recursive-list, --get-list-size বা --get-"
-"list-element বিকল্পৰ সৈতে --ignore-schema-defaults প্ৰযোজ্য\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "--get, --all-entries, --dump, --recursive-list, --get-list-size বা --get-list-element বিকল্পৰ সৈতে --ignore-schema-defaults প্ৰযোজ্য\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -1987,11 +1867,9 @@ msgstr "%s বিকল্প অন্য কোনো বিকল্পৰ �
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
-msgstr ""
-"--direct ব্যৱহাৰ কৰোঁতে আপুনি --config-source ব্যৱহাৰ কৰি এটা বিন্যাসৰ উৎস "
-"নিৰ্ধাৰণ কৰিব লাগিব\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
+msgstr "--direct ব্যৱহাৰ কৰোঁতে আপুনি --config-source ব্যৱহাৰ কৰি এটা বিন্যাসৰ উৎস নিৰ্ধাৰণ কৰিব লাগিব\n"
 
 #: ../mateconf/mateconftool.c:859
 #, c-format
@@ -2000,15 +1878,16 @@ msgstr "MateConf init কৰিবলৈ ব্যৰ্থ: %s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
 msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL ৰ মান নিৰ্ধাৰিত, স্কিমা সংস্থাপন কৰা নহয়\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL ৰ মান নিৰ্ধাৰিত, স্কিমা আন-সংস্থাপন কৰা "
-"নহয়\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL ৰ মান নিৰ্ধাৰিত, স্কিমা আন-সংস্থাপন কৰা নহয়\n"
 
 #: ../mateconf/mateconftool.c:907
 #, c-format
@@ -2020,623 +1899,571 @@ msgstr "MATECONF_CONFIG_SOURCE পৰিবেশ চলকৰ মান নি�
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "বিন্যাসৰ উৎস ব্যৱহাৰ কৰিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "বন্ধ কৰা সংক্ৰান্ত সমস্যা: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "ৰিকাৰ্ছিভ ভাবে তালিকাভুক্ত কৰিবলৈএক বা একাধিক পঞ্জিকা উল্লেখ কৰা আৱশ্যক ।\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "`%s'-বিষয়বস্তু তালিকাভুক্ত কৰিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(মান নিৰ্ধাৰিত নহয়)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "বিচাৰিবলৈ আপুনি চাবিৰ এটা ধৰণ নিৰ্ধাৰণ কৰিব লাগিব ।\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "বিচাৰিবলৈ এটা PCRE regex নিৰ্ধাৰণ কৰিব লাগিব ।\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "regex সঙ্কলন কৰোঁতে ভুল: %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "ডাম্প কৰাৰ উদ্দেশ্যে এক বা একাধিক পঞ্জিকা উল্লেখ কৰা আৱশ্যক ।\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "বিন্যাস সেৱক (mateconfd) spawn কৰিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "প্ৰাপ্ত কৰাৰ উদ্দেশ্যে এক বা একাধিক কি উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "ধৰন: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "তালিকাৰ ধৰন: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car ৰ ধৰন: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr ৰ ধৰন: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "অবিকল্পিত মান: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "আনছেট"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "গৰাকী: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "সংক্ষিপ্ত বৰ্ণনা: %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "বিস্তাৰিত বৰ্ণনা: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "`%s'-ৰ মান নিৰ্ধাৰিত নহয়\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "`%s'-ৰ মান প্ৰাপ্ত কৰিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "`%s' ধৰন বোধগম্য নহয়\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "তৰ্ক হিচাপে বৈকল্পিক চাবি/মান দিব লাগিব\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "চাবিৰমান নিৰ্ধাৰিত নহয়: `%s'\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "মান ৰূপে schema নিৰ্ধাৰণ কৰা নাযাব\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "তালিকা নিৰ্ধাৰণ কৰোঁতে আপুনি এটা প্ৰিমিটিভ তালিকাৰ ধৰণ নিৰ্ধাৰণ কৰিব লাগিব\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
 msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "জোৰা নিৰ্ধাৰণ কৰোঁতে আপুনি এটা প্ৰিমিটিভ car-ধৰণ আৰু cdr-ধৰণ নিৰ্ধাৰণ কৰিব লাগিব\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "ত্ৰুটি: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "মান নিৰ্ধাৰণ ভুল: %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "সুসংগত কৰিবলৈ ভুল: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "তৰ্ক হিচাপে একাধিক চাবি/মান দিব লাগিব\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "চাবি  %s ৰ মান নিৰ্ধাৰিত নহয়\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "এটা বুলিয়েন মান নহয়: %s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "ধৰন সংক্ৰান্ত তথ্য প্ৰাপ্ত কৰিবলৈ একাধিক চানি উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "মাপ সংক্ৰান্ত তথ্য প্ৰাপ্ত কৰিবলৈ চাবি উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "%s চাবি তালিকা নহয় ।\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "তালিকাৰ বিষয়বস্তু প্ৰাপ্ত কৰাৰ বাবে এটা চাবি উল্লেখ কৰা আৱশ্যক ।\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "তালিকাৰ ইন্ডেক্স উল্লেখ কৰা আৱশ্যক ।\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "তালিকাৰ ইন্ডেক্সৰ মান শূণ্যৰ অধিক হোৱা আৱশ্যক ।\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "তালিকাৰ ইন্ডেক্স সীমা বহিৰ্ভূত ।\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "আদেশ শাৰীৰ একাধিক চাবি উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "`%s'-ৰ স্কিমা অজ্ঞাত\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "'%s' ত থকা স্কীমাত কোনো doc শব্দ নাই\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "'%s' ত উপস্থিত স্কিমা প্ৰাপ্ত কৰিবলৈ সমস্যা: %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "'%s' ত কোনো স্কিমা সংৰক্ষিত নাই\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "'%s' ত উপস্থিত মান স্কিমা নহয়\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr "স্কিমাৰ নামৰ আৰু তাক প্ৰয়োগৰ উদ্দেশ্যে এটা চাবিৰনাম উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "'%s' নামক স্কিমা আৰু '%s' নামক চাবি সংযুক্ত কৰিবলৈ সমস্যা: %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "-ৰ পৰা স্কীমা অপ্ৰযোজ্য কৰিবলৈ চাবি নিৰ্ধাৰণ কৰিব লাগিব\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "'%s ৰ পৰা স্কিমাৰ নাম আঁতৰাবলৈ সমস্যা: %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "চাবি (স্কিমাৰ নাম) এটা স্বত্বন্ত্ৰ তৰ্ক ৰূপে উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "তালিকাৰ প্ৰকৃতি মৌলিক হোৱা আৱশ্যক: string, int, float বা bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
 msgstr "জোৰা car ৰ প্ৰকৃতি মৌলিক হোৱা আৱশ্যক: string, int, float বা bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
 msgstr "জোৰা cdr ৰ প্ৰকৃতি মৌলিক হোৱা আৱশ্যক: string, int, float বা bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "মান নিৰ্ধাৰণত ভুল: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "সুসংগত কৰিবলৈ ভুল: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
 msgstr "চাবি/মানৰ জোৰা পাবলৈ একাধিক পঞ্জিকা নিৰ্ধাৰণ কৰিব লাগিব ।\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "আনছেট কৰিবলৈ একাধিক চাবি নিৰ্ধাৰণ  কৰিব লাগিব ।\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "`%s'-ৰ মান বাতিল কৰিবলৈ ভুল: %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "ৰিকাৰ্ছিভ ভাবে মান বাতিল কৰিবলৈ একাধিক চাবি দিব লাগিব ।\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "\"%s\" ৰ ৰিকাৰ্ছিভ ভাবে মান বাতিল কৰোঁতে বিফল : %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
 msgstr "subdirs প্ৰাপ্ত কৰিবলৈ এক বা অধিক পঞ্জিকা উল্লেখ কৰা আৱশ্যক ।\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "dirs তালিকাভুক্ত কৰিবলৈ ভুল: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "সতৰ্কবাৰ্তা: <pair> ৰ ক্ষেত্ৰত <car> আৰু <cdr> উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
 msgstr "সতৰ্কবাৰ্তা: স্কিমাৰ বাবে <value> ৰ পৰা চাবি (%s) উল্লিখিত - অগ্ৰাহ্য কৰা হ'ব\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "সতৰ্কবাৰ্তা: <value> ৰ নিম্নস্থ চাইল্ড নোড থকা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "সতৰ্কবাৰ্তা: নোড <%s> বোধগম্য নহয়\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: `%s' int মান বিশ্লেষণ কৰিবলৈ ব্যৰ্থ\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: `%s' float মান বিশ্লেষণ কৰিবলৈ ব্যৰ্থ\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: `%s' string মান বিশ্লেষণ কৰিবলৈ ব্যৰ্থ\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: `%s' boolean মান বিশ্লেষণ কৰিবলৈ ব্যৰ্থ\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "সতৰ্কবাৰ্তা: স্কিমা `%s'-ৰ সৈতে `%s' চাবি সংযুক্ত কৰিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "সতৰ্কবাৰ্তা:স্কিমাৰ (%s) প্ৰকৃতি বৈধ নহয় বা অনুপস্থিত\n"
 
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "সতৰ্কবাৰ্তা: স্কিমাৰ (%s) list_type বৈধ নহয় বা অনুপস্থিত\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "সতৰ্কবাৰ্তা: অবিকল্পিত মান `%s' স্কিমাৰ (%s) বাবে বিশ্লেষণ কৰিবলৈ ব্যৰ্থ\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
 msgstr "সতৰ্কবাৰ্তা: স্কিমাৰ (%s) ক্ষেত্ৰত অবৈধ বা অনুপস্থিত car_type বা cdr_type\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "সকৰ্তবাৰ্তা: স্কিমাৰ অবিকল্পিত মান স্থাপন কৰা সম্ভৱ নহয়\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "WARNING: mateconftool ৰ অভ্যন্তৰীণ ভুল, অজ্ঞাত MateConfValueType\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: ধৰনৰ নাম `%s' বিশ্লেষণ কৰিবলৈ ব্যৰ্থ\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
 msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: list_type অকল int, float, string বা bool হ'ব পাৰে, `%s' নহয়\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: car_type অকল int, float, string বা bool হ'ব পাৰে, `%s' নহয়\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
 msgstr "সতৰ্কবাৰ্তা: cdr_type অকল int, float, string বা bool হ'ব পাৰে, `%s' নহয়\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "সতৰ্কবাৰ্তা: ৰিক্ত <applyto> নোড"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "সতৰ্কবাৰ্তা: <%s> নোড <schema> ৰ নিম্নস্থ বোধগম্য নহয়\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "সতৰ্কবাৰ্তা: তালিকা প্ৰকৃতিৰ স্কিমাৰ ক্ষেত্ৰত <list_type> উল্লিখিত নাই\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "সতৰ্কবাৰ্তা: জোৰা প্ৰকৃতিৰ স্কিমাৰ ক্ষেত্ৰত <car_type> উল্লিখিত নাই\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "সতৰ্কবাৰ্তা: জোৰা প্ৰকৃতিৰ স্কিমাৰ ক্ষেত্ৰত <cdr_type> উল্লিখিত নাই\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
-msgstr ""
-"সতৰ্কবাৰ্তা: <locale> নোডত `name=\"locale\"' বৈশিষ্ট্য উপস্থিত নাই, অগ্ৰাহ্য কৰা "
-"হ'ব\n"
+msgstr "সতৰ্কবাৰ্তা: <locale> নোডত `name=\"locale\"' বৈশিষ্ট্য উপস্থিত নাই, অগ্ৰাহ্য কৰা হ'ব\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
-msgid "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"সতৰ্কবাৰ্তা: `%s' লোকেইলৰ কাৰণে বহুতো <locale> নোড, প্ৰথমৰ পিছৰ সকলো আওকাণ কৰা "
-"হৈছে\n"
+msgid ""
+"WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
+msgstr "সতৰ্কবাৰ্তা: `%s' লোকেইলৰ কাৰণে বহুতো <locale> নোড, প্ৰথমৰ পিছৰ সকলো আওকাণ কৰা হৈছে\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "সতৰ্কবাৰ্তা: <locale> নোডত অবৈধ নোড <%s>\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "স্কিমাৰ `%s'-ৰ সৈতে `%s' কি সংযুক্ত কৰা হৈছে\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "<schema> ত অন্তত এটা <locale> মান উল্লিখিত হোৱা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "সতৰ্কবাৰ্তা: `%s' স্কীমা, লোকেইল `%s' সংস্থাপনত বিফল: %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "স্কিমা `%s' সংস্থাপন কৰা হৈছে `%s' লোকেইলেৰ বাবে\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "সতৰ্কবাৰ্তা: `%s' স্কীমা, লোকেইল `%s' সংস্থাপন আঁতৰুৱাত বিফল: %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "স্কিমা `%s ৰ পৰা লোকেইল `%s' আন-সংস্থাপন কৰা হ'ব\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "সতৰ্কবাৰ্তা: স্কিমাৰ বাবে চাবি উল্লিখিত নহয়\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "সতৰ্কবাৰ্তা: নোড <%s>, <%s> ৰ তলত বোধগম্য নহয়\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "`%s' খুলিবলৈ ব্যৰ্থ: %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "`%s' আলেখ্যন ৰিক্ত নেকি?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
 msgstr "`%s'-ত মূল নোডৰ ধৰন সঠিক নহয় (<%s> নিৰ্ধাৰিত, <%s> যথাযত)\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "`%s' আলেখ্যনত কোনো উচ্চ স্তৰৰ <%s> নোড উপস্থিত নাই\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "সতৰ্কবাৰ্তা: নোড <%s>, <%s> ৰ তলত বোধগম্য নহয়\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "বিন্যাস তথ্য syncing কৰোঁতে ভুল: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
 msgstr "সংস্থাপন কৰাৰ উদ্দেশ্যে স্কিমা নথিপত্ৰ উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "breakage key %s ৰ মান বাতিল কৰিবলৈ বিফল: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "অকাৰ্যকৰ কৰাৰ উদ্দেশ্যে চাবি উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"চাবিৰ বাবে অবৈধ মান নিৰ্ধাৰণ কৰি অনুপ্ৰয়োগ অকাৰ্যকৰ কৰাৰ প্ৰচেষ্টা কৰা হৈছে:\n"
-"  %s\n"
+msgstr "চাবিৰ বাবে অবৈধ মান নিৰ্ধাৰণ কৰি অনুপ্ৰয়োগ অকাৰ্যকৰ কৰাৰ প্ৰচেষ্টা কৰা হৈছে:\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "অকাৰ্যকৰ কৰাৰ উদ্দেশ্যে পঞ্জিকা উল্লেখ কৰা আৱশ্যক\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"পঞ্জিকাত চাবিৰ বাবে অবৈধ মান নিৰ্ধাৰণ কৰি অনুপ্ৰয়োগ অকাৰ্যকৰ কৰাৰ প্ৰচেষ্টা কৰা "
-"হৈছে:\n"
-"  %s\n"
-
-#~ msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-#~ msgstr "এক <%s> বস্তুত \"%s\" বৈশিষ্ট্য দুবাৰ উল্লিখিত হৈছে"
-
-#~ msgid "IOR file '%s' not opened successfully, no mateconfd located: %s"
-#~ msgstr "IOR ফাইল '%s' খুলতে ব্যর্থ, mateconfd সনাক্ত করা যায়নি: %s"
-
-#~ msgid "mateconftool or other non-mateconfd process has the lock file '%s'"
-#~ msgstr ""
-#~ "mateconftool অথবা mateconfd-ব্যতীত অন্যান্য কোনো প্রসেসের দ্বারা '%s' লক ফাইল ব্যবহৃত "
-#~ "হচ্ছে"
-
-#~ msgid "Failed to unlink lock file %s: %s\n"
-#~ msgstr "লক ফাইল %s'এর লিঙ্ক বিচ্ছিন্ন করতে ব্যর্থ: %s\n"
-
-#~ msgid "Failed to stat %s: %s"
-#~ msgstr "%s stat করতে ব্যর্থ: %s"
-
-#~ msgid ""
-#~ "Failed to create pipe for communicating with spawned mateconf daemon: %s\n"
-#~ msgstr ""
-#~ "spawn করা mateconf ডেমনের সাথে যোগাযোগের উদ্দেশ্যে pipe নির্মাণে ব্যর্থ: %s\n"
-
-#~ msgid "Failed to launch configuration server: %s\n"
-#~ msgstr "কনফিগারেশন সার্ভার আরম্ভ করতে ব্যর্থ: %s\n"
-
-#~ msgid "Failed to open %s: %s"
-#~ msgstr "%s খুলতে ব্যর্থ: %s"
-
-#~ msgid "Owner of %s is not the current user"
-#~ msgstr "%s বর্তমান ব্যবহারকারীর মালিকানাধীন নয়"
-
-#~ msgid "Bad permissions %lo on directory %s"
-#~ msgstr "ভুল অনুমতি %lo, %s ডিরেক্টরির মধ্যে "
-
-#~ msgid "Failed to create %s: %s"
-#~ msgstr "%s নির্মাণ করতে ব্যর্থ: %s"
-
-#~ msgid "Directory %s has a problem, mateconfd can't use it"
-#~ msgstr "%s ডিরেক্টরির মধ্যে সমস্যা, mateconfd'র দ্বারা ব্যবহার করা সম্ভব নয়"
-
+msgstr "পঞ্জিকাত চাবিৰ বাবে অবৈধ মান নিৰ্ধাৰণ কৰি অনুপ্ৰয়োগ অকাৰ্যকৰ কৰাৰ প্ৰচেষ্টা কৰা হৈছে:\n  %s\n"

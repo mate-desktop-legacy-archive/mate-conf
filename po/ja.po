@@ -1,22 +1,21 @@
-# MateConf ja.po.
-# Copyright (C) 2000-2010 Free Software Foundation, Inc.
-# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2000-2009.
-# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
-# Satoru SATOH <ss@gnome.gr.jp>, 2006
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2009-2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mateconf master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mateconf&component=general\n"
-"POT-Creation-Date: 2010-09-19 15:35+0000\n"
-"PO-Revision-Date: 2010-09-19 15:21+0900\n"
-"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
-"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-26 11:55+0200\n"
+"PO-Revision-Date: 2012-06-26 09:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../backends/evoldap-backend.c:162
 #, c-format
@@ -108,15 +107,7 @@ msgid ""
 "        subdir2/%%mateconf.xml\n"
 "  to:\n"
 "    dir/%%mateconf-tree.xml\n"
-msgstr ""
-"用法: %s <ディレクトリ>\n"
-"  下記のようなマークアップ・バックエンドのファイルシステム階層をマージしま"
-"す:\n"
-"    dir/%%mateconf.xml\n"
-"        subdir1/%%mateconf.xml\n"
-"        subdir2/%%mateconf.xml\n"
-"  マージ後:\n"
-"    dir/%%mateconf-tree.xml\n"
+msgstr "用法: %s <ディレクトリ>\n  下記のようなマークアップ・バックエンドのファイルシステム階層をマージします:\n    dir/%%mateconf.xml\n        subdir1/%%mateconf.xml\n        subdir2/%%mateconf.xml\n  マージ後:\n    dir/%%mateconf-tree.xml\n"
 
 #: ../backends/markup-backend.c:163
 msgid "Unloading text markup backend module."
@@ -134,11 +125,8 @@ msgstr "ディレクトリ '%s' を作成できませんでした: %s"
 
 #: ../backends/markup-backend.c:390 ../backends/xml-backend.c:442
 #, c-format
-msgid ""
-"Can't read from or write to the XML root directory in the address \"%s\""
-msgstr ""
-"アドレス \"%s\" にある XML ルート・ディレクトリへの読み取り/書き込みができま"
-"せん"
+msgid "Can't read from or write to the XML root directory in the address \"%s\""
+msgstr "アドレス \"%s\" にある XML ルート・ディレクトリへの読み取り/書き込みができません"
 
 #: ../backends/markup-backend.c:401 ../backends/xml-backend.c:452
 #, c-format
@@ -150,9 +138,7 @@ msgstr "ルートにある %s の XML ソース用のディレクトリ/ファ�
 msgid ""
 "Remove directory operation is no longer supported, just remove all the "
 "values in the directory"
-msgstr ""
-"ディレクトリの削除はサポートしていないので、ディレクトリ内のすべての値を削除"
-"してください"
+msgstr "ディレクトリの削除はサポートしていないので、ディレクトリ内のすべての値を削除してください"
 
 #: ../backends/markup-backend.c:826 ../backends/xml-backend.c:769
 #, c-format
@@ -173,177 +159,176 @@ msgstr "マークアップ・バックエンド・モジュールの初期化し
 msgid "Failed to give up lock on XML directory \"%s\": %s"
 msgstr "XML ディレクトリ \"%s\" のロックの解除に失敗しました: %s"
 
-#: ../backends/markup-tree.c:437
+#: ../backends/markup-tree.c:438
 #, c-format
 msgid "Failed to write some configuration data to disk\n"
 msgstr "設定データのディスクへの書き込みに失敗しました\n"
 
-#: ../backends/markup-tree.c:960 ../backends/xml-dir.c:1267
+#: ../backends/markup-tree.c:961 ../backends/xml-dir.c:1267
 #, c-format
 msgid "Could not make directory \"%s\": %s"
 msgstr "ディレクトリ \"%s\" を作成できませんでした: %s"
 
-#: ../backends/markup-tree.c:1000 ../backends/markup-tree.c:1007
+#: ../backends/markup-tree.c:1001 ../backends/markup-tree.c:1008
 #, c-format
 msgid "Could not remove \"%s\": %s\n"
 msgstr "\"%s\" を削除できませんでした: %s\n"
 
-#: ../backends/markup-tree.c:1208
+#: ../backends/markup-tree.c:1209
 #, c-format
 msgid "Failed to write \"%s\": %s\n"
 msgstr "\"%s\" の書き込みに失敗しました: %s\n"
 
-#: ../backends/markup-tree.c:1416
+#: ../backends/markup-tree.c:1417
 #, c-format
 msgid "Failed to load file \"%s\": %s"
 msgstr "ファイル \"%s\" の読み込みに失敗しました: %s"
 
-#: ../backends/markup-tree.c:2006
+#: ../backends/markup-tree.c:2011
 #, c-format
 msgid "Line %d character %d: %s"
 msgstr "%d 行 %d 桁: %s"
 
-#: ../backends/markup-tree.c:2234 ../backends/markup-tree.c:2255
+#: ../backends/markup-tree.c:2239 ../backends/markup-tree.c:2260
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
 msgstr "属性 \"%s\" はこのコンテキストの要素 <%s> には不適切です"
 
-#: ../backends/markup-tree.c:2280 ../mateconf/mateconf-value.c:111
+#: ../backends/markup-tree.c:2285 ../mateconf/mateconf-value.c:111
 #, c-format
 msgid "Didn't understand `%s' (expected integer)"
 msgstr "'%s' を解釈しませんでした (整数値を期待しました)"
 
-#: ../backends/markup-tree.c:2287 ../mateconf/mateconf-value.c:121
+#: ../backends/markup-tree.c:2292 ../mateconf/mateconf-value.c:121
 #, c-format
 msgid "Integer `%s' is too large or small"
 msgstr "整数 '%s' は大きすぎるか、もしくは小さすぎます"
 
-#: ../backends/markup-tree.c:2319 ../mateconf/mateconf-value.c:186
+#: ../backends/markup-tree.c:2324 ../mateconf/mateconf-value.c:186
 #, c-format
 msgid "Didn't understand `%s' (expected true or false)"
 msgstr "'%s' を解釈しませんでした (真または偽を期待しました)"
 
-#: ../backends/markup-tree.c:2343 ../mateconf/mateconf-value.c:142
+#: ../backends/markup-tree.c:2348 ../mateconf/mateconf-value.c:142
 #, c-format
 msgid "Didn't understand `%s' (expected real number)"
 msgstr "'%s' を解釈しませんでした (実数値を期待しました)"
 
-#: ../backends/markup-tree.c:2423
+#: ../backends/markup-tree.c:2430
 #, c-format
 msgid "Unknown value \"%s\" for \"%s\" attribute on element <%s>"
 msgstr "\"%s\" が属性 \"%s\" (要素 <%s>) に対して不明な値です"
 
-#: ../backends/markup-tree.c:2443 ../backends/markup-tree.c:2483
-#: ../backends/markup-tree.c:2507 ../backends/markup-tree.c:2515
-#: ../backends/markup-tree.c:2570 ../backends/markup-tree.c:2635
-#: ../backends/markup-tree.c:2747 ../backends/markup-tree.c:2815
-#: ../backends/markup-tree.c:2873 ../backends/markup-tree.c:3023
+#: ../backends/markup-tree.c:2450 ../backends/markup-tree.c:2490
+#: ../backends/markup-tree.c:2514 ../backends/markup-tree.c:2522
+#: ../backends/markup-tree.c:2577 ../backends/markup-tree.c:2642
+#: ../backends/markup-tree.c:2757 ../backends/markup-tree.c:2828
+#: ../backends/markup-tree.c:2886 ../backends/markup-tree.c:3036
 #, c-format
 msgid "No \"%s\" attribute on element <%s>"
 msgstr "属性 \"%s\" が要素 <%s> にありません"
 
-#: ../backends/markup-tree.c:2457
+#: ../backends/markup-tree.c:2464
 #, c-format
 msgid "Invalid ltype \"%s\" on <%s>"
 msgstr "ltype \"%s\" (要素 <%s>) が間違っています"
 
-#: ../backends/markup-tree.c:2537
+#: ../backends/markup-tree.c:2544
 #, c-format
 msgid "Invalid first-element type \"%s\" on <%s>"
 msgstr "first-element の種類 \"%s\" (要素 <%s>) が間違っています"
 
-#: ../backends/markup-tree.c:2551
+#: ../backends/markup-tree.c:2558
 #, c-format
 msgid "Invalid cdr_type \"%s\" on <%s>"
 msgstr "cdr_type \"%s\" (要素 <%s>) が間違っています"
 
-#: ../backends/markup-tree.c:2587
+#: ../backends/markup-tree.c:2594
 #, c-format
 msgid "Invalid list_type \"%s\" on <%s>"
 msgstr "list_type \"%s\" (要素 <%s>) が間違っています"
 
-#: ../backends/markup-tree.c:2954
+#: ../backends/markup-tree.c:2967
 msgid "Two <default> elements below a <local_schema>"
 msgstr "要素 <default> が <local_schema> の下に二つあります"
 
-#: ../backends/markup-tree.c:2969
+#: ../backends/markup-tree.c:2982
 msgid "Two <longdesc> elements below a <local_schema>"
 msgstr "要素 <longdesc> が <local_schema> の下に二つあります"
 
-#: ../backends/markup-tree.c:2976
+#: ../backends/markup-tree.c:2989
 #, c-format
 msgid "Element <%s> is not allowed below <%s>"
 msgstr "要素 <%s> は <%s> の下に格納できません"
 
-#: ../backends/markup-tree.c:3001 ../backends/markup-tree.c:3106
-#: ../backends/markup-tree.c:3160 ../backends/markup-tree.c:3211
+#: ../backends/markup-tree.c:3014 ../backends/markup-tree.c:3119
+#: ../backends/markup-tree.c:3173 ../backends/markup-tree.c:3224
 #, c-format
 msgid "<%s> provided but current element does not have type %s"
 msgstr "<%s> を与えましたが、この要素には %s 型がありません"
 
-#: ../backends/markup-tree.c:3084
+#: ../backends/markup-tree.c:3097
 msgid "Two <car> elements given for same pair"
 msgstr "要素 <car> が同じペアに対して二回与えられています"
 
-#: ../backends/markup-tree.c:3098
+#: ../backends/markup-tree.c:3111
 msgid "Two <cdr> elements given for same pair"
 msgstr "要素 <cdr> が同じペアに対して二回与えられています"
 
-#: ../backends/markup-tree.c:3152
+#: ../backends/markup-tree.c:3165
 #, c-format
 msgid "<li> has wrong type %s"
 msgstr "<li> に間違った型 %s があります"
 
-#: ../backends/markup-tree.c:3183
+#: ../backends/markup-tree.c:3196
 #, c-format
 msgid "<%s> provided but parent <entry> does not have a value"
 msgstr "<%s> を与えましたが、親の要素 <entry> には値がありません"
 
-#: ../backends/markup-tree.c:3224 ../backends/markup-tree.c:3247
-#: ../backends/markup-tree.c:3269 ../backends/markup-tree.c:3286
+#: ../backends/markup-tree.c:3237 ../backends/markup-tree.c:3260
+#: ../backends/markup-tree.c:3282 ../backends/markup-tree.c:3299
 #, c-format
 msgid "Element <%s> is not allowed inside current element"
 msgstr "要素 <%s> はこの要素の内側に格納できません"
 
-#: ../backends/markup-tree.c:3318
+#: ../backends/markup-tree.c:3331
 #, c-format
 msgid "Outermost element in menu file must be <mateconf> not <%s>"
-msgstr ""
-"メニューファイルの一番外側の要素は <%s> ではなく <mateconf> にしてください"
+msgstr "メニューファイルの一番外側の要素は <%s> ではなく <mateconf> にしてください"
 
-#: ../backends/markup-tree.c:3338 ../backends/markup-tree.c:3360
-#: ../backends/markup-tree.c:3365
+#: ../backends/markup-tree.c:3351 ../backends/markup-tree.c:3373
+#: ../backends/markup-tree.c:3378
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
 msgstr "要素 <%s> は要素 <%s> の内側に格納できません"
 
-#: ../backends/markup-tree.c:3509
+#: ../backends/markup-tree.c:3522
 #, c-format
 msgid "No text is allowed inside element <%s>"
 msgstr "要素 <%s> の内側にテキストを格納できません"
 
-#: ../backends/markup-tree.c:3625 ../backends/markup-tree.c:4391
-#: ../backends/markup-tree.c:4410
+#: ../backends/markup-tree.c:3638 ../backends/markup-tree.c:4422
+#: ../backends/markup-tree.c:4441
 #, c-format
 msgid "Failed to open \"%s\": %s\n"
 msgstr "\"%s\" のオープンに失敗しました: %s\n"
 
-#: ../backends/markup-tree.c:3655
+#: ../backends/markup-tree.c:3668
 #, c-format
 msgid "Error reading \"%s\": %s\n"
 msgstr "\"%s\" の読み込みでエラー: %s\n"
 
-#: ../backends/markup-tree.c:4485
+#: ../backends/markup-tree.c:4516
 #, c-format
 msgid "Could not flush file '%s' to disk: %s"
 msgstr "ファイル '%s' をディスクに書き出せませんでした: %s"
 
-#: ../backends/markup-tree.c:4504
+#: ../backends/markup-tree.c:4535
 #, c-format
 msgid "Error writing file \"%s\": %s"
 msgstr "ファイル \"%s\" の書き込みでエラー: %s"
 
-#: ../backends/markup-tree.c:4533
+#: ../backends/markup-tree.c:4564
 #, c-format
 msgid "Failed to move temporary file \"%s\" to final location \"%s\": %s"
 msgstr "作業ファイル \"%s\" を最終格納場所 \"%s\" へ移動できませんでした: %s"
@@ -370,9 +355,7 @@ msgstr "XML キャッシュとディスクとの同期に失敗しました"
 msgid ""
 "Unable to remove directory `%s' from the XML backend cache, because it has "
 "not been successfully synced to disk"
-msgstr ""
-"ディスクとの同期に失敗したため、XML バックエンドのキャッシュからディレクトリ "
-"'%s' を削除できません"
+msgstr "ディスクとの同期に失敗したため、XML バックエンドのキャッシュからディレクトリ '%s' を削除できません"
 
 #: ../backends/xml-dir.c:170
 #, c-format
@@ -443,9 +426,7 @@ msgstr "XML ファイル '%s' の中に名前の無いエントリが含まれ�
 #: ../backends/xml-dir.c:1195
 #, c-format
 msgid "A toplevel node in XML file `%s' is <%s> rather than <entry>, ignoring"
-msgstr ""
-"XML ファイル '%s' の中のトップレベルノードが <entry> ではなく <%s> なので無視"
-"します"
+msgstr "XML ファイル '%s' の中のトップレベルノードが <entry> ではなく <%s> なので無視します"
 
 #: ../backends/xml-dir.c:1283
 #, c-format
@@ -499,9 +480,7 @@ msgstr "XML リストノードの中にある XML ノード <%s> を解釈しま
 
 #: ../backends/xml-entry.c:1061
 msgid "Invalid type (list, pair, or unknown) in a list node"
-msgstr ""
-"リストノードの中に不正な型 (リスト、キーと値のペア、もしくは不明な型) があり"
-"ます"
+msgstr "リストノードの中に不正な型 (リスト、キーと値のペア、もしくは不明な型) があります"
 
 #: ../backends/xml-entry.c:1084
 #, c-format
@@ -520,9 +499,7 @@ msgstr "XML (キーと値の)ペアから使用できない car を無視しま�
 
 #: ../backends/xml-entry.c:1153 ../backends/xml-entry.c:1176
 msgid "parsing XML file: lists and pairs may not be placed inside a pair"
-msgstr ""
-"XML ファイルを解析中: リストと(キーと値の)ペアは(キーと値の)ペアの下位レベル"
-"に無いかもしれません"
+msgstr "XML ファイルを解析中: リストと(キーと値の)ペアは(キーと値の)ペアの下位レベルに無いかもしれません"
 
 #: ../backends/xml-entry.c:1166
 #, c-format
@@ -551,20 +528,20 @@ msgid "Missing both car and cdr values from pair in XML file"
 msgstr "XML ファイルの中にあるペアに car と cdr の値がありません"
 
 #: ../defaults/org.mate.mateconf.defaults.policy.in.h:1
-msgid "Change MateConf mandatory values"
-msgstr "変更不可の MateConf の設定値の編集"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Change MateConf system values"
 msgstr "システム規模で MateConf の設定値の変更"
 
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
-msgid "Privileges are required to change MateConf mandatory values"
-msgstr "MateConf で変更不可の値を編集するのに必要な権限です"
-
-#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:2
 msgid "Privileges are required to change MateConf system values"
 msgstr "MateConf でシステム規模の値を変更するのに必要な権限です"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:3
+msgid "Change MateConf mandatory values"
+msgstr "変更不可の MateConf の設定値の編集"
+
+#: ../defaults/org.mate.mateconf.defaults.policy.in.h:4
+msgid "Privileges are required to change MateConf mandatory values"
+msgstr "MateConf で変更不可の値を編集するのに必要な権限です"
 
 #: ../mateconf/mateconf-backend.c:62
 #, c-format
@@ -599,8 +576,7 @@ msgstr "アドレス '%s' は使えません"
 
 #: ../mateconf/mateconf-backend.c:337
 msgid "MateConf won't work without dynamic module support (gmodule)"
-msgstr ""
-"MateConf はダイナミック・モジュールのサポート (gmodule) 無しでは動作しません"
+msgstr "MateConf はダイナミック・モジュールのサポート (gmodule) 無しでは動作しません"
 
 #: ../mateconf/mateconf-backend.c:346
 #, c-format
@@ -642,9 +618,9 @@ msgstr "設定した要求の中に不正な値を受け取りました"
 
 #: ../mateconf/mateconf-database.c:220
 #, c-format
-msgid "Couldn't make sense of CORBA value received in set request for key `%s'"
-msgstr ""
-"キー '%s' 用に設定された要求で受け取った CORBA 値を解釈できませんでした"
+msgid ""
+"Couldn't make sense of CORBA value received in set request for key `%s'"
+msgstr "キー '%s' 用に設定された要求で受け取った CORBA 値を解釈できませんでした"
 
 #: ../mateconf/mateconf-database.c:503
 msgid "Received request to drop all cached data"
@@ -656,9 +632,7 @@ msgstr "同期する要求を受け取りました"
 
 #: ../mateconf/mateconf-database.c:808
 msgid "Fatal error: failed to get object reference for ConfigDatabase"
-msgstr ""
-"致命的なエラー: ConfigDatabase 用のオブジェクトリファレンスの取得に失敗しまし"
-"た"
+msgstr "致命的なエラー: ConfigDatabase 用のオブジェクトリファレンスの取得に失敗しました"
 
 #: ../mateconf/mateconf-database.c:974
 #, c-format
@@ -668,22 +642,17 @@ msgstr "一つ以上のファイルの同期でエラー: %s"
 #: ../mateconf/mateconf-database.c:1047
 #, c-format
 msgid ""
-"Error obtaining new value for `%s' after change notification from backend `%"
-"s': %s"
-msgstr ""
-"'%s' の新しい値を取得する際にエラーが発生しました (バックエンド '%s' からの通"
-"知を変更したあと): %s"
+"Error obtaining new value for `%s' after change notification from backend "
+"`%s': %s"
+msgstr "'%s' の新しい値を取得する際にエラーが発生しました (バックエンド '%s' からの通知を変更したあと): %s"
 
 #: ../mateconf/mateconf-database.c:1120
 #, c-format
 msgid ""
-"Failed to log addition of listener %s (%s); will not be able to restore this "
-"listener on mateconfd restart, resulting in unreliable notification of "
+"Failed to log addition of listener %s (%s); will not be able to restore this"
+" listener on mateconfd restart, resulting in unreliable notification of "
 "configuration changes."
-msgstr ""
-"追加のリスナーである %s (%s) のログを記録できませんでした (信頼できない設定変"
-"更の通知になるため、mateconfd デーモンを再起動した時にこのリスナーを復帰させるこ"
-"とはできません)"
+msgstr "追加のリスナーである %s (%s) のログを記録できませんでした (信頼できない設定変更の通知になるため、mateconfd デーモンを再起動した時にこのリスナーを復帰させることはできません)"
 
 #: ../mateconf/mateconf-database.c:1154
 #, c-format
@@ -695,9 +664,7 @@ msgstr "ID が %lu であるリスナーは存在しません"
 msgid ""
 "Failed to log removal of listener to logfile (most likely harmless, may "
 "result in a notification weirdly reappearing): %s"
-msgstr ""
-"ログファイルへリスナーのログ移動に失敗しました (殆ど実害はありません、再度お"
-"かしな通知があるかもしれませんせんが): %s"
+msgstr "ログファイルへリスナーのログ移動に失敗しました (殆ど実害はありません、再度おかしな通知があるかもしれませんせんが): %s"
 
 #: ../mateconf/mateconf-database.c:1301 ../mateconf/mateconf-sources.c:1737
 #, c-format
@@ -845,194 +812,187 @@ msgstr "mateconfd からおかしなリスト型を受け取りました"
 msgid "Failed to convert object to IOR"
 msgstr "IOR へのオブジェクト変換に失敗しました"
 
-#: ../mateconf/mateconf-internals.c:574
+#: ../mateconf/mateconf-internals.c:575
 msgid "Invalid UTF-8 in locale for schema"
 msgstr "スキーマのロケールにある UTF-8 が正しくありません"
 
-#: ../mateconf/mateconf-internals.c:582
+#: ../mateconf/mateconf-internals.c:583
 msgid "Invalid UTF-8 in short description for schema"
 msgstr "スキーマの説明 (短文) にある UTF-8 が正しくありません"
 
-#: ../mateconf/mateconf-internals.c:590
+#: ../mateconf/mateconf-internals.c:591
 msgid "Invalid UTF-8 in long description for schema"
 msgstr "スキーマの説明 (長文) にある UTF-8 が正しくありません"
 
-#: ../mateconf/mateconf-internals.c:598
+#: ../mateconf/mateconf-internals.c:599
 msgid "Invalid UTF-8 in owner for schema"
 msgstr "スキーマの所有者にある UTF-8 が正しくありません"
 
-#: ../mateconf/mateconf-internals.c:843
+#: ../mateconf/mateconf-internals.c:607
+msgid "Invalid UTF-8 in gettext domain for schema"
+msgstr ""
+
+#: ../mateconf/mateconf-internals.c:852
 #, c-format
 msgid "Couldn't open path file `%s': %s\n"
 msgstr "ファイル '%s' が開けませんでした: %s\n"
 
-#: ../mateconf/mateconf-internals.c:899
+#: ../mateconf/mateconf-internals.c:908
 #, c-format
 msgid "Adding source `%s'\n"
 msgstr "ソース '%s' を追加しています\n"
 
-#: ../mateconf/mateconf-internals.c:914
+#: ../mateconf/mateconf-internals.c:923
 #, c-format
 msgid "Read error on file `%s': %s\n"
 msgstr "ファイル '%s' 上にエラーがあります: %s\n"
 
-#: ../mateconf/mateconf-internals.c:1188 ../mateconf/mateconf-internals.c:1254
+#: ../mateconf/mateconf-internals.c:1197 ../mateconf/mateconf-internals.c:1263
 #: ../mateconf/mateconf-value.c:155 ../mateconf/mateconf-value.c:254
-#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1704
+#: ../mateconf/mateconf-value.c:396 ../mateconf/mateconf-value.c:1706
 #, c-format
 msgid "Text contains invalid UTF-8"
 msgstr "テキストの中身にある UTF-8 が正しくありません"
 
-#: ../mateconf/mateconf-internals.c:1339
+#: ../mateconf/mateconf-internals.c:1348
 #, c-format
 msgid "Expected list, got %s"
 msgstr "リストを期待しましたが、得られたのは %s です"
 
-#: ../mateconf/mateconf-internals.c:1349
+#: ../mateconf/mateconf-internals.c:1358
 #, c-format
 msgid "Expected list of %s, got list of %s"
 msgstr "%s のリストを期待しましたが、得られたのは %s のリストです"
 
-#: ../mateconf/mateconf-internals.c:1477
+#: ../mateconf/mateconf-internals.c:1486
 #, c-format
 msgid "Expected pair, got %s"
 msgstr "(キーと値の) ペアを期待しましたが、得られたのは %s です"
 
-#: ../mateconf/mateconf-internals.c:1491
+#: ../mateconf/mateconf-internals.c:1500
 #, c-format
 msgid "Expected (%s,%s) pair, got a pair with one or both values missing"
-msgstr ""
-"ペア (%s と %s) を期待しましたが、得られたのは一つないし両方の値が無いペアで"
-"す"
+msgstr "ペア (%s と %s) を期待しましたが、得られたのは一つないし両方の値が無いペアです"
 
-#: ../mateconf/mateconf-internals.c:1507
+#: ../mateconf/mateconf-internals.c:1516
 #, c-format
 msgid "Expected pair of type (%s,%s) got type (%s,%s)"
-msgstr ""
-"種類 (%s と %s) のペアを期待しましたが、得られたのは種類 (%s と %s) です"
+msgstr "種類 (%s と %s) のペアを期待しましたが、得られたのは種類 (%s と %s) です"
 
-#: ../mateconf/mateconf-internals.c:1623
+#: ../mateconf/mateconf-internals.c:1632
 msgid "Quoted string doesn't begin with a quotation mark"
 msgstr "引用された文字列はクォーテーション記号 (') で始まっていません"
 
-#: ../mateconf/mateconf-internals.c:1684
+#: ../mateconf/mateconf-internals.c:1693
 msgid "Quoted string doesn't end with a quotation mark"
 msgstr "引用された文字列はクォーテーション記号 (') で終わっていません"
 
-#: ../mateconf/mateconf-internals.c:1802
+#: ../mateconf/mateconf-internals.c:1811
 msgid "Encoded value is not valid UTF-8"
 msgstr "エンコードされた値の UTF-8 が正しくありません"
 
-#: ../mateconf/mateconf-internals.c:2286
+#: ../mateconf/mateconf-internals.c:2295
 #, c-format
 msgid "Could not lock temporary file '%s': %s"
 msgstr "一時ファイル '%s' をロックできませんでした: %s"
 
-#: ../mateconf/mateconf-internals.c:2313
+#: ../mateconf/mateconf-internals.c:2322
 #, c-format
 msgid "Could not create file '%s', probably because it already exists"
 msgstr "ファイル '%s' を生成できませんでした (既に存在しているようです)"
 
-#: ../mateconf/mateconf-internals.c:2381
+#: ../mateconf/mateconf-internals.c:2390
 #, c-format
 msgid "Failed to create or open '%s'"
 msgstr "'%s' の作成またはオープンに失敗しました"
 
-#: ../mateconf/mateconf-internals.c:2391
+#: ../mateconf/mateconf-internals.c:2400
 #, c-format
 msgid ""
 "Failed to lock '%s': probably another process has the lock, or your "
 "operating system has NFS file locking misconfigured (%s)"
-msgstr ""
-"'%s' のロックに失敗しました: 他のプロセスがロックしているか、お使いの OS の "
-"NFS ファイル・ロックの設定が間違っているようです (%s)"
+msgstr "'%s' のロックに失敗しました: 他のプロセスがロックしているか、お使いの OS の NFS ファイル・ロックの設定が間違っているようです (%s)"
 
-#: ../mateconf/mateconf-internals.c:2411
+#: ../mateconf/mateconf-internals.c:2420
 #, c-format
 msgid "Failed to remove '%s': %s"
 msgstr "'%s' の削除に失敗しました: %s"
 
-#: ../mateconf/mateconf-internals.c:2439
+#: ../mateconf/mateconf-internals.c:2448
 #, c-format
 msgid "Not running within active session"
 msgstr "利用中のセッションの中では実行していません"
 
-#: ../mateconf/mateconf-internals.c:2449
+#: ../mateconf/mateconf-internals.c:2458
 #, c-format
 msgid "Failed to get connection to session: %s"
 msgstr "セッションへの接続に失敗しました: %s"
 
-#: ../mateconf/mateconf-internals.c:2472
+#: ../mateconf/mateconf-internals.c:2481
 #, c-format
 msgid "GetIOR failed: %s"
 msgstr "GetIOR が失敗しました: %s"
 
-#: ../mateconf/mateconf-internals.c:2509
+#: ../mateconf/mateconf-internals.c:2518
 #, c-format
 msgid "couldn't contact ORB to resolve existing mateconfd object reference"
-msgstr ""
-"既存の mateconfd オブジェクト参照を解決するために ORB に接続することができません"
-"でした"
+msgstr "既存の mateconfd オブジェクト参照を解決するために ORB に接続することができませんでした"
 
-#: ../mateconf/mateconf-internals.c:2521
+#: ../mateconf/mateconf-internals.c:2530
 #, c-format
 msgid "Failed to convert IOR '%s' to an object reference"
 msgstr "IOR '%s' のオブジェクト参照への変換に失敗しました"
 
-#: ../mateconf/mateconf-internals.c:2548
+#: ../mateconf/mateconf-internals.c:2557
 #, c-format
 msgid "couldn't create directory `%s': %s"
 msgstr "ディレクトリ '%s' が作成できませんでした: %s"
 
-#: ../mateconf/mateconf-internals.c:2605
+#: ../mateconf/mateconf-internals.c:2614
 #, c-format
 msgid "Can't write to file `%s': %s"
 msgstr "ファイル '%s' が書き込めませんでした: %s"
 
-#: ../mateconf/mateconf-internals.c:2646
+#: ../mateconf/mateconf-internals.c:2655
 #, c-format
 msgid "We didn't have the lock on file `%s', but we should have"
 msgstr "ファイル '%s' をロックしていませんが、ロックする必要があります"
 
-#: ../mateconf/mateconf-internals.c:2669
+#: ../mateconf/mateconf-internals.c:2678
 #, c-format
 msgid "Failed to link '%s' to '%s': %s"
 msgstr "'%s' から '%s' のリンクに失敗しました: %s"
 
-#: ../mateconf/mateconf-internals.c:2681
+#: ../mateconf/mateconf-internals.c:2690
 #, c-format
 msgid "Failed to remove lock file `%s': %s"
 msgstr "ロック・ファイル `%s' の削除に失敗しました: %s"
 
-#: ../mateconf/mateconf-internals.c:2704
+#: ../mateconf/mateconf-internals.c:2713
 #, c-format
 msgid "Failed to clean up file '%s': %s"
 msgstr "ファイル '%s' のクリアに失敗しました: %s"
 
-#: ../mateconf/mateconf-internals.c:2720
+#: ../mateconf/mateconf-internals.c:2729
 #, c-format
 msgid "Failed to remove lock directory `%s': %s"
 msgstr "ロック・ディレクトリ '%s' の解放に失敗しました: %s"
 
-#: ../mateconf/mateconf-internals.c:2858
+#: ../mateconf/mateconf-internals.c:2867
 #, c-format
 msgid "Server ping error: %s"
 msgstr "サーバの Ping エラー: %s"
 
-#: ../mateconf/mateconf-internals.c:2877
+#: ../mateconf/mateconf-internals.c:2886
 #, c-format
 msgid ""
 "Failed to contact configuration server; some possible causes are that you "
-"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks due "
-"to a system crash. See http://projects.gnome.org/mateconf/ for information. "
-"(Details - %s)"
+"need to enable TCP/IP networking for MateCORBA, or you have stale NFS locks "
+"due to a system crash. See http://wiki.mate-desktop.org/docs:mate-conf for "
+"information. (Details - %s)"
 msgstr ""
-"設定サーバ (mateconfd) に接続できませんでした: いくつか考えられる原因として、"
-"MateCORBA の TCP/IP ネットワークを有効にしていない、あるいはお使いのシステムで古"
-"い NFS のロックがクラッシュを引き起こしたことが考えられます。これに関連する情"
-"報については http://projects.gnome.org/mateconf/ を参照してください: (詳細 - %s)"
 
-#: ../mateconf/mateconf-internals.c:2878
+#: ../mateconf/mateconf-internals.c:2887
 msgid "none"
 msgstr "なし"
 
@@ -1045,45 +1005,22 @@ msgstr "- MateConf の妥当性を確認する"
 msgid ""
 "Error while parsing options: %s.\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"オプション %s の解析エラー\n"
-"'%s --help' を実行して利用可能なコマンドライン・オプションの一覧を参照してく"
-"ださい\n"
+msgstr "オプション %s の解析エラー\n'%s --help' を実行して利用可能なコマンドライン・オプションの一覧を参照してください\n"
 
-#: ../mateconf/mateconf-sanity-check.c:143 ../mateconf/mateconf-sanity-check.c:168
+#: ../mateconf/mateconf-sanity-check.c:143
+#: ../mateconf/mateconf-sanity-check.c:168
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not open or create the file \"%s\"; this indicates that there may be a "
-"problem with your configuration, as many programs will need to create files "
-"in your home directory. The error was \"%s\" (errno = %d)."
-msgstr ""
-"次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n"
-"[ファイル \"%s\" をロックできなかった] - これはお使いの OS の設定に問題がある"
-"可能性を示唆しています。もし NFS で /home ディレクトリをマウントしている場"
-"合、NFS クライアントまたはサーバのどちらかの設定が間違っているかもしれませ"
-"ん。rpc.statd と rpc.lockd のドキュメントを参照してください。この問題の共通す"
-"る原因として、\"nfslock\" サービスが無効になっているケースもあります。エラー"
-"は \"%s\" (errno = %d) です。"
+"Could not open or create the file \"%s\"; this indicates that there may be a problem with your configuration, as many programs will need to create files in your home directory. The error was \"%s\" (errno = %d)."
+msgstr "次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n[ファイル \"%s\" をロックできなかった] - これはお使いの OS の設定に問題がある可能性を示唆しています。もし NFS で /home ディレクトリをマウントしている場合、NFS クライアントまたはサーバのどちらかの設定が間違っているかもしれません。rpc.statd と rpc.lockd のドキュメントを参照してください。この問題の共通する原因として、\"nfslock\" サービスが無効になっているケースもあります。エラーは \"%s\" (errno = %d) です。"
 
 #: ../mateconf/mateconf-sanity-check.c:182
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"Could not lock the file \"%s\"; this indicates that there may be a problem "
-"with your operating system configuration. If you have an NFS-mounted home "
-"directory, either the client or the server may be set up incorrectly. See "
-"the rpc.statd and rpc.lockd documentation. A common cause of this error is "
-"that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = "
-"%d)."
-msgstr ""
-"\"次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n"
-"[ファイル \"%s\" をロックできなかった] - これはお使いの OS の設定に問題がある"
-"可能性を示唆しています。もし NFS で /home ディレクトリをマウントしている場"
-"合、NFS クライアントまたはサーバのどちらかの設定が間違っているかもしれませ"
-"ん。rpc.statd と rpc.lockd のドキュメントを参照してください。この問題の共通す"
-"る原因として、\"nfslock\" サービスが無効になっているケースもあります。エラー"
-"は \"%s\" (errno = %d) です。"
+"Could not lock the file \"%s\"; this indicates that there may be a problem with your operating system configuration. If you have an NFS-mounted home directory, either the client or the server may be set up incorrectly. See the rpc.statd and rpc.lockd documentation. A common cause of this error is that the \"nfslock\" service has been disabled.The error was \"%s\" (errno = %d)."
+msgstr "\"次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n[ファイル \"%s\" をロックできなかった] - これはお使いの OS の設定に問題がある可能性を示唆しています。もし NFS で /home ディレクトリをマウントしている場合、NFS クライアントまたはサーバのどちらかの設定が間違っているかもしれません。rpc.statd と rpc.lockd のドキュメントを参照してください。この問題の共通する原因として、\"nfslock\" サービスが無効になっているケースもあります。エラーは \"%s\" (errno = %d) です。"
 
 #: ../mateconf/mateconf-sanity-check.c:199
 #, c-format
@@ -1094,12 +1031,8 @@ msgstr "ファイル \"%s\" を削除できません: %s\n"
 #, c-format
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
-"No configuration sources in the configuration file \"%s\"; this means that "
-"preferences and other settings can't be saved. %s%s"
-msgstr ""
-"\"次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n"
-"[設定ファイル \"%s\" の中に設定ソースがない] - これは設定情報を保存することが"
-"できないことが原因です。%s%s"
+"No configuration sources in the configuration file \"%s\"; this means that preferences and other settings can't be saved. %s%s"
+msgstr "\"次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n[設定ファイル \"%s\" の中に設定ソースがない] - これは設定情報を保存することができないことが原因です。%s%s"
 
 #: ../mateconf/mateconf-sanity-check.c:238
 msgid "Error reading the file: "
@@ -1110,31 +1043,18 @@ msgstr "ファイルの読み込み中にエラー: "
 msgid ""
 "Please contact your system administrator to resolve the following problem:\n"
 "Could not resolve the address \"%s\" in the configuration file \"%s\": %s"
-msgstr ""
-"\"次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n"
-"[アドレス \"%s\" (設定ファイル \"%s\") を解決することができなかった] - %s"
+msgstr "\"次の問題を解決するにはお使いのシステムの管理者に連絡してください:\n[アドレス \"%s\" (設定ファイル \"%s\") を解決することができなかった] - %s"
 
 #: ../mateconf/mateconf-sanity-check.c:322
 msgid ""
 "The files that contain your preference settings are currently in use.\n"
 "\n"
-"You might be logged in to a session from another computer, and the other "
-"login session is using your preference settings files.\n"
+"You might be logged in to a session from another computer, and the other login session is using your preference settings files.\n"
 "\n"
-"You can continue to use the current session, but this might cause temporary "
-"problems with the preference settings in the other session.\n"
+"You can continue to use the current session, but this might cause temporary problems with the preference settings in the other session.\n"
 "\n"
 "Do you want to continue?"
-msgstr ""
-"現在、お使いの設定を格納したファイルが使用中です。\n"
-"\n"
-"他のコンピュータからあるセッションにログインして、他のログイン・セッションが"
-"設定ファイルを使用しているかもしれません。\n"
-"\n"
-"現在のセッションを使用し続けることは可能ですが、他のセッションでその設定に関"
-"連する一時的な問題を引き起こす原因になるかもしれません。\n"
-"\n"
-"続行しますか?"
+msgstr "現在、お使いの設定を格納したファイルが使用中です。\n\n他のコンピュータからあるセッションにログインして、他のログイン・セッションが設定ファイルを使用しているかもしれません。\n\n現在のセッションを使用し続けることは可能ですが、他のセッションでその設定に関連する一時的な問題を引き起こす原因になるかもしれません。\n\n続行しますか?"
 
 #: ../mateconf/mateconf-sanity-check.c:343
 msgid "_Log Out"
@@ -1149,26 +1069,25 @@ msgstr "続行する(_C)"
 msgid "%s Continue (y/n)?"
 msgstr "%s を続行しますか? (y/n)"
 
-#: ../mateconf/mateconf-schema.c:211 ../mateconf/mateconf-schema.c:219
-#: ../mateconf/mateconf-schema.c:227 ../mateconf/mateconf-schema.c:235
+#: ../mateconf/mateconf-schema.c:221 ../mateconf/mateconf-schema.c:229
+#: ../mateconf/mateconf-schema.c:237 ../mateconf/mateconf-schema.c:245
+#: ../mateconf/mateconf-schema.c:253
 #, c-format
 msgid "Schema contains invalid UTF-8"
 msgstr "スキーマにある UTF-8 が正しくありません"
 
-#: ../mateconf/mateconf-schema.c:244
+#: ../mateconf/mateconf-schema.c:262
 #, c-format
 msgid ""
 "Schema specifies type list but doesn't specify the type of the list elements"
-msgstr ""
-"スキーマで型リストを指定していますが、リストアイテムの型が指定されていません"
+msgstr "スキーマで型リストを指定していますが、リストアイテムの型が指定されていません"
 
-#: ../mateconf/mateconf-schema.c:254
+#: ../mateconf/mateconf-schema.c:272
 #, c-format
 msgid ""
 "Schema specifies type pair but doesn't specify the type of the car/cdr "
 "elements"
-msgstr ""
-"スキーマで型ペアを指定していますが、car/cdr アイテムの型が指定されていません"
+msgstr "スキーマで型ペアを指定していますが、car/cdr アイテムの型が指定されていません"
 
 #: ../mateconf/mateconf-sources.c:374
 #, c-format
@@ -1177,33 +1096,26 @@ msgstr "ソース \"%s\" の読み込みに失敗しました: %s"
 
 #: ../mateconf/mateconf-sources.c:414
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a writable configuration source at position %d"
-msgstr ""
-"書き込み可能な設定ソースに対するアドレス \"%s\" (%d 行目) を解決しました"
+msgid "Resolved address \"%s\" to a writable configuration source at position %d"
+msgstr "書き込み可能な設定ソースに対するアドレス \"%s\" (%d 行目) を解決しました"
 
 #: ../mateconf/mateconf-sources.c:420
 #, c-format
-msgid ""
-"Resolved address \"%s\" to a read-only configuration source at position %d"
-msgstr ""
-"読み込み専用の設定ソースに対するアドレス \"%s\" (%d 行目) を解決しました"
+msgid "Resolved address \"%s\" to a read-only configuration source at position %d"
+msgstr "読み込み専用の設定ソースに対するアドレス \"%s\" (%d 行目) を解決しました"
 
 #: ../mateconf/mateconf-sources.c:427
 #, c-format
 msgid ""
 "Resolved address \"%s\" to a partially writable configuration source at "
 "position %d"
-msgstr ""
-"一部書き込み可能な設定リソースに対するアドレス \"%s\" (%d 行目) を解決しまし"
-"た"
+msgstr "一部書き込み可能な設定リソースに対するアドレス \"%s\" (%d 行目) を解決しました"
 
 #: ../mateconf/mateconf-sources.c:436
 msgid ""
 "None of the resolved addresses are writable; saving configuration settings "
 "will not be possible"
-msgstr ""
-"解決された変更可能なアドレスがありません。設定を保存するこは不可能になります"
+msgstr "解決された変更可能なアドレスがありません。設定を保存するこは不可能になります"
 
 #: ../mateconf/mateconf-sources.c:690
 #, c-format
@@ -1232,32 +1144,15 @@ msgid ""
 "home directory or 4) your NFS client machine crashed and didn't properly "
 "notify the server on reboot that file locks should be dropped. If you have "
 "two mateconfd processes (or had two at the time the second was launched), "
-"logging out, killing all copies of mateconfd, and logging back in may help. If "
-"you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is that "
-"you attempted to use MateConf from two machines at once, and MateCORBA still has "
-"its default configuration that prevents remote CORBA connections - put "
-"\"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* syslog for "
-"details on problems mateconfd encountered. There can only be one mateconfd per "
-"home directory, and it must own a lockfile in ~/.mateconfd and also lockfiles "
-"in individual storage locations such as ~/.mateconf"
-msgstr ""
-"設定サーバが変更可能なデータベースを持っていないため、キー '%s' の値を格納す"
-"ることができません。この問題にはいくつかの共通な原因が考えられます: 1) お使い"
-"の設定パスファイル %s/path でデータベースを指定していないか、存在しない。2) "
-"どういうわけか、mateconfd のプロセスを二つ起動してしまった。3) お使いの OS で "
-"NFS のファイル・ロックの設定に間違いがあり、貴方のホームディレクトリを正しく"
-"ロックしていないか、4) NFS クライアントがクラッシュしており、リブート時にファ"
-"イル・ロックが無効になったことを正しくサーバに通知していない。もし mateconfd の"
-"プロセスが二つある (または一度に二度起動してしまった) 場合は、直ちにログアウ"
-"トして、mateconfd のプロセスを強制終了してから、再度ログインしてみてください。"
-"NFS のファイル・ロックがダメになっている場合は、'~/.mateconf*/*.lock' を削除して"
-"ください。おそらく同時に二つのコンピュータから MateConf を使用していることが原因"
-"で、リモートからの CORBA 接続を拒否するデフォルト設定が有効になっている可能性"
-"があります - '/etc/matecorbarc' の中に \"ORBIIOPIPv4=1\" の行を挿入してください。"
-"また、mateconfd に問題が発生したら user.* システムログで詳細を確認するようにして"
-"ください。一つのホームディレクトリに対して一つの mateconfd しか起動できません。"
-"また '~/.mateconfd' の中にロックファイルを作成するか、'~/.mateconf' のようなプライ"
-"ベートな格納場所にロックファイルを作成する必要があります。"
+"logging out, killing all copies of mateconfd, and logging back in may help. "
+"If you have stale locks, remove ~/.mateconf*/*lock. Perhaps the problem is "
+"that you attempted to use MateConf from two machines at once, and MateCORBA "
+"still has its default configuration that prevents remote CORBA connections -"
+" put \"ORBIIOPIPv4=1\" in /etc/matecorbarc. As always, check the user.* "
+"syslog for details on problems mateconfd encountered. There can only be one "
+"mateconfd per home directory, and it must own a lockfile in ~/.mateconfd and"
+" also lockfiles in individual storage locations such as ~/.mateconf"
+msgstr "設定サーバが変更可能なデータベースを持っていないため、キー '%s' の値を格納することができません。この問題にはいくつかの共通な原因が考えられます: 1) お使いの設定パスファイル %s/path でデータベースを指定していないか、存在しない。2) どういうわけか、mateconfd のプロセスを二つ起動してしまった。3) お使いの OS で NFS のファイル・ロックの設定に間違いがあり、貴方のホームディレクトリを正しくロックしていないか、4) NFS クライアントがクラッシュしており、リブート時にファイル・ロックが無効になったことを正しくサーバに通知していない。もし mateconfd のプロセスが二つある (または一度に二度起動してしまった) 場合は、直ちにログアウトして、mateconfd のプロセスを強制終了してから、再度ログインしてみてください。NFS のファイル・ロックがダメになっている場合は、'~/.mateconf*/*.lock' を削除してください。おそらく同時に二つのコンピュータから MateConf を使用していることが原因で、リモートからの CORBA 接続を拒否するデフォルト設定が有効になっている可能性があります - '/etc/matecorbarc' の中に \"ORBIIOPIPv4=1\" の行を挿入してください。また、mateconfd に問題が発生したら user.* システムログで詳細を確認するようにしてください。一つのホームディレクトリに対して一つの mateconfd しか起動できません。また '~/.mateconfd' の中にロックファイルを作成するか、'~/.mateconf' のようなプライベートな格納場所にロックファイルを作成する必要があります。"
 
 #: ../mateconf/mateconf-sources.c:1610
 #, c-format
@@ -1272,9 +1167,7 @@ msgstr "メタ情報の取得中にエラー: %s"
 #: ../mateconf/mateconf-sources.c:1703
 #, c-format
 msgid "Key `%s' listed as schema for key `%s' actually stores type `%s'"
-msgstr ""
-"キー '%s' はキー '%s' (実際は '%s' の型で保存されたもの) 用にスキーマとしてリ"
-"ストされました"
+msgstr "キー '%s' はキー '%s' (実際は '%s' の型で保存されたもの) 用にスキーマとしてリストされました"
 
 #: ../mateconf/mateconf-value.c:262
 #, c-format
@@ -1314,8 +1207,7 @@ msgstr "'%s' を解釈しませんでした (要素番号の間違い)"
 #: ../mateconf/mateconf-value.c:487
 #, c-format
 msgid "Didn't understand `%s' (extra unescaped ')' found inside pair)"
-msgstr ""
-"'%s' を解釈しませんでした (ペア中のエスケープされていない ')' が余分です)"
+msgstr "'%s' を解釈しませんでした (ペア中のエスケープされていない ')' が余分です)"
 
 #: ../mateconf/mateconf.c:95
 msgid "Key is NULL"
@@ -1407,32 +1299,26 @@ msgstr "シャットダウン要求を受け取りました"
 
 #: ../mateconf/mateconfd.c:368
 msgid ""
-"mateconfd compiled with debugging; trying to load mateconf.path from the source "
-"directory"
-msgstr ""
-"デバッグ情報付きでコンパイルされた mateconfd; ソースディレクトリから mateconf.path "
-"を読み込もうとしています"
+"mateconfd compiled with debugging; trying to load mateconf.path from the "
+"source directory"
+msgstr "デバッグ情報付きでコンパイルされた mateconfd; ソースディレクトリから mateconf.path を読み込もうとしています"
 
 #: ../mateconf/mateconfd.c:388
 #, c-format
 msgid ""
-"No configuration files found. Trying to use the default configuration source "
-"`%s'"
-msgstr ""
-"設定ファイルが見つかりませんでした (デフォルトの設定ファイル '%s' を使用しま"
-"す)"
+"No configuration files found. Trying to use the default configuration source"
+" `%s'"
+msgstr "設定ファイルが見つかりませんでした (デフォルトの設定ファイル '%s' を使用します)"
 
 #. We want to stay alive but do nothing, because otherwise every
 #. request would result in another failed mateconfd being spawned.
-#.
+#. 
 #: ../mateconf/mateconfd.c:396
 #, c-format
 msgid ""
 "No configuration sources in the source path. Configuration won't be saved; "
 "edit %s%s"
-msgstr ""
-"ソースパスの中に設定ソースがありません (設定は保存されません; %s%s を編集して"
-"ください)"
+msgstr "ソースパスの中に設定ソースがありません (設定は保存されません; %s%s を編集してください)"
 
 #: ../mateconf/mateconfd.c:409
 #, c-format
@@ -1441,19 +1327,15 @@ msgstr "幾つかの設定ファイルの読み込みに失敗しました: %s"
 
 #: ../mateconf/mateconfd.c:421
 msgid ""
-"No configuration source addresses successfully resolved. Can't load or store "
-"configuration data"
-msgstr ""
-"設定ソースのアドレスが解決されていないので、データの読み込みや保存ができませ"
-"ん"
+"No configuration source addresses successfully resolved. Can't load or store"
+" configuration data"
+msgstr "設定ソースのアドレスが解決されていないので、データの読み込みや保存ができません"
 
 #: ../mateconf/mateconfd.c:438
 msgid ""
 "No writable configuration sources successfully resolved. May be unable to "
 "save some configuration changes"
-msgstr ""
-"設定ファイルが書き込み可能ではないので、幾つかの設定を保存できないかもしれま"
-"せん"
+msgstr "設定ファイルが書き込み可能ではないので、幾つかの設定を保存できないかもしれません"
 
 #: ../mateconf/mateconfd.c:603
 #, c-format
@@ -1482,11 +1364,9 @@ msgstr "設定サーバ用のオブジェクト・リファレンスの取得に
 #: ../mateconf/mateconfd.c:919
 #, c-format
 msgid ""
-"Failed to write byte to pipe file descriptor %d so client program may hang: %"
-"s"
-msgstr ""
-"FD %d にパイプするためのバイトの書き込みに失敗したため、クライアント側がハン"
-"グするおそれがあります: %s"
+"Failed to write byte to pipe file descriptor %d so client program may hang: "
+"%s"
+msgstr "FD %d にパイプするためのバイトの書き込みに失敗したため、クライアント側がハングするおそれがあります: %s"
 
 #: ../mateconf/mateconfd.c:965
 #, c-format
@@ -1520,17 +1400,14 @@ msgstr "返された例外: %s"
 msgid ""
 "Failed to open mateconfd logfile; won't be able to restore listeners after "
 "mateconfd shutdown (%s)"
-msgstr ""
-"mateconfd ログファイルのオープンに失敗しました: mateconf をシャットダウンした後にロ"
-"グを復活することはできません (%s)"
+msgstr "mateconfd ログファイルのオープンに失敗しました: mateconf をシャットダウンした後にログを復活することはできません (%s)"
 
 #: ../mateconf/mateconfd.c:1619
 #, c-format
 msgid ""
-"Failed to close mateconfd logfile; data may not have been properly saved (%s)"
-msgstr ""
-"mateconfd ログファイルのクローズに失敗しました: おそらくデータは保存されません "
+"Failed to close mateconfd logfile; data may not have been properly saved "
 "(%s)"
+msgstr "mateconfd ログファイルのクローズに失敗しました: おそらくデータは保存されません (%s)"
 
 #: ../mateconf/mateconfd.c:1681
 #, c-format
@@ -1572,9 +1449,7 @@ msgstr "'%s' に移動した状態保持ファイルの復帰に失敗しまし�
 #, c-format
 msgid ""
 "Unable to restore a listener on address '%s', couldn't resolve the database"
-msgstr ""
-"アドレス '%s' のリスナーの復帰ができません。データベースを解決できませんでし"
-"た"
+msgstr "アドレス '%s' のリスナーの復帰ができません。データベースを解決できませんでした"
 
 #: ../mateconf/mateconfd.c:2259
 #, c-format
@@ -1589,20 +1464,16 @@ msgstr "状態保持ファイル '%s' のオープンに失敗しました: %s"
 #: ../mateconf/mateconfd.c:2428
 #, c-format
 msgid ""
-"Failed to log addition of listener to mateconfd logfile; won't be able to re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"mateconfd ログファイルへのログの追加に失敗しました。mateconfd を終了またはシャット"
-"ダウンしたらリスナーの追加はできません (%s)"
+"Failed to log addition of listener to mateconfd logfile; won't be able to "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "mateconfd ログファイルへのログの追加に失敗しました。mateconfd を終了またはシャットダウンしたらリスナーの追加はできません (%s)"
 
 #: ../mateconf/mateconfd.c:2433
 #, c-format
 msgid ""
-"Failed to log removal of listener to mateconfd logfile; might erroneously re-"
-"add the listener if mateconfd exits or shuts down (%s)"
-msgstr ""
-"mateconfd ログファイルへのログの削除に失敗しました。mateconfd を終了またはシャット"
-"ダウンしたらリスナーの再追加はエラーになるかもしれません (%s)"
+"Failed to log removal of listener to mateconfd logfile; might erroneously "
+"re-add the listener if mateconfd exits or shuts down (%s)"
+msgstr "mateconfd ログファイルへのログの削除に失敗しました。mateconfd を終了またはシャットダウンしたらリスナーの再追加はエラーになるかもしれません (%s)"
 
 #: ../mateconf/mateconfd.c:2456 ../mateconf/mateconfd.c:2630
 #, c-format
@@ -1626,12 +1497,10 @@ msgstr "状態保持ファイルへの追加クライアントのフラッシュ
 
 #: ../mateconf/mateconfd.c:2591
 msgid ""
-"Some client removed itself from the MateConf server when it hadn't been added."
-msgstr ""
-"幾つかのクライアントは追加されなかったので、MateConf サーバから自分自身を削除し"
-"ました"
+"Some client removed itself from the MateConf server when it hadn't been "
+"added."
+msgstr "幾つかのクライアントは追加されなかったので、MateConf サーバから自分自身を削除しました"
 
-# コマンドラインのオプションは可能な限り短くなるように文言を工夫すること
 #: ../mateconf/mateconftool.c:93
 msgid "Set a key to a value and sync. Use with --type."
 msgstr "キーに値をセットして同期する ('--type' と一緒に使用すること)"
@@ -1648,9 +1517,7 @@ msgstr "指定したキーを無効にする"
 msgid ""
 "Recursively unset all keys at or below the key/directory names on the "
 "command line"
-msgstr ""
-"指定した場所、または指定したキー/ディレクトリにあるすべてのキーを再帰的に無効"
-"にする"
+msgstr "指定した場所、または指定したキー/ディレクトリにあるすべてのキーを再帰的に無効にする"
 
 #: ../mateconf/mateconftool.c:130
 msgid "Toggles a boolean key."
@@ -1666,9 +1533,7 @@ msgstr "指定したディレクトリにあるすべてのサブディレクト
 
 #: ../mateconf/mateconftool.c:157
 msgid "Print all subdirectories and entries under a directory, recursively."
-msgstr ""
-"指定したディレクトリにあるすべてのサブディレクトリとエントリを再帰的に表示す"
-"る"
+msgstr "指定したディレクトリにあるすべてのサブディレクトリとエントリを再帰的に表示する"
 
 #: ../mateconf/mateconftool.c:166 ../mateconf/mateconftool.c:175
 msgid "Search for a key, recursively."
@@ -1692,17 +1557,15 @@ msgstr "値を読む際にスキーマのデフォルト値を無視する"
 
 #: ../mateconf/mateconftool.c:226
 msgid ""
-"Dump to standard output an XML description of all entries under a directory, "
-"recursively."
-msgstr ""
-"指定したディレクトリにあるすべての XML 記述を再帰的に標準出力へ表示する"
+"Dump to standard output an XML description of all entries under a directory,"
+" recursively."
+msgstr "指定したディレクトリにあるすべての XML 記述を再帰的に標準出力へ表示する"
 
 #: ../mateconf/mateconftool.c:235
 msgid ""
 "Load from the specified file an XML description of values and set them "
 "relative to a directory."
-msgstr ""
-"指定したファイルから値の XML 記述を読み込んで関連するディレクトリにセットする"
+msgstr "指定したファイルから値の XML 記述を読み込んで関連するディレクトリにセットする"
 
 #: ../mateconf/mateconftool.c:244
 msgid "Unload a set of values described in an XML file."
@@ -1714,9 +1577,7 @@ msgstr "デフォルトの設定ソースの名前を取得する"
 
 #: ../mateconf/mateconftool.c:268
 msgid "Shut down mateconfd. DON'T USE THIS OPTION WITHOUT GOOD REASON."
-msgstr ""
-"mateconfd をシャットダウンする (**正当な理由無しにこのオプションを使用しないこと"
-"**)"
+msgstr "mateconfd をシャットダウンする (**正当な理由無しにこのオプションを使用しないこと**)"
 
 #: ../mateconf/mateconftool.c:277
 msgid "Return 0 if mateconfd is running, 2 if not."
@@ -1724,17 +1585,15 @@ msgstr "mateconfd が起動中ならば 0 を、起動していなければ 2 �
 
 #: ../mateconf/mateconftool.c:286
 msgid ""
-"Launch the configuration server (mateconfd). (Normally happens automatically "
-"when needed.)"
+"Launch the configuration server (mateconfd). (Normally happens automatically"
+" when needed.)"
 msgstr "gcnofd 設定サーバを起動する (通常は必要に応じて自動的に起動される)"
 
 #: ../mateconf/mateconftool.c:301
 msgid ""
 "Specify the type of the value being set, or the type of the value a schema "
 "describes. Unique abbreviations OK."
-msgstr ""
-"セットする値の型または記述するスキーマの型を指定する (重複しなければ省略形も"
-"可)"
+msgstr "セットする値の型または記述するスキーマの型を指定する (重複しなければ省略形も可)"
 
 #: ../mateconf/mateconftool.c:302
 msgid "int|bool|float|string|list|pair"
@@ -1756,29 +1615,24 @@ msgstr "リスト・キーから指定した (番号が付与された) 要素�
 msgid ""
 "Specify the type of the list value being set, or the type of the value a "
 "schema describes. Unique abbreviations OK."
-msgstr ""
-"セットするリストの型または記述するスキーマの型を指定する (重複しなければ省略"
-"形も可)"
+msgstr "セットするリストの型または記述するスキーマの型を指定する (重複しなければ省略形も可)"
 
-#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347 ../mateconf/mateconftool.c:356
+#: ../mateconf/mateconftool.c:338 ../mateconf/mateconftool.c:347
+#: ../mateconf/mateconftool.c:356
 msgid "int|bool|float|string"
 msgstr "int|bool|float|string"
 
 #: ../mateconf/mateconftool.c:346
 msgid ""
-"Specify the type of the car pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"セットする car ペアの型または記述するスキーマの型を指定する (重複しなければ省"
-"略形も可)"
+"Specify the type of the car pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "セットする car ペアの型または記述するスキーマの型を指定する (重複しなければ省略形も可)"
 
 #: ../mateconf/mateconftool.c:355
 msgid ""
-"Specify the type of the cdr pair value being set, or the type of the value a "
-"schema describes. Unique abbreviations OK."
-msgstr ""
-"セットする cdr ペアの型または記述するスキーマの型を指定する (重複しなければ省"
-"略形も可)"
+"Specify the type of the cdr pair value being set, or the type of the value a"
+" schema describes. Unique abbreviations OK."
+msgstr "セットする cdr ペアの型または記述するスキーマの型を指定する (重複しなければ省略形も可)"
 
 #: ../mateconf/mateconftool.c:370
 msgid "Specify a schema file to be installed"
@@ -1798,56 +1652,42 @@ msgstr "ソース"
 
 #: ../mateconf/mateconftool.c:388
 msgid ""
-"Bypass server, and access the configuration database directly. Requires that "
-"mateconfd is not running."
-msgstr ""
-"サーバを経由して設定データベースに直接アクセスする (mateconfd が起動していないこ"
-"とが条件)"
+"Bypass server, and access the configuration database directly. Requires that"
+" mateconfd is not running."
+msgstr "サーバを経由して設定データベースに直接アクセスする (mateconfd が起動していないことが条件)"
 
 #: ../mateconf/mateconftool.c:397
 msgid ""
 "Properly installs schema files on the command line into the database. "
-"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE environment "
-"variable, or set set the variable to an empty string to use the default "
-"configuration source."
-msgstr ""
-"指定したスキーマ・ファイルをデータベースにインストールする (環境変数の "
-"MATECONF_CONFIG_SOURCE にはデフォルトではない設定ソースをセットしておくか、デ"
-"フォルト値を使用するために空をセットしておくこと)"
+"Specify a custom configuration source in the MATECONF_CONFIG_SOURCE "
+"environment variable, or set set the variable to an empty string to use the "
+"default configuration source."
+msgstr "指定したスキーマ・ファイルをデータベースにインストールする (環境変数の MATECONF_CONFIG_SOURCE にはデフォルトではない設定ソースをセットしておくか、デフォルト値を使用するために空をセットしておくこと)"
 
 #: ../mateconf/mateconftool.c:406
 msgid ""
 "Properly uninstalls schema files on the command line from the database. "
 "MATECONF_CONFIG_SOURCE environment variable should be set to a non-default "
 "configuration source or set to the empty string to use the default."
-msgstr ""
-"指定したスキーマ・ファイルをデータベースからアン・インストールする (環境変数"
-"の MATECONF_CONFIG_SOURCE にはデフォルトではない設定ソースをセットしておくか、デ"
-"フォルト値を使用するために空をセットしておくこと)"
+msgstr "指定したスキーマ・ファイルをデータベースからアン・インストールする (環境変数の MATECONF_CONFIG_SOURCE にはデフォルトではない設定ソースをセットしておくか、デフォルト値を使用するために空をセットしておくこと)"
 
 #: ../mateconf/mateconftool.c:421
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of values of "
 "different types for keys on the command line."
-msgstr ""
-"指定した複数のキーの型をセット/セットしないにすることでアプリケーションの負荷"
-"テストを行う"
+msgstr "指定した複数のキーの型をセット/セットしないにすることでアプリケーションの負荷テストを行う"
 
 #: ../mateconf/mateconftool.c:430
 msgid ""
 "Torture-test an application by setting and unsetting a bunch of keys inside "
 "the directories on the command line."
-msgstr ""
-"指定したディレクトリ内部にある複数のキーをセット/セットしないにすることでアプ"
-"リケーションのテストを行う"
+msgstr "指定したディレクトリ内部にある複数のキーをセット/セットしないにすることでアプリケーションのテストを行う"
 
 #: ../mateconf/mateconftool.c:445
 msgid ""
-"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and --"
-"type."
-msgstr ""
-"スキーマをセットして同期する ('--short-desc', '--long-desc', '--owner', '--"
-"type' と一緒に使用すること)"
+"Set a schema and sync. Use with --short-desc, --long-desc, --owner, and "
+"--type."
+msgstr "スキーマをセットして同期する ('--short-desc', '--long-desc', '--owner', '--type' と一緒に使用すること)"
 
 #: ../mateconf/mateconftool.c:454
 msgid "Specify a short half-line description to go in a schema."
@@ -1874,7 +1714,8 @@ msgid "Get the name of the schema applied to this key"
 msgstr "指定したキーに対応するスキーマ名を取得する"
 
 #: ../mateconf/mateconftool.c:490
-msgid "Specify the schema name followed by the key to apply the schema name to"
+msgid ""
+"Specify the schema name followed by the key to apply the schema name to"
 msgstr "キーに指定したスキーマ名を適用する"
 
 #: ../mateconf/mateconftool.c:499
@@ -1952,11 +1793,8 @@ msgstr "スキーマのオプションを表示する"
 #: ../mateconf/mateconftool.c:629
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"'%s --help' を実行して利用可能なコマンドライン・オプションの一覧を参照してく"
-"ださい\n"
+msgstr "'%s --help' を実行して利用可能なコマンドライン・オプションの一覧を参照してください\n"
 
-# "実行できない" または "利用できない" よりも "使えない" の方が短くて済む
 #: ../mateconf/mateconftool.c:657
 #, c-format
 msgid "Can't get and set/unset simultaneously\n"
@@ -1992,18 +1830,14 @@ msgstr "--get または --set と一緒に --all-dirs は使えません\n"
 msgid ""
 "--recursive-list should not be used with --get, --set, --unset, --all-"
 "entries, --all-dirs, or --search-key\n"
-msgstr ""
-"--recursive-list は --get, --set, --set, --unset, --all-entries または --all-"
-"dirs または --search-key と一緒に指定しないでください\n"
+msgstr "--recursive-list は --get, --set, --set, --unset, --all-entries または --all-dirs または --search-key と一緒に指定しないでください\n"
 
 #: ../mateconf/mateconftool.c:732
 #, c-format
 msgid ""
-"--set_schema should not be used with --get, --set, --unset, --all-entries, --"
-"all-dirs, or --search-key\n"
-msgstr ""
-"--set_schema は --get, --set, --unset, --all-entries, --all-dirs, または --"
-"search-key と一緒に指定していないでください\n"
+"--set_schema should not be used with --get, --set, --unset, --all-entries, "
+"--all-dirs, or --search-key\n"
+msgstr "--set_schema は --get, --set, --unset, --all-entries, --all-dirs, または --search-key と一緒に指定していないでください\n"
 
 #: ../mateconf/mateconftool.c:738
 #, c-format
@@ -2018,15 +1852,13 @@ msgstr "値を設定する場合は型を指定する必要があります\n"
 #: ../mateconf/mateconftool.c:752
 #, c-format
 msgid ""
-"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump, "
-"--recursive-list, --get-list-size or --get-list-element\n"
-msgstr ""
-"オプション --ignore-schema-defaults は --get, --all-entries, --dump, --"
-"recursive-list, --get-list-size or --get-list-element と一緒に指定してくださ"
-"い\n"
+"--ignore-schema-defaults is only relevant with --get, --all-entries, --dump,"
+" --recursive-list, --get-list-size or --get-list-element\n"
+msgstr "オプション --ignore-schema-defaults は --get, --all-entries, --dump, --recursive-list, --get-list-size or --get-list-element と一緒に指定してください\n"
 
-#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777 ../mateconf/mateconftool.c:790
-#: ../mateconf/mateconftool.c:804 ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
+#: ../mateconf/mateconftool.c:764 ../mateconf/mateconftool.c:777
+#: ../mateconf/mateconftool.c:790 ../mateconf/mateconftool.c:804
+#: ../mateconf/mateconftool.c:817 ../mateconf/mateconftool.c:830
 #: ../mateconf/mateconftool.c:844
 #, c-format
 msgid "%s option must be used by itself.\n"
@@ -2035,10 +1867,9 @@ msgstr "%s オプションはそれ自身で使われる必要があります\n"
 #: ../mateconf/mateconftool.c:853
 #, c-format
 msgid ""
-"You must specify a configuration source with --config-source when using --"
-"direct\n"
-msgstr ""
-"--direct を使用する場合は --config-source で設定ファイルを指定してください\n"
+"You must specify a configuration source with --config-source when using "
+"--direct\n"
+msgstr "--direct を使用する場合は --config-source で設定ファイルを指定してください\n"
 
 #: ../mateconf/mateconftool.c:859
 #, c-format
@@ -2047,19 +1878,16 @@ msgstr "MateConf の初期化に失敗: %s\n"
 
 #: ../mateconf/mateconftool.c:887
 #, c-format
-msgid "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL がセットされていますが、スキーマはイン"
-"ストールされていません\n"
-"\n"
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL がセットされていますが、スキーマはインストールされていません\n\n"
 
 #: ../mateconf/mateconftool.c:894
 #, c-format
 msgid ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling schemas\n"
-msgstr ""
-"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL がセットされていますが、スキーマはイン"
-"ストールされていません\n"
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_UNINSTALL is set, not uninstalling "
+"schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL がセットされていますが、スキーマはインストールされていません\n"
 
 #: ../mateconf/mateconftool.c:907
 #, c-format
@@ -2071,609 +1899,571 @@ msgstr "環境変数 MATECONF_CONFIG_SOURCE をセットする必要がありま
 msgid "Failed to access configuration source(s): %s\n"
 msgstr "設定ファイルのアクセスに失敗: %s\n"
 
-#: ../mateconf/mateconftool.c:1267
+#: ../mateconf/mateconftool.c:1273
 #, c-format
 msgid "Shutdown error: %s\n"
 msgstr "シャットダウンエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:1310
+#: ../mateconf/mateconftool.c:1316
 #, c-format
 msgid "Must specify one or more directories to recursively list.\n"
 msgstr "再帰的にリスト表示するディレクトリを一つ以上指定してください\n"
 
-#: ../mateconf/mateconftool.c:1355 ../mateconf/mateconftool.c:1549
-#: ../mateconf/mateconftool.c:1815
+#: ../mateconf/mateconftool.c:1361 ../mateconf/mateconftool.c:1555
+#: ../mateconf/mateconftool.c:1821
 #, c-format
 msgid "Failure listing entries in `%s': %s\n"
 msgstr "'%s' の中にあるエントリの読み込みでエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:1375 ../mateconf/mateconftool.c:1568
+#: ../mateconf/mateconftool.c:1381 ../mateconf/mateconftool.c:1574
 msgid "(no value set)"
 msgstr "(何もセットされていません)"
 
-#: ../mateconf/mateconftool.c:1438
+#: ../mateconf/mateconftool.c:1444
 #, c-format
 msgid "Must specify a key pattern to search for.\n"
 msgstr "検索するキーのパターンを指定してください\n"
 
-#: ../mateconf/mateconftool.c:1457
+#: ../mateconf/mateconftool.c:1463
 #, c-format
 msgid "Must specify a PCRE regex to search for.\n"
 msgstr "検索するキーの正規表現パターンを指定してください\n"
 
-#: ../mateconf/mateconftool.c:1464
+#: ../mateconf/mateconftool.c:1470
 #, c-format
 msgid "Error compiling regex: %s\n"
 msgstr "正規表現をコンパイルできません: %s\n"
 
-#: ../mateconf/mateconftool.c:1507
+#: ../mateconf/mateconftool.c:1513
 #, c-format
 msgid "Must specify one or more directories to dump.\n"
 msgstr "ダンプするディレクトリを一つ以上指定してください\n"
 
-#: ../mateconf/mateconftool.c:1874
+#: ../mateconf/mateconftool.c:1880
 #, c-format
 msgid "Failed to spawn the configuration server (mateconfd): %s\n"
 msgstr "mateconf 設定サーバの起動に失敗しました: %s\n"
 
-#: ../mateconf/mateconftool.c:1903
+#: ../mateconf/mateconftool.c:1909
 #, c-format
 msgid "Must specify a key or keys to get\n"
 msgstr "一つのキーまたは取得するためのキーを指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:1938
+#: ../mateconf/mateconftool.c:1944
 #, c-format
 msgid "Type: %s\n"
 msgstr "型: %s\n"
 
-#: ../mateconf/mateconftool.c:1939
+#: ../mateconf/mateconftool.c:1945
 #, c-format
 msgid "List Type: %s\n"
 msgstr "リスト型: %s\n"
 
-#: ../mateconf/mateconftool.c:1940
+#: ../mateconf/mateconftool.c:1946
 #, c-format
 msgid "Car Type: %s\n"
 msgstr "Car 型: %s\n"
 
-#: ../mateconf/mateconftool.c:1941
+#: ../mateconf/mateconftool.c:1947
 #, c-format
 msgid "Cdr Type: %s\n"
 msgstr "Cdr 型: %s\n"
 
-#: ../mateconf/mateconftool.c:1946
+#: ../mateconf/mateconftool.c:1952
 #, c-format
 msgid "Default Value: %s\n"
 msgstr "初期値: %s\n"
 
-#: ../mateconf/mateconftool.c:1946 ../mateconf/mateconftool.c:1948
-#: ../mateconf/mateconftool.c:1949 ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1952 ../mateconf/mateconftool.c:1954
+#: ../mateconf/mateconftool.c:1955 ../mateconf/mateconftool.c:1956
 msgid "Unset"
 msgstr "未設定"
 
-#: ../mateconf/mateconftool.c:1948
+#: ../mateconf/mateconftool.c:1954
 #, c-format
 msgid "Owner: %s\n"
 msgstr "オーナー: %s\n"
 
-#: ../mateconf/mateconftool.c:1949
+#: ../mateconf/mateconftool.c:1955
 #, c-format
 msgid "Short Desc: %s\n"
 msgstr "ショートDesc: %s\n"
 
-#: ../mateconf/mateconftool.c:1950
+#: ../mateconf/mateconftool.c:1956
 #, c-format
 msgid "Long Desc: %s\n"
 msgstr "ロングDesc: %s\n"
 
-#: ../mateconf/mateconftool.c:1959 ../mateconf/mateconftool.c:2236
-#: ../mateconf/mateconftool.c:2270 ../mateconf/mateconftool.c:2315
-#: ../mateconf/mateconftool.c:2460
+#: ../mateconf/mateconftool.c:1965 ../mateconf/mateconftool.c:2242
+#: ../mateconf/mateconftool.c:2276 ../mateconf/mateconftool.c:2321
+#: ../mateconf/mateconftool.c:2466
 #, c-format
 msgid "No value set for `%s'\n"
 msgstr "'%s' に何も値が設定されていません\n"
 
-#: ../mateconf/mateconftool.c:1963 ../mateconf/mateconftool.c:2240
-#: ../mateconf/mateconftool.c:2274 ../mateconf/mateconftool.c:2319
-#: ../mateconf/mateconftool.c:2464
+#: ../mateconf/mateconftool.c:1969 ../mateconf/mateconftool.c:2246
+#: ../mateconf/mateconftool.c:2280 ../mateconf/mateconftool.c:2325
+#: ../mateconf/mateconftool.c:2470
 #, c-format
 msgid "Failed to get value for `%s': %s\n"
 msgstr "'%s' の値の取得に失敗: %s\n"
 
-#: ../mateconf/mateconftool.c:2006 ../mateconf/mateconftool.c:2018
+#: ../mateconf/mateconftool.c:2012 ../mateconf/mateconftool.c:2024
 #, c-format
 msgid "Don't understand type `%s'\n"
 msgstr "'%s' の型が不明です\n"
 
-#: ../mateconf/mateconftool.c:2030
+#: ../mateconf/mateconftool.c:2036
 #, c-format
 msgid "Must specify alternating keys/values as arguments\n"
 msgstr "引数でキー/値の交換を指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:2050
+#: ../mateconf/mateconftool.c:2056
 #, c-format
 msgid "No value to set for key: `%s'\n"
 msgstr "キーに何も値がセットされていません: '%s'\n"
 
-#: ../mateconf/mateconftool.c:2078
+#: ../mateconf/mateconftool.c:2084
 #, c-format
 msgid "Cannot set schema as value\n"
 msgstr "値としてスキーマをセットできません\n"
 
-#: ../mateconf/mateconftool.c:2088
+#: ../mateconf/mateconftool.c:2094
 #, c-format
 msgid "When setting a list you must specify a primitive list-type\n"
 msgstr "リストの設定では、古いリスト型を指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:2102
+#: ../mateconf/mateconftool.c:2108
 #, c-format
-msgid ""
-"When setting a pair you must specify a primitive car-type and cdr-type\n"
+msgid "When setting a pair you must specify a primitive car-type and cdr-type\n"
 msgstr "ペアの設定では、古い car 型と cdr 型を指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:2117
+#: ../mateconf/mateconftool.c:2123
 #, c-format
 msgid "Error: %s\n"
 msgstr "エラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2130 ../mateconf/mateconftool.c:2195
-#: ../mateconf/mateconftool.c:3215
+#: ../mateconf/mateconftool.c:2136 ../mateconf/mateconftool.c:2201
+#: ../mateconf/mateconftool.c:3221
 #, c-format
 msgid "Error setting value: %s\n"
 msgstr "値の設定エラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2148
+#: ../mateconf/mateconftool.c:2154
 #, c-format
 msgid "Error syncing: %s\n"
 msgstr "同期中にエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2163
+#: ../mateconf/mateconftool.c:2169
 #, c-format
 msgid "Must specify one or more keys as arguments\n"
 msgstr "引数に1つ以上のキーを指定してください\n"
 
-#: ../mateconf/mateconftool.c:2179
+#: ../mateconf/mateconftool.c:2185
 #, c-format
 msgid "No value found for key %s\n"
 msgstr "%s というキーには値はありません\n"
 
-#: ../mateconf/mateconftool.c:2185
+#: ../mateconf/mateconftool.c:2191
 #, c-format
 msgid "Not a boolean value: %s\n"
 msgstr "論理値ではありません: %s\n"
 
-#: ../mateconf/mateconftool.c:2216
+#: ../mateconf/mateconftool.c:2222
 #, c-format
 msgid "Must specify a key or keys to get type\n"
 msgstr "型を取得するキーを一つ以上指定してください\n"
 
-#: ../mateconf/mateconftool.c:2260
+#: ../mateconf/mateconftool.c:2266
 #, c-format
 msgid "Must specify a key to lookup size of.\n"
 msgstr "サイズを検索するキーを指定してください\n"
 
-#: ../mateconf/mateconftool.c:2285 ../mateconf/mateconftool.c:2330
+#: ../mateconf/mateconftool.c:2291 ../mateconf/mateconftool.c:2336
 #, c-format
 msgid "Key %s is not a list.\n"
 msgstr "キー %s はリストではありません\n"
 
-#: ../mateconf/mateconftool.c:2305
+#: ../mateconf/mateconftool.c:2311
 #, c-format
 msgid "Must specify a key from which to get list element.\n"
 msgstr "どのキーからリストの要素を取得するか指定してください\n"
 
-#: ../mateconf/mateconftool.c:2336
+#: ../mateconf/mateconftool.c:2342
 #, c-format
 msgid "Must specify list index.\n"
 msgstr "リストの番号を指定してください\n"
 
-#: ../mateconf/mateconftool.c:2343
+#: ../mateconf/mateconftool.c:2349
 #, c-format
 msgid "List index must be non-negative.\n"
 msgstr "リストの番号は正の値にしてください\n"
 
-#: ../mateconf/mateconftool.c:2352
+#: ../mateconf/mateconftool.c:2358
 #, c-format
 msgid "List index is out of bounds.\n"
 msgstr "リストの番号が上限を越えています\n"
 
-#: ../mateconf/mateconftool.c:2378
+#: ../mateconf/mateconftool.c:2384
 #, c-format
 msgid "Must specify a key or keys on the command line\n"
 msgstr "コマンドライン上で一つのキーまたは複数のキーを指定してください\n"
 
-#: ../mateconf/mateconftool.c:2398
+#: ../mateconf/mateconftool.c:2404
 #, c-format
 msgid "No schema known for `%s'\n"
 msgstr "'%s' に対する既知のスキーマではありません\n"
 
-#: ../mateconf/mateconftool.c:2431
+#: ../mateconf/mateconftool.c:2437
 #, c-format
 msgid "No doc string stored in schema at '%s'\n"
 msgstr "'%s' にあるスキーマの中に格納されている doc 文字列がありません\n"
 
-#: ../mateconf/mateconftool.c:2436
+#: ../mateconf/mateconftool.c:2442
 #, c-format
 msgid "Error getting schema at '%s': %s\n"
 msgstr "'%s' でスキーマの取得のエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2443
+#: ../mateconf/mateconftool.c:2449
 #, c-format
 msgid "No schema stored at '%s'\n"
 msgstr "スキーマが '%s' に格納されていません\n"
 
-#: ../mateconf/mateconftool.c:2446
+#: ../mateconf/mateconftool.c:2452
 #, c-format
 msgid "Value at '%s' is not a schema\n"
 msgstr "'%s' の値はスキーマではありません\n"
 
-#: ../mateconf/mateconftool.c:2502
+#: ../mateconf/mateconftool.c:2508
 #, c-format
 msgid "Must specify a schema name followed by the key name to apply it to\n"
 msgstr "キーに適用するためのキー名に従うスキーマ名を指定してください\n"
 
-#: ../mateconf/mateconftool.c:2509
+#: ../mateconf/mateconftool.c:2515
 #, c-format
 msgid "Error associating schema name '%s' with key name '%s': %s\n"
 msgstr "警告: スキーマ '%s' の連結に失敗(キーは'%s'): %s\n"
 
-#: ../mateconf/mateconftool.c:2527
+#: ../mateconf/mateconftool.c:2533
 #, c-format
 msgid "Must specify keys to unapply schema from\n"
 msgstr "適用しないスキーマのキーを指定してください\n"
 
-#: ../mateconf/mateconftool.c:2537
+#: ../mateconf/mateconftool.c:2543
 #, c-format
 msgid "Error removing schema name from '%s': %s\n"
 msgstr "'%s' からスキーマ名の削除でエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2562
+#: ../mateconf/mateconftool.c:2568
 #, c-format
 msgid "Must specify key (schema name) as the only argument\n"
 msgstr "引数でのみキー(スキーマ名)を指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:2604
+#: ../mateconf/mateconftool.c:2610
 #, c-format
 msgid "List type must be a primitive type: string, int, float or bool\n"
 msgstr "リスト型は古い型にする必要があります: string, int, float または bool\n"
 
-#: ../mateconf/mateconftool.c:2624
+#: ../mateconf/mateconftool.c:2630
 #, c-format
 msgid "Pair car type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"car 型のペアは古い型にする必要があります: string, int, float または bool\n"
+msgstr "car 型のペアは古い型にする必要があります: string, int, float または bool\n"
 
-#: ../mateconf/mateconftool.c:2644
+#: ../mateconf/mateconftool.c:2650
 #, c-format
 msgid "Pair cdr type must be a primitive type: string, int, float or bool\n"
-msgstr ""
-"cdr 型のペアは古い型にする必要があります: string, int, float または bool\n"
+msgstr "cdr 型のペアは古い型にする必要があります: string, int, float または bool\n"
 
-#: ../mateconf/mateconftool.c:2659
+#: ../mateconf/mateconftool.c:2665
 #, c-format
 msgid "Error setting value: %s"
 msgstr "値の設定エラー: %s"
 
-#: ../mateconf/mateconftool.c:2673
+#: ../mateconf/mateconftool.c:2679
 #, c-format
 msgid "Error syncing: %s"
 msgstr "同期中にエラー: %s"
 
-#: ../mateconf/mateconftool.c:2688
+#: ../mateconf/mateconftool.c:2694
 #, c-format
 msgid "Must specify one or more directories to get key/value pairs from.\n"
-msgstr ""
-"キー/値のペアを取得するためのディレクトリを一つ以上指定する必要があります\n"
+msgstr "キー/値のペアを取得するためのディレクトリを一つ以上指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:2702
+#: ../mateconf/mateconftool.c:2708
 #, c-format
 msgid "Must specify one or more keys to unset.\n"
 msgstr "無効にするために一つ以上のキーを指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:2713
+#: ../mateconf/mateconftool.c:2719
 #, c-format
 msgid "Error unsetting `%s': %s\n"
 msgstr "'%s' 未設定中にエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2733
+#: ../mateconf/mateconftool.c:2739
 #, c-format
 msgid "Must specify one or more keys to recursively unset.\n"
 msgstr "再帰的に解放するために一つ以上のキーを指定してください\n"
 
-#: ../mateconf/mateconftool.c:2747
+#: ../mateconf/mateconftool.c:2753
 #, c-format
 msgid "Failure during recursive unset of \"%s\": %s\n"
 msgstr "\"%s\" の再帰的な解放中にエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2767
+#: ../mateconf/mateconftool.c:2773
 #, c-format
 msgid "Must specify one or more directories to get subdirs from.\n"
-msgstr ""
-"サブディレクトリを取得するためのディレクトリを一つ以上指定してください\n"
+msgstr "サブディレクトリを取得するためのディレクトリを一つ以上指定してください\n"
 
-#: ../mateconf/mateconftool.c:2801
+#: ../mateconf/mateconftool.c:2807
 #, c-format
 msgid "Error listing dirs: %s\n"
 msgstr "ディレクトリのリスト化中にエラー: %s\n"
 
-#: ../mateconf/mateconftool.c:2937
+#: ../mateconf/mateconftool.c:2943
 #, c-format
 msgid "WARNING: must specify both a <car> and a <cdr> in a <pair>\n"
 msgstr "警告: <pair> に <car> と <cdr> の両方を指定してください\n"
 
-#: ../mateconf/mateconftool.c:2964
+#: ../mateconf/mateconftool.c:2970
 #, c-format
 msgid "WARNING: key specified (%s) for schema under a <value> - ignoring\n"
-msgstr ""
-"警告: <value> の下にあるスキーマのキー (%s) が指定されました - 無視します\n"
+msgstr "警告: <value> の下にあるスキーマのキー (%s) が指定されました - 無視します\n"
 
-#: ../mateconf/mateconftool.c:2997
+#: ../mateconf/mateconftool.c:3003
 #, c-format
 msgid "WARNING: must have a child node under <value>\n"
 msgstr "警告: <value> の下に子ノードを追加してください\n"
 
-#: ../mateconf/mateconftool.c:3003
+#: ../mateconf/mateconftool.c:3009
 #, c-format
 msgid "WARNING: node <%s> not understood\n"
 msgstr "警告: ノード <%s> を解読できません\n"
 
-#: ../mateconf/mateconftool.c:3021
+#: ../mateconf/mateconftool.c:3027
 #, c-format
 msgid "WARNING: Failed to parse int value `%s'\n"
 msgstr "警告: int 型の値 '%s' の解析に失敗しました\n"
 
-#: ../mateconf/mateconftool.c:3042
+#: ../mateconf/mateconftool.c:3048
 #, c-format
 msgid "WARNING: Failed to parse float value `%s'\n"
 msgstr "警告: float 型の値 '%s' の解析に失敗しました\n"
 
-#: ../mateconf/mateconftool.c:3064
+#: ../mateconf/mateconftool.c:3070
 #, c-format
 msgid "WARNING: Failed to parse string value `%s'\n"
 msgstr "警告: string 型の値 '%s' の解析に失敗しました\n"
 
-#: ../mateconf/mateconftool.c:3085
+#: ../mateconf/mateconftool.c:3091
 #, c-format
 msgid "WARNING: Failed to parse boolean value `%s'\n"
 msgstr "警告: bool 型の値 '%s' の解析に失敗しました\n"
 
-#: ../mateconf/mateconftool.c:3194 ../mateconf/mateconftool.c:3736
+#: ../mateconf/mateconftool.c:3200 ../mateconf/mateconftool.c:3755
 #, c-format
 msgid "WARNING: failed to associate schema `%s' with key `%s': %s\n"
 msgstr "警告: スキーマ '%s' (キーは '%s') の連結に失敗しました: %s\n"
 
-#: ../mateconf/mateconftool.c:3309
+#: ../mateconf/mateconftool.c:3316
 #, c-format
 msgid "WARNING: invalid or missing type for schema (%s)\n"
 msgstr "警告: 不正もしくは型の無いスキーマ (%s) です\n"
 
-# (pofilter) accelerators: accelerator _ is missing from translation
-#: ../mateconf/mateconftool.c:3318
+#: ../mateconf/mateconftool.c:3325
 #, c-format
 msgid "WARNING: invalid or missing list_type for schema (%s)\n"
 msgstr "警告: 不正もしくは list_type の無いスキーマ (%s) です\n"
 
-#: ../mateconf/mateconftool.c:3329 ../mateconf/mateconftool.c:3359
-#: ../mateconf/mateconftool.c:3388
+#: ../mateconf/mateconftool.c:3336 ../mateconf/mateconftool.c:3366
+#: ../mateconf/mateconftool.c:3395
 #, c-format
 msgid "WARNING: Failed to parse default value `%s' for schema (%s)\n"
 msgstr "警告: デフォルト値 '%s' (スキーマは %s) の解析に失敗しました\n"
 
-#: ../mateconf/mateconftool.c:3347
+#: ../mateconf/mateconftool.c:3354
 #, c-format
 msgid "WARNING: invalid or missing car_type or cdr_type for schema (%s)\n"
-msgstr ""
-"警告: スキーマ %s の car_type または cdr_type がおかしいか存在しません\n"
+msgstr "警告: スキーマ %s の car_type または cdr_type がおかしいか存在しません\n"
 
-#: ../mateconf/mateconftool.c:3372
+#: ../mateconf/mateconftool.c:3379
 #, c-format
 msgid "WARNING: You cannot set a default value for a schema\n"
 msgstr "警告: スキーマのデフォルト値に設定できません\n"
 
-#: ../mateconf/mateconftool.c:3401
+#: ../mateconf/mateconftool.c:3408
 #, c-format
 msgid "WARNING: mateconftool internal error, unknown MateConfValueType\n"
 msgstr "警告: mateconftool の内部エラーです (MateConfValueType が不明)\n"
 
-#: ../mateconf/mateconftool.c:3449 ../mateconf/mateconftool.c:3470
-#: ../mateconf/mateconftool.c:3491 ../mateconf/mateconftool.c:3512
+#: ../mateconf/mateconftool.c:3456 ../mateconf/mateconftool.c:3477
+#: ../mateconf/mateconftool.c:3498 ../mateconf/mateconftool.c:3519
 #, c-format
 msgid "WARNING: failed to parse type name `%s'\n"
 msgstr "警告: 型名 '%s' の解析に失敗しました\n"
 
-#: ../mateconf/mateconftool.c:3466
+#: ../mateconf/mateconftool.c:3473
 #, c-format
-msgid ""
-"WARNING: list_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"警告: list_type は '%s' ではなく、int, float, string または bool だけ指定でき"
-"ます\n"
+msgid "WARNING: list_type can only be int, float, string or bool and not `%s'\n"
+msgstr "警告: list_type は '%s' ではなく、int, float, string または bool だけ指定できます\n"
 
-#: ../mateconf/mateconftool.c:3487
+#: ../mateconf/mateconftool.c:3494
 #, c-format
 msgid "WARNING: car_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"警告: car_type は '%s' ではなく、int, float, string または bool だけ指定でき"
-"ます\n"
+msgstr "警告: car_type は '%s' ではなく、int, float, string または bool だけ指定できます\n"
 
-#: ../mateconf/mateconftool.c:3508
+#: ../mateconf/mateconftool.c:3515
 #, c-format
 msgid "WARNING: cdr_type can only be int, float, string or bool and not `%s'\n"
-msgstr ""
-"警告: cdr_type は '%s' ではなく int, float, string または bool だけ指定できま"
-"す\n"
+msgstr "警告: cdr_type は '%s' ではなく int, float, string または bool だけ指定できます\n"
 
-#: ../mateconf/mateconftool.c:3548
+#: ../mateconf/mateconftool.c:3555
 #, c-format
 msgid "WARNING: empty <applyto> node"
 msgstr "警告: 空の <applyto> ノード"
 
-#: ../mateconf/mateconftool.c:3551 ../mateconf/mateconftool.c:3809
+#: ../mateconf/mateconftool.c:3567 ../mateconf/mateconftool.c:3831
 #, c-format
 msgid "WARNING: node <%s> not understood below <schema>\n"
 msgstr "警告: ノード <%s> はスキーマでは解読できません\n"
 
-#: ../mateconf/mateconftool.c:3562
+#: ../mateconf/mateconftool.c:3578
 #, c-format
 msgid "WARNING: no <list_type> specified for schema of type list\n"
 msgstr "警告: 型リストのスキーマを指定した <list_type> ではありません\n"
 
-#: ../mateconf/mateconftool.c:3568
+#: ../mateconf/mateconftool.c:3584
 #, c-format
 msgid "WARNING: no <car_type> specified for schema of type pair\n"
 msgstr "警告: 型ペアのスキーマを指定した <car_type> ではありません\n"
 
-#: ../mateconf/mateconftool.c:3574
+#: ../mateconf/mateconftool.c:3590
 #, c-format
 msgid "WARNING: no <cdr_type> specified for schema of type pair\n"
 msgstr "警告: 型ペアのスキーマを指定した <cdr_type> ではありません\n"
 
-#: ../mateconf/mateconftool.c:3603
+#: ../mateconf/mateconftool.c:3619
 #, c-format
 msgid "WARNING: <locale> node has no `name=\"locale\"' attribute, ignoring\n"
-msgstr ""
-"警告: <locale> ノードには 属性 'name = \"ロケール名\" がないので無視します\n"
+msgstr "警告: <locale> ノードには 属性 'name = \"ロケール名\" がないので無視します\n"
 
-#: ../mateconf/mateconftool.c:3609
+#: ../mateconf/mateconftool.c:3625
 #, c-format
 msgid ""
 "WARNING: multiple <locale> nodes for locale `%s', ignoring all past first\n"
-msgstr ""
-"警告: ロケール '%s' 用の多重 <locale> ノードになっているのですべての最初を無"
-"視します\n"
+msgstr "警告: ロケール '%s' 用の多重 <locale> ノードになっているのですべての最初を無視します\n"
 
-#: ../mateconf/mateconftool.c:3707
+#: ../mateconf/mateconftool.c:3726
 #, c-format
 msgid "WARNING: Invalid node <%s> in a <locale> node\n"
 msgstr "警告: <locale>ノード中に不正なノード <%s> があります\n"
 
-#: ../mateconf/mateconftool.c:3744
+#: ../mateconf/mateconftool.c:3763
 #, c-format
 msgid "Attached schema `%s' to key `%s'\n"
 msgstr "スキーマ '%s' の連結 (キーは '%s')\n"
 
-#: ../mateconf/mateconftool.c:3818
+#: ../mateconf/mateconftool.c:3840
 #, c-format
 msgid "You must have at least one <locale> entry in a <schema>\n"
 msgstr "一つの <schema> につき、一つ <locale> エントリが必要です\n"
 
-#: ../mateconf/mateconftool.c:3853
+#: ../mateconf/mateconftool.c:3875
 #, c-format
 msgid "WARNING: failed to install schema `%s', locale `%s': %s\n"
 msgstr "警告: スキーマ '%s' のインストールに失敗(ロケールは '%s'): %s\n"
 
-#: ../mateconf/mateconftool.c:3861
+#: ../mateconf/mateconftool.c:3883
 #, c-format
 msgid "Installed schema `%s' for locale `%s'\n"
 msgstr "スキーマ '%s' のインストール (ロケール '%s'用)\n"
 
-#: ../mateconf/mateconftool.c:3871
+#: ../mateconf/mateconftool.c:3893
 #, c-format
 msgid "WARNING: failed to uninstall schema `%s', locale `%s': %s\n"
 msgstr "警告: スキーマ '%s' のアンインストールに失敗 (ロケールは '%s'): %s\n"
 
-#: ../mateconf/mateconftool.c:3879
+#: ../mateconf/mateconftool.c:3901
 #, c-format
 msgid "Uninstalled schema `%s' from locale `%s'\n"
 msgstr "スキーマ '%s' のアンインストール (ロケール '%s'用)\n"
 
-#: ../mateconf/mateconftool.c:3917
+#: ../mateconf/mateconftool.c:3939
 #, c-format
 msgid "WARNING: no key specified for schema\n"
 msgstr "警告: スキーマに指定されたキーはありません\n"
 
-#: ../mateconf/mateconftool.c:3958
+#: ../mateconf/mateconftool.c:3980
 #, c-format
 msgid "WARNING: node <%s> not understood below <%s>\n"
 msgstr "警告: ノード <%s> は次の <%s> を解読できません\n"
 
-#: ../mateconf/mateconftool.c:3990
+#: ../mateconf/mateconftool.c:4012
 #, c-format
 msgid "Failed to open `%s': %s\n"
 msgstr "'%s' が開けませんでした: %s\n"
 
-#: ../mateconf/mateconftool.c:3997
+#: ../mateconf/mateconftool.c:4019
 #, c-format
 msgid "Document `%s' is empty?\n"
 msgstr "ドキュメント '%s' は空ですか?\n"
 
-#: ../mateconf/mateconftool.c:4009
+#: ../mateconf/mateconftool.c:4031
 #, c-format
 msgid "Document `%s' has the wrong type of root node (<%s>, should be <%s>)\n"
-msgstr ""
-"ドキュメント '%s' のルートノード (<%s> は <%s> のはず) の型が間違っています\n"
+msgstr "ドキュメント '%s' のルートノード (<%s> は <%s> のはず) の型が間違っています\n"
 
-#: ../mateconf/mateconftool.c:4022
+#: ../mateconf/mateconftool.c:4044
 #, c-format
 msgid "Document `%s' has no top level <%s> node\n"
 msgstr "ドキュメント '%s' にはトップレベル <%s> ノードがありません\n"
 
-#: ../mateconf/mateconftool.c:4036
+#: ../mateconf/mateconftool.c:4058
 #, c-format
 msgid "WARNING: node <%s> below <%s> not understood\n"
 msgstr "警告: ノード <%s> (<%s> の下) を解析できませんでした\n"
 
-#: ../mateconf/mateconftool.c:4057
+#: ../mateconf/mateconftool.c:4079
 #, c-format
 msgid "Error syncing configuration data: %s"
 msgstr "設定データを同期する際にエラー: %s"
 
-#: ../mateconf/mateconftool.c:4073
+#: ../mateconf/mateconftool.c:4095
 #, c-format
 msgid "Must specify some schema files to install\n"
-msgstr ""
-"インストールするために幾つかのスキーマファイルを指定する必要があります\n"
+msgstr "インストールするために幾つかのスキーマファイルを指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:4101
+#: ../mateconf/mateconftool.c:4123
 #, c-format
 msgid ""
 "\n"
 "%s\n"
-msgstr ""
-"\n"
-"%s\n"
+msgstr "\n%s\n"
 
-#: ../mateconf/mateconftool.c:4121
+#: ../mateconf/mateconftool.c:4143
 #, c-format
 msgid "Failed to unset breakage key %s: %s\n"
 msgstr "不完全なキー '%s' の無効化に失敗: %s\n"
 
-#: ../mateconf/mateconftool.c:4247
+#: ../mateconf/mateconftool.c:4269
 #, c-format
 msgid "Must specify some keys to break\n"
 msgstr "終了するためには幾つかのキーを指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:4253
+#: ../mateconf/mateconftool.c:4275
 #, c-format
 msgid ""
 "Trying to break your application by setting bad values for key:\n"
 "  %s\n"
-msgstr ""
-"キーにおかしな値を設定する事によって アプリケーションを終了させようとしていま"
-"す:\n"
-"  %s\n"
+msgstr "キーにおかしな値を設定する事によって アプリケーションを終了させようとしています:\n  %s\n"
 
-#: ../mateconf/mateconftool.c:4271
+#: ../mateconf/mateconftool.c:4293
 #, c-format
 msgid "Must specify some directories to break\n"
 msgstr "終了するためには幾つかのディレクトリを指定する必要があります\n"
 
-#: ../mateconf/mateconftool.c:4290
+#: ../mateconf/mateconftool.c:4312
 #, c-format
 msgid ""
-"Trying to break your application by setting bad values for keys in "
-"directory:\n"
+"Trying to break your application by setting bad values for keys in directory:\n"
 "  %s\n"
-msgstr ""
-"ディレクトリのキーにおかしな値を設定する事によって アプリケーションを終了させ"
-"ようとしています:\n"
-"  %s\n"
-
-#~ msgid "Could not send message to MateConf daemon: %s"
-#~ msgstr "MateConf デーモンにメッセージを送信できませんでした: %s"
-
-#~ msgid "daemon gave erroneous reply: %s"
-#~ msgstr "デーモンがエラーを返してきました: %s"
-
-#~ msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-#~ msgstr "属性 \"%s\" が同じ要素 <%s> で二回繰り返されています"
+msgstr "ディレクトリのキーにおかしな値を設定する事によって アプリケーションを終了させようとしています:\n  %s\n"
