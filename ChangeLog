@@ -1,3 +1,212 @@
+commit 037b4f000e30d950f2b86f9400af6d444e04d6f0
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 12:16:33 2012 +0200
+
+    add new translations (af, eo, es_CL)
+
+ po/LINGUAS  |    3 +
+ po/af.po    | 2469 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/eo.po    | 2469 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/es_CL.po | 2469 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 7410 insertions(+)
+
+commit cee3ee316a57a4c50f49f91596135990b375ddb2
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 12:14:35 2012 +0200
+
+    sync translations with transifex
+
+ po/am.po          | 1464 ++++++++++++++------------
+ po/ar.po          |  958 +++++++----------
+ po/as.po          |  985 +++++++----------
+ po/ast.po         |  906 ++++++++--------
+ po/az.po          | 1917 ++++++++++++++++-----------------
+ po/be.po          | 2247 +++++++++++++++------------------------
+ po/bg.po          | 1307 ++++++++---------------
+ po/bn.po          | 1156 ++++++++------------
+ po/bn_IN.po       | 1131 ++++++++------------
+ po/bs.po          | 1851 ++++++++++++++++----------------
+ po/ca.po          | 1223 ++++++++-------------
+ po/ca@valencia.po | 1300 +++++++++--------------
+ po/cs.po          | 1019 +++++++-----------
+ po/cy.po          | 1111 ++++++++------------
+ po/da.po          | 1026 +++++++-----------
+ po/de.po          |  699 ++++--------
+ po/dz.po          | 1443 ++++++++++++-------------
+ po/el.po          | 1531 ++++++++-------------------
+ po/en_CA.po       | 1600 +++++++++++++---------------
+ po/en_GB.po       |  992 +++++++----------
+ po/es.po          | 1110 ++++++++------------
+ po/et.po          |  911 +++++++++++-----
+ po/eu.po          |  418 ++------
+ po/fa.po          | 1746 +++++++++++++++---------------
+ po/fi.po          | 1069 ++++++++-----------
+ po/fr.po          | 1197 ++++++++-------------
+ po/ga.po          | 1520 ++++++++++++++-------------
+ po/gl.po          | 1157 ++++++++------------
+ po/gu.po          |  923 +++++++---------
+ po/he.po          |  930 +++++++---------
+ po/hi.po          |  908 +++++++---------
+ po/hr.po          | 1378 ++++++++++++------------
+ po/hu.po          | 1096 ++++++++-----------
+ po/hy.po          |  868 +++++++--------
+ po/id.po          | 1054 ++++++++-----------
+ po/is.po          | 1600 ++++++++++++++--------------
+ po/it.po          |  508 +++------
+ po/ja.po          |  990 +++++++----------
+ po/ka.po          | 1630 +++++++++++++---------------
+ po/kn.po          | 1009 ++++++++----------
+ po/ko.po          |  923 +++++++---------
+ po/ku.po          | 1449 +++++++++++++------------
+ po/lt.po          | 1135 ++++++++------------
+ po/lv.po          | 1081 ++++++++-----------
+ po/mai.po         | 1100 ++++++++++---------
+ po/mg.po          | 1917 +++++++++++++++------------------
+ po/mk.po          | 1632 ++++++++++++++--------------
+ po/ml.po          |  984 ++++++++---------
+ po/mn.po          | 1844 +++++++++++++++-----------------
+ po/mr.po          |  885 +++++++---------
+ po/ms.po          | 1706 +++++++++++++++---------------
+ po/nb.po          |  974 +++++++----------
+ po/ne.po          | 1582 ++++++++++++++--------------
+ po/nl.po          |  456 ++------
+ po/nn.po          | 1526 ++++++++++++---------------
+ po/oc.po          |  999 +++++++++---------
+ po/or.po          |  947 +++++++----------
+ po/pa.po          |  824 +++++++--------
+ po/pl.po          | 1074 ++++++++-----------
+ po/pt.po          | 1114 ++++++++------------
+ po/pt_BR.po       | 1124 +++++++-------------
+ po/ro.po          | 1072 ++++++++-----------
+ po/ru.po          | 1091 ++++++++-----------
+ po/rw.po          | 3037 ++++++++++++++++++++++++++---------------------------
+ po/si.po          | 1365 ++++++++++++------------
+ po/sk.po          | 1567 +++++++++++++--------------
+ po/sl.po          |  881 ++++++++--------
+ po/sq.po          | 1182 ++++++++-------------
+ po/sr.po          | 1073 +++++++------------
+ po/sr@latin.po    | 1073 +++++++------------
+ po/sv.po          |  888 ++++++++--------
+ po/ta.po          |  944 +++++++----------
+ po/te.po          |  880 +++++++---------
+ po/th.po          | 1422 +++++++++++--------------
+ po/tr.po          | 1065 ++++++++-----------
+ po/uk.po          |  349 ++----
+ po/vi.po          | 1129 ++++++++------------
+ po/xh.po          | 2014 ++++++++++++++++-------------------
+ po/yi.po          | 1448 +++++++++++++------------
+ po/zh_CN.po       |  807 ++++++--------
+ po/zh_HK.po       |  792 ++++++--------
+ po/zh_TW.po       |  872 +++++++--------
+ 82 files changed, 42595 insertions(+), 55520 deletions(-)
+
+commit 0c6042d5d67b5d67abb35f789c0ef7c1eeb9c803
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 12:04:00 2012 +0200
+
+    add gnome copyrights backup
+
+ po/gnome-copyrights.txt | 1061 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1061 insertions(+)
+
+commit ec2a80a634c0b654054e8caf009037c1fe989763
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jun 15 11:20:25 2012 +0200
+
+    fix wrong url
+
+ mateconf/mateconf-internals.c |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e2db71ce485ec68335bb626dbe7608754b9bd275
+Merge: a524216 6e0e0c9
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Jun 14 00:45:04 2012 -0700
+
+    Merge pull request #2 from haxar/patch-1
+    
+    build: create directory `mateconf.xml.system` with mode 755 upon `make i...
+
+commit 6e0e0c939b802cda29680ce3bc198504a6f7ae03
+Author: haxar <haxaraxah@gmail.com>
+Date:   Wed Jun 13 21:17:31 2012 -0700
+
+    build: create directory `mateconf.xml.system` with mode 755 upon `make install` for `mateconf-sanity-check-2`, executed by mate-session, to succeed
+
+ Makefile.am |    3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit a5242164ba80e0f257773c93949fb669b0d2dbd9
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Feb 22 16:10:24 2012 +0100
+
+    update for 1.2.1
+
+ configure.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8f6bed204f6b195faa6d7a3bc6fd7b795ffa3b84
+Merge: 20b3522 6aa76c1
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Feb 17 05:40:53 2012 -0800
+
+    Merge pull request #1 from samtygier/master
+    
+    enable executable flag on autogen.sh
+
+commit 6aa76c1a592e3055a67f1d8a9de45c2748191007
+Author: Sam Tygier <samtygier@yahoo.co.uk>
+Date:   Fri Feb 17 13:30:26 2012 +0000
+
+    enable executable flag on autogen.sh.
+
+ 0 files changed
+
+commit 20b35226d508f7dad06a5478fccb2cd292a8dbc4
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Feb 16 22:52:22 2012 +0100
+
+    fix conflict with gconf
+
+ gsettings/Makefile.am                             |   16 +-
+ gsettings/gsettings-data-convert.1                |   74 --
+ gsettings/gsettings-data-convert.c                |  482 ---------
+ gsettings/gsettings-data-convert.desktop          |    9 -
+ gsettings/gsettings-data-convert.xml              |   98 --
+ gsettings/gsettings-schema-convert                | 1149 ---------------------
+ gsettings/gsettings-schema-convert.1              |   91 --
+ gsettings/gsettings-schema-convert.xml            |  120 ---
+ gsettings/mateconf-gsettings-data-convert.1       |   74 ++
+ gsettings/mateconf-gsettings-data-convert.c       |  482 +++++++++
+ gsettings/mateconf-gsettings-data-convert.desktop |   11 +
+ gsettings/mateconf-gsettings-data-convert.xml     |   98 ++
+ gsettings/mateconf-gsettings-schema-convert       | 1149 +++++++++++++++++++++
+ gsettings/mateconf-gsettings-schema-convert.1     |   91 ++
+ gsettings/mateconf-gsettings-schema-convert.xml   |  120 +++
+ 15 files changed, 2033 insertions(+), 2031 deletions(-)
+
+commit 8fb2e2d6abde1aef3f3d20d91467553db0534ed7
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Feb 12 23:49:56 2012 +0100
+
+    update info for 1.2 release
+
+ AUTHORS      |    2 +
+ ChangeLog    | 8009 ++++------------------------------------------------------
+ README       |    8 -
+ autogen.sh   |    4 +-
+ configure.in |    2 +-
+ 5 files changed, 462 insertions(+), 7563 deletions(-)
+
+commit d25fcd4707a205ec779a4f1d758c84aa2fceab7f
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Feb 12 23:42:33 2012 +0100
+
+    updated nl translation
+
+ po/nl.po |  859 +++++++++++++++++++++++++++-----------------------------------
+ 1 file changed, 379 insertions(+), 480 deletions(-)
+
 commit 04e04d67f0b73ab2e17e2968bf1c40a2ca2ad68b
 Author: Perberos <perberos@gmail.com>
 Date:   Tue Jan 24 13:43:14 2012 -0300
@@ -5,7 +214,7 @@ Date:   Tue Jan 24 13:43:14 2012 -0300
     changing pkgbuild source method
 
  distro/archlinux/PKGBUILD |   12 +++++-------
- 1 files changed, 5 insertions(+), 7 deletions(-)
+ 1 file changed, 5 insertions(+), 7 deletions(-)
 
 commit 6672b35e827e9a7cc601739b39594a61bee61aaa
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -14,7 +223,7 @@ Date:   Thu Jan 19 12:21:36 2012 +0100
     updated ac_init for 1.1.1
 
  configure.in |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit dcf2b52d4115d002ac3fff2e313fd15f39947896
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -22,7 +231,7 @@ Date:   Thu Jan 19 12:19:31 2012 +0100
 
     updated eu and uk translations
 
- po/eu.po |  850 ++++++++++++++++++++++++-------------------------
+ po/eu.po |  850 ++++++++++++++++++++++++------------------------
  po/uk.po | 1082 +++++++++++++++++++++++++++++---------------------------------
  2 files changed, 918 insertions(+), 1014 deletions(-)
 
@@ -56,7 +265,7 @@ Date:   Wed Jan 4 13:49:01 2012 +0100
     updated it and de translations
 
  po/de.po |  969 ++++++++++++++++++++++++++++----------------------------------
- po/it.po |  871 +++++++++++++++++++++++++++-----------------------------
+ po/it.po |  871 +++++++++++++++++++++++++++----------------------------
  2 files changed, 865 insertions(+), 975 deletions(-)
 
 commit 2a56a3124150236d445634666a9e4ba2eca0e897
@@ -66,7 +275,7 @@ Date:   Wed Jan 4 10:17:34 2012 +0100
     updated gettext package name
 
  configure.in |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 15bce6c1c71cd9b959fbff8a34cbe8fa04dda4e4
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -111,7 +320,7 @@ Date:   Thu Dec 8 21:16:01 2011 +0100
     removed versioned depends on mate-corba
 
  configure.in |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit a4c7d05f78688076d8371c867c533e93abf3bc0b
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -154,7 +363,7 @@ Date:   Thu Dec 8 21:10:43 2011 +0100
  mkinstalldirs            |  162 -
  po/Makefile.in.in        |  217 -
  tests/Makefile.in        |  665 --
- 21 files changed, 0 insertions(+), 45369 deletions(-)
+ 21 files changed, 45369 deletions(-)
 
 commit 86f8baa410d6738e60e7941bbce5b2e48ac331ae
 Author: Perberos <perberos@gmail.com>
@@ -184,7 +393,7 @@ Date:   Thu Dec 8 13:39:57 2011 -0300
  mkinstalldirs            |  162 -
  po/Makefile.in.in        |  217 -
  tests/Makefile.in        |  665 --
- 22 files changed, 0 insertions(+), 55024 deletions(-)
+ 22 files changed, 55024 deletions(-)
 
 commit 2447a4c01132574ffaa41e999c7bdc1efb6a7400
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -469,4 +678,4 @@ Date:   Thu Dec 1 21:48:13 2011 -0300
  tests/testpersistence.c                            |  935 +
  tests/testschemas.c                                |  820 +
  tests/testunique.c                                 |   47 +
- 266 files changed, 358007 insertions(+), 0 deletions(-)
+ 266 files changed, 358007 insertions(+)
